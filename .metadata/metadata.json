@@ -1,0 +1,20 @@
+{
+  "name" : "BPM 中文汉化",
+  "id" : "com.yuhuawei.bpm-chinese-submod",
+  "version" : "1.0.0",
+  "supported_game_version" : "1.13.*",
+  "short_description" : "Better Politics Mod 的简体中文汉化",
+  "tags" : [ "Translation" ],
+  "relationships" : [
+    {
+      "rel_type" : "dependency",
+      "id" : "2932134122",
+      "display_name" : "Better Politics Mod",
+      "resource_type" : "mod",
+      "version" : "*"
+    }
+  ],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

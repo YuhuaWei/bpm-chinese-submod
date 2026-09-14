@@ -1,0 +1,25 @@
+﻿l_simp_chinese:
+
+ bpm_lobby.1.t:0 "极端民族主义者的劫持"
+ bpm_lobby.1.d:0 "[SCOPE.gsInterestGroup('relevant_ig_scope').GetName]正在利用对[SCOPE.sCountry('relevant_country_scope').GetName]既有的敌意，凭借他们煽动性的、极端军国主义的言论来扩张自己的势力根基，并急于加入[SCOPE.sPoliticalLobby('relevant_lobby_scope').GetName]，以推动对[SCOPE.sCountry('relevant_country_scope').GetNameNoFormatting]的军事行动。"
+ bpm_lobby.1.f:0 "他们的集会挤满了整条街。他们看到了平民百姓的苦难——至少他们是这么说的。而且他们知道苦难的根源——至少他们是这么说的。他们的药方在暴力面前简单得令人不安——战争。"
+ bpm_lobby.1.a:0 "他们的干劲将有助于我们的利益"
+ bpm_lobby.1.a2:0 "必须消灭[SCOPE.sCountry('relevant_country_scope').GetNameNoFormatting]！"
+ bpm_lobby.1.b:0 "他们的话并没有那么鼓舞人心"
+ bpm_ultramilitarist_hijacking: "极端军国主义者的劫持"
+
+ bpm_lobby.2.t:0 "猩红的高潮"
+ bpm_lobby.2.d:0 "[SCOPE.sPoliticalLobby('relevant_lobby_scope').GetName]正在利用我们现任政府中的政治关系，要求与[SCOPE.sCountry('relevant_country_scope').GetNameNoFormatting]开战。"
+ bpm_lobby.2.f:0 "军国主义的不和谐喧嚣弥漫在国内法西斯圈子中，正逐渐推向猩红的高潮。他们的要求很简单——我们要与[SCOPE.sCountry('relevant_country_scope').GetNameNoFormatting]开战，而且要尽快。用这些狂热分子的话说，是为了我们国家的安全。"
+ bpm_lobby.2.a:0 "当然！[SCOPE.sCountry('relevant_country_scope').GetNameNoFormatting]必须被焚毁！"
+ bpm_lobby.2.b:0 "这简直是疯了！"
+
+ bpm_lobby.3.t:0 "沙文主义的情绪"
+ bpm_lobby.3.d:0 "由于我们鹰派的政策，[SCOPE.gsInterestGroup('relevant_ig_scope').GetName]开始更加直言不讳地表达对[SCOPE.sCountry('relevant_country_scope').GetName]的负面看法，警告我们有必要对他们采取更直接的行动。"
+ bpm_lobby.3.f:0 "这是一个简单的国家安全问题。如果我们不先发制人，他们就会动手。"
+ bpm_lobby.3.a:0 "一个有趣的进展。"
+
+ bpm_lobby.4.t:0 "外交的气氛"
+ bpm_lobby.4.d:0 "由于我们鸽派的政策，[SCOPE.gsInterestGroup('relevant_ig_scope').GetName]开始更加直言不讳地表达对[SCOPE.sCountry('relevant_country_scope').GetName]的正面看法，成为与对方加强外交关系的公开倡导者。"
+ bpm_lobby.4.f:0 "这是一个简单的国家繁荣问题。好的盟友让我们更安全、更富裕；一笔简单的账。"
+ bpm_lobby.4.a:0 "一个有趣的进展。"

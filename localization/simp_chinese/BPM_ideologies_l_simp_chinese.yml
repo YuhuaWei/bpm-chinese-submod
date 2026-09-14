@@ -1,0 +1,62 @@
+﻿l_simp_chinese:
+ ideology_nonexistent:0 "未初始化"
+ ideology_nonexistent_desc:0 "#lore 该利益集团或领袖尚未初始化。如果某个未初始化的利益集团拥有非零势力，请作为 bug 向 BPM 开发者报告！#!"
+ ideology_placeholder_leader:0 "$ideology_nonexistent$"
+ ideology_placeholder_leader_desc:0 "$ideology_nonexistent_desc$"
+ ideology_center_leader:0 "中间派"
+ ideology_center_leader_desc:0 "#lore 该领袖恪守其集团的意识形态正统。#!"
+ ideology_moderate_desc:0 "#lore 该领袖自身并无特定意识形态，但总体倾向于更温和的路线。#!"
+
+ ideology_social_democrat:0 "劳工激进派"
+ ideology_social_democrat_desc:0 "#lore 该领袖遵循一种特质化的意识形态，大体属于激进劳工运动的传统。与更激进的社会主义者不同，该领袖不谋求推翻资产阶级共和国，而是试图在其框架内行事。#!"
+
+ ideology_socialist_leader:0 "社会主义者"
+ ideology_socialist_leader_desc:0 "#lore 该领袖属于在第一国际中反对无政府主义者的广义左翼传统。#!"
+
+ ideology_agrarian_socialist_leader:0 "农本社会主义者"
+ ideology_agrarian_socialist_leader_desc:0 "#lore 该领袖属于农本社会主义者的广义传统，他们普遍反对资本主义带来的工业化。#!"
+
+ ideology_luddite:0 "激进农本主义者"
+ ideology_humanitarian:0 "自由进步派"
+ ideology_positivist:0 "技术官僚"
+
+ ideology_physiocrat:0 "重农主义者"
+ ideology_physiocrat_desc:0 "#lore 该领袖遵循重农主义经济学派，认为经济中最有价值的要素、也是剩余财富的唯一来源是农业的发展。他们认为通过自由放任政策和单一土地税可以将这种剩余最大化。#!"
+ 
+ ideology_cameralist:0 "官房学派"
+ ideology_cameralist_desc:0 "#lore 该领袖信奉通过扩张现代出口经济来改革经济，以使国家财富最大化。#!"
+
+ ideology_against_single_party:0 "一党制反对派"
+ ideology_against_single_party_desc:0 "#lore 该集团认为当前唯一的合法政党必须被推翻。#!"
+ ideology_pro_single_party:0 "一党制支持者"
+ ideology_pro_single_party_desc:0 "#lore 该集团拥护当前的一党制国家。#!"
+
+ ideology_corporatist_leader: "社会家长主义者"
+ ideology_liberal_leader:0 "自由民主派"
+
+ ideology_serfdom_reformer:0 "农奴制改革派"
+ ideology_serfdom_reformer_desc:0 "#lore 该领袖认为农奴制是一项需要某种最低限度改革的制度。#!"
+
+ ideology_anarchist_syndicalist:0 "无政府工团主义者"
+ ideology_anarchist_syndicalist_desc:0 "$ideology_anarchist_desc$"
+
+ ideology_syndicalist:0 "工团主义者"
+ ideology_syndicalist_desc: "$ideology_syndicalist$"
+
+ ideology_donghak:0 "东学"
+ ideology_donghak_desc:0 "#lore 东学的追随者，意为“东方的学问”，旨在通过改革和革新朝鲜古老传统，建立一个更进步、独立的社会，从而驱除西方影响。#!"
+
+ ideology_tridemism:0 "三民主义者"
+ ideology_tridemism_desc:0 "#lore 三民主义，即“三民主义”，是源自革命家孙中山思想的一种政治哲学。所说的三个原则为民族、民权、民生。尽管被中国众多政治派别广泛诠释，三民主义的目标是建立一个强大而主权的中华民族国家。#!"
+
+ ideology_dop_metropole_loyalist:0 "宗主国忠诚派"
+ ideology_dop_metropole_loyalist_desc:0 "#lore 该集团忠于宗主国。#!"
+
+ ideology_reconstructionist:0 "激进重建主义者"
+ ideology_reconstructionist_desc:0 "#lore 该领袖支持对南方的重建与真正的平等。#!"
+
+ ideology_dove:0 "鸽派"
+ ideology_dove_desc:0 "#lore 该领袖在对外政策上偏好外交途径。#!"
+
+ ideology_revolutionary_hawk:0 "革命鹰派"
+ ideology_revolutionary_hawk_desc:0 "#lore 该领袖认为他们的进步政策必须积极推行到全世界，如有必要可诉诸武力。#!"

@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+ institution_law_landed_voting_workaround:0 "因$law_landed_voting$而设的选举权制度"
+ institution_law_wealth_voting_workaround:0 "因$law_wealth_voting$而设的选举权制度"
+ institution_law_census_voting_workaround:0 "因$law_census_voting$而设的选举权制度"
+ institution_law_universal_suffrage_workaround:0 "因$law_universal_suffrage$而设的选举权制度"
+ institution_law_confederated_workaround:0 "因$law_confederated$法律而设的地方行政"
+ institution_law_federated_workaround:0 "因$law_federated$法律而设的地方行政"
+ institution_law_confederated_colony_workaround:0 "因$law_confederated$法律而设的地方行政（未合并州）"
+ institution_law_federated_colony_workaround:0 "因$law_federated$法律而设的地方行政（未合并州）"
+ institution_law_devolved_colony_workaround:0 "因$law_devolved$法律而设的地方行政（未合并州）"
+ institution_law_unitary_colony_workaround:0 "因$law_unitary$法律而设的地方行政（未合并州）"
+ institution_ai_centralization_workaround:0 "AI 中央集权加成"

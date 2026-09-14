@@ -1,0 +1,467 @@
+﻿l_simp_chinese:
+# GENERIC
+ 1848.13.t:0 "饥饿的四十年代"
+ 1848.13.d:0 "自19世纪40年代中期起，疫病与歉收令西欧各地的农作物产量一落千丈。随之而来的饥荒引发了一系列连锁经济危机，使方兴未艾的工业秩序陷入混乱，并在社会各阶层中触发了政治上的不满。"
+ 1848.13.f:0 "资产阶级刚刚从这一令人沮丧的发现中稍稍回过神来——他们整个社会秩序的基本支柱之一，土豆，正处于危险之中——如今又看到自己的第二根支柱棉花也受到了威胁。倘若仅仅是一次中等程度的棉花歉收，外加对第二次歉收的展望，就足以在繁荣的欢腾中激起严重恐慌，那么连续几年棉花彻底的绝收，必将不可避免地把整个文明社会暂时抛回野蛮状态。\n\n——卡尔·马克思，1850年"
+ 1848.13.a:0 "暴风雨即将来临。"
+ 1848.13.b:0 "我们的紧急救济措施已经减少了遇难者的人数。"
+
+ peoples_springtime.100.t:0 "向民众低头"
+ peoples_springtime.100.d:0 "请愿与辩论俱乐部的日子已经结束了。今天清晨，一群抗议者冲破了[GetPlayer.GetRuler.GetFullNameWithTitle]住所的外墙，高呼着"不自由毋宁死"，要求制定一部全新的宪法。幸运的是，我们忠诚的卫兵在人群进一步深入之前将其击退，但这似乎反而更加激怒了他们。民众甘愿冒生命之险。我们敢吗？"
+ peoples_springtime.100.f:0 "他们被允许这么做吗？\n\n——斐迪南一世，1848年"
+ peoples_springtime.100.a:0 "我们别无选择。起草一部新宪法。"
+ peoples_springtime.100.b:0 "那就让他们去死吧。"
+
+ peoples_springtime.101.t:0 "不彻底的革命"
+ peoples_springtime.101.d:0 "最近对旧政权的胜利，是由资产阶级与无产阶级的联盟赢得的。作为联盟中的多数派，无产阶级承担了革命的大部分工作，如今正寻求争取更大的进展。而资产阶级出于对自身秩序的恐惧，已认定工人的肆无忌惮的傲慢绝不可容忍。"
+ peoples_springtime.101.f:0 "这件事，以及1848-49年间德国的历史，使我得出这样的结论：在欧洲，任何革命都不可能成功，除非它从一开始就被宣称为纯粹社会主义性质的。如果社会问题只是作为一种朦胧的因素进入斗争，并且始终停留在幕后，而斗争又是在民族复兴或资产阶级共和主义的旗帜下进行的，那么任何斗争都无法成功。\n\n——斐迪南·拉萨尔，1849年"
+ peoples_springtime.101.a:0 "必须做个了断！"
+
+ peoples_springtime.102.t:0 "[SCOPE.sState('capital_scope').GetCityHubName]恢复了秩序！"
+ peoples_springtime.102.d:0 "温和的资产阶级革命者与被削弱的旧政权代表联手，强行通过了一系列旨在恢复公共秩序的紧急措施。这些措施，再加上对工人阶级示威的强力镇压，粉碎了无产阶级的希望，使资产阶级加冕成为新国家无可争议的独裁者。"
+ peoples_springtime.102.f:0 ""秩序！"是基佐的战斗口号。当华沙落入俄国人之手时，基佐派人士塞巴斯蒂亚尼高呼"秩序！"。法国国民议会和共和派资产阶级的粗暴回声卡芬雅克也高呼"秩序！"。他的葡萄弹轰入无产阶级的身躯时，也轰鸣着"秩序！"。\n\n——卡尔·马克思，1848年"
+ peoples_springtime.102.a:0 "回归常态。"
+
+ peoples_springtime.6.t:0 "春天之末"
+ peoples_springtime.6.d:0 "革命浪潮已在我国走向终结。无论表面上呈现的是妥协还是反动，如今所有人都已看清，旧秩序已被永远扫除。"
+ peoples_springtime.6.f:0 "革命已死。革命万岁！\n\n——卡尔·马克思，1850年"
+ peoples_springtime.6.a:0 "世界正在改变。"
+
+#Austria
+ peoples_springtime.9.t:0 "匈牙利议会要求自治权"
+ peoples_springtime.9.d:0 "对帝国结构的拟议变革抹去了匈牙利精英此前的许多特权，在维也纳与佩斯的议会之间制造了裂痕。后者日益民族主义化，要求为匈牙利王国确立正式的自治。"
+ peoples_springtime.9.a:0 "他们的自治是一种特权！"
+ peoples_springtime.9.b:0 "也许我们可以答应他们。"
+
+ hungarian_revolution:0 "匈牙利革命"
+ milan_revolution:0 "米兰起义"
+ san_marco_revolution:0 "圣马可起义"
+ bpm_hungary_union:0 "这将在共主邦联下将匈牙利王国与圣斯蒂芬王冠领地分裂为一个独立国家"
+
+ peoples_springtime.10.t:0 "佩斯的不流血革命"
+ peoples_springtime.10.d:0 "佩斯得势的自由派斥责了我们强硬的帝国法令，并率领大批示威者迫使帝国总督下台。一个新的匈牙利政府已经宣告成立。"
+ peoples_springtime.10.f:0 "我们时代的精神是民主。一切为了人民，一切由人民。没有人民，就没有关于人民的一切……我的民族必将崛起，在自然法与自然之神的永恒法则的召唤下走向复活。它不会在坟墓中躺卧超过神圣的"三"这个数字，并会以成为欧洲大陆民族独立的基石来回报您的宽宏大量。\n\n——拉约什·科苏特，1852年"
+ peoples_springtime.10.a:0 "他们的叛国罪不可容忍，集结军队！"
+ peoples_springtime.10.b:0 "匈牙利将获得自由！"
+
+ peoples_springtime.11.t:0 "米兰五日"
+ peoples_springtime.11.d:0 "随着革命席卷帝国，米兰的意大利革命者趁热打铁，将奥地利驻军逐出了这座城市。"
+ peoples_springtime.11.f:0 "敌人迄今一直在为我们提供军火，今后仍将如此。二十四小时的口粮加上二十四小时的饥饿，将比我们所需的时间多得多。今晚，如果我们刚刚拟定的计划能够成功，棱堡的防线将被突破。无论如何，即便我们缺乏面包，死于饥饿也胜过死在绞刑架上。\n\n——卡洛·卡塔内奥，1848年#!"
+ peoples_springtime.11.a:0 "叛徒，全是叛徒！"
+ peoples_springtime.11.b:0 "共和国万岁！"
+
+ peoples_springtime.12.t:0 "圣马可万岁"
+ peoples_springtime.12.d:0 "米兰的革命者鼓舞了他们在威尼斯的同志，后者如今已宣布建立一个以旧尊贵共和国格言命名的共和国。"
+ peoples_springtime.12.f:0 "让我们一劳永逸地结束意大利境内任何外国统治吧。拥抱这面为你的英勇而在国土上空飘扬的三色旗，发誓绝不再让它被撕裂。\n\n——加布里奥·卡萨蒂，1848年"
+ peoples_springtime.12.a:0 "这场疯狂何时才能结束？！"
+ peoples_springtime.12.b:0 "共和国万岁！"
+
+ peoples_springtime.13.t:0 "收拾残局"
+ peoples_springtime.13.t2:0 "重整山河"
+ peoples_springtime.13.d:0 "圣斯蒂芬的领地已从我们手中被夺走，如今我们必须重整我们的领土，以免陷入崩溃。加利西亚-洛多梅里亚王国是另一块从已解体的波兰-立陶宛联邦获得的王冠领地，如今仅靠一条狭窄的走廊和数百万波兰人与鲁塞尼亚人摇摆不定的忠诚与我们维系。授予该王国自治权，是确保他们继续与我们保持联系的唯一途径。"
+ peoples_springtime.13.d2:0 "待办：撰写胜利演讲"
+ peoples_springtime.13.f:0 "一个延续了半个千年的联合体，就此沉入历史的故纸堆。"
+ peoples_springtime.13.f2:0 "待办"
+ peoples_springtime.13.a:0 "一个由尘土构成的帝国。"
+ peoples_springtime.13.b:0 "匈牙利革命被镇压了。"
+ bpm_gl_union:0 "在共主邦联下释放#gold 加利西亚-洛多梅里亚#!。"
+
+ peoples_springtime.14.t:0 "教皇权威在罗马被推翻"
+ peoples_springtime.14.d:0 "席卷而来的革命怒火已蔓延至教皇国，教皇面对反对保守政府的大规模抗议和起义逃离了罗马。一个共和国已宣告成立，与北方的革命者同仇敌忾，而两西西里王国则开始征募军队。"
+ peoples_springtime.14.f:0 ""我毕生的事业毁于一旦。"\n\n——克莱门斯·冯·梅特涅，1848年#!"
+ peoples_springtime.14.a:0 "意大利在燃烧。"
+
+ peoples_springtime.15.t:0 "奥地利帝国的终结"
+ peoples_springtime.15.d:0 "维也纳已成为革命狂潮的最新受害者，皇帝及其家眷逃往国外。如今群龙无首的帝国，已由各地的地方议会和代表大会填补权力真空，纷纷宣告成立新的共和政府。"
+ peoples_springtime.15.f:0 "解放并救赎各族人民的思想\[……\]使已经获得自由或解放的西方彼此亲如手足，这一目标正是我投下赞成票的原因。随着这一目标的实现，欧洲的自由与和平得以确保，随着这一目标的实现，欧洲国家大家庭中最大、最睿智的联合将在一个不可战胜的联盟中实现。\n\n——罗伯特·布鲁姆，1848年#!"
+ peoples_springtime.15.a:0 "雄鹰被撕得粉碎。"
+ peoples_springtime.15.b:0 "一个迎接新事物的契机……"
+ bpm_danubia:0 "前奥地利帝国将被重组为一个国家联盟。"
+
+
+#Italy
+ italian_springtime.1.t:0 "佩莱格里诺·罗西遇刺"
+ italian_springtime.1.d:0 "新任司法部长佩莱格里诺·罗西在宰相宫台阶上死于一名持刀刺客之手。罗西是一位自由派改革者，一直与教皇政府合作建立更自由、更独立的立法机构。他的死激怒了罗马民众，他们视之为改革的又一次灾难性失败，甚至更糟——一场教皇保守派的秘密袭击。"
+ italian_springtime.1.f:0 "唯有一个上帝；\n\n 唯有一个君主——他的律法；\n\n 唯一诠释那律法者——人类。\n\n——朱塞佩·马志尼，1848年#!"
+ italian_springtime.1.a:0 "罗马上空开始升起硝烟。"
+
+ italian_springtime.2.t:0 "教皇逃往加埃塔"
+ italian_springtime.2.d:0 "面对席卷罗马的叛乱，教皇已逃往那不勒斯要塞加埃塔，并召令其接任大臣组建政府。这些努力均已失败，公民代表大会已接管了控制权。"
+ italian_springtime.2.f:0 "我们委托您以其众所周知审慎与正直，告知加莱蒂大臣，让他与所有其他大臣一道，不仅要保卫宫殿，尤其要保卫您身边那些尚不知晓我们决定的人们……但更重要的，我们恳请诸位先生维持全城的安宁与秩序。\n\n——教皇庇护九世，1849年"
+ italian_springtime.2.a:0 "宣告成立新的罗马共和国！"
+
+ italian_springtime.3.t:0 "帕尔马继承"
+ italian_springtime.3.d:0 "拿破仑的第二任妻子玛丽·路易丝在拿破仑战争结束时被授予帕尔马女公爵头衔，取代了被降格到卢卡公国的波旁-帕尔马家族。如今随着她猝然离世，公国将归还波旁-帕尔马家族，而卢卡则复归托斯卡纳统治。"
+ italian_springtime.3.a:0 "帕尔马家族归来。"
+
+ italian_springtime.4.t:0 "帕尔马继承"
+ italian_springtime.4.d:0 "拿破仑的第二任妻子玛丽·路易丝在拿破仑战争结束时被授予帕尔马女公爵头衔，取代了被降格到卢卡公国的波旁-帕尔马家族。如今随着她猝然离世，公国将归还波旁-帕尔马家族，而卢卡则复归托斯卡纳统治。"
+ italian_springtime.4.a:0 "诸公国易主。"
+
+ italian_springtime.5.t:0 "阿尔贝特宪章"
+ italian_springtime.5.d:0 "随着革命浪潮涌入意大利各邦，卡洛·阿尔贝托正在权衡是否颁布一部宪章，以保障撒丁-皮埃蒙特人民的基本民主与公民权利作为回应。"
+ italian_springtime.5.f:0 "鉴于本《根本宪章》所载广泛而强有力的代议机构，是加倍维系我们与意大利王冠之间不可分割的深情纽带——一个曾以无数忠诚、服从与爱戴之举回报我们的民族——的最可靠手段，我们决定予以批准并颁布，坚信上帝将保佑我们的初衷，而这个自由、强盛而幸福的民族，将永远证明自己更加配得上其古老的盛名，并赢得一个光荣的未来。\n\n——国王卡洛·阿尔贝托，1848年#!"
+ italian_springtime.5.a:0 "忠诚源于人民拥有一个可以信赖的国家。"
+ italian_springtime.5.b:0 "在这种时刻，我们绝不能削弱王权！"
+
+ italian_springtime.6.t:0 "介入意大利革命"
+ italian_springtime.6.d:0 "意大利独立战争现已全面展开，我们有机会将奥地利及其属国逐出半岛，为在我们的王冠下统一意大利开辟道路。然而奥地利与那不勒斯的联盟依然强大，胜利并无保证。"
+ italian_springtime.6.f:0 ""倘若对奥地利再起战端，我会立即奔赴战场，即便只是作为一名普通士兵，加入她的敌人的行列。我同样因这样的念头和希望而振奋——我曾努力促成的那个日子终将到来……这个国家本可以拥有比我更贤明的君主，却不会有一个比我更爱她的君主。"\n\n——国王卡洛·阿尔贝托，1849年#!"
+ italian_springtime.6.a:0 "意大利将自力更生"
+ italian_springtime.6.b:0 "不，让革命者去打他们自己的仗"
+
+ italian_springtime.7.t:0 "教皇权威在罗马被推翻"
+ italian_springtime.7.d:0 "席卷而来的革命怒火已蔓延至教皇国，教皇面对反对保守政府的大规模抗议和起义逃离了罗马。教皇已逃至我们的王国，在加埃塔要塞避难，并请求我们出兵干预。"
+ italian_springtime.7.f:0 ""给我一支念诵玫瑰经的军队，我将征服世界。""\n\n——教皇庇护九世#!"
+ italian_springtime.7.a:0 "荣誉驱使我们必须挥师北上"
+
+ italian_springtime.8.t:0 "教皇复位"
+ italian_springtime.8.d:0 "随着共和国被反动势力粉碎，教皇已在罗马复位。"
+ italian_springtime.8.f:0 "让他们相信，社会问题与社会科学并非昨日才出现；教会与国家在一切时代都曾愉快地携手，为这一目标建立起卓有成效的组织；而教会从未因屈从于可疑的联盟而背叛人民的幸福，也无须摆脱过去。""\n\n——教皇庇护九世#!"
+ italian_springtime.8.a:0 "一簇被扑灭的火焰。"
+
+ italian_unification.20.t:0 "自由意大利"
+ italian_unification.20.d:0 "在战胜奥地利及其反动盟友之后，意大利半岛如今已摆脱帝国统治，获得自由。"
+ italian_unification.20.f:0 ""意大利啊！意大利啊！你拥有\n美丽这致命的赠礼，它化作\n当今苦难与往昔岁月的丧葬嫁妆，\n在你甜美的额头上，耻辱犁出了忧伤，\n还有那用火焰般的文字镌刻的编年史。"\n\n——文琴佐·菲利卡亚，1723年"
+ italian_unification.20.a:0 "意大利会自己照顾自己！"
+
+ italian_unification.21.t:0 "走向邦联"
+ italian_unification.21.d:0 "随着奥地利被逐出意大利，我们有机会通过在半岛上建立一个共同市场，使意大利各邦更紧密地协调一致。"
+
+ LEGA_ITALICA: "意大利联盟"
+
+#France
+ je_bpm_july_monarchy:0 "七月王朝"
+ je_bpm_july_monarchy_reason:0 "#lore "从现在起，统治的将是银行家。"\n——雅克·拉菲特，1830年#!\n\n1830年七月革命终结了反动的波旁王国，将#blue 路易-菲利普一世·德·奥尔良#!推上了一部新君主立宪制的王位。尽管迈向了民主，法国的激进度仍在增长，因为选举权被严重限制在拥有财富与权势者手中。若要这个王国存续下去，就必须赢得人民的支持并稳定国家。\n\n要推进这一日志条目，王国必须以至少#v 50#!的[concept_legitimacy]统治，并避免任何起义。更高的[concept_legitimacy]将使王国更快地巩固其统治。"
+
+ je_bpm_july_monarchy_paris_turmoil:0 "#N 巴黎的动荡已几近危急！#!"
+ je_bpm_july_monarchy_progressing_civil_war: "#N 内战正在酝酿！#!"
+ je_bpm_july_monarchy_progressing_fast: "王国正在巩固其统治。"
+ je_bpm_july_monarchy_progressing_normal: "王国正在逐步巩固。"
+ je_bpm_july_monarchy_progressing_slow: "王国正在缓慢巩固。"
+ je_bpm_july_monarchy_progressing_low_legitimacy: "政府陷入了#r 僵局#!。"
+
+ je_bpm_nova_republica:0 "新共和国"
+ je_bpm_nova_republica_reason:0 "#bold 如果路易·拿破仑或一位正统派领袖能够登上总统宝座，他们将有机会终结共和国，并按自己的条件复辟君主制。#!\n\n历史的车轮再次向前转动，法国进入了它的#yellow 第二共和#!时代。前王朝支持者的梦想已在礁石上撞得粉碎，而新的行动者则有机会在法国穿越19世纪的进程中重塑它。\n第一类人是那些力求保全共和国的人，一个由多种力量组成的广泛联盟，从@ig_liberals! [GetInterestGroupVariant('ig_liberals', GetPlayer).GetName]到@ig_socialists! [GetInterestGroupVariant('ig_socialists', GetPlayer).GetName]。他们的共同点是希望维护一个世俗而民主的共和国，并且必须努力建立持久的制度与广泛的民众支持基础，否则这个共和国将重蹈第一共和的覆辙。\n尽管奥尔良派陷入了被动，君主主义在法国政治中依然生机勃勃。@ig_national_liberals! [GetInterestGroupVariant('ig_national_liberals', GetPlayer).GetName]正集结在深孚众望的路易·拿破仑·波拿巴身后，希望复辟帝国并将法国塑造成一支无可匹敌的现代力量。@ig_reactionaries! [GetInterestGroupVariant('ig_reactionaries', GetPlayer).GetName]与奥尔良派一样，寻求让一位波旁王朝成员重返王位，不过属于另一支血脉。他们首先是极端保守派，信奉一位强大的君主，辅以教会等传统制度。\n\n#lore "哲学家与政治家可以从我们革命的历史中汲取关于谦逊的宝贵一课，因为从未有过比这更伟大、准备更充分、酝酿更长久、却更少被预见的事件。"\n——亚历克西·德·托克维尔，1856年#!"
+ 
+ bpm_france_july_monarchy.1.t:0 "布罗伊公爵维克多的辞职"
+ bpm_france_july_monarchy.1.d:0 "首相布罗伊公爵维克多今日因一项涉及税收事务的法案未能通过而提出辞职。随着他退出政府与政坛，抵抗党的派系斗争愈发严重，@industrialists! [GetInterestGroupVariant('ig_industrialists', GetPlayer).GetName]彻底脱离了该党，转而加入运动党。"
+ bpm_france_july_monarchy.1.f:0 ""我们的国家正处于最大的危险之中，我们必须倾尽全力与混乱作斗争。要挽救一场革命，就必须使它免于自身的过度。无论这些过度是产生于街头，还是产生于对制度的滥用，我都将凭借强力与法律加以制止。""
+ bpm_france_july_monarchy.1.a:0 "公爵已经离去，谁来接替他？"
+
+ bpm_france.1.t:0 "国王在起义中退位"
+ bpm_france.1.d:0 "国王始终未能扩大选举权，激怒了资产阶级与工人阶级激进分子组成的联盟，他们再一次用街垒填满了巴黎的街道，随行的还有一支哗变的国民自卫军。本就为数不多的保皇政府已经瓦解，国王再无盟友，遂选择退位并逃离国境。一个#yellow 第二共和国#!已经宣告成立。"
+ bpm_france.1.f:0 ""从那天起，一千种奇特的制度从革新者的头脑中汹涌而出，在人群纷乱的心智间传播。除王权与议会外，一切都还矗立着，而革命的一击似乎已使社会本身化为齑粉，新的社会形态则任由竞争去塑造。"\n\n——亚历克西·德·托克维尔，1850年"
+ bpm_france.1.a:0 "共和国万岁！"
+
+ bpm_france.2.t:0 "人民的王国"
+ bpm_france.2.d:0 "通过在扩大选举权的同时维持秩序，国王重新赢得了法国人民的信任与忠诚。法国作为一个自由君主立宪国的未来，暂时得到了保障。"
+ bpm_france.2.f:0 ""民主一词的力量如此之大，以至于任何政党或政府都不敢抬头，也不敢相信自身的存在是可能的，除非它的旗帜上铭刻着这个词。"\n\n——弗朗索瓦·基佐，1849年#!"
+ bpm_france.2.a:0 "一个自由的王国。"
+
+ bpm_france.3.t:0 "波拿巴的政变"
+ bpm_france.3.d:0 "路易-拿破仑长期以来广受民众拥戴，如今身为国家元首，他已处于夺取法国大权、让她重归荣耀的有利位置！"
+ bpm_france.3.f:0 ""你问我他们是否拥护现政府；他们由衷感激它恢复了秩序——今天我在阿尔勒的罗马方尖碑上看到一句献给路易·拿破仑的铭文，只有简简单单几个字——"il nous a sauvés de l'Anarchie"（他救我们脱离了无政府状态）——你可以相信，这表达了勤劳阶级真诚的感受。但最重要的是，法国农民（他们供养着军队，是法国真正的力量所在）紧紧追随此人，并倾向于维护他，因为他毕竟是农民与过去、与封建贵族彻底决裂的象征，正是藉由这一决裂，农民才成了人物，而他下定决心绝不让这一决裂被填平。"\n\n——马修·阿诺德，1859年#! "
+ bpm_france.3.a:0 "皇帝万岁！"
+ bpm_france.3.b:0 "他将实行绝对的统治！"
+
+ bpm_france.4.t:0 "正统派政变"
+ bpm_france.4.d:0 "反动的正统派在夺取总统职位并在议会中占据显著多数之后，已着手推翻共和国，并将正统派波旁一支的首领扶上了王位。自由派、社会主义者，乃至一些较为温和的君主主义者都义愤填膺，誓言要抵抗他们眼中的非法复辟。"
+ bpm_france.4.f:0 ""我的臣民通过惨痛的考验已经懂得，君主正统性原则是社会秩序的基本基石之一——是在一个伟大民族中，唯有在其之上才能建立明智而有序自由的唯一基石。"\n\n——路易十八，1815年#!"
+ bpm_france.4.a:0 "朕即国家"
+
+ bpm_france.5.t:0 "共和国的巩固"
+ bpm_france.5.d:0 "在击退了来自波拿巴派与正统派双方对共和国的威胁之后，共和主义的政治现实已开始在法国的政治生活中扎下根来。波拿巴的复辟企图已经失败，奥尔良派也已分裂。大多数人愿意在共和体制内行事，而那些不愿者则与正统派缔结了盟约。"
+ bpm_france.5.f:0 ""弟兄们，为了一项神圣的事业，\n当我们人人都成为殉道者，\n不要发出一声怨言，\n法兰西，终有一天会为我们祝福。"\n\n——《吉伦特之歌》，1848年#!"
+ bpm_france.5.a:0 "自由、平等、博爱！"
+
+ bpm_je_springtime_over:0 "自人民之春结束以来，已经过去了2年。"
+
+ notification_bpm_1848_french_revolution_name: "#v 会好起来的！#!"
+ notification_bpm_1848_french_revolution_desc: "面对巴黎的暴力，"公民"国王已经退位。第二共和国已经宣告成立。"
+ notification_bpm_1848_french_revolution_tooltip: "$notification_bpm_1848_french_revolution_name$"
+
+ notification_bpm_1848_ausgleich_name: "#v 妥协！#!"
+ notification_bpm_1848_ausgleich_desc: "经过紧急谈判，哈布斯堡的领地已被一分为二，各自拥有自己的宪法和议会。"
+ notification_bpm_1848_ausgleich_tooltip: "$notification_bpm_1848_ausgleich_name$"
+
+ notification_bpm_1848_metterfail_name: "#v 雄鹰坠落！#!"
+ notification_bpm_1848_metterfail_desc: "革命者将哈布斯堡家族流放，导致帝国彻底崩溃，其众多领地纷纷脱离。"
+ notification_bpm_1848_metterfail_tooltip: "$notification_bpm_1848_metterfail_name$" 
+
+ notification_bpm_1848_danubia_name: "#v 多瑙联邦的诞生！#!"
+ notification_bpm_1848_danubia_desc: "革命者将哈布斯堡家族流放，帝国支离破碎，临时政府通过谈判将帝国重组为平等的联盟。"
+ notification_bpm_1848_danubia_tooltip: "$notification_bpm_1848_danubia_name$"
+
+ notification_bpm_1848_hungarian_revolution_name: "#v 佩斯革命！#!"
+ notification_bpm_1848_hungarian_revolution_desc: "匈牙利首都的自由派已宣布成立新政府。奥地利军队正开拔前往恢复秩序。"
+ notification_bpm_1848_hungarian_revolution_tooltip: "$notification_bpm_1848_hungarian_revolution_name$"
+
+ notification_bpm_1848_baden_name: "#v [SCOPE.sC('baden_revolter').GetName]爆发人民革命！#!"
+ notification_bpm_1848_baden_desc: "[SCOPE.sC('baden_revolter').GetName]的民主鼓动者发动了一场革命，以进一步推进德意志的自由！"
+ notification_bpm_1848_baden_tooltip: "$notification_bpm_1848_baden_name$"
+
+ notification_bpm_1848_fail_name: "#v 法兰克福议会解散！#!"
+ notification_bpm_1848_fail_desc: "由于未能在宪法与领导权问题上达成统一，法兰克福议会已经瓦解。"
+ notification_bpm_1848_fail_tooltip: "$notification_bpm_1848_fail_name$"
+
+ notification_bpm_1848_win_name: "#v 统一、公正与自由！#!"
+ notification_bpm_1848_win_desc: "在成功以一部新宪法将德意志各邦凝聚在一起之后，德国终于成为一个统一的国家。"
+ notification_bpm_1848_win_tooltip: "$notification_bpm_1848_win_name$"
+
+ notification_bpm_1848_milan_revolution_name: "#v 米兰五日！#!"
+ notification_bpm_1848_milan_revolution_desc: "米兰的革命者趁热打铁，将奥地利驻军逐出了这座城市。"
+ notification_bpm_1848_milan_revolution_tooltip: "$notification_bpm_1848_milan_revolution_name$"
+
+ notification_bpm_1848_san_marco_revolution_name: "#v 圣马可归来！#!"
+ notification_bpm_1848_san_marco_revolution_desc: "威尼斯革命者已宣布建立一个以旧尊贵共和国格言命名的新国家。"
+ notification_bpm_1848_san_marco_revolution_tooltip: "$notification_bpm_1848_san_marco_revolution_name$"
+
+ notification_bpm_1848_roman_revolution_name: "#v 教皇逃离罗马！#!"
+ notification_bpm_1848_roman_revolution_desc: "教皇已逃往加埃塔，预见到罗马即将爆发共和起义。"
+ notification_bpm_1848_roman_revolution_tooltip: "$notification_bpm_1848_roman_revolution_name$"
+
+ notification_bpm_1848_concede_constitution_name: "#v [SCOPE.sC('revolution_country').GetName]颁布新宪法！#!"
+ notification_bpm_1848_concede_constitution_desc: "[SCOPE.sC('revolution_country').GetName]政府在革命压力下屈服，颁布了一部新宪法。"
+ notification_bpm_1848_concede_constitution_tooltip: "$notification_bpm_1848_concede_constitution_name$"
+
+ notification_bpm_significant_new_republic_name: "#v [SCOPE.sC('revolution_country').GetName]宣布成立共和国！#!"
+ notification_bpm_significant_new_republic_desc: "[SCOPE.sC('revolution_country').GetName]的旧政权已被推翻，一个新的共和国已经宣告成立。"
+ notification_bpm_significant_new_republic_tooltip: "$notification_bpm_significant_new_republic_name$"
+
+ notification_bpm_significant_restore_monarchy_name: "#v [SCOPE.sC('revolution_country').GetName]君主加冕！#!"
+ notification_bpm_significant_restore_monarchy_desc: "长期饱受内部危机之苦，君主制已在[SCOPE.sC('revolution_country').GetName]复辟。"
+ notification_bpm_significant_restore_monarchy_tooltip: "$notification_bpm_significant_restore_monarchy_name$"
+
+ notification_bpm_significant_new_council_republic_name: "#v [SCOPE.sC('revolution_country').GetName]工人委员会接管政权！#!"
+ notification_bpm_significant_new_council_republic_desc: "[SCOPE.sC('revolution_country').GetName]的工人砸碎了旧秩序，宣布成立一个新的无产阶级共和国。"
+ notification_bpm_significant_new_council_republic_tooltip: "$notification_bpm_significant_new_council_republic_name$"
+
+#Germany
+
+ frankfurt_je_window_header:0 "议会概况"
+ frankfurt_je_window_breakdown:0 "#bold 当前议会构成#!\n由#pink 左派#!控制的席位：[GetGlobalVariable('bpm_frankfurt_parliament_left_percent').GetValue|%]\n由#yellow 中间派#!控制的席位：[GetGlobalVariable('bpm_frankfurt_parliament_center_percent').GetValue|%]\n由#blue 右派#!控制的席位：[GetGlobalVariable('bpm_frankfurt_parliament_right_percent').GetValue|%]"
+ frankfurt_je_window_const:0 "关于教会：[SCOPE.GetRootScope.GetCountry.GetCustom('religious_debate_outcome')]\n\n关于言论自由：[SCOPE.GetRootScope.GetCountry.GetCustom('speech_debate_outcome')]\n\n"
+
+ je_frankfurt_finalizing: "议会正准备签署宪法。"
+ je_frankfurt_hos: "正在辩论德意志国家的领导权。"
+ je_frankfurt_hog: "正在辩论立法权。"
+ je_frankfurt_reich: "正在辩论德国的边界。"
+ je_frankfurt_voting: "正在辩论投票权。"
+ je_frankfurt_bohemia: "正在辩论波希米亚与波森的地位。"
+ je_frankfurt_autonomy: "正在辩论各邦的自治。"
+ je_frankfurt_speech: "正在辩论言论自由权。"
+ je_frankfurt_church: "正在辩论政教分离。"
+
+ bpm_frankfurt_parliament_events.1.t:0 "关于教会"
+ bpm_frankfurt_parliament_events.1.d:0 "关于未来德国政教关系的问题，激烈的辩论充斥着议会的殿堂。日日夜夜都在争论、交易与背叛中度过。但最终作出了决定。"
+ bpm_frankfurt_parliament_events.1.f:0 ""和平比一切正义都更重要；和平并非为正义而设，正义却是为和平而设。"\n\n——马丁·路德，1530年"
+ bpm_frankfurt_parliament_events.1.a:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('religious_debate_outcome')]"
+ frankfurt_secular:0 "德国应成为一个世俗国家！"
+ frankfurt_conscience:0 "德国应成为所有基督徒的家园！"
+ frankfurt_state_church:0 "议会谴责天主教！"
+ catholic_boycott_tt:0 "#red 天主教各邦将抵制议会！"
+ austria_boycott_tt:0 "#red 奥地利帝国将抵制议会！"
+
+ bpm_frankfurt_parliament_events.2.t:0 "关于言论自由"
+ bpm_frankfurt_parliament_events.2.d:0 "政教关系这一根本问题解决之后，议会将焦点转向了言论自由问题。保守派议员坚持认为国家必须能够压制煽动性言论，而左派则慷慨陈词，认为言论自由是一个开明社会的根基。"
+ bpm_frankfurt_parliament_events.2.f:0 ""倘若没有'人能够自由表达思想、能够向政府请愿'这一主张，今天还会有我们任何人在此吗？我恳请在座各位在对这项动议投票之前好好想一想……""
+ bpm_frankfurt_parliament_events.2.a:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('speech_debate_outcome')]"
+ frankfurt_free_speech:0 "全体德国人享有言论与新闻自由！"
+ frankfurt_free_assembly:0 "集会权至关重要。"
+ frankfurt_censorship:0 "言论是一种特权。"
+
+ frank_speech_tt_1:0 "将写入[SCOPE.sLaw('law_protected_speech').GetName]"
+ frank_speech_tt_2:0 "将写入[SCOPE.sLaw('law_right_of_assembly').GetName]"
+ frank_speech_tt_3:0 "将写入[SCOPE.sLaw('law_censorship').GetName]"
+
+ bpm_frankfurt_parliament_events.3.t:0 "关于自治"
+ bpm_frankfurt_parliament_events.3.d:0 "德意志邦联的内部组织目前一片混乱，其边界与传统可追溯至神圣罗马帝国时代。如今辩论激烈进行，代表们就应授予德国各组成邦多少自治权争执不休。"
+ bpm_frankfurt_parliament_events.3.f:0 ""即便从纯粹资产阶级的立场看，德国的坚实统一也是她摆脱当前悲惨境遇、积累民族财富的首要条件。而现代的社会问题，又怎能在这样一个分裂为39个小邦的领土上得到解决？"\n\n——卡尔·马克思，1848年"
+ bpm_frankfurt_parliament_events.3.a:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('centralization_debate_outcome')]"
+ frankfurt_unitary:0 "议会着手解散各邦。"
+ frankfurt_federal:0 "德国应成为平等的联盟。"
+ frankfurt_confederal:0 "应维持传统的自治。"
+
+ bpm_frankfurt_parliament_events.4.t:0 "关于波希米亚与波森"
+ bpm_frankfurt_parliament_events.4.d:0 "波希米亚王国与奥地利处于永久联合，因此其领地成为了邦联的一部分。同样，以波兰人为主的波森公国也仍留在邦联之内。然而，这些邦中占多数的斯拉夫人正在形成自己的民族认同。无论如何，关于是否将这一领地纳入，已经作出了决定。"
+ bpm_frankfurt_parliament_events.4.f:0 ""先生们，我无法应承你们的邀请，无论是亲自前来，还是另派一位'可靠的爱国者'。请允许我尽可能简短地向诸位说明个中缘由。\n你们这个大会的明确目的，是以一个'人民联盟'取代现有的诸侯联邦……无论我多么敬重这一事业及其所依据的情感，尤其正因为我敬重它，我无法参与其中。我不是德意志人——无论如何我都不自视为德意志人——而你们想必也不愿邀请我仅仅作为一个没有主见、没有意志的应声虫吧……"\n\n——弗朗蒂谢克·帕拉茨基，1848年"
+ bpm_frankfurt_parliament_events.4.a:0 "波希米亚与波森将继续作为德意志的邦。"
+ bpm_frankfurt_parliament_events.4.b:0 "这些地区将在德国保护下获得自治。"
+
+ bpm_frankfurt_parliament_events.5.t:0 "关于选举权"
+ bpm_frankfurt_parliament_events.5.d:0 "德意志人民在这个新政府中拥有多大发言权，是一个重大的分歧问题，意见从将选举权限制于地主，到向所有成年男性开放不等。最终归结为一次最终表决。"
+ bpm_frankfurt_parliament_events.5.f:0 ""平民缺乏在国事上发言所需的资格，缺乏必要的身家——"\n\n"我无法更强烈地反对，新德意志国家的合法性必须建立在人民的同意之上……""
+ bpm_frankfurt_parliament_events.5.a:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('voting_debate_outcome')]"
+ frankfurt_universal:0 "全体男性公民的普选权！"
+ frankfurt_census:0 "成年男性普选权，附有若干财产与服役要求。"
+ frankfurt_landed:0 "全国选举应由有产者决定。"
+ autocracy_boycott_tt:0 "#red 专制各邦将抵制议会！"
+
+ bpm_frankfurt_parliament_events.6.t:0 "关于帝国"
+ bpm_frankfurt_parliament_events.6.d:0 "随着议会继续推进，统一德意志国家的最终边界问题已成为核心议题。奥地利代表团在很大程度上反对将其领地或属地并入，倾向于'小德意志'方案，而激进派则坚持将其彻底并入'大德意志'。最终，这个问题交由表决。"
+ bpm_frankfurt_parliament_events.6.f:0 ""那些可爱的奥地利人啊！他们正在琢磨如何在不与德国合并的情况下与德国合并！"\n\n——弗里德里希·黑贝尔，1848年"
+ bpm_frankfurt_parliament_events.6.a:0 "整个大德意志合为一国，统一而不可分割！"
+ bpm_frankfurt_parliament_events.6.b:0 "议会将推进小德意志统一。"
+ frankfurt_lesser:0 "议会将推进小德意志统一，为奥地利日后加入提供可能。"
+ frankfurt_greater:0 "将来我们必须与奥地利代表会晤，为大奥地利谈判一个归宿。"
+
+ bpm_frankfurt_parliament_events.7.t:0 "关于总理职位"
+ bpm_frankfurt_parliament_events.7.d:0 "虽然议会在某种程度上的权力分立上大体一致，但政府首脑与国家元首之间的关系存在争议：右派认为总理及其政府应任由皇帝摆布，而更倾向自由派的声音则呼吁对立法机构在此事上的权力给予更多宪法保护。"
+ bpm_frankfurt_parliament_events.7.f:0 ""誓要毁掉这个国家，或将它统治。"\n\n——约翰·德莱顿，1681年"
+ bpm_frankfurt_parliament_events.7.a:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('hog_debate_outcome')]"
+ frankfurt_hog_hos:0 "皇帝应保有撤换总理的绝对权力。"
+ frankfurt_hog_advice:0 "皇帝撤换总理需要正式的支持。"
+
+ bpm_frankfurt_parliament_events.8.t:0 "关于领导权"
+ bpm_frankfurt_parliament_events.8.d:0 "宪法的总体框架既已完成，问题如今归结为：应向谁奉上王冠，并授权其领导这个新的、立宪的德国。"
+ bpm_frankfurt_parliament_events.8.f:0 "究竟谁的头颅该戴上全德国的王冠，是一个至关重要的问题，多数人建议由普鲁士或奥地利的君主担任。毫不意外的是，最激进的派别彻底否定了这个问题，主张一个真正的德国民主国家不应有皇帝……"
+ bpm_frankfurt_parliament_events.8.a:0 "[SCOPE.sCountry('frankfurt_crown_candidate').GetName]及其君主是理所当然的选择。"
+ bpm_frankfurt_parliament_events.8.b:0 "没有任何皇帝能真正领导德意志人民，共和国万岁！"
+ frankfurt_crown_candidate_tt:0 "将向[SCOPE.sCountry('frankfurt_crown_candidate').GetRuler.GetFullName]奉上德意志王冠"
+ frankfurt_republic_candidate_tt:0 "议会将放弃帝国式的领导，转而建立一个共和制的#bold 德意志联邦#！"
+
+ bpm_frankfurt_parliament_events.9.t:0 "帝国之邀"
+ bpm_frankfurt_parliament_events.9.d:0 "法兰克福议会向我们的[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]奉上了全德国的王冠。这虽是一份厚礼，却要求我们恪守宪法，而且很可能将我们拖入与其他德意志邦的冲突。"
+ bpm_frankfurt_parliament_events.9.f:0 "第70条。\n1. 帝国元首的头衔为：德意志人的皇帝。\n\n第71条。\n1. 皇帝居住在帝国政府所在地。至少在帝国议会开会期间，皇帝应常驻该地。\n2. 每当皇帝不在帝国政府所在地时，必须有一位帝国大臣随侍其左右。\n3. 有关帝国政府所在地的规定，仍须以帝国法律为准。\n\n第72条。\n1. 皇帝享有王室年俸，其数额由帝国议会决定。"
+ bpm_frankfurt_parliament_events.9.a:0 ""荣誉越大，责任越大，尽管如此，我还是接受。""
+ bpm_frankfurt_parliament_events.9.b:0 ""我不会接受这顶从阴沟里捡来的王冠！""
+ bpm_frankfurt_parliament_events.9.c:0 ""我们愿意接受，但不能没有一些妥协……""
+
+ bpm_frankfurt_parliament_events.10.t:0 "[ROOT.GetCountry.GetName]的人民革命"
+ bpm_frankfurt_parliament_events.10.d:0 "席卷德意志各邦的民众骚乱浪潮，在[ROOT.GetCountry.GetName]点燃了一把失控之火。暴动者与哗变士兵占领了首都，并建立了革命政府。"
+ bpm_frankfurt_parliament_events.10.f:0 "数次革命集会的成果已然成熟，来自德意志各地的民主鼓动者前来观摩并协助新宪法的颁布。众多声音汇聚在一个口号之下：\n\n"健康、教育，人人自由！""
+ bpm_frankfurt_parliament_events.10.a:0 "挣脱枷锁的人民……"
+
+ bpm_frankfurt_parliament_events.11.t:0 "被搁置的梦想"
+ bpm_frankfurt_parliament_events.11.d:0 "在大规模镇压与凝聚力丧失之中，法兰克福议会已经解散。此刻看来，德意志统一的梦想距离实现仍然遥远。"
+ bpm_frankfurt_parliament_events.11.f:0 ""不，我们给\[议会\]过多的荣耀了；我们把它早已失去的政治重要性强加于它。对它最严厉的判决已经作出——对其决议的无视与彻底的遗忘。"\n\n——卡尔·马克思，1848年"
+ bpm_frankfurt_parliament_events.11.a:0 "这注定不会实现……"
+
+ bpm_frankfurt_parliament_events.12.t:0 "黑红金"
+ bpm_frankfurt_parliament_events.12.d:0 "时机已到！凭借革命各邦的联盟，我们终于能够继续前进，在黑、红、金三色国旗下统一德国！愿这个国度乃至整个欧罗巴的反动派，都在我们的决心面前战栗！"
+ bpm_frankfurt_parliament_events.12.f:0 "历史的精神已经附体于德意志人民，旗帜装点着每一座屋顶，在布满士兵与热情市民的城市街道上空随风飘扬……"
+ bpm_frankfurt_parliament_events.12.a:0 "为了统一，为了公正！"
+ bpm_frankfurt_parliament_events.12.b:0 "为了统一，为了公正！"
+
+ bpm_frankfurt_parliament_events.13.t:0 "统一、公正与自由"
+ bpm_frankfurt_parliament_events.13.d:0 "终于胜利了！历经无数磨难与考验，德国终于在我们光荣的旗帜下实现了统一，今天，我们万众一心，并肩前行！"
+ bpm_frankfurt_parliament_events.13.f:0 ""那是德意志的忠诚，\n那是德意志的勤勉，\n懂得如何做好本分工作的人，\n这份工作乃上帝所赐，\n对诚实行事的人而言，\n他的整个人生很快会成为\n一件他所热爱的艺术品。"\n\n——马克斯·冯·申肯多夫，1815年"
+ bpm_frankfurt_parliament_events.13.a:0 "德意志，德意志高于一切！"
+
+ bpm_frankfurt_parliament_events.14.t:0 "大德意志"
+ bpm_frankfurt_parliament_events.14.d:0 "亲奥派与保守派大获全胜，将邦联集中为一个由哈布斯堡皇帝统治的帝国。这个联盟的各王国获得了相当程度的自治。"
+ bpm_frankfurt_parliament_events.14.f:0 ""那是德意志的忠诚，\n那是德意志的勤勉，\n懂得如何做好本分工作的人，\n这份工作乃上帝所赐，\n对诚实行事的人而言，\n他的整个人生很快会成为\n一件他所热爱的艺术品。"\n\n——马克斯·冯·申肯多夫，1815年"
+ bpm_frankfurt_parliament_events.14.a:0 "德意志，德意志高于一切！"
+
+ bpm_frankfurt_parliament_events.20.t:0 "一半与整体"
+ bpm_frankfurt_parliament_events.20.d:0 "左派与自由派中间派之间的辩论在诸多问题上激烈进行。问题在于：是作出妥协以建立一个更强大的中间派，还是加倍下注，全力推进一个激进的纲领。"
+ bpm_frankfurt_parliament_events.20.f:0 ""你不明白，我绝不能被迫去破坏这个纲领的根基，这个议会的根基——"\n\n"不，不明白的人是你。如果我们凑不够票数，就不会有宪法！""
+ bpm_frankfurt_parliament_events.20.a:0 "达成妥协，好让我们继续前进。"
+ bpm_frankfurt_parliament_events.20.b:0 "德意志的自由容不得妥协，去凑票数！"
+
+ bpm_frankfurt_parliament_events.21.t:0 "两极分化"
+ bpm_frankfurt_parliament_events.21.d:0 "赌场派与米兰咖啡馆派等主要派别陷入内斗，将一些代表推向更加强硬的立场。"
+ bpm_frankfurt_parliament_events.21.f:0 ""我从未见过任何有争议的观点不是双方都能用无可辩驳的论据来维护的……"\n\n——莱蒂希娅·伊丽莎白·兰登，1831年"
+ bpm_frankfurt_parliament_events.21.a:0 "右派抓住了优势。"
+ bpm_frankfurt_parliament_events.21.b:0 "异见者与左派汇合。"
+
+ bpm_frankfurt_parliament_events.22.t:0 "共和主义的勃兴"
+ bpm_frankfurt_parliament_events.22.d:0 "随着激进起义在德国各地取得成功，更多的自由派代表倒向了共和主义事业，加入了德意志庭院等派别。"
+ bpm_frankfurt_parliament_events.22.f:0 ""在一群向前涌动的人群中仍站在原地的人，其抵抗之坚决不亚于直面人群；他终将被踩在脚下。"\n\n——《丹东之死》，第一幕"
+ bpm_frankfurt_parliament_events.22.a:0 "唯有共和国才能真正成为人民的政府。"
+
+ bpm_frankfurt_parliament_events.23.t:0 "虔信派的反弹"
+ bpm_frankfurt_parliament_events.23.d:0 "一份关于政教彻底分离的备忘录获得通过，令一些更为虔诚的代表立场极化，他们希望为教会在德意志生活中的影响力争取更多保护。"
+ bpm_frankfurt_parliament_events.23.f:0 "许多虔信派领袖随后痛斥法兰克福宪法的世俗主义，称之为"对敬虔治理的冒犯"与"堕落的世俗主义"。虽然这些抨击对大多数自由派几乎毫无影响，右派中的一些人却因此感到不安……"
+ bpm_frankfurt_parliament_events.23.a:0 "也许是反应过度了……"
+
+ bpm_frankfurt_parliament_events.24.t:0 "制度化的自由主义"
+ bpm_frankfurt_parliament_events.24.d:0 "在法兰克福议会的辩论继续拖延之际，自由派中间派的成功已为德意志各邦更强大的自由改革运动铺平了道路。"
+ bpm_frankfurt_parliament_events.24.f:0 ""自由主义所渴求的，唯有历史的未来。"\n\n——特奥多尔·蒙特，1834年"
+ bpm_frankfurt_parliament_events.24.a:0 "也许是更伟大事业的开端……"
+
+ bpm_frankfurt_parliament_events.25.t:0 "议事程序的混乱"
+ bpm_frankfurt_parliament_events.25.d:0 "由于在程序上的一些严重分歧，议会进程陷入了停滞。这可能会进一步拖延对重大宪法条款的关键表决。"
+ bpm_frankfurt_parliament_events.25.f:0 ""反对派有时似乎忘了，我们是在这里搞政治，而不是在演戏……""
+ bpm_frankfurt_parliament_events.25.a:0 "做一些补救工作，然后继续推进。"
+ bpm_frankfurt_parliament_events.25.b:0 "看看我们能否用一点恫吓来润滑一下轮子。"
+
+ bpm_frankfurt_parliament_events.26.t:0 "主动出击——失败"
+ bpm_frankfurt_parliament_events.26.d:0 "向反对派施压的企图已演变成诽谤性的攻击，许多代表拒绝出席今天的会议。"
+ bpm_frankfurt_parliament_events.26.f:0 ""我个人想否认施特劳斯先生及其言论，我不认为它们代表了我们纲领的目标，而且……""
+ bpm_frankfurt_parliament_events.26.a:0 "你管他叫什么？！"
+
+ bpm_frankfurt_parliament_events.27.t:0 "主动出击——成功"
+ bpm_frankfurt_parliament_events.27.d:0 "向反对派施压的企图令一些人颇为不满，但毕竟还是让议会得以推进到更重要的事务上。"
+ bpm_frankfurt_parliament_events.27.f:0 ""我想你会发现，与我们保持一致对你大有好处，你同意吗？""
+ bpm_frankfurt_parliament_events.27.a:0 "交易的艺术。"
+
+ bpm_frankfurt_advance_10:0 "议会进度将#green 前进#!10点。"
+ bpm_frankfurt_retreat_10:0 "议会进度将#red 后退#!10点。"
+ bpm_frankfurt_retreat_5:0 "议会进度将#red 后退#!5点。"
+ bpm_frankfurt_advance_5:0 "议会进度将#green 前进#!5点。"
+
+ bpm_frankfurt_left_lose:0 "#pink 左派#!控制力将#red 减少#!5%。"
+ bpm_frankfurt_left_get:0 "#pink 左派#!控制力将#green 增加#!5%。"
+ bpm_frankfurt_center_lose:0 "#yellow 中间派#!控制力将#red 减少#!5%。"
+ bpm_frankfurt_center_get:0 "#yellow 中间派#!控制力将#green 增加#!5%。"
+ bpm_frankfurt_right_lose:0 "#blue 右派#!控制力将#red 减少#!5%。"
+ bpm_frankfurt_right_get:0 "#blue 右派#!控制力将#green 增加#!5%。"
+
+
+ bpm_frankfurt_parliament_events.28.t:0 "挑灯夜战"
+ bpm_frankfurt_parliament_events.28.d:0 "代表们近来加班加点，以敲定宪法下一节的细节。他们的努力得到了回报，下一次会议将提前举行。"
+ bpm_frankfurt_parliament_events.28.f:0 "一群杂牌律师、老练政客与空想家们借着烛光工作、辩论至深夜，将他们心中的政策塑造成既定的政策。到了清晨，他们的蜡烛已燃尽到底。"
+ bpm_frankfurt_parliament_events.28.a:0 "他们该来杯咖啡犒劳自己了！"
+
+ bpm_frankfurt_parliament_events.29.t:0 "字里行间"
+ bpm_frankfurt_parliament_events.29.d:0 "最近对一项拟议附则的审阅，暴露出一些不容忽视的严重疏漏。有一个重要章节必须重写，这将推迟未来的表决。"
+ bpm_frankfurt_parliament_events.29.f:0 ""我简直不敢相信这竟从我们眼皮底下溜了过去，我们原本进展得如此顺利。"\n\n那位年长者捋了捋胡须。\n\n"好吧，正如亚里士多德曾说过的：""
+ bpm_frankfurt_parliament_events.29.a:0 "好的开端是成功的一半。"
+
+ bpm_frankfurt_parliament_events.30.t:0 "主权问题"
+ bpm_frankfurt_parliament_events.30.d:0 "法兰克福议会近几周所走的方向，瓦解了我们的主权与自治。保守派声音要求我们拒绝承认该议会及其拟议的宪法。"
+ bpm_frankfurt_parliament_events.30.a:0 "立即撤回我们对这个议会的承认！"
+ bpm_frankfurt_parliament_events.30.b:0 "我们仍致力于德意志统一。"
+
+ bpm_frankfurt_parliament_events.31.t:0 "保守派修正案"
+
+ bpm_frankfurt_parliament_events.32.t:0 "激进转向"
+ bpm_frankfurt_parliament_events.32.d:0 "议会已为激进派别所主导，他们力求抛弃德意志的诸侯，建立一个属于德意志人民的共和国。议会催生了一个革命联盟，由新生的[SCOPE.sCountry('frankfurt_crown_candidate').GetName]共和国领导。"
+ bpm_frankfurt_parliament_events.32.a:0 "立即撤回我们对这个议会的承认！"
+ bpm_frankfurt_parliament_events.32.b:0 "我们将为整个日耳曼尼亚而战！"
+
+ bpm_frankfurt_parliament_events.33.t:0 "分割诸领"
+ bpm_frankfurt_parliament_events.33.f:0 ""让别人去打仗，你，幸福的奥地利，去联姻！"\n\n——15世纪谚语"
+ bpm_frankfurt_parliament_events.33.d:0 "随着德意志王冠落在奥地利皇帝头上，更大的奥地利帝国问题被提了出来。德意志代表与许多来自哈布斯堡领地的代表，都拒绝将非德意志的哈布斯堡诸王国彻底并入，就此展开了旷日持久的辩论。"
+ bpm_frankfurt_parliament_events.33.a:0 "批准将帝国分割为受德国保护的各个主权领地。"
+ bpm_frankfurt_parliament_events.33.b:0 "要求诸领仍与皇帝保持共主邦联关系。"
+ bpm_frankfurt_parliament_events.33.c:0 "奥地利及其帝国不可分割！我们只接受彻底的并入，别无他求。"
+
+ bpm_frankfurt_parliament_events.200.t:0 "法兰克福议会开幕"
+ bpm_frankfurt_parliament_events.200.d:0 "随着革命热潮席卷欧洲，来自德意志邦联各地的改良派与革命派代表在圣保罗教堂组成了一个国民议会，力求以一部现代宪法统一德国……"
+ bpm_frankfurt_parliament_events.200.f:0 ""我们要的是德国的统一；我们要的是自由被承认为民族的天然所有物，而非任何一方随心所欲赐予的礼物或赠品……我们要的是建立在此基础上的宪法得到国家整体的保障，从而使革命得以终结，为德意志民族和各个德意志部族确保一种持久的法治、和平与繁荣。"\n\n——《三月协会纲领》，1848年"
+ bpm_frankfurt_parliament_events.200.a:0 "坚冰已经破裂，日耳曼尼亚的春天来了。"
+
+ BPM_POS:0 "波森"
+ BPM_POS_ADJ:0 "波森的"
+
+ BPM_ELB:0 "易北邦联"
+ BPM_ELB_ADJ:0 "易北的"
+
+ dyn_c_german_republic:0 "德意志共和国"
+ dyn_c_german_confed:0 "德意志邦联"
+ dyn_c_german_fed:0 "德意志联邦"
+ dyn_c_lomven:0 "伦巴第-威尼托"
+ dyn_c_lomven_adj:0 "伦巴第-威尼托的"
+
+ bpm_rallied_radicals:0 "激进派集结"
+ bpm_german_constitutionalism:0 "德意志立宪运动"
+
+
+#Slavic
+ bpm_slavic.1.t:0 "布拉格会议"
+ bpm_slavic.1.d:0 "受德国及其他地区革命运动的启发，形形色色的斯拉夫民族主义者齐聚布拉格，探讨关于斯拉夫民族主义的各种思想。"
+ bpm_slavic.1.f:0 ""兄弟们！这是决断的时刻。你们必须明确表态：要么站在已成废墟、你们还想再支撑一阵子的旧世界一边，要么站在光芒已照耀到你们、属于未来世代与千秋万代的新世界一边。同样，未来是掌握在你们手中，还是——如果你们愿意——再一次沉沦于软弱无能、沉沦于希望破灭的长夜、沉沦于奴役的地狱，也由你们自己决定……"\n\n——米哈伊尔·巴枯宁，1848年"
+ bpm_slavic.1.a:0 "为了我们的人民。"

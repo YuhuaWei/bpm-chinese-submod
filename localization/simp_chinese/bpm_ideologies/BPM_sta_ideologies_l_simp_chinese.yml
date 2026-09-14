@@ -1,0 +1,36 @@
+﻿l_simp_chinese:
+ ideology_sta_minimal_state:0 "最小国家"
+ ideology_sta_minimal_state_desc:0 "#lore 该群体认为国家应当尽可能小，哪怕它确实存在。 #!"
+
+ ideology_sta_decentralized_state:0 "分权国家"
+ ideology_sta_decentralized_state_desc:0 "#lore 该群体认为国家权力应下放给地方当局，根据政体形式，地方当局可能是民主委员会，也可能是地方贵族。 #!"
+
+ ideology_sta_weak_state:0 "有限国家"
+ ideology_sta_weak_state_desc:0 "#lore 该群体信奉一个职能仅限于确保公民社会正常运转的有限国家，仅此而已。 #!"
+
+ ideology_sta_powerful_state:0 "强权国家"
+ ideology_sta_powerful_state_desc:0 "#lore 该群体信奉一个强大、中央集权的国家，能够将自身意志强加于大众。 #!"
+
+ ideology_sta_progressive_state:0 "进步国家"
+ ideology_sta_progressive_state_desc:0 "#lore 该群体信奉一个强大、进步的国家，运用其权力保障公民的权利与福祉。 #!"
+
+ ideology_sta_security_state:0 "安全国家"
+ ideology_sta_security_state_desc:0 "#lore 该群体信奉一个非常强大的国家，将自身的安全置于社会所有其他关切之上。 #!"
+
+ ideology_sta_subjugated_state:0 "被制约的国家"
+ ideology_sta_subjugated_state_desc:0 "#lore 该群体希望让国家屈从于其最终消亡的目标。 #!"
+
+ ideology_sta_subjugated_security_state:0 "被制约的安全国家"
+ ideology_sta_subjugated_security_state_desc:0 "#lore 该群体希望让国家屈从于其最终消亡的目标，但目前感到有必要利用国家来巩固权力。 #!"
+
+ ideology_sta_federated_state:0 "联邦国家"
+ ideology_sta_federated_state_desc:0 "#lore 该群体信奉一个与地方当局分享权力的强大联邦制国家。 #!"
+ ideology_sta_devolved_state:0 "分权制国家"
+ ideology_sta_devolved_state_desc:0 "#lore 该群体信奉一个与地方当局分享部分权力的强大分权制国家。 #!"
+ ideology_sta_effective_state:0 "高效国家"
+ ideology_sta_effective_state_desc:0 "#lore 该群体信奉一个既能够接受问责、又仍能执行自身意志的高效国家。 #!"
+
+ ideology_sta_organic_state:0 "有机国家"
+ ideology_sta_organic_state_desc:0 "#lore 该群体信奉一个分权的国家，大量权力集中于地方的、传统的机构。 #!"
+ ideology_sta_institutional_state:0 "制度国家"
+ ideology_sta_institutional_state_desc:0 "#lore 该群体渴望一个强大、中央集权的国家，能够将自身意志强加于大众，同时给予当前掌权者以余地，无论其功绩如何。 #!"

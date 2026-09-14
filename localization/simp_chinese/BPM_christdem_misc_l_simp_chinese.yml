@@ -1,0 +1,1010 @@
+﻿l_simp_chinese:
+
+ ################################################# 
+ ############## Christian Democrats: Ideology Names and Descriptions
+
+ ideology_eco_modern_interventionist: "现代干预主义者"
+ ideology_eco_modern_interventionist_desc: "#lore 该群体虽然信念程度各异，但信奉现代而公正的干预主义政策，范围从监管与累进税制，到工作场所民主化与国有化政策，再到国家就业计划。#!"
+ 
+ ideology_eco_centralized_economy: "中央集权经济"
+ ideology_eco_centralized_economy_desc: "#lore 该群体视自由资本主义为失败，谋求以市场经济与指令经济的民主混合体取而代之，将私有财产局限于农业和从属于全国经济计划的小规模生产。#!" 
+
+ ideology_sta_regionalized_state: "辅助性国家"
+ ideology_sta_regionalized_state_desc: "#lore 该群体信奉一个现代、有机、辅助性的国家，其权力建立在地方人群集体之上，并保护其公民的权利。#!"
+
+ ideology_dop_christian_democrat: "基督教民主主义者"
+ ideology_dop_christian_democrat_desc: "#lore 该群体信奉激进的民主原则，谋求推行普选权、自由劳工和国家权力的去中心化，且带有鲜明的天主教色彩。#!"
+
+ ideology_cit_christian_internationalist: "基督教国际主义者"
+ ideology_cit_christian_internationalist_desc: "#lore 该群体信奉各国之间的兄弟情谊，谋求削弱国内与国际边界。#!"
+
+ ideology_dop_conservative_democrat: "保守民主主义者"
+ ideology_dop_conservative_democrat_desc: "#lore 该群体认为民主是重要原则，但谋求以强有力而审慎的统治、法团主义和宗教道德来保护民主，使其免受社会主义威胁。#!"
+
+ ideology_dop_divine_democrat: "神授民主主义者"
+ ideology_dop_divine_democrat_desc: "#lore 该群体信奉以审慎受限的民主作为补充的神授主权，谋求维持宗教与政治的温和。#!"
+ 
+ ideology_rel_modern_moralist: "现代道德主义者"
+ ideology_rel_modern_moralist_desc: "#lore 该群体认为政府的政策应当与宗教道德保持一致，同时为宗教少数派提供保护，并确保行政的职业性。#!"
+
+ bpm_christdem_split.1.t: "捍卫你卑微的家园"
+ bpm_christdem_split.1.d: "天主教与在其眼中罪恶的现代民主、自由世俗化和国家掌控教育等思想相汇合，引发了天主教派信徒的广泛回应。\n\n旨在保护@ig_christian_democrats! #blue 天主教利益#!免受不友好国家政策侵害的政治运动，正开始出现于选举政治之外的各种群体之中，并组织成各式各样的团体和组织。限制天主教徒影响力的尝试可能会举步维艰。"
+ bpm_christdem_split.1.f: "同样错误的是相信今日存在之物必须存续到明日乃至更久，因为身处其中感到舒适便不惜一切代价维持现状，又因为身处其中感到不适便急于求变，最终忘却了：现实中的当下，永远是一种新事态的出现，而这一出现是持续不断的。\n\n——沃伊切赫·科尔凡蒂，1927年"
+ bpm_christdem_split.1.a: "不忠的怨言者。"
+
+ 
+ 
+ bpm_christdem_split.2.t: "基督教民主主义者"
+ bpm_christdem_split.2.d: "欧洲社会主义与自由主义思潮的兴起，以及全面展开的工业革命，促使教皇颁布了《新事》通谕，从而催生了@ig_christian_democrats! #blue 基督教民主主义者#!。\n\n尽管内部分歧严重，他们总体上呼吁为工人争取体面的生计、社会正义与民主；他们谴责“无神社会主义”与“嗜血自由主义”，转而主张对经济与国家采取法团主义的做法。"
+ bpm_christdem_split.2.f: "中央党内部并非只有两个灵魂，而是七个不同的思想流派，它们闪烁着政治彩虹的种种色彩，从极右到极左不一而足。就我而言，我钦佩中央党车夫驾驭这些纷繁灵魂时那优雅的技艺。\n\n——奥托·冯·俾斯麦，1890年"
+ bpm_christdem_split.2.a: "一股新力量，还是一群理想主义的空想家？"
+ bpm_christdem_split.2.b: "他们或许有用！"
+ bpm_christdem_split.2.c: "他们是一种威胁！"
+ bpm_movement_splits_christdems_tt: "@information! #blue 基督教民主主义者将作为一个独立的[Concept('concept_interest_group', '利益集团')]存在。#!"
+
+ ################################################# 
+ ############## Christian Democrats: Overall Explanation 
+
+ ################################################# 
+ ############## Christian Democrats: Flavour Events
+
+ bpm_pronounced_support_for_democracy_despite_backlash: "不顾反对而明确支持民主"
+ bpm_ig_support_from_church_authorities: "获得教会当局的正式支持"
+ bpm_strong_backlash_for_pronouncing_support_for_democracy: "因支持民主而遭到强烈反对"
+ bpm_interest_group_supportive_of_liberal_democracy: "支持自由民主的反现代主义利益集团"
+ bpm_reinforcing_anti_modernist_ideas: "强化反现代主义立场"
+ option_moderated_towards_democracy_tt: "#v 意识形态倾向#!进度条将每月向#bold 民主一侧#!移动 #italic 0.1#! 点。"
+ option_moderated_towards_christianity_tt: "#v 意识形态倾向#!进度条将每月向#bold 基督教一侧#!移动 #italic 0.1#! 点。"
+
+ bpm_christdem_flavour.1.t: "[ROOT.GetCountry.GetName]首席主教捍卫民主"
+ bpm_christdem_flavour.1.desc: "我们的首席主教发表了一场高调且富有争议的演说，为坚持并立足于民主的立场辩护，同时委婉地保证教会对自由宪法并不抱有敌意。这场演说既赢得了掌声，也引来了对教会现代主义政策的不满之声，首席主教本人亦遭到反对。"
+ bpm_christdem_flavour.1.f: "我不愿被国家强迫去相信它所认定的真理，因为国家并非真理的裁决者。然而国家有义务保护我实践我所选择的真理，即践行我所信奉的宗教。这正是现代国家中宗教自由之所在，自由的国家有义务予以尊重和保障，不仅对每一位公民如此，对为信奉和传播其信仰而联合起来的公民群体也是如此——即对法人、对社团、对教会。\n\n——夏尔·德·蒙塔朗贝尔，1863年"
+
+ bpm_christdem_flavour.1.a: "教会终于前进，接纳了现代世界。"
+ bpm_christdem_flavour.1.b: "首席主教在现代主义威胁上走得太远了。" 
+ 
+
+
+
+ 
+
+
+
+
+
+ bpm_christdem_flavour.3.t: "孤军奋战"
+ bpm_christdem_flavour.3.desc: "政治上的孤独感与被迫的自力更生，沉重地压在众多天主教活动家心头，又常因争夺影响力与成员、保护自己人免受众多不友好群体侵害的持续政治斗争而加剧——从@ig_conservatives! 保守主义者，到@ig_liberals! 自由主义者与@ig_socialists! 社会主义者，再到天主教会本身。这些束缚虽令天主教徒备受煎熬，却也赋予了他们采取更为激进行动、击败对手的力量与动力。"
+ bpm_christdem_flavour.3.f: "——我告诉你，如果我们不从保守派那里得到临时支持，我们根本斗不过这些穷凶极恶的自由派！我甚至得到了一位官——……\n\n——我告诉你，没门，也没人可帮，因为我们只能靠自己！他们早就串通好了要利用我们，而且教会还一直在给我们设置重重障碍……让这些贪婪的罪人都下地狱去吧……"
+ 
+ bpm_christdem_flavour.3.a: "我们永远有彼此！"
+ bpm_christdem_flavour.3.a.tt: "#v 脱离天主教会#!进度条将推进 #bold #italic 0.5%#!#!。"
+ 
+ bpm_christdem_flavour.3.b: "至少教会或许还能帮上点忙……"
+
+
+
+
+
+ bpm_rising_internationalism_amongst_christian_youth: "基督教青年中日渐高涨的国际主义"
+
+ bpm_christdem_flavour.15.a.tt: "#v 脱离天主教会#!进度条将推进 #bold #italic 0.25%#!#!。"
+ bpm_christdem_flavour.15.t: "天主教青年拒升国旗"
+ bpm_christdem_flavour.15.desc: "在某个天主教青年组织的一次地方集会上，发生了一桩不可思议的丑闻。部分青年，多为工人，大多干脆拒绝唱国歌，并就此事与在场的其他人激烈争吵。\n\n消息传到当地报界，称该支部对任何[ROOT.GetCountry.GetAdjective]象征都极为敌视，将“传统民族主义”视为“社会反动”。"
+ bpm_christdem_flavour.15.f: "我记得多年前，我手下有一个由本市工人阶级青年组成的支部。那些小伙子非常激进、成分复杂，但又是何等的宗教狂热分子！他们都觉得国旗这个理想总体上已经过时，一被要求为国家祈祷就发牢骚或争吵，每次集会——无论是自家人还是与外人一起——都拒绝升起我们的国旗。他们感到与广大人民、或作为欧洲人更为亲近，而非作为某个民族。"
+
+ bpm_christdem_flavour.15.a: "我想我们该睁一只眼闭一只眼……"
+ bpm_christdem_flavour.15.b: "管教他们！谁都不许亵渎我们的民族象征。"
+ 
+
+
+
+
+
+ 
+
+
+ bpm_christdem_split.30.t: "变革的落日"
+ bpm_christdem_split.30.d: "大规模的贫困、经济危机，以及难以想象的恶劣劳动与生活条件，促使@ig_christian_democrats! #blue 基督教民主主义者#!将其意识形态转向非常反资本主义和民主的立场，把普遍的政治与经济民主置于首位——提议推行普选权、妇女选举权、经济社会化以及中央计划至上的原则，而这一切又都受基督教道德与公民社会的约束。"
+ bpm_christdem_split.30.f: "我们生活的政治民主化，必须以经济与社会民主化来补充。\n\n（……）\n\n自由资本主义政策已被证明是致命的，尤其在其社会后果方面。它损害了健康社会秩序的基础，其唯一目标只是企业家和资本家尽可能大的个人利润，全然不顾正义、人的尊严与公共利益的原则。\n\n——劳动党（Stronnictwo Pracy）纲领，1937年" # Enterprises of great importance for the economic life of the Nation or its defense, and large joint-stock enterprises and their complexes, where the initiative and management of the owner do not play a major role gradually as the appropriate conditions mature, will pass into the ownership of the state, local governments or social associations. Medium-sized and small enterprises should be made more accessible to private ownership, and the development of Poland's handicrafts should also be given considerable support.
+ bpm_christdem_split.30.a: "他们是什么社会主义的冒牌货吗？"
+
+ ################################################# 
+ ############## Christian Democrats 
+
+ ideology_eco_distributist_economy: "分配主义经济"
+ ideology_eco_distributist_economy_desc: "#lore 该群体信奉分配主义、法团主义与财政保守主义的原则，谋求改革资本主义——支持合作社、乡村发展和手工业生产。#!"
+
+ ################################################# 
+ ############## Christian Democrats: Names
+
+ ig_christian_democrats: "基督教民主主义者"
+ ig_christian_democrats_only_icon: "@ig_christian_democrats!"
+ ig_christian_democrats_desc: "基督教民主主义者代表着左翼天主教思想，谋求让天主教徒与现代（自由）民主和解。尽管其意识形态深受各地情况以及《新事》通谕及其有机主义原则的影响，他们总体上致力于社会平等主义，并辅之以形形色色的激进理念。例证包括意大利国际主义的平民主义者、德国大帐篷式的中央党、捷克分配主义的利德维派，以及1930年代波兰国家统制主义的哈德齐派。"
+
+ ig_catholic_interests: "天主教利益"
+ ig_catholic_interests_desc: "一个代表政治上多元化、独立的天主教会信徒的利益集团。他们谋求扩大天主教在政治与文化中的参与，并保护信众免受国家在宗教领域越权的侵害，例如强行推行世俗主义。例证包括德国中央党、法国自由行动、意大利劳动大会组织以及比利时的F.C.C.C.A。"
+ 
+ ig_young_christian_democrats: "青年基督教民主主义者"
+ ig_young_christian_democrats_desc: "$ig_christian_democrats_desc$"
+
+ ig_popularists_left: "平民主义者（左派）"
+ ig_popularists_left_desc: "$ig_christian_democrats_desc$"
+
+ ig_popularists_right: "平民主义者（右派）"
+ ig_popularists_right_desc: "$ig_christian_democrats_rightwing$"
+
+ ig_rallies: "拉利耶派"
+ ig_rallies_desc: "$ig_christian_democrats_desc$"
+
+ ig_popular_democrats: "平民民主党人"
+ ig_popular_democrats_desc: "$ig_christian_democrats_desc$"
+
+ ig_lidovci: "利德维派"
+ ig_lidovci_desc: "$ig_christian_democrats_desc$"
+
+ ig_krestansti_socialove: "Křesťanští sociálové"
+ ig_krestansti_socialove_desc: "$ig_christian_democrats_desc$"
+
+ ig_ludaci: "Ľudáci"
+ ig_ludaci_desc: "$ig_christian_democrats_desc$"
+ 
+ ig_chadecy: "哈德齐派"
+ ig_chadecy_desc: "$ig_christian_democrats_desc$"
+ 
+ ig_rooms_katholiek: "罗马天主教徒"
+ ig_rooms_katholiek_desc: "$ig_christian_democrats_desc$"
+
+ ######## AUSTRIA
+
+ party_conservative_aus: "[SCOPE.GetRootScope.GetCountry.GetCustom('party_conservative_aus')]"
+ party_vereinigten_christen: "联合基督徒"
+
+ ig_united_christians: "联合基督徒"
+ ig_united_christians_desc: "$ig_catholic_interests_desc$"
+
+ ig_christian_socials: "基督教社会党人"
+ ig_christian_socials_desc: "$ig_christian_democrats_desc$"
+
+ ig_reformisten_und_volksbundler: "改革派与人民联盟派"
+ ig_reformisten_und_volksbundler_desc: "$ig_christian_democrats_desc$"
+
+ ig_laboristen_und_agrarianer: "劳工派与农本派"
+ ig_laboristen_und_agrarianer_desc: "$ig_christian_democrats_desc$"
+
+ ig_burgers_corporatists: "市民派"
+ ig_burgers_corporatists_desc: "$ig_christian_democrats_rightwing$"
+ 
+ ig_klerikale: "教权派"
+ ig_klerikale_desc: "$ig_christian_democrats_rightwing$"
+
+ ig_oreliten: "社会浪漫派"
+ ig_oreliten_desc: "$ig_national_conservatives_catholic_desc$"
+
+ ig_seipeliten: "赛佩尔派"
+ ig_seipeliten_desc: "$ig_national_conservatives_catholic_desc$"
+
+ 
+
+ ###### OTHER
+
+ ### Belgium
+ ig_young_right: "青年右翼"
+ ig_young_right_desc: "$ig_christian_democrats_desc$"
+
+ ig_left_catholics: "天主教徒（左派）"
+ ig_left_catholics_desc: "$ig_christian_democrats_desc$"
+
+ ig_right_catholics: "天主教徒（右派）"
+ ig_right_catholics_desc: "$ig_christian_democrats_rightwing_desc$"
+
+ ### Lithuania etc
+
+ ig_krikscionys_demokratai: "Krikščionys Demokratai"
+ ig_krikscionys_demokratai_desc: "$ig_christian_democrats_desc$"
+
+ ig_innovateuren: "革新派"
+ ig_innovateuren_desc: "$ig_christian_democrats_desc$"
+
+ ig_vienna_movement: "维也纳运动"
+ ig_vienna_movement_desc: "$ig_catholic_interests_desc$"
+
+ ig_piusvereine: "庇护会"
+ ig_piusvereine_desc: "$ig_catholic_interests_desc$"
+ 
+ ig_katholiken: "天主教徒"
+ ig_katholiken_desc: "$ig_catholic_interests_desc$"
+ 
+ ig_katholiken_christdem: "天主教徒"
+ ig_katholiken_christdem_desc: "$ig_catholic_interests_desc$"
+
+ ig_liberal_catholics: "自由天主教徒"
+ ig_liberal_catholics_desc: "$ig_catholic_interests_desc$"
+
+ ig_christian_democrats_leftwing: "基督教民主主义者（左派）"
+ ig_christian_democrats_leftwing_desc: "$ig_christian_democrats_desc$"
+
+ ig_social_catholics: "社会天主教徒"
+ ig_social_catholics_desc: "$ig_christian_democrats_desc$"
+
+
+
+
+ ig_bianchi: "白派"
+ ig_bianchi_desc: "白派——意大利语作 #italic bianchi#!，或贬称为“白色布尔什维克”——是遵循天主教社会训导的佃农工会会员。他们总体激进而和平，谋求扩大农民所有权、向大地主开战并发展社会关怀。最受欢迎、也常被视为事实领袖的白派人物是圭多·米廖利。"
+
+ ig_konservativni_lidovci: "保守利德维派"
+ ig_konservativni_lidovci_desc: "$ig_christian_democrats_rightwing$"
+
+ 
+
+ ################################################# 
+ ############## Some Conservatives Content
+
+ ig_old_right: "旧右翼"
+ ig_old_right_desc: "$ig_conservatives_desc$"
+
+ ig_agrarian_conservatives: "农本保守派"
+ ig_agrarian_conservatives_desc: "$ig_conservatives_desc$" 
+
+ ### ConCons (Netherlands)
+ ig_confessional_conservatives: "宗派保守主义者"
+ ig_confessional_conservatives_desc: "$ig_conservatives_desc$"
+
+ ### ChristDem (R) (Belgium, Italy, Czechoslovakia)
+ ig_christian_democrats_rightwing: "基督教民主主义者（右派）"
+ ig_christian_democrats_rightwing_desc: "基督教民主主义思想的右翼总体上比其余派别更为温和、更为虔诚。其审慎的温和可以表现为限制选举权和社会经济立法，也可以表现为教权主义和宗教福利。例证包括意大利平民主义者（右派）、捷克保守利德维派、奥地利市民派以及比利时的#italic 德布罗克维尔#!内阁。"
+
+ ### Classical Conservatives (Belgium, Poland) (If Christdems are the 'conservatives' in the state and the Burke Cons are not with Christian Democrats)
+
+ ig_classical_conservatives: "古典保守主义者"
+ ig_classical_conservatives_desc: "$ig_conservatives_desc$" 
+
+ ig_conservative_catholics: "保守天主教徒"
+ ig_conservative_catholics_desc: "保守天主教徒是意大利人民党内部代表该党右翼的一个派系。以教权主义为特征，他们内部又分为独裁派与有机派两个流派。他们最终分裂出去，加入了国家法西斯党。"
+ 
+ BPM_VALUE_FROM_PEASANTS_COMPETITION_FOR_MINOR_PRODUCTION: "与[GetInterestGroupVariant('ig_agrarian_populists',GetPlayer).GetNameWithCountryVariant]以及@peasants! 农民[Concept('concept_pop', '人口')]争夺农村选民"
+
+ BPM_VALUE_FROM_LABOR_CONCIOUSNESS_BELOW_75_PERCENT: "#bold #gold @laborers! 劳工意识#! #!（#italic 低于75.0#!）"
+ BPM_VALUE_FROM_PEASANTS_LABORERS_AND_POPULARITY_OF_PROLETARIAT: "@laborers! 劳工[Concept('concept_pop', '人口')]以及[Concept('concept_bpm_ig_is_proletarian', '无产阶级')][Concept('concept_interest_group', '利益集团')]的[Concept('concept_pop', '人口比例')]"
+
+ BPM_VALUE_FROM_BELOW_EXPECTED_SOL: "生活在[Concept('concept_expected_sol', '最低期望')]以下的人口比例，以及[concept_country]人口的平均[concept_sol]"
+ BPM_VALUE_FROM_BUSINESS_AND_LAISSEZ_FAIRE_IN_PARTY_WITH_CHRISTDEMS: "[GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant]的[concept_clout]（#italic 若你拥有[GetLawType('law_laissez_faire').GetName]，将向其所在一侧漂移#!）"
+ BPM_VALUE_FROM_BELOW_TAX_LAW_AND_LEVEL: "?????????"
+ BPM_VALUE_FROM_MARKET_WELFARE_LAWS_BELOW_LVL_3_AND_LACK_OF_WELFARE: "低于#gold 3#!级[concept_investment_level]的[Concept('concept_welfare_payments', '福利')][Concept('concept_law', '法律')]（[GetLawGroup('lawgroup_health_system').GetName]、[GetLawGroup('lawgroup_education_system').GetName]、[GetLawGroup('lawgroup_labor_rights').GetName]），且缺乏[GetLawGroup('lawgroup_welfare').GetName][concept_law]或低于[Concept('concept_investment_level', '4级')]，并允许#gold 童工#!（#italic 增长取决于[GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant]的受欢迎程度#!）"
+
+ BPM_VALUE_FROM_LAISSEZ_FAIRE_VS_INTERVENTIONISM_LAW_IGS_MOVEMENT: "#bold #yellow 自由放任#!#!与#bold #white 温和干预主义#!#!，对抗#bold #blue 强烈干预主义#!#!与#bold #pink 无产阶级#!#![Concept('concept_interest_group', '利益集团')]及其[concept_clout]，[GetLawGroup('lawgroup_economic_system').GetName]与[GetLawGroup('lawgroup_trade_policy').GetName][Concept('concept_law', '法律')]（#italic #bold 经济倾向#!必须低于#gold 66%#!#!!）"
+ BPM_VALUE_FROM_PATERNALIST_RELIGIOUS_VS_SECULAR_EXTENSIVE_WELFARE: "#bold 宗教-家长式-市场#!对抗#bold 世俗-公共#![Concept('concept_welfare_payments', '福利')][Concept('concept_interest_group', '利益集团')]及其[concept_clout]"
+
+ BPM_VALUE_FROM_MIDDLE_CLASS_LANDOWNER_POPULATION: "中产阶级保守-自由的[GetPopType('shopkeepers').GetName]、[GetPopType('farmers').GetName]、[GetPopType('clergymen').GetName]与[GetPopType('aristocrats').GetName][Concept('concept_pop', '人口')]，以及[GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant]、[GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant]和[GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant]及其[concept_clout]"
+
+ BPM_VALUE_RERUM_NOVARUM_ECONOMY: "[GetPlayer.GetCustom('bpm_je_rerum_novarum_economy_bar')]"
+
+ 
+
+ BPM_VALUE_FROM_POST_RERUM_NOVARUM_SOL_BELOW_EXPECTED_AVERAGE_STANDARD_OF_LIVING_AND_TAXATION_LAW: "在《新事》通谕之后的、倾向#v 温和/中间立场#!，且[GetLawGroup('lawgroup_taxation').GetName][concept_law]以及#bold 平均#!@middling! [concept_sol]（#italic 低于15.0为正，高于则为负#!）（#italic [GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]规模越大，其立场越温和#!）"
+
+ BPM_VALUE_FROM_PRE_RERUM_NOVARUM_DISDAIN_FOR_CAPITALISM_AND_SOCIALISM: "在《新事》通谕之前对#yellow 资本主义#!的蔑视以及倾向#v 分配主义一侧#!，且拥有[GetIdeology('ideology_eco_traditional_agrarian').GetName]、[GetIdeology('ideology_eco_conservative_agrarian').GetName]、[GetIdeology('ideology_eco_autarky').GetName]或[GetIdeology('ideology_eco_agrarian_autarky').GetName]的前现代或反资本主义[concept_interest_group]的[concept_clout]，以及缺乏手工/农本[concept_law]（#italic 若拥有世俗的[GetLawGroup('lawgroup_church_and_state').GetName]则加倍#!）"
+ 
+ bpm_balance_ig_catholic_minority: "天主教少数派（BPM平衡）"
+
+ 
+ 
+
+ BPM_VALUE_FROM_TRADE_UNIONS_CLOUT: "[GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetName]的受欢迎程度"
+ BPM_VALUE_FROM_STRONG_LABOR_LIBERAL_RADICAL_MOVEMENTS: "#gold 自由运动#!或#gold 现代化运动#!、#gold 激进运动#!和#gold 劳工运动#!超过10%的[concept_political_movement_support]，再乘以[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]的[concept_clout]"
+
+ BPM_VALUE_FROM_LABOUR_CONCIOUSNESS: "#bold #gold @laborers! 劳工意识#!#!"
+ BPM_VALUE_FROM_LIBERAL_CONCIOUSNESS_SECULARISTS_LIBERAL_NATIONALISTS_MOVEMENT: "#bold #gold @academics! 自由意识#!#!、#bold 自由民族主义#![Concept('concept_interest_group', '利益集团')]与[Concept('concept_political_movement', '政治运动')]，以及[Concept('concept_bpm_ig_is_non_religious', '世俗主义者')][Concept('concept_interest_group', '利益集团')]的[concept_clout]"
+ BPM_VALUE_FROM_ILLIBERAL_SOCIETY_AND_STATE: "非自由且威权的[GetLawGroup('lawgroup_distribution_of_power').GetName]、[GetLawGroup('lawgroup_labour_associations').GetName]和[GetLawGroup('lawgroup_free_speech').GetName][Concept('concept_law', '法律')]（#italic [GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetName]不能[concept_in_government]且拥有[GetIdeology('ideology_dop_conservative_democrat').GetName][concept_ideology]#!）"
+ BPM_VALUE_FROM_RERUM_NOVARUM_DEMOCRATIC_RADICALIZATION: "在《新事》通谕之后倾向#bold 基督教一侧#!与#bold 民主一侧#!，且[GetPopType('laborers').GetName]、[GetPopType('machinists').GetName]、[GetPopType('farmers').GetName]和[GetPopType('shopkeepers').GetName][Concept('concept_pop', '人口')]"
+ BPM_VALUE_FROM_MORALIST_MIDDLE_CLASS_GROUPS: "保守-自由的[GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant]、[GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant]、[GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant]和[GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant]及其[concept_clout]，以及[Concept('concept_bpm_ig_is_religious', '道德主义者')]的[concept_clout]"
+
+ BPM_VALUE_FROM_PAPACY: "圣座#bold #gold [Concept('concept_ruler', '教皇')]#!#!当前的[concept_ideology]，且[GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant]的[concept_interest_group] [concept_clout]和[concept_leader]（若[Concept('concept_state_religion', '国家')]为[GetReligion('catholic').GetName]）"
+ BPM_VALUE_FROM_CONSERVATIVE_MODERATION_EVENTS_AND_OTHER_REASONS: "基督教温和、[GetIdeology('ideology_moderate').GetName][concept_leader]、[Concept('concept_loyalist', '忠诚派')]及其他原因。"
+
+ more_conservative_tooltip: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]将更倾向于#bold #italic 基督教#!一侧！"
+
+ more_democratic_tooltip: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]将略微更倾向于#bold #italic 民主#!一侧！"
+
+ 
+ ###############################################################
+ ################################################# 
+ ############## Christian, or Democrat? JE Name and Modifiers
+
+ ideology_reactionary_anti_capitalist: "反动分配主义者" # Christian Socialist
+ ideology_reactionary_anti_capitalist_desc: "#lore 该领袖谋求通过渐进手段废除资本主义，回归手工业生产方式。#!"
+
+ ig_christian_democrats_distinct_tt: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]将成为一个完全#v 独立#!的[concept_interest_group]！他们将#v 不再#!能够#bold 扩大#!其选民基础。"
+
+ ig_christian_democrats_no_more_ideologies_tt: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]将无法再获得任何新的或不同的[Concept('concept_ideology', '意识形态')]，也将不再能够扩大群众支持。"
+
+ je_bpm_ideological_leaning_progress_tooltip: "#v 意识形态倾向#!代表了天主教运动、政党、工会、团体和组织内部现有的思潮、变迁与争论，改变着它们在[GetLawGroup('lawgroup_distribution_of_power').GetName]、[GetLawGroup('lawgroup_rights_of_women').GetName]、宗教道德以及神授主权与人民主权之辨上的立场，也涉及基督教能否与民主相容的问题。总体上有三个主要的[Concept('concept_ideology', '意识形态')]与阵营：\n\n#v 基督教一侧#!（#italic <33%#!）——这一侧代表内部较为保守、教权甚至反动的思潮，主导意识形态为[GetIdeology('ideology_dop_conservative_democrat').GetName]，他们怀旧地追念旧日，谋求以宗教道德和强大的[GetTechnology('corporatism').GetName]为指导的强有力统治，如在立法机构中赋权职业团体（例证包括#bold 立陶宛 #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_krikscionys_demokratai_tooltip Krikščionys Demokratai#!#!、#bold 西班牙基督教民主集团#!和#bold #italic 共和国时期#!的奥地利#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_laborists_and_agrarians_tooltip 劳工派与农本派#!#!）。\n\n#v 中间/温和一侧#!（#italic >25%、<75%#!）——这一侧代表经由[GetIdeology('ideology_dop_divine_democrat').GetName][concept_ideology]所体现的、普遍的自由-保守、自由-教权、保守的@middling! [Concept('concept_middle_strata', '中产阶级')]思潮。他们将致力于维护神授主权高于人民主权的首要地位，同时保持审慎的温和、宗教道德，并反对[GetLawType('law_universal_suffrage').GetName]（例证包括#bold 荷兰反革命党的天主教派系#!、#bold #italic 共和国之前#!的奥地利#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_corporatists_tooltip 市民派#!#!以及#bold #italic 少数独立#!的匈牙利基督教民主主义者#!）。\n\n#v 民主一侧#!（#italic >66%#!）——这一侧代表以农民和工人为基础的、总体上进步的各种[GetIdeology('ideology_dop_christian_democrat').GetName]思潮。他们最重要的诉求是推行[GetLawType('law_universal_suffrage').GetName]，追求在生活各领域引入并扩展民主、下放权力、扩大[GetLawGroup('lawgroup_labour_associations').GetName][Concept('concept_law', '法律')]，并在政治生活中限制[concept_religion]的压迫性（但不排斥一般性的宗教道德）（例证包括#bold 意大利 #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_popularists_tooltip 平民主义者#!#!、#bold 德国 #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_zentrumites_tooltip 中央党人#!#!和#bold 捷克 #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_lidovci_tooltip 利德维派#!#!）。\n\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+
+ je_bpm_economical_leaning_progress_tooltip: "#v 经济倾向#!代表了天主教运动、政党、工会和组织内部现存的高度分裂的思潮、变迁与争论，以及对待资本主义的总体态度，和它们在[GetLawGroup('lawgroup_economic_system').GetName]、[GetLawGroup('lawgroup_trade_policy').GetName]、[GetLawGroup('lawgroup_land_reform').GetName]、私有制与经济发展上的立场。总体上有三个主要的[Concept('concept_ideology', '意识形态')]与阵营：\n\n#v 分配主义一侧#!（#italic <20%#!）——这一侧代表“基督教社会主义”式的、保守的、从@middling! [Concept('concept_middle_strata', '中产-')]到[Concept('concept_upper_strata', '上层阶级')]的思潮，他们认为受到轻微监管的资本主义更像是事物的本性，热衷于通过财政保守政策建立[GetIdeology('ideology_eco_distributist_economy').GetName]，支持有限的[GetLawType('law_interventionism').GetName]和经济法团主义、温和的[GetLawType('law_homesteading').GetName]、[GetLawType('law_protectionism').GetName]，而在[GetLawGroup('lawgroup_taxation').GetName]上往往没有明确立场。（例证包括#bold 捷克 #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_lidovci_tooltip 利德维派#!#!和#bold #italic 共和国时期#!的奥地利#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_laborists_and_agrarians_tooltip 劳工派与农本派#!#!）；#v 基督教社会主义者#!，与其名称所示不同，他们#bold 并非#!社会主义者。此处的这一术语指的是谋求全面推行《新事》通谕的天主教活动家。他们从根本上反资本主义，谋求回归手工业生产方式，同时又反对过度的政府干预。（例证包括#bold #italic 1930年代之前#!的波兰#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_chadecy_tooltip 哈德齐派#!#!和#bold 奥地利 #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_christlichsozialen_tooltip 联合基督徒#!#!）。\n\n#v 温和/中间立场#!（#italic >15%、<85%#!）——这一侧代表对资本主义较为凝聚而温和的立场，谋求推行[GetIdeology('ideology_eco_modern_interventionist').GetName]政策。现代干预主义经济的支持者对[GetLawType('law_interventionism').GetName]的投入程度差别很大。他们总体上谋求推行现代经济政策，会支持监管型经济、现代化和国家对工业化的扶持，但也可能支持更为经济民主和统制主义的政策——如所有权的#gold 民主化#!；对关键部门的[Concept('concept_nationalize', '国有化')]（如#yellow 重工业#!、[GetBuildingType('building_railway').GetName]），甚至#bold 有限的国家计划#!以应对[Concept('concept_unemployed', '失业')]或[Concept('concept_good', '资源')]匮乏。他们还支持累进而公正的[GetLawGroup('lawgroup_taxation').GetName]、更偏向[GetLawType('law_free_trade').GetName]的政策以及土地改革（例证包括#bold 比利时 #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_young_right_tooltip 青年右翼#!#!运动/派系、#bold 法国 #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_popular_democrats_tooltip 平民民主党人#!#!和#bold 意大利 #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_popularists_tooltip 平民主义者#!#!）。\n\n#v 反资本主义一侧#!（#italic >80%#!）——这一侧代表那些看到当今贫苦境况、视资本主义为可怕的历史遗物、认为许多现代[Concept('concept_party', '政党')]都想“修补”资本主义的思潮。他们转而主张[GetIdeology('ideology_eco_centralized_economy').GetName]——一种以[GetLawType('law_command_economy').GetName]为主、辅以法团主义、有限社会化与全面民主化的经济，一种高度合作社化的农民自有农业，并通过[GetLawType('law_free_trade').GetName]打破国际贸易壁垒，认为[GetLawType('law_protectionism').GetName]只会造成不必要的损害（例证包括#bold #italic 1930年之后#!的波兰#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_chadecy_tooltip 哈德齐派#!#!和#bold #italic 年轻的#!德国#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_zentrumites_tooltip 中央党人#!#!）。\n\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+
+ je_bpm_welfare_leaning_progress_tooltip: "#v 福利倾向#!代表了天主教运动、政党、工会和组织内部高度分裂的思潮、变迁与争论，以及它们在福利上的立场，例如在[GetLawGroup('lawgroup_education_system').GetName]、[GetLawGroup('lawgroup_health_system').GetName]或[GetLawGroup('lawgroup_welfare').GetName]上，以及应当如何推行——是通过慈善等私人倡议、法团主义，还是应当由国家介入。总体上有三个主要的[Concept('concept_ideology', '意识形态')]与阵营：\n\n#v 社会一侧#!（#italic <25%#!）——这一侧代表保守、严格宗教、法团主义的思潮，认为在法团主义和[GetIdeology('ideology_wel_religious_welfare').GetName]之中，应当由私人倡议来主导福利。\n\n#v 温和/中间立场#!（#italic >20%、<80%#!）——这一侧代表通常宗教的、中产阶级、以工人为基础且相对温和的思潮，信奉[GetIdeology('ideology_wel_social_market_welfare').GetName]，谋求在私人倡议不足以维持工人正常生活时引入国家的控制与支持。他们通常倾向于推行补贴而非全额资助的福利。\n\n#v 国家一侧#!（#italic >75%#!）——这一侧代表进步、以工人为基础的思潮，谋求逐步而高效地推行[GetIdeology('ideology_wel_expanded_public_welfare').GetName]，认为私人的法团主义理念并非应对社会问题与贫困的恰当答案。"
+
+ je_bpm_independence_from_church_tooltip: "#v 脱离天主教会#!代表了天主教平信徒在多大程度上独立于#bold 教会#!当局及其影响。此进度条每月增长，在此[concept_journal_entry]中每取得#bold 10%的进度#!，[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]就会就涉及其[concept_interest_group]的诸多议题展开辩论，并借助你的帮助，根据各地情况塑造和改变其[concept_ideology]。\n\n以下数值影响#v 脱离天主教会#!：\n    @arrow_up! 保守的[GetLawGroup('lawgroup_church_and_state').GetName][Concept('concept_law', '法律')]；\n    @arrow_up! 反教权的[GetInterestGroupVariant('ig_liberals', GetPlayer).GetNameWithCountryVariant]和[GetInterestGroupVariant('ig_radicals', GetPlayer).GetNameWithCountryVariant]的[concept_clout]\n    @arrow_up! “#bold 新事#!”通谕已颁布；\n    @arrow_up! #yellow 自由#!与#gold 激进#![Concept('concept_political_movement', '政治运动')]的[concept_political_movement_support]；\n    @arrow_up! #pink 社会主义#!或#pink 无政府主义#![Concept('concept_political_movement', '政治运动')]；\n    @arrow_up! 研究出[GetTechnology('labor_movement').GetName]或[GetTechnology('political_agitation').GetName]等[Concept('concept_technology', '科技')]；\n    @arrow_up! #gold @academics! 自由意识#!；\n    @arrow_up! [GetInterestGroupVariant('ig_christian_democrats', GetPlayer).GetName]受欢迎程度的逐步上升；\n    @arrow_up! [GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetNameWithCountryVariant]的[concept_clout]；\n    @arrow_down! “#bold 论基督宗教的民主#!”通谕已颁布；\n    @arrow_down! [GetInterestGroupVariant('ig_devout', GetPlayer).GetNameWithCountryVariant]的[concept_clout]；\n    @arrow_down! 精英主义的[GetInterestGroupVariant('ig_conservatives', GetPlayer).GetNameWithCountryVariant]、[GetInterestGroupVariant('ig_reactionaries', GetPlayer).GetNameWithCountryVariant]和[GetInterestGroupVariant('ig_national_liberals', GetPlayer).GetNameWithCountryVariant]的[concept_clout]；\n\n当前数值：0.[GetPlayer.MakeScope.ScriptValue('bpm_indepndence_from_the_church_values')|0]"
+
+ je_bpm_christian_democrat_development_stages_tooltip: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]的发展大体上有几个阶段与节点：\n\n (1) #v 0%#!：[GetLawType('law_wealth_voting').GetName]或更高；天主教的[concept_state_religion]或重要少数派；强大的[concept_bpm_ig_is_liberal]或[concept_bpm_ig_is_socialist][concept_interest_group]。\n    平信徒[GetInterestGroupVariant('ig_christian_democrats', GetPlayer).GetName]作为对现代主义危险的回应而出现，尽管#bold 教会#!想将他们置于掌控之下。\n\n (2) #v 25%#!：需要颁布#v “忧虑之母”#!通谕。\n    [GetInterestGroupVariant('ig_christian_democrats', GetPlayer).GetName]获得更多关注，讨论自由民主与民族主义之事，并可能宣布支持福利措施。\n\n (3) #v 50%#!：需要颁布#v “新事”#!通谕。\n    [GetInterestGroupVariant('ig_christian_democrats', GetPlayer).GetName]以通谕为思想基础，开始在福利、经济与资本主义问题上确立立场。\n\n (4) #v 75%#!：需要颁布#v “论基督宗教的民主”#!通谕。\n    [GetInterestGroupVariant('ig_christian_democrats', GetPlayer).GetName]与平信徒运动在被#bold 教皇#!点名之后，开始全面参与政治生活，并以形形色色的名目与理想积极参与选举政治和基层运动。" 
+
+ je_bpm_christian_or_democrat: "基督徒，还是民主派？"
+ je_bpm_christian_or_democrat_reason: "强国王权与乡村生活的时代早已一去不返，取而代之的是毫无道德与神祇的现代罪恶的民主、工业化与资本主义思想。因此，天主教平信徒必须适应以在这黑暗时代生存下去，在新体制内运作以捍卫自身影响力，并抗击日益滋长的嗜血#yellow 自由主义#!与无神#pink 社会主义#!，而他们必须#bold 孤军奋战#!。\n\n此[concept_journal_entry]记录了松散微弱的平信徒群体自我组织、发展新思想、成长为现代[Concept('concept_bpm_ig_is_liberal', '自由')][Concept('concept_country', '国家')]的漫长而动态的过程，最终摆脱#v 教会#!的影响，成为一种全新的独立意识形态。随着[concept_interest_group]不断壮大，变得越来越#gold #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_independence_from_church_tooltip 脱离教会#!#!，并推进到更进一步的#gold #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christian_democrat_development_stages_tooltip 阶段#!#!，你将收到允许你影响[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]发展的事件，尽管其发展仍高度取决于其#gold #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_ideological_leaning_progress_tooltip 意识形态#!#!与#gold #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_economical_leaning_progress_tooltip 经济#!#!倾向。\n\n#lore 中央党内部并非只有两个灵魂，而是七个不同的思想流派，它们闪烁着政治彩虹的种种色彩，从极右到极左不一而足。就我而言，我钦佩中央党车夫驾驭这些纷繁灵魂时那优雅的技艺。\n\n——奥托·冯·俾斯麦，1890年#!" #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_welfare_leaning_progress_tooltip Welfare#!
+ 
+ has_wealth_voting_or_higher: "拥有[GetLawType('law_wealth_voting').GetName]或更高"
+ 
+
+ BPM_VALUE_FROM_HIGH_STABILITY: "[Concept('concept_bpm_politically_stagnant', '僵化')][Concept('concept_bpm_political_stability', '政治僵化度')]"
+ BPM_VALUE_FROM_LOW_STABILITY: "[Concept('concept_bpm_politically_dynamic', '动态')][Concept('concept_bpm_political_stability', '政治僵化度')]"
+
+ BPM_VALUE_STRONG_RADICAL_REPUBLICAN_TENDENCIES: "强大的[Concept('concept_bpm_ig_is_republican', '共和主义者')]或[GetIdeology('ideology_dop_radical_democrat').GetName][Concept('concept_interest_group', '利益集团')]"
+ 
+ BPM_VALUE_FROM_CHRISTIAN_DEMOCRATS_IN_GOVERNMENT: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]的[concept_clout]以及[concept_in_government]"
+
+ BPM_VALUE_FROM_LEFTWING_LEADER_AND_AGITATORS: "[concept_bpm_ig_is_left_wing][Concept('concept_leader', '领袖')]与[Concept('concept_agitator', '煽动者')]的[concept_popularity]"
+
+ BPM_VALUE_FROM_NO_LABOR_UNIONS_LAW: "缺乏[GetLawType('law_right_to_associate').GetName][concept_law]"
+
+ BPM_VALUE_TOO_ILLIBERAL_LAWS: "过于非自由的[Concept('concept_law', '法律')]"
+
+ BPM_VALUE_FROM_STABILITY: "当前的[Concept('concept_bpm_political_stability', '政治僵化度')]"
+
+ BPM_VALUE_FROM_POWERFUL_SOCIALISTS_SECULARISTS: "强大的[Concept('concept_bpm_ig_is_socialist', '社会主义者')]或[Concept('concept_bpm_ig_is_non_religious', '世俗主义者')]"
+
+ BPM_VALUE_FROM_MORALISTS_IN_GOVERNMENT: "[Concept('concept_in_government', '执政')][Concept('concept_bpm_ig_is_religious', '道德主义者')][Concept('concept_interest_group', '利益集团')]的[concept_clout]"
+
+ BPM_VALUE_FROM_POWERFUL_NATLIB_CON_REACT_IGS: "强大的[GetInterestGroupVariant('ig_national_liberals',GetPlayer).GetNameWithCountryVariant]、[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]和[GetInterestGroupVariant('ig_reactionaries',GetPlayer).GetNameWithCountryVariant]"
+ 
+ BPM_VALUE_FROM_STATE_RELIGION_LAW: "当前的[GetLawGroup('lawgroup_church_and_state').GetName][concept_law_group]"
+
+ ######################### CHRISTIAN DEMOCRAT IG EVOLUTION
+ 
+ je_debating_the_state_stance: "关于国家权力与去中心化的一致立场正在形成。"
+ je_debating_the_religion_stance: "关于与教会合作的一致立场正在形成。"
+ je_debating_the_dop_stance: "关于民主与选举权的一致立场正在形成。"
+ je_debating_the_eco_stance: "关于经济与资本主义的一致立场正在形成。"
+ je_debating_the_wel_stance: "关于福利与慈善的一致立场正在形成。"
+ je_debating_the_cit_stance: "关于爱国主义与边界的一致立场正在形成。"
+ je_debating_the_mil_stance: "关于和平与军事的一致立场正在形成。"
+ je_debating_the_fem_stance: "关于妇女及其权利的一致立场正在形成。"
+
+ je_finalizing_the_political_program: "正在获得大众欢迎，并确保完全脱离教会。"
+ 
+
+ 
+
+ 
+
+ socialised_economy_tt: "你在#bold 经济倾向进度#!进度条中#bold 反资本主义#!一侧达到或超过#gold 80%#!"
+ welfare_leaning_state_eco_75_tt: "你在#bold 经济倾向进度#!进度条中#bold 反资本主义#!一侧达到或超过#gold 65%#!"
+ welfare_leaning_state_eco_35_tt: "你在#bold 经济倾向进度#!进度条中#bold 分配主义#!一侧小于或等于#gold 33%#!"
+ distributist_economy_tt: "你在#bold 经济倾向进度#!进度条中#bold 分配主义#!一侧小于或等于#gold 20%#!"
+ ideological_leaning_christian_democrat_tt: "你在#bold 意识形态倾向进度#!进度条中#bold 民主#!一侧达到或超过#gold 80%#!"
+ welfare_leaning_society_welfare_tt: "你在#bold 福利倾向进度#!进度条中#bold 社会#!一侧小于或等于#gold 30%#!"
+ welfare_leaning_central_welfare_tt: "你在#bold 福利倾向进度#!进度条中大于#gold 20%#!且小于#gold 80%#!"
+ economical_leaning_interventionist_tt: "你在#bold 经济倾向进度#!中大于#gold 15%#!且小于#gold 85%#!"
+ economical_leaning_distributist_tt: "你在#bold 经济倾向进度#!进度条中一侧小于或等于#gold 20%#!"
+ welfare_leaning_state_welfare_tt: "你在#bold 福利倾向进度#!进度条中一侧达到或超过#gold 75%#!"
+
+ democracy_leaning_christian_democrat_tt: "你在#bold 意识形态倾向进度#!进度条中#bold 民主#!一侧达到或超过#gold 66%#!"
+ democracy_leaning_divine_democrat_tt: "你在#bold 意识形态倾向进度#!进度条中大于#gold 25%#!且小于#gold 75%#!"
+ democracy_leaning_illiberal_democrat_tt: "你在#bold 意识形态倾向进度#!进度条中#bold 基督教#!一侧小于或等于#gold 33%#!"
+
+ ##### Revising the Economics
+
+ bpm_christdem_split.50.t: "修订经济事务"
+ bpm_christdem_split.50.d: "国家经济的近期变化、总体的生活水准以及内部张力，已开始影响@ig_christian_democrats! #blue 基督教民主主义者#!及其对国家干预、贸易和税收的看法，并促使他们内部展开辩论，朝着替代其现行经济立场的不同方向转变，同时也让先前沉默的声音得以发声。" 
+ bpm_christdem_split.50.f: ""
+
+ bpm_christdem_split.51.t: "修订意识形态事务"
+ bpm_christdem_split.51.d: "国家政治体制的近期变化、不断发展的现代主义思想以及内部张力，已开始影响@ig_christian_democrats! #blue 基督教民主主义者#!及其对政治体制与选举权、中央集权以及回应国家发展的看法，并促使他们内部展开辩论，朝着替代其现行经济立场的不同方向转变，同时也让先前沉默的声音得以发声。"
+ bpm_christdem_split.51.f: ""
+
+ ##### Decentralization and State Power
+
+ bpm_christdem_split.4.t: "论国家权力与去中心化"
+ bpm_christdem_split.4.desc: "国家的去中心化以及强化地方结构的愿望，对天主教徒而言始终至关重要。多数人认同国家去中心化的必要性，但程度各不相同。\n\n一个群体认为应当维持或推行一个高度联邦化、凝聚力强的国家，而另一个群体则致力于更深层的国家去中心化，指出国家的种种弱点与无能。"
+ bpm_christdem_split.4.f: "国家，就其定义而言，连一间小小的修鞋铺都经营不好。\n\n——路易吉·斯图尔佐，1951年"
+ bpm_christdem_split.4.a: "深度的去中心化十分必要，我们应当积极争取。"
+ bpm_christdem_split.4.b: "去中心化固然重要，但国家的稳定更为重要。"
+ bpm_christdem_split.4.c: "国家应当强大，并维持安宁的公共秩序。"
+
+
+ ##### Economy and Capitalism
+ 
+ bpm_christdem_split.5.t: "论经济与资本主义"
+
+
+ bpm_christdem_split.5.desc: "自由资本主义、工业化，以及人类生活各个领域与层面的彻底变革，最初都遭到天主教活动家和平信徒的强烈敌视与抵制。然而随着时间推移，许多人接纳了它，只是接纳的方式各不相同。\n\n有人认为资本主义总体上是积极的，国家应当奉行财政保守主义；而另一些人则谋求通过逐步的民主化和缩小差距来限制资本主义，以利于国家和公民。还有一些人虽然沉默，却视资本主义为绝对之恶，谋求以高度民主化、中央计划的经济取而代之。"
+ bpm_christdem_split.5.f: "贫富之间的巨大鸿沟必须弥合——若不能弥合，我们就要遭殃了！在上帝面前，爱的诫命甚至高于正义的诫命。\n\n——卡尔·弗赖赫尔·冯·福格尔桑"
+
+ bpm_christdem_split.5.a: "资本与工人的和平合作必将结出丰硕果实。"
+ bpm_christdem_split.5.b: "资本主义需要进一步的改革与变革。"
+ bpm_christdem_split.5.c: "自由资本主义政策已被证明是致命的，必须予以摧毁。"
+ bpm_christdem_split.5.d: "必须维护并积极扶持以农业为基础的经济。"
+
+ ##### Lay Movements and the Church
+
+ bpm_christdem_split.3.t: "论平信徒运动与教会"
+ bpm_christdem_split.3.d: "所有@ig_christian_democrats! 天主教徒都谋求在国家中赋予天主教道德以力量，并积极捍卫自身影响力免受现代世俗主义和政治自由主义的侵害。有些天主教徒希望教会与平信徒运动联手对抗现代主义威胁，而另一些人则谋求独立发展，甚至可能为争取民众而与教会相争。"
+ bpm_christdem_split.3.f: "顺从上帝，胜过顺从人。\n\n——沃伊切赫·科尔凡蒂，1927年"
+ bpm_christdem_split.3.a: "教会应当监督这一进程。"
+ bpm_christdem_split.3.b: "教会只会成为我们的敌人，而非盟友。"
+
+ ##### Religion
+
+ bpm_christdem_split.6.t: "论宗教与道德"
+ bpm_christdem_split.6.d1: "所有@ig_christian_democrats! 天主教徒都或多或少地虔诚，但他们终究是虔诚的。因此，维护人类整体的宗教与道德层面的必要性，始终且继续具有重要意义，许多信徒致力于维护法律与国家活动的宗教与道德品格，但并非所有人都认同这一理想的广度与强度。\n\n一些人谋求为法律与国家确立更坚实的宗教基础，另一些人则致力于对宗教道德主义作更深的节制，还有一些人谋求在政治生活中更广泛地限制宗教，甚至政教分离。" 
+ bpm_christdem_split.6.f: "顺从上帝，胜过顺从人。\n\n——沃伊切赫·科尔凡蒂，1927年"
+
+ bpm_christdem_split.6.a: "天主教应当规范公共生活的方方面面。"
+ bpm_christdem_split.6.b: "必须保障良心自由，公共行政必须保持专业。"
+ bpm_christdem_split.6.c: "宗教道德固然重要，但我们的自由更为重要。"
+
+ ##### Welfare
+
+ bpm_christdem_split.7.t: "论福利与慈善"
+ bpm_christdem_split.7.d1: "许多@ig_christian_democrats! 天主教平信徒真诚地相信慈善，相信人类作为一个整体有必要让每个人都能获得一切生活必需品。\n\n有人认为仅凭公民社会与慈善就能惠及所有人，另一些人则相信应强力运用国家为所有人提供福利，还有一些人谋求折中之道，有限度地兼用两种理念。"
+ bpm_christdem_split.7.f: "只知道施舍金钱的慈善，还算不上基督之爱。唯有当你同时献出你的时间、精力与才智，去帮助彻底终结这类弊端，并且绝不让藏于你基督教信仰宝库中的任何东西闲置不用、任其无力对抗那正以惊人方式吞噬我们社会活力的毒瘤时，你才算是无罪。\n\n——亚伯拉罕·凯珀，1891年"
+
+ bpm_christdem_split.7.a: "一人通过慈善帮助另一人，是保障体面生活最公正的方式。"
+ bpm_christdem_split.7.b: "慈善远远不够，国家必须为劳动者确保某些公共福利。"
+ bpm_christdem_split.7.c: "私人之手未能保护劳动者，国家必须全权接管。"
+ bpm_christdem_split.7.d: "宗教福利与慈善相结合，必将结出丰硕果实。"
+
+ ##### Nationalism
+
+ bpm_christdem_split.8.t: "论民族主义与边界"
+ bpm_christdem_split.8.desc: "@ig_christian_democrats! 天主教平信徒长期以来对其文化有着强烈的归属感，但随着民族主义和现代人民观念的到来，他们认同这种文化的方式也发生了显著变化。过去，许多人只感到自己属于家庭和家园；如今，越来越多的人在村庄之外找到了自己的位置。\n\n民族主义使一些人爱上了自己的民族，并在他人身上找到了敌人，而另一些人则对整个人类产生了强烈的归属感，坚持将小群体联合为一个整体的追求。与此同时，也有人在两种极端观念之间找到了中庸之道。"
+ bpm_christdem_split.8.f: "神职人员作为更广泛社会秩序的组成部分，自然应当把祖国的利益放在心上，但滑入任何一种民族主义或特殊主义，既非自然亦非基督教精神，因为那会丧失源自普世基督教道德的那种判断上的优越性。\n\n——路易吉·斯图尔佐，1929年"
+ 
+ bpm_christdem_split.8.a: "一切边界，无论是国内的还是国际的，都必须削弱并最终废除。"
+ bpm_christdem_split.8.b: "应当允许所有人寻求一个新的避风港。"
+ bpm_christdem_split.8.c: "我们的国家应当保护本土原住民文化，并打击那些过于异域的文化。" # [SCOPE.GetRootScope.GetCulture.GetName]
+ bpm_christdem_split.8.d: "应当保护所有文化，但我们必须保持我们文化的首要地位。"
+ bpm_christdem_split.8.e: "一切文化都会削弱我们的国家与认同，因此必须予以清除。"
+
+ ##### Democracy
+
+ bpm_christdem_split.9.t: "论民主与选举权"
+ bpm_christdem_split.9.desc: "自由民主，曾为大多数@ig_christian_democrats! 天主教徒所敌视，如今却已几乎为所有人广泛接受，渗透到人类生活的各个领域。许多天主教徒如今对民主的态度或积极或至少是肯定的，相信其在社会中的必要性，但每个人的愿景各不相同。\n\n有些人谋求限制其中明确的“议会-自由”部分，有些人谋求保留它但不违背神授主权的原则，而另一些人则相信需要引入民主与基督教的综合，并致力于扩展它。"
+ bpm_christdem_split.9.f: "今天，你需要黄金，大量的黄金，才能享有发言权；而我们还不够富有。为穷人沉默吧。\n\n——费利西泰·德·拉梅内，1848年"
+
+ bpm_christdem_split.9.a: "我们是民主派，是基督教民主主义者。"
+ bpm_christdem_split.9.b: "在民主之中应保留神授主权。"
+ bpm_christdem_split.9.c: "民主应当成为强有力统治的补充。"
+
+ ##### Military
+
+ bpm_christdem_split.10.t: "论军事与国防"
+ bpm_christdem_split.10.desc: "维护和平、保护自身的愿望，在天主教会信徒中历来普遍。加之民族主义和现代军国主义，促使@ig_christian_democrats! 天主教徒整体转向和平主义立场，并对过度膨胀的军队持敌视态度。\n\n第一个群体坚持需要一支强大而现代的军队，但仅用于防御，同时继续追求和平与相互合作；第二个群体则致力于全世界逐步、彻底的裁军与普遍和平。"
+ bpm_christdem_split.10.f: "有信心的人能移山；有信心的人能使人皈依；有信心的人能赢得战斗。\n\n——路易吉·斯图尔佐，1922年"
+
+ bpm_christdem_split.10.a: "我们需要非常规的国防手段。"
+ bpm_christdem_split.10.b: "我们的军队应当强大而现代。"
+ bpm_christdem_split.10.c: "我们必须追求全面而普遍的裁军。"
+
+ ##### Women (WHERE?)
+ 
+ bpm_christdem_split.11.t: "论妇女与选举权"
+ bpm_christdem_split.11.desc: "对天主教平信徒而言，家庭极其重要，自其诞生之日起他们便致力于捍卫和支持家庭。\n\n随着女权主义的兴起，天主教徒对妇女的看法也发生了改变，绝大多数人希望确保妇女的选举权，其中仍有一些人更希望她们留在家中。\n\n然而，也有人宁愿妇女完全不参与政治。"
+ bpm_christdem_split.11.f: ""
+ 
+ bpm_christdem_split.11.a: "妇女应当能够投票，但她们真正的位置其实是在家中。"
+ bpm_christdem_split.11.b: "妇女恰当的位置只在家中。"
+
+ ##### Rise of Christian Democracy
+
+ bpm_christdem_split.12.t: "基督教民主的兴起"
+ bpm_christdem_split.12.desc: "随着《新事》与《论基督宗教的民主》两部通谕的问世，一种新的意识形态——@ig_christian_democrats! 基督教民主——开始向政治领域扩展。基督教民主主义者难以界定，因为各国之间差异极大，但绝大多数人支持选举权、法团主义和宗教道德，有时还以天主教社会训导为基础谋求改变世界。\n\n他们的出现或许会撼动历史，或许实际上也改变不了什么。"
+ bpm_christdem_split.12.f: "中央党本质上是一个政治党，而非宗派党。它立足于德意志宪法，而宪法要求议员视自己为全体人民的代表。\n\n——中央党领导层，1909年"
+
+ bpm_christdem_split.12.a: "所以他们终于决定了自己究竟是基督徒，还是民主派？"
+
+ ##### Afermath
+
+ bpm_christdem_split.13.t: "余波"
+ bpm_christdem_split.13.d: "基督教民主主义者出现在欧洲许多地方，导致了与其宿敌所预期相反的显著变化。在各国，他们全力投入政治机器，组建政党或接管了政党，削弱了昔日的精英。\n\n在有些地方，他们推动了重大改革的实施，如[GetLawType('law_universal_suffrage').GetName]、社会[GetLawGroup('lawgroup_welfare').GetName]、现代经济政策；而在另一些地方，他们谋求强化国家，围绕法团主义和教会训导来发展国家，遏制自由派与左翼的极端倾向。"
+ bpm_christdem_split.13.f: "让我们首先学会在捍卫自己信仰的同时不仇视对手，学会欣赏那些与我们所想不同的人，认识到每个阵营中都有基督徒，而上帝无论过去还是现在都可以被侍奉！让我们少抱怨时代，多反省自己。让我们不要气馁，让我们变得更好。\n\n——弗雷德里克·奥扎纳姆"
+ 
+ bpm_christdem_split.13.a: "非常古怪的一群人。"
+
+ bpm_ig_all_alone_again: "孤军奋战"
+
+ BPM_VALUE_FROM_INCLINATION_TOWARDS_MODERATION: "倾向温和与保守主义"
+
+ option_retain_regionalized_state_tt: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]保留其[GetIdeology('ideology_sta_regionalized_state').GetName]意识形态。"
+
+ 
+
+ BPM_VALUE_FROM_LOW_SOL: "[concept_country]人口的平均[concept_sol]（低于@middling! #b 15.0#! [Concept('concept_sol', '中等')]）"
+
+ BPM_VALUE_FROM_CAPITALISTIC_LAWS: "非常资本主义的[Concept('concept_law', '法律')]（[GetLawType('law_laissez_faire').GetName]、[GetLawType('law_free_trade').GetName]、[GetLawType('law_commercialized_agriculture').GetName]）"
+ BPM_VALUE_FROM_MARKET_WELFARE: "[GetIdeology('ideology_wel_market_welfare').GetName][Concept('concept_law', '法律')]"
+
+ BPM_VALUE_FROM_POWERFUL_MARKET_LIBERALS: "强大的[Concept('concept_bpm_ig_is_market_liberal', '市场自由主义者')][Concept('concept_interest_group', '利益集团')]"
+
+ BPM_VALUE_FROM_STRONG_LIBERAL_MOVEMENT: "#gold 自由运动#!超过10%的[concept_political_movement_support]，或其施加于[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]的[concept_political_movement_pressure]"
+
+ 
+
+ liberal_movement_support_radicalism_tt: "#gold 自由运动#!超过10%的[concept_political_movement_support]或30%的[concept_activism]。"
+ reactionary_movement_support_radicalism_tt: "#gold 反动运动#!超过10%的[concept_political_movement_support]和20%的[concept_activism]。"
+ liberal_nationalist_movement_support_radicalism_tt: "#gold 自由民族主义运动#!超过20%的[concept_political_movement_support]或30%的[concept_activism]。"
+ laissez_faire_movement_support_radicalism_tt: "#gold 自由放任运动#!超过10%的[concept_political_movement_support]或30%的[concept_activism]。"
+
+ BPM_VALUE_FROM_IG_FACTIONS: "#gold 劳工运动#!的[concept_political_movement_support]与[concept_political_movement_pressure]"
+ laissez_faire_movement_pressure_tt: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]上超过10%的[concept_political_movement_pressure]"
+
+ BPM_VALUE_FROM_SOCIALISM_RESEARCHED: "已研究出[Concept('concept_bpm_ig_is_socialist', '劳工与社会主义')][concept_technology]（[GetTechnology('labor_movement').GetName]、[GetTechnology('socialism').GetName]、[GetTechnology('anarchism').GetName]）"
+ BPM_VALUE_FROM_CORPORATISM_RESEARCHED: "[GetTechnology('corporatism').GetName][concept_technology]"
+ 
+ BPM_VALUE_FROM_EVOLVING_CHRISTIAN_DEMOCRATS: "此前就[Concept('concept_ideology', '意识形态')]立场的辩论。"
+
+ BPM_VALUE_FROM_NO_HOMESTEADING_LAW: "没有[GetLawType('law_homesteading').GetName][concept_law]或[GetLawType('law_serfdom').GetName]"
+
+ je_bpm_christdem_ideology_progress_bar: "意识形态倾向"
+ je_bpm_christdem_ideology_progress_bar_left: "#bold 基督教#!"
+ je_bpm_christdem_ideology_progress_bar_right: "#bold 民主#!"
+
+ je_bpm_christian_democrats_welfare_progress_bar: "福利倾向"
+ je_bpm_christian_democrats_welfare_progress_bar_left: "#bold 社会#!" 
+ je_bpm_christian_democrats_welfare_progress_bar_right: "#bold 国家#!"
+
+ je_bpm_christdem_economy_progress_bar: "经济倾向"
+ je_bpm_christdem_economy_progress_bar_left: "#bold 分配主义#!"
+ je_bpm_christdem_economy_progress_bar_right: "#bold 反资本主义#!" # #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_modernizers_conservative_strength_tooltip
+
+ BPM_VALUE_FROM_POWERFUL_ANTI_CAPITALISTS: "强大的温和反资本主义[Concept('concept_interest_group', '利益集团')]"
+
+ BPM_VALUE_FROM_PATERNALISM: "家长式的[Concept('concept_interest_group', '利益集团')]或[GetIdeology('ideology_corporatist_leader').GetName][Concept('concept_leader', '领袖')]和[Concept('concept_agitator', '煽动者')]"
+
+ je_bpm_split_christdem_progress_bar: "脱离天主教会"
+ je_bpm_split_christdem_progress_bar_desc: "#v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#!（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100）每周变化 #v [SCOPE.GetRootScope.GetCountry.MakeScope.ScriptValue('je_bpm_split_christdem_progress_bar_rate')|+=]#!。"
+ 
+
+ BPM_VALUE_FROM_BEING_RELIGIOUS_MINORITY: "身为[Concept('concept_religion', '宗教')]少数派"
+
+ BPM_BASE_VALUE: "基础值"
+ # : "variable [Country.MakeScope.Var('bpm_je_split_patcons_progress_from_communist_victory_coping').GetValue|+=]#!"
+
+ 
+
+ ###############################################################
+ ################################################# 
+ ############## Old Stuff
+
+ je_bpm_christian_democrats: "黑暗中的光明"
+ je_bpm_christian_democrats_reason: "多年来，神父和广大信徒一直在呼吁变革；呼吁基督教最大的教派——天主教会和教皇——回应与资本主义及其存在本身所滋生的#yellow 自由主义#!和#pink 社会主义#!意识形态相关联的社会冲突。许多人目睹了#v 爱尔兰大饥荒#!的惨状，目睹了工厂#v 工人#!的苦难与悲惨，其中许多人正慢慢丧失对上帝及其在人世间代表的信仰；许多人为了贪婪而残忍的利润，接受了#v 工业革命#!的种种新现实。对世界各地的许多人而言，混乱与黑暗已然降临，实际被新的统治社会阶层所把持。\n\n这是一个[Concept('concept_bpm_global_je', '全局日志条目')]。在当前条件下，该日志的进度每月将变化 #tooltippable;tooltip:[Country.GetTooltipTag],je_christian_democrats_tooltip [GetGlobalVariable('je_christian_democracy_progress_rate').GetValue|+=]#!。完成之后，教皇将在其通谕《新事》中正式谈及工人阶级的状况，从而催生@ig_christian_democrats! #blue 基督教民主主义者#!。\n\n#lore 还有一件事值得深思，它更深刻地触及人的境况。国家对所有人——无论高低贵贱——都只有一套统一的标准。毫无疑问，就权利而言，工人与有产者是平等的。下层阶级是共同体身体的真实组成部分，他们以家庭为单位生活，与整个共同体的生活交融在一起。\n\n——教皇利奥十三世，1891年"
+ 
+
+ je_bpm_group_lidovci_tooltip: "#v 利德维派#!（#italic 口语中，源自 #bold lidový#! 一词，意为#bold 人民的#!、#bold 属于人民的#!、#bold 大众的#!#!）是#gold 捷克斯洛伐克#!的@ig_christian_democrats! #blue 基督教民主主义者#!，在捷克斯洛伐克人民党（#italic 捷克语：#bold Československá strana lidová, ČSL#!#!）中构成相对多数。利德维派由#bold 扬·什拉梅克#!领导，他们谋求在捷克斯洛伐克国家中代表#bold 政治天主教#!，强调其#gold 天主教#!根源，并普遍推行各种受#bold 基督教社会训导#!启发的政策。他们的根基主要在于农民、工人和工匠之中。\n\n利德维派在政治上中左、经济上中右、社会上中右。除了总体上中立的利德维派之外，[concept_party]内部还有另两个流派——@ig_conservatives! #bold 保守利德维派#!和@ig_reactionaries! #purple 民族保守主义者#!——前者最著名的成员是#bold 莫日茨·赫鲁班#!，总体上更为宗教保守、对政治民主持务实态度、远为分配主义，甚至起初反对追求独立；而后者由#bold 博胡米尔·斯塔谢克#!领导，像任何其他#bold 民族保守主义者#!一样，对议会民主持否定态度，且更为分权主义。\n\n在政治上，利德维派支持#yellow 男性#!和#yellow 女性#![GetLawType('law_universal_suffrage').GetName]、比例代表制以及实施辅助性原则，但保留[GetLawType('law_unitary').GetName]的性质。他们还顽强地对抗世俗化，并凭借诸多妥协与务实，在历史上获得了成功（#italic 最终的法律是#bold 1926年国家补贴神职人员的法案#!#!）。\n\n在经济上，利德维派谋求扶植小型企业和合作社、[GetLawType('law_protectionism').GetName]，支持紧缩措施，并支持工厂工人参与（#italic 利润分享和参与管理#!）。在农业和福利方面，他们支持有补偿的[GetLawGroup('lawgroup_land_reform').GetName]，在教会财产问题上内部存在张力；同时支持广泛的社会立法，无论是保险、养老金还是法规。\n\n利德维派因其主要为#bold 捷克-摩拉维亚#!的特性和对#bold 捷克斯洛伐克主义#!的信念，反对自治，不承认#bold 斯洛伐克人#!，并在独立问题上总体持民族主义立场。他们还支持一切旨在确保独立与自卫能力的国家军事措施。\n\n以下意识形态尽可能贴切地代表利德维派：[GetIdeology('ideology_gov_liberal_republican').GetName]；[GetIdeology('ideology_exe_strong_dynamic').GetName]；[GetIdeology('ideology_dop_christian_democrat').GetName]；[GetIdeology('ideology_sta_federated_state').GetName]；[GetIdeology('ideology_eco_distributist_economy').GetName]；[GetIdeology('ideology_wel_expanded_public_welfare').GetName]；[GetIdeology('ideology_cit_multiethnic_nationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_patriotic_liberal').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!" 
+
+ je_bpm_group_chadecy_tooltip: "#v 哈德齐派#!（#italic 口语中，源自缩写#bold ChD#!，是#bold Chrześcijańska Demokracja#!——基督教民主——的首字母缩写#!）是#gold 波兰#!的@ig_christian_democrats! #blue 基督教民主主义者#!，其中绝大多数属于波兰基督教民主党（#italic 波兰语：#bold Polskie Stronnictwo Chrześcijańskiej Demokracji, PSChD#!#!）。他们的基督教民主形式深受其祖国发生的各种境况与事件的影响，在不同时期差异显著，转折点是#bold 大萧条#!的爆发。因此，他们被分为两个时期，一个在大萧条之前，另一个在大萧条期间及“之后”（大萧条及其影响其实从未真正结束）。他们的根基主要在于西里西亚工人、富裕的农村工人和中产阶级之中，大多来自普鲁士瓜分区。\n\n#v 1930年之前的哈德齐派：#!\n哈德齐派在政治上左倾、经济上右倾、社会上中右。\n\n在政治上，他们支持[GetLawType('law_universal_suffrage').GetName]和建立基督教民主，支持[GetLawType('law_womens_suffrage').GetName]，是坚定的宗教道德主义者，拒绝世俗国家，反对离婚，支持去中心化并提及联邦化。他们还强调赋权总统，并支持使参议院以经济为导向。\n\n在经济上，他们充满了矛盾与泛泛之谈。他们支持按照“#bold 新事#!”通谕的理念进行财富再分配，但同时反对对“正在#bold 毁掉#!”它们的“#bold 大企业#!”征收过高的税。他们支持“#bold 工人的赋权#!”（#italic 完全回归手工业生产#!），但同时反对“#bold 作为社会经济制度的国家主义#!”。他们还支持紧缩政策、强烈强调宗教的社会立法以及土地改革。\n\n他们强调波兰民族高于其他民族的重要性与首要地位，但仍尊重少数族裔，唯独犹太人除外，他们认为犹太人对“#bold 民族文化#!”构成威胁。他们还支持一支以现代、防御为主的国民军。\n\n以下意识形态尽可能贴切地代表（#italic 1930年之前的#!）哈德齐派：[GetIdeology('ideology_gov_liberal_republican').GetName]；[GetIdeology('ideology_exe_strong_dynamic').GetName]；[GetIdeology('ideology_dop_christian_democrat').GetName]；[GetIdeology('ideology_sta_federated_state').GetName]；[GetIdeology('ideology_eco_distributist_economy').GetName]；[GetIdeology('ideology_wel_distributist_welfare').GetName]；[GetIdeology('ideology_cit_multiethnic_nationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_patriotic_liberal').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]\n\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_chadecy_2_tooltip #bold #grey 第二页#!#!#!\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+
+ je_bpm_group_chadecy_2_tooltip: "#v 1930年之后的哈德齐派：#!\n哈德齐派在政治上左倾、经济上左倾、社会上中立。\n\n随着全球性的激进化以及#gold 波兰#!威权主义的抬头，哈德齐派在政治事务上变得更加进步。他们仍然支持#yellow 普选#!和#yellow 妇女选举权#!，更加强调去中心化，支持完全的[GetLawType('law_freedom_of_conscience').GetName]、个人权利以及回归非威权的民主。\n\n在经济上，由于#v 大萧条#!的毁灭性打击，他们进一步发展并激进化，走向越来越反资本主义的“左翼”立场（当然，他们并非立即支持以下主张，而是逐步转向，最终成果是#bold 1937年#!的#v 劳动党#!纲领）。他们支持全面的“#bold 社会经济民主化#!”、合作社化与社会化、审慎的监管型经济、累进税制与福利。他们提出了一个“#bold #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_chadecy_3_tooltip 结构化的[GetLawType('law_command_economy').GetName]#!#!”，私有制受到严格限制，以协助“#bold 全国性经济计划#!”。借助[Concept('concept_nationalize', '国有化')]或将所有权交给“#bold 自治政府或社会团体#!”，他们计划接管“#bold 对国家经济生活或其防御具有重大意义#!”的企业，以及“#bold 大型股份制企业及其分支机构#!”——这些企业所有者的重要性微乎其微，且不会随着“#bold 适当条件的成熟#!”而增长。中型和小型企业则大多保持私有。他们还支持土地改革，以及通过对乡村的“#bold 疗愈式重建#!”来振兴乡村，强调教育与现代化。\n\n他们的民族主义变化不大，只是其反犹主义在经济、社会和政治道德层面得到了强化。对斯拉夫联邦的支持也在内部大大增长。对军事的立场几乎没有变化。\n\n以下意识形态尽可能贴切地代表（#italic 1930年之后的#!）哈德齐派：[GetIdeology('ideology_gov_liberal_republican').GetName]；[GetIdeology('ideology_exe_strong_dynamic').GetName]；[GetIdeology('ideology_dop_christian_democrat').GetName]；[GetIdeology('ideology_sta_federated_state').GetName]；[GetIdeology('ideology_eco_centralized_economy').GetName]；[GetIdeology('ideology_wel_expanded_public_welfare').GetName]；[GetIdeology('ideology_cit_multiethnic_nationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_patriotic_liberal').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+
+ je_bpm_group_chadecy_3_tooltip: "#bold 哈德齐派是唯一宣布支持[GetLawType('law_command_economy').GetName]的@ig_christian_democrats! #blue 基督教民主主义者#!。#!"
+
+
+ je_bpm_group_krikscionys_demokratai_tooltip: "#v Krikščionys Demokratai#!（#italic 字面意思即#bold 基督教民主主义者#!#!）是构成立陶宛基督教民主党（#italic 立陶宛语：Lietuvos krikščionių demokratų partija，#bold LKDP#!#!）多数的@ig_christian_democrats! #blue 基督教民主主义者#!。Krikščionys Demokratai由#bold 米科拉斯·克鲁帕维丘斯#!领导，他们谋求将#gold 立陶宛#!引向其天主教根源，并扩展其农本特性。他们的根基主要在于天主教知识分子和中产阶级之中。\n\nKrikščionys Demokratai在政治上右翼、经济上右翼、社会上右翼。Krikščionys Demokratai有两个亲密盟友：劳工派（#italic 源自立陶宛劳工联合会——Lietuvos darbo federacija，#bold LDF#!#!）主要关注经济上的[GetLawType('law_interventionism').GetName]和[Concept('concept_welfare_payments', '福利')]，其根基主要在乡村劳工和保守工人之中；农民派（#italic 源自农民协会——Ūkininkų sąjunga，#bold ŪS#!#!）主要关注丰富多彩的#bold 乡村发展#!和#bold 现代化#!，其根基主要在保守的农民和农场主之中。\n\n在政治上，Krikščionys Demokratai支持男女[GetLawType('law_universal_suffrage').GetName]、比例代表制和去中心化；他们还希望在政治生活的各个方面大力赋权#gold 天主教#!。尽管分权且民主，Krikščionys Demokratai却是威权的，利用强有力的[GetLawType('law_censorship').GetName]和戒严令来打击政敌；他们还希望保持行政部门的强大，并限制议会。\n\n在经济上，他们支持国家介入经济，首要目标是[GetLawGroup('lawgroup_land_reform').GetName]、宏大的乡村发展、赋权小农场主和贸易；他们还支持[GetLawType('law_protectionism').GetName]和更高的税收。在福利方面，他们希望强化其宗教层面，国家支持亦以此为引导。\n\nKrikščionys Demokratai是族裔民族主义者，谋求使立陶宛成为一个纯粹立陶宛人的国家；他们对#bold 犹太#!和#bold 波兰#!少数族裔尤为敌视，将任何对后者的支持都指责为“#bold 立陶宛的波兰化#!”。关于军事，最初在独立之初，他们支持一个动员程度高得多的[Concept('concept_country', '国家')]来捍卫并扩张它。战争之后，他们更偏好防御性军队，但因种种境况以及#bold 维尔纽斯#!的丧失，仍对#gold 波兰#!保持敌视态度。\n\n以下意识形态尽可能贴切地代表Krikščionys Demokratai：[GetIdeology('ideology_gov_liberal_republican').GetName]；[GetIdeology('ideology_exe_strong_dynamic').GetName]；[GetIdeology('ideology_dop_conservative_democrat').GetName]；[GetIdeology('ideology_sta_powerful_state').GetName]；[GetIdeology('ideology_eco_modern_agrarian').GetName]；[GetIdeology('ideology_wel_distributist_welfare').GetName]；[GetIdeology('ideology_cit_ethnonationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_patriotic_liberal').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+
+ je_bpm_group_catholics_tooltip: "#v 敬请期待！#!（#italic :SHRUG:#!）\n\n以下意识形态尽可能贴切地代表#v 瑞士天主教保守派#!：[GetIdeology('ideology_gov_liberal_republican').GetName]；[GetIdeology('ideology_exe_strong_dynamic').GetName]；[GetIdeology('ideology_dop_conservative_democrat').GetName]；[GetIdeology('ideology_sta_powerful_state').GetName]；[GetIdeology('ideology_eco_distributist_economy').GetName]；[GetIdeology('ideology_wel_distributist_welfare').GetName]；[GetIdeology('ideology_cit_multiethnic_nationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_patriotic_liberal').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+
+ 
+ 
+ ###############################################################
+ ################################################# 
+ ############## Christian, or Democrat? Tooltips for RP/LARP Purposes & Teaching: History Yap
+
+
+ je_bpm_group_young_right_p1: "他们的诞生可追溯到1891年3月30日，即#bold “比利时民主同盟”#!（#italic Ligue démocratique belge，L.D.B.#!）的创建。#v 青年右翼#!尽管享有日益增长的人气以及利奥十三世的支持（1895年7月），却不得不克服种种巨大的障碍，与天主教党内外众多团体作斗争，比如形形色色的#gold 社会主义者#!、#gold 自由主义者#!、#gold 天主教会#!（后者想维持团结，还常常与沃斯特结盟），有时甚至还有#gold 国王利奥波德二世#!（他曾数次就#v 青年右翼#!致信教皇利奥十三世）。\n\n旧右翼否认#bold 民主同盟#!存在的权利，并积极与之斗争，手段包括拖延时间、与主教合作、叫停各种大会（比如#italic 列日#!的一次大会）、拒绝提供选举名单，最重要的是对抗一切基督教民主主义者主导的立法，尤其是社会立法。1893年的混合普选权使#v 青年右翼#!得以扩展进入议会政治，为其在议会中赢得了12个席位，但也因一个8人小组“民主派”勉强投票支持一项不利于工人的市政选举法案，而导致民主同盟陷入危机，促使赫勒普特辞去主席职务，但他们最终设法挺了过来。\n\n教皇代表#v 青年右翼#!的干预，使他们得以在1895年的市政选举中被列入天主教名单。随着立法选举临近，两大派系于1896年达成休战，但沃斯特让天主教徒封闭名单，并在F.C.C.C.A.内设立一个委员会，草拟社会纲领，目的是削弱并同化基督教民主主义者。不过在地方层面，保守派允许基督教民主主义者进入选举名单，最终使#v 青年右翼#!在联邦议会中获得了14个席位。\n\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_young_right_tooltip_p2 #bold #grey 第二页#!#!#!\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!" # 
+
+ je_bpm_group_young_right_tooltip_p2: "赫勒普特被委派参加F.C.C.C.A.的圣特赖登大会（1897年5月），他在会上提议在每个选区设立联合委员会，以汇聚各种社会运动和团体。沃斯特同意于1897年10月会见民主党人，但最终仍维持其反对立场，尽管主教们出面干预，“圣特赖登方案”还是未被#v 旧右翼#!接受。然而在#gold 比利时#!各地，都设立了联合委员会并达成了协议，为1898年的选举做准备。青年右翼保住了他们的代表，并赢得了更广泛的支持。\n\n随着时间推移，沃斯特的影响力不断缓慢下降，而青年右翼的支持持续增长，主教们和报纸都站在了他们一边。\n\n青年右翼与旧右翼之间的战争，已从悄无声息的基层转移到议会殿堂。1906年5月27日的立法选举在某种程度上削弱了政府的多数，但并未危及其地位。青年右翼对政府保守主义的不满，通过在对周日休息法（1905年7月26日）表决时弃权而表现出来。\n\n坎皮讷矿区特许权法案给了他们展示实力的绝佳机会。基督教民主主义者为授予这些特许权提出了条件：矿工养老金、八小时工作制上限、禁止妇女和儿童井下作业，以及改善工人的卫生设施。旧右翼和沃斯特意识到即将到来的危险，便提议将此事退回委员会审议。他的动议被否决了。基督教民主主义者打算为矿工争取最大利益，尽管旧右翼敦促他们不要强加“国家并不要求的改革”。\n\n由于谁也不愿向对方的要求让步，这场危机公开化了，社会主义者和激进自由派支持青年右翼并彼此合作。基督教民主主义者质疑政府的构成无法代表整个右翼，随后较为温和的前首相贝尔纳特加入了反对派。1907年4月12日，旧右翼政府倒台，该法案也随之下马，59名天主教徒和11名自由派投了赞成票，34名社会主义者、23名激进派和19名基督教民主主义者投了反对票。政府向国王递交了辞呈。\n\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_young_right_tooltip_p3 #bold #grey 第三页#!#!#!\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+
+ je_bpm_group_young_right_tooltip_p3: "下一届政府由朱尔·德·特罗兹领导，其中有2名青年右翼成员——朱尔·伦金和若里斯·赫勒普特，这向旧右翼表明，没有青年右翼的支持就不可能执政。\n\n沃斯特的影响力持续崩塌，到1907年他已在政治上完全无足轻重，随着亲青年右翼的德西雷-约瑟夫·梅西耶被任命为大主教，以及1909年第五届梅赫伦大会和沃斯特的又一次失败，他的影响力彻底消失了。当最终由温和派、且更亲近基督教民主的夏尔·德布罗克维尔执掌天主教党时，“旧”右翼实际上已不复存在，天主教党变得更加倾向基督教民主。\n\n所用资料来源：\n- 《1909年天主教大会之前的青年右翼与旧右翼》，菲利普·德福塞著；\n- 《西欧的基督教民主》，迈克尔·P·福格蒂著\n- 《1918-1945年欧洲的政治天主教》，沃尔夫拉姆·凯泽、赫尔穆特·沃努特（等）著；\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+
+
+
+ party_ueci: "意大利天主教选举联盟"
+ party_french_liberal_action: "人民自由行动"
+
+ from_reconcillation_with_liberalism: "与共和主义和解"
+ from_catholic_political_involment: "政治天主教徒的参与"
+
+ ###############################################################
+ ################################################# 
+ ############## New Wine in Old Wineskins JE Name and Modifiers
+
+ je_bpm_testing_stuff_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_christdem_ideological_power')]"
+ #je_bpm_testing_stuff_2_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_clacon_ideological_power')]"
+
+ bpm_new_wine_in_old_wineskins_modifier: "品尝新酒"
+
+ bpm_clacons_win_tt: "[SCOPE.sCharacter('christdem_leader').GetFullName]随着所有影响力的丧失而在政治上变得无足轻重。"
+ bpm_christde_win_tt: "[SCOPE.sCharacter('clacon_leader').GetFullName]随着所有影响力的丧失而在政治上变得无足轻重。"
+
+ je_bpm_new_wine_scripted_progress_bar_name: "#italic 新酒#!意识形态力量"
+ je_bpm_new_wine_scripted_progress_bar_desc: "#bold [GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]#!意识形态力量：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/75）"
+
+ je_bpm_old_wineskins_scripted_progress_bar_name: "#italic 旧皮囊#!意识形态力量"
+ je_bpm_old_wineskins_scripted_progress_bar_desc: "#bold [GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]#!意识形态力量：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/75）"
+
+ bpm_old_wine_paternalism_progress_bar_name: "#italic 旧皮囊#!家长主义"
+ bpm_old_wine_paternalism_progress_bar_desc: "倒空酒瓶（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/7）"
+
+ bpm_ig_defeated_in_struggle_for_survival_ig: "在生存斗争中落败"
+ bpm_ig_defeated_in_struggle_for_survival_leader: "在生存斗争中落败" 
+ bpm_next_leader_will_receive_tt: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]的下一任领袖将获得#gold #bold [GetStaticModifier('bpm_ig_defeated_in_struggle_for_survival_leader').GetName]#!#!。"
+ bpm_next_leader_will_receive_clacon_tt: "[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]的下一任领袖将获得#gold #bold [GetStaticModifier('bpm_ig_defeated_in_struggle_for_survival_leader').GetName]#!#!。"
+
+ old_wineskins_paternalism_progress_tooltip: "#bold [GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]#!已通过多项家长式改革，削弱了激进基督教民主的价值。\n（#italic 这将导致@ig_conservatives! 古典保守主义者#!的全面胜利）"
+
+ old_wineskins_value_50_tooltip: "#bold [GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]#!的#gold 意识形态力量#!等于#v 75#!。\n（#italic 这将导致@ig_conservatives! 古典保守主义者#!的全面胜利）"
+ new_wine_value_50_tooltip: "#bold [GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]#!的#gold 意识形态力量#!等于#v 75#!。\n（#italic 这将导致@ig_christian_democrats! 基督教民主主义者#!的全面胜利）"
+ new_wine_value_minus_25_tooltip: "#bold [GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]#!的#gold 意识形态力量#!等于#red #v -25#!#!。\n（#italic 这将导致@ig_christian_democrats! 古典保守主义者#!的全面胜利）"
+
+ bpm_conservatives_winning_tooltip_tt: "在@ig_conservatives! 古典保守主义者获胜后，将发生以下变化："
+
+ bpm_christdems_winning_tooltip_tt: "在@ig_christian_democrats! 基督教民主主义者获胜后，将发生以下变化："
+
+ bpm_status_quo_tooltip_tt: "在达成无法撼动的#gold 现状#!后，将发生以下变化："
+
+ christdem_con_difference_tooltip: "两派之间的#gold 意识形态力量#!之差至少为#v 10#!（当前为[GetPlayer.MakeScope.ScriptValue('bpm_je_christdem_conservative_difference_points')|1]）。"
+
+ 
+
+ je_bpm_ideological_power: "#v 意识形态力量#!是一种“机制”，代表当地[Concept('concept_party', '保守党')]内部，无论在其#bold 隐秘的基层#!还是#bold 议会殿堂#!中，那种凝聚的统一、投入以及普遍根深蒂固的政治影响力。此[concept_journal_entry]中的双方都将根据各种数值与因素获得#v 意识形态力量#!，并可以利用各自的#v 意识形态力量#!来限制对方的增长。\n\n#v #lore 需要75#!点意识形态力量#!才能获胜，若无人达到，且时间耗尽，则将达成#v 现状#!。"
+ 
+ je_bpm_new_wine_in_old_wineskins: "旧皮囊里的新酒"
+ je_bpm_new_wine_in_old_wineskins_reason: "曾经相对弱小、微末、易受摆布的天主教平信徒，多年来已显著壮大，随着《新事》通谕的颁布，他们甚至开始更公开地参与政治，令保守的老派精英大为不满。\n\n往往激进而执着，[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]将不得不与狡黠的[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]展开一场生存之战。#v 而胜者只能有一个#!。\n\n此[concept_journal_entry]记录了一场在许多国家发生过的、高度动态且影响深远的[Concept('concept_political_strength', '政治斗争')]，交战双方是@ig_christian_democrats! #bold 基督教民主主义者#!与@ig_conservatives! #bold 古典保守主义者#!，双方都施展精明的#italic 政治手腕#!来削弱敌方的[Concept('concept_political_movement', '派系')]/[Concept('concept_interest_group', '意识形态')]，以取得无可匹敌的优势，最终#v 击败#!并#v 吞并#!败者。要使@ig_christian_democrats! 基督教民主主义者获胜，他们必须达到#v 75#!点#bold #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_ideological_power 意识形态力量#!#!；而要使@ig_conservatives! 保守主义者获胜，他们必须通过#bold #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_paternalistic_reforms_tooltip 家长式改革#!#!来削弱天主教徒。败者将被变成一个“派系”或一个“翼”。若无人获胜且#bold 时间耗尽#!，则双方之间将达成#v 现状#!，此[concept_journal_entry]就此终结。\n\n#lore 同样错误的是相信今日存在之物必须存续到明日乃至更久，因为身处其中感到舒适便不惜一切代价维持现状，又因为身处其中感到不适便急于求变，最终忘却了：现实中的当下，永远是一种新事态的出现，而这一出现是持续不断的。\n\n——沃伊切赫·科尔凡蒂，1927年#!"
+ je_bpm_new_wine_in_old_wineskins_status: "现在，来细细品味吧。"
+
+ je_bpm_paternalistic_reforms_tooltip: "要填满此#bold 进度条#!，你#v 必须#!让[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant][concept_in_government]，并通过：\n- [GetLawType('law_census_voting').GetName]；\n- [GetLawType('law_regulatory_bodies').GetName]；\n- [GetLawType('law_wage_subsidies').GetName]；\n- [GetLawType('law_token_time_regulations').GetName]\n- [GetLawType('law_repeatable_economy_agricultural_investment').GetName]；\n- [GetLawType('law_repeatable_politics_popular_concessions').GetName]；\n- [GetLawType('law_repeatable_religion_promote_state_religion').GetName]"
+
+ bpm_je_new_wine_increase_value_tt: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]的#v 意识形态力量#!将增加#green #bold 2#!#!。"
+ bpm_je_old_wineskins_increase_value_tt: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]的#v 意识形态力量#!将减少#red #bold 2#!#!。"
+
+ bpm_je_old_wineskins_decrease_value_tt: "[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]的#v 意识形态力量#!将减少#red #bold 1#!#!。"
+
+ je_bpm_propagate_the_new_wine_button: "宣扬新酒"
+ je_bpm_propagate_the_new_wine_button_desc: "那些常被冠以“基督教民主”之名的崭新理念，非常激进，近乎革命。但它们承诺变革，而这种变革将伴随着真正的基督教价值观与道德而来。而这些是诚实的，也是有力的。"
+
+ je_bpm_reaffirm_the_old_tastes: "重申旧口味"
+ je_bpm_reaffirm_the_old_tastes_desc: "对节制、保守主义和审慎发展的需求，是所有人固有的。为了变革而撼动谨慎构筑的根基，实属鲁莽之举，必须予以粉碎。"
+ 
+
+ bpm_new_wine_taste_propaganda: "新酒口味的宣传"
+ bpm_reaffirm_the_old_tastes: "重申旧口味"
+
+ bpm_christian_democratic_ideas_more_widespread_tt: "#blue 基督教民主#!思想将在[ROOT.GetCountry.GetName]更加#bold 广泛传播#!，并可能影响[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]和[GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant]！"
+
+ bpm_christian_democratic_ideas_more_suppressed_tt: "#blue 基督教民主#!思想将在[ROOT.GetCountry.GetName]更加#bold 受到压制#!，并被局限于社会行动！"
+
+ BPM_VALUE_FROM_LEADER_POPULARITY_CON: "[GetInterestGroupVariant('ig_conservatives', GetPlayer).GetNameWithCountryVariant][Concept('concept_leader', '领袖')]的[concept_popularity]"
+ BPM_VALUE_FROM_LOW_LIBERAL_CONCIOUSNESS: "#bold #gold @academics! 自由意识#!#!（#italic 必须低于75.0#!）"
+ BPM_VALUE_FROM_LIBERAL_CONSERVATIVE_CLOUT: "[GetInterestGroupVariant('ig_national_liberals',GetPlayer).GetNameWithCountryVariant]、[GetInterestGroupVariant('ig_market_liberals',GetPlayer).GetNameWithCountryVariant]和[GetInterestGroupVariant('ig_liberals',GetPlayer).GetNameWithCountryVariant][Concept('concept_interest_group', '利益集团')]的受欢迎程度"
+ BPM_VALUE_FROM_MOVEMENTS_CLACON: "#yellow 自由派与保守-自由派#![Concept('concept_political_movement', '政治运动')]"
+
+ bpm_je_one_side_tt: "你只能支持#v 一方#!！"
+ BPM_VALUE_FROM_LABOR_CONCIOUSNESS: "#bold #gold @laborers! 劳工意识#!#!"
+ BPM_VALUE_FROM_LEADER_POPULARITY: "[GetInterestGroupVariant('ig_christian_democrats', GetPlayer).GetNameWithCountryVariant][Concept('concept_leader', '领袖')]的[concept_popularity]"
+ BPM_VALUE_FROM_RADICAL_CLOUT: "[Concept('concept_bpm_ig_is_radical_left', '激进左翼')][Concept('concept_interest_group', '利益集团')]的受欢迎程度"
+ BPM_VALUE_FROM_MOVEMENTS_CHRISTDEM: "#pink 劳工-社会主义#!和#orange 激进#![Concept('concept_political_movement', '政治运动')]" 
+ BPM_VALUE_FROM_MOVEMENTS_LAISSEZ_FAIRE: "#yellow 自由放任#!和#yellow 自由#![Concept('concept_political_movement', '政治运动')]的[concept_political_movement_support]"
+ BPM_VALUE_FROM_TRAITS_BASIC: "普通的[Concept('concept_character_trait', '性格特质')]（如#bold 执着#!或#bold 骗子#!）"
+ BPM_VALUE_FROM_TRAITS_STRONG: "重要的[Concept('concept_character_trait', '性格特质')]（如#bold 魅力超凡#!和#bold 虔诚#!）"
+ BPM_VALUE_FROM_CLOUT_DIFFERENCE: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]与[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]之间的[concept_clout]差（#italic #bold 基督教民主主义者的势力必须多于保守主义者#!#!）" 
+
+ BPM_VALUE_FROM_PATERNALISTIC_LAWS: "[GetIdeology('ideology_wel_paternalistic_welfare').GetName]改革"
+
+
+ bpm_new_wine_old_wineskins_flavour.1.t: "并非醋"
+ bpm_new_wine_old_wineskins_flavour.1.d: "@ig_christian_democrats! 基督教民主主义者现身政坛，以及他们与@ig_conservatives! 古典保守主义者之间不可避免的政治战争，导致了后者的衰落与被吞并。但随着基督教民主主义者扩张，更为保守的群体将正式脱离，并更独立地自行发展。"
+ bpm_new_wine_old_wineskins_flavour.1.f: "这新酒委实妙不可言，其醇美远胜旧酒。我颇感欣慰，那陈腐苦涩的酒终于被某种清新而鲜活之物所取代。"
+ bpm_new_wine_old_wineskins_flavour.1.a: "不再孤单。"
+
+
+ bpm_new_wine_old_wineskins_flavour.2.t: "镀金，而非真金"
+ bpm_new_wine_old_wineskins_flavour.2.d: "@ig_christian_democrats! 基督教民主主义者的崛起，遭到老派@ig_conservatives! 古典保守主义者的强力遏制，后者最终击败了新思潮，将其削弱为单纯的社会行动。今后与未来的统治，将由阶级合作、家长主义和审慎的发展来引导。"
+ bpm_new_wine_old_wineskins_flavour.2.f: "我曾对这新酒寄予厚望，却大失所望。口感尚可，然镀金而非真金，既无法令人惊艳，也无法征服味蕾。"
+ bpm_new_wine_old_wineskins_flavour.2.a: "正如教皇所愿。"
+
+ bpm_new_wine_old_wineskins_flavour.3.t: "油与水"
+ bpm_new_wine_old_wineskins_flavour.3.d: "@ig_christian_democrats! 基督教民主主义者的崛起，以及他们与@ig_conservatives! 古典保守主义者的斗争，最终以一场无休无止的现状告终，双方都无力摧毁对方。"
+ bpm_new_wine_old_wineskins_flavour.3.f: ""
+ bpm_new_wine_old_wineskins_flavour.3.a: "这可真是……令人失望……"
+
+ bpm_new_wine_old_wineskins_flavour.4.t: "无人挑战的右翼领袖"
+ bpm_new_wine_old_wineskins_flavour.4.d: "居于主导地位的@ig_conservatives! 保守派派系的领袖——[SCOPE.sCharacter('unchallanged_right_winger').GetFullName]——宣称自己是唯一真正代表政治右翼的领袖。他公开抨击所有反对他及其保守主义的人，并赢得了更多支持。"
+ bpm_new_wine_old_wineskins_flavour.4.f: "在这个国家，政治右翼只能有一位强大、虔诚且无人挑战的领袖。而我已谦逊地证明了自己堪当此任，能够审慎地与教会合作，确保公共与私人生活中良好的天主教道德。凡违抗我者，实乃违抗上帝本身及其安排。"
+ bpm_new_wine_old_wineskins_flavour.4.a: "真是个固执的蠢货。"
+
+
+ bpm_new_wine_old_wineskins_flavour.5.t: "自主的派系间合作"
+ bpm_new_wine_old_wineskins_flavour.5.d: "尽管[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetName]的领袖正式宣称[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetName]没有存在的权利，并禁止合作，但许多基层小组和组织已经开始合作。虽常属小事，但许多都发展迅速，使得@ig_christian_democrats! #blue 基督教民主#!思想得以传播。"
+ bpm_new_wine_old_wineskins_flavour.5.f: "我认为不让你上选举名单、把你置于严密监视之下，是不合理的。这不仅通过分裂损害了天主教事业，也削弱了潜在的选举基础。"
+ bpm_new_wine_old_wineskins_flavour.5.a: "他们是想要被开除还是怎么着？"
+
+ bpm_new_wine_old_wineskins_flavour.6.t: "权势主教支持民主党人"
+ bpm_new_wine_old_wineskins_flavour.6.d: "一位在[GetInterestGroupVariant('ig_devout',GetPlayer).GetName]中拥有强大影响力的权势主教，在报纸上发表演说，公开支持新兴的@ig_christian_democrats! 基督教民主思潮。他号召人们参与传播这些新思想。"
+ bpm_new_wine_old_wineskins_flavour.6.f: "这个新政治团体……其成员自称“基督教民主主义者”……非常虔诚，真心寻求在我们的生活中践行耶稣的教诲。他们信仰社会正义，追求平等，为穷人而奋斗，同时又珍视虔诚，这种信念十分坚定，也确实是正义的。"
+ bpm_new_wine_old_wineskins_flavour.6.a: "这难道是允许的吗？"
+ 
+ bpm_new_wine_old_wineskins_flavour.7.t: "保守派报纸的强力声援"
+ bpm_new_wine_old_wineskins_flavour.7.d: "一家重要报纸发表了一篇文章，通篇攻击[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetName]，并赞扬[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetName]的领袖——[SCOPE.sCharacter('clacon_leader').GetFullName]。他们猛烈抨击罪恶的进步主义，指责基督教民主主义者削弱天主教徒，并背弃了整体的保守主义。"
+ bpm_new_wine_old_wineskins_flavour.7.f: "那些“基督教民主主义者”及其革命性的思想，无异于朝真正的保守主义和虔诚的脸上啐唾沫。他们只想破坏，只想助长邪恶的种子。他们既不是基督徒，也不是民主派。"
+ bpm_new_wine_old_wineskins_flavour.7.a: "好一桩严厉的指控！"
+
+ bpm_new_wine_old_wineskins_flavour.8.t: "传播精神"
+ bpm_new_wine_old_wineskins_flavour.8.d: "由于在选举名单准入方面的一些问题，一个信奉@ig_christian_democrats! 基督教民主思想的独立新党成立了，并开始赢得支持。目前还难以判断它会有何表现，但它几乎肯定会将左翼天主教思想传播到全国各地。"
+ bpm_new_wine_old_wineskins_flavour.8.f: "我们是一个独立政党，紧密追随#italic 《新事》#!通谕，谋求将它的理念引入我们亲爱祖国的各个领域……"
+ bpm_new_wine_old_wineskins_flavour.8.a: "他们有点搞不清状况，但那股精气神倒是对了！"
+
+ bpm_new_wine_old_wineskins_flavour.9.t: "支持的主教受压转向反对"
+ bpm_new_wine_old_wineskins_flavour.9.d: "一位支持@ig_christian_democrats! 基督教民主思想的主教，在[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetName]诸位政治家的压力下转为反对派，改变了他关于广泛民主以及改革[SCOPE.sParty('conservative_party_scope').GetName]的立场。"
+ bpm_new_wine_old_wineskins_flavour.9.f: "看来对于我所谓支持现代主义及其他罪恶思想的说法，存在重大误解。我从未想过追求这类目标，也从未参与选举政治。"
+ bpm_new_wine_old_wineskins_flavour.9.a: "反正他本来也不该做那种事。"
+
+ bpm_new_wine_old_wineskins_flavour.10.t: "敌意升温"
+ bpm_new_wine_old_wineskins_flavour.10.d: "随着这场生存与未来之争扩展到政治与公共生活的方方面面，[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetName]和[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetName]都变得越来越敌对，愈发决心实现各自的目标。"
+ bpm_new_wine_old_wineskins_flavour.10.f: "我们实在没有理由去进行那些实际上只会让敌方政党得利的无谓妥协，我们必须扩大并掌控自己的队伍，不让对方占得先机。"
+ bpm_new_wine_old_wineskins_flavour.10.a: "不知道这最后会怎么收场？"
+ 
+
+ bpm_struggle_for_workers: "为工人而斗争"
+ bpm_unchallanged_right_wing_leader: "无人挑战的右翼领袖"
+ bpm_open_electoral_lists: "开放的基层选举名单"
+ bpm_weakened: "削弱选举参与"
+ bpm_support_from_church_officials: "教会官员的支持"
+ bpm_ideological_involvement: "参与政治机器"
+ bpm_christian_and_righteous_cause: "一项基督教而正义的事业"
+ bpm_christian_and_righteous_cause_leader: "虔诚而保守"
+ bpm_christian_and_righteous_cause_state: "一个真正天主教的国度"
+ bpm_critically_criticized: "遭到严厉批评"
+ bpm_minor_party_created: "独立小党成立"
+ bpm_from_being_christian_democratic: "身为基督教民主主义者"
+
+ LOWER_CLASS_MOVEMENT: "对激进的底层阶级运动的鄙夷"
+ 
+ available_because_you_have_clacon_tt: "由于你拥有[Concept('concept_state_religion', '基督教国教')]或[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant][concept_in_government]，将追加一个修正。"
+ 
+ bpm_je_old_wineskins_decrease_value_2_tt: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]的#v 意识形态力量#!将减少#red #bold 2#!#!。"
+ bpm_je_new_wine_increase_value_2_tt: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]的#v 意识形态力量#!将增加#green #bold 2#!#!。"
+
+ bpm_je_old_wineskins_decrease_value_1_tt: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]的#v 意识形态力量#!将减少#red #bold 1#!#!。"
+ bpm_je_new_wine_increase_value_1_tt: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]的#v 意识形态力量#!将增加#green #bold 1#!#!。"
+
+ bpm_je_old_wineskins_decrease_value_5_tt: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]的#v 意识形态力量#!将减少#red #bold 5#!#!。"
+
+ bpm_making_use_of_entranched_interests: "利用根深蒂固的利益"
+
+ bpm_new_wine_old_wineskins_flavour.11.t: "旧皮囊里的新酒"
+ bpm_new_wine_old_wineskins_flavour.11.d: "随着《新事》通谕的颁布和[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]的出现，一场新的政治斗争就此展开。[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]的老派保守精英不愿向激进的新天主教徒让步或认输，双方将为权力与生存而战。"
+ bpm_new_wine_old_wineskins_flavour.11.f: "没有人把新酒装在旧皮囊里；否则新酒会把皮囊涨破，酒洒出来，皮囊也就毁了。但新酒必须装在新皮囊里，两者才能都保全。也没有人喝了陈酒就想喝新酒，因为他总说：陈的更好。\n\n——路加福音 5:36-39"
+ bpm_new_wine_old_wineskins_flavour.11.a: "他们有没有想过独立起步？"
+
+
+
+ BPM_VALUE_FROM_PEASANT_POPULATION_COMPETITION_WITH_AGRPOPS_LAND_REFORM_POWER: "[GetPopType('peasants').GetName]人口；与[GetInterestGroupVariant('ig_agrarian_populists',GetPlayer).GetNameWithCountryVariant]争夺农村选民（#italic 若[GetInterestGroupVariant('ig_agrarian_populists',GetPlayer).GetName]与[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetName]同在一个[concept_party]则为正#!）以及#green 农民运动#!的[concept_political_movement_support]（#italic #v 意识形态倾向#!必须低于#gold 66%#!!#!）"
+ BPM_VALUE_FROM_SOCIALIST_MOVEMENTS_IGS_AND_AUTHORITARIANISM: "[Concept('concept_bpm_ig_is_socialist', '社会主义')][Concept('concept_interest_group', '利益集团')]及其[concept_clout]，以及各种#pink 社会主义#![Concept('concept_political_movement', '政治运动')]的[concept_political_movement_support]"
+
+
+ notification_bpm_pope_pius_ix_begun_name: "#v 新教皇！#!"
+ notification_bpm_pope_pius_ix_begun_desc: "一位新教皇——名为#bold 庇护九世#!——已在基督信仰的中心之地当选。"
+ notification_bpm_pope_pius_ix_begun_tooltip: "$notification_bpm_pope_pius_ix_begun_name$"
+
+ notification_bpm_pope_leo_xiii_begun_name: "#v 新教皇！#!"
+ notification_bpm_pope_leo_xiii_begun_desc: "一位新教皇——名为#bold 利奥十三世#!——已在基督信仰的中心之地当选。"
+ notification_bpm_pope_leo_xiii_begun_tooltip: "$notification_bpm_pope_leo_xiii_begun_name$"
+
+ notification_bpm_pope_pius_x_begun_name: "#v 新教皇！#!"
+ notification_bpm_pope_pius_x_begun_desc: "一位新教皇——名为#bold 庇护十世#!——已在基督信仰的中心之地当选。"
+ notification_bpm_pope_pius_x_begun_tooltip: "$notification_bpm_pope_pius_x_begun_name$"
+
+ notification_bpm_pope_benedict_xv_begun_name: "#v 新教皇！#!"
+ notification_bpm_pope_benedict_xv_begun_desc: "一位新教皇——名为#bold 本笃十五世#!——已在基督信仰的中心之地当选。"
+ notification_bpm_pope_benedict_xv_begun_tooltip: "$notification_bpm_pope_benedict_xv_begun_name$"
+
+ notification_bpm_pope_pius_xi_begun_name: "#v 新教皇！#!"
+ notification_bpm_pope_pius_xi_begun_desc: "一位新教皇——名为#bold 庇护十一世#!——已在基督信仰的中心之地当选。"
+ notification_bpm_pope_pius_xi_begun_tooltip: "$notification_bpm_pope_pius_xi_begun_name$"
+
+ notification_bpm_qui_pluribus_name: "#v 《忧虑之母》通谕颁布！#!"
+ notification_bpm_qui_pluribus_desc: "教皇谴责了理性主义、社会主义和现代性，并号召信徒保持警惕。"
+ notification_bpm_qui_pluribus_tooltip: "$notification_bpm_qui_pluribus_name$"
+
+ notification_bpm_rerum_novarum_name: "#v 《新事》通谕颁布！#!"
+ notification_bpm_rerum_novarum_desc: "教皇呼吁保护工人权利，并谈及了工人阶级的状况。"
+ notification_bpm_rerum_novarum_tooltip: "$notification_bpm_rerum_novarum_name$"
+
+ notification_bpm_quanta_cura_name: "#v 《忧虑之母》通谕颁布！#!"
+ notification_bpm_quanta_cura_desc: "教皇谴责了现代主义运动以及世俗的自由民主国家。"
+ notification_bpm_quanta_cura_tooltip: "$notification_bpm_quanta_cura_name$" 
+
+ notification_bpm_immortale_dei_name: "#v 《不朽的天主》通谕颁布！#!"
+ notification_bpm_immortale_dei_desc: "教皇邀请天主教徒参与公共生活，并禁止反抗合法权威。"
+ notification_bpm_immortale_dei_tooltip: "$notification_bpm_immortale_dei_name$"
+
+ notification_bpm_graves_de_communi_re_name: "#v 《论基督宗教的民主》通谕颁布！#!"
+ notification_bpm_graves_de_communi_re_desc: "教皇阐明了基督教民主应有的含义及其在社会中的作用。"
+ notification_bpm_graves_de_communi_re_tooltip: "$notification_bpm_graves_de_communi_re_name$"
+
+ pope_liberal: "@ig_liberals! #yellow 自由主义者#!"
+ pope_reformist: "@ig_reformist_socialists! #pink 改良派#!"
+ pope_reactionary_ig: "@ig_reactionaries! #purple 反动主义者#!"
+ pope_conservative: "@ig_conservatives! #blue 保守主义者#!"
+ 
+ pope_gregory_xvi: "教皇格列高利十六世"
+ pope_pius_ix: "教皇庇护九世"
+ pope_pius_x: "教皇庇护十世"
+ pope_pius_xi: "教皇庇护十一世"
+ pope_leo_xiii: "教皇利奥十三世"
+ pope_benedtict_xv: "教皇本笃十五世"
+
+ je_bpm_the_holy_see_sees: "圣座明察"
+ je_bpm_the_holy_see_sees_reason: "#bold #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_encyclical_progress_values 通谕的进度数值#!#!\n#bold #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_encyclical_progress_effects 通谕可能产生的效果#!#!\n\n#bold 现任#gold 教皇#!：#! #v [GetPlayer.GetCustom('bpm_papal_name_global_variable')]#!\n#bold 现任#gold 教皇意识形态#!：#! #v [GetPlayer.GetCustom('bpm_personal_papal_ideology_global_variable')]#!\n\n时代与世界在不断变化，但这并不意味着旧的人物、事物和思想也随之而变。天主教会#bold 正是如此#!，尤其是它的心脏与头脑——#v #gold 圣座#!#!。若#bold 天主教会#!想在这变化的世界中坚守下去，它也必须回应全球性的变化。\n\n此[concept_journal_entry]记录了#v 圣座#!#bold 明察#!这日新月异的现代世界，并对种种新的现代威胁作出多彩回应、重申旧有理念的过程。各种#v 通谕#!及其形成进度，将取决于所要回应之事，以及促成其形成的种种价值观。"
+
+ je_bpm_encyclical_progress_values: "WIP"
+ je_bpm_encyclical_progress_effects: "WIP"
+
+ je_current_encyclical_no_major_being_promulgated: "目前没有正在撰写的重大通谕。"
+ je_current_encyclical_qui_pluribus: "即将发布的通谕“#italic #bold 忧虑之母#!#!”的思想正在传播。"
+ je_current_encyclical_quanta_cura: "即将发布的通谕“#italic #bold 忧虑之母#!#!”的思想正在传播。"
+ je_current_encyclical_immortale_dei: "即将发布的通谕“#italic #bold 不朽的天主#!#!”的思想正在传播。"
+ je_current_encyclical_rerum_novarum: "即将发布的通谕“#italic #bold 新事#!#!”的思想正在传播。"
+ je_current_encyclical_graves_de_communi_re: "即将发布的通谕“#italic #bold 论基督宗教的民主#!#!”的思想正在传播。"
+
+ BPM_VALUE_FROM_LEGITIMACY_AND_LACKING_UNIVERSAL_SUFFRAGE: "缺乏[GetLawType('law_universal_suffrage').GetName]和[concept_legitimacy]"
+
+ je_bpm_errors_of_the_world: "现代世界的谬误"
+ je_bpm_errors_of_the_world_reason: "现代世界正慢慢被种种罪恶的精神与思想所吞噬，如野火般蔓延。这些思想对伴随我们走过历史的一切秩序与传统只构成威胁，它们只想摧毁和杀戮一切。时不我待，天主教会必须反击#yellow 自由主义#!与#gold 激进主义#!这一现代主义、无神论的威胁。\n\n这是一个[Concept('concept_bpm_global_je', '全局日志条目')]。它每月根据各种数值获取进度，例如：\n#P +#! @ig_liberals! #yellow 自由主义者#!、@ig_radicals! #gold 激进自由主义者#!和@ig_socialists! #pink 社会主义者#!的[concept_clout]；\n#P +#! 拥有[GetLawType('law_wealth_voting').GetName]#v 或更高#!选举权的世界各国政府的[concept_legitimacy]；\n#P +#! [GetLawGroup('lawgroup_church_and_state').GetName][Concept('concept_law', '法律')]以及拥有[GetLawType('law_public_schools').GetName]（#italic 作为一种#bold 世俗化#!的教育体系#!）\n\n完成之后，#gold #bold 基督徒，还是民主派？#!#![concept_journal_entry]的#v 第二阶段#!将被解锁，并减缓其进度获取，且@ig_reactionaries! #purple 反动主义者#!将人气上升。\n\n#lore 立法上的无神论、对宗教事务的冷漠，以及那些冠以自由天主教之名的有害格言，正是国家毁灭的真正根源；它们毁掉了法国。相信我，我所谴责的罪恶，比大革命更可怕，甚至比公社更可怕。我一直谴责自由天主教，如有必要，我会再谴责它四十遍。\n\n——教皇庇护九世，1871年#!"
+ je_bpm_errors_of_the_world_status: "谴责自由天主教。"
+ 
+ bpm_papal_encyclicals.1.t: "《忧虑之母》"
+ bpm_papal_encyclicals.1.d: "#v 天主教会#!和罗马主教#v 教皇庇护九世#!，公开谴责了种种意识形态、实践与思想。自由主义、社会主义、世俗主义、激进主义、自由天主教以及总体上的现代性等思想，都遭到了公开的谴责和广泛的批判。"
+ bpm_papal_encyclicals.1.f: "我们发出了我们的声音，在许多已发布的通谕、在御前会议上的训谕以及其他宗座文书中，我们谴责了这个最不幸时代的主要谬误，激发了你们值得称道的主教警觉，并一再告诫和劝勉我们最亲爱的天主教会众子，应当彻底憎恶并逃离如此可怕的瘟疫的传染。\n\n——教皇庇护九世，1864年"
+ bpm_papal_encyclicals.1.a: "听起来像是一群聒噪的少数派。"
+
+ je_bpm_immortal_god: "一位不朽的天主"
+ je_bpm_immortal_god_reason: "上一任教皇——#v 教皇庇护九世#!——将天主教会引向了无知与难堪的最黑暗深渊。教会非但没有回应新的现实、传播主的圣言，反而把时间花在反对一切与所有人之上，失去了宝贵的信徒与力量。#v 教皇利奥十三世#!，作为圣座内部新的思想之声，对天主教训导的走向有自己的计划。\n\n这是一个[Concept('concept_bpm_global_je', '全局日志条目')]。它每月根据各种数值获取进度，例如：\n#P +#! 各种[Concept('concept_bpm_ig_is_socialist', '社会主义者')]的[concept_clout]；\n#P +#! 各种@ig_conservatives! #blue 保守-民族主义#![Concept('concept_interest_group', '利益集团')]的[concept_clout]；\n#P +#! 世界各国政府的[GetLawGroup('lawgroup_centralization').GetName][Concept('concept_law', '法律')]；\n#P +#! [GetLawGroup('lawgroup_church_and_state').GetName][Concept('concept_law', '法律')]\n#P +#! 拥有[GetLawType('law_census_voting').GetName]#v 或更高#!选举权的世界各国政府的[concept_legitimacy]；\n\n完成之后，天主教@ig_reactionaries! #purple 反动主义者#!和@ig_christian_democrats! #blue 天主教徒#!将获得[GetIdeology('ideology_rel_modern_moralist').GetName][concept_ideology]，@ig_reactionaries! #purple 反动主义者#!还将获得[GetIdeology('ideology_cit_multiethnic_nationalist').GetName]和[GetIdeology('ideology_jingoist').GetName]\n\n#lore ……每当国家允许意见与行动的自由把人的思想引离真理、把灵魂引离美德实践之时，国家就是在违背自然的法则与训令。\n\n——教皇利奥十三世，1885年#!"
+
+ je_bpm_immortal_god_status: "寻求新思想。"
+
+ bpm_papal_encyclicals.2.t: "《不朽的天主》"
+ bpm_papal_encyclicals.2.d: "#v 天主教会#!和罗马主教#v 教皇利奥十三世#!，公开回应了民族主义、世俗化以及#bold 天主教徒#!参与选举制度的新思想。他主张在一切事务上服从民政统治者——只要这些统治者是合法的，并公开表示支持天主教徒参与政治和公共生活。"
+ bpm_papal_encyclicals.2.f: "每一个文明共同体都必须有一个统治权威，而这个权威，如同社会本身一样，其根源在于自然，因而以上帝为其创立者。由此可知，一切公共权力都必然源自上帝。因为唯有上帝才是世界真正而至高的主宰。万事万物毫无例外都必须服从于他、侍奉于他，因此任何执掌治理之权的人，都是从唯一而单一的源泉——即全能的至高主宰上帝——那里获得此权的。\n\n——教皇利奥十三世，1885年"
+ bpm_papal_encyclicals.2.a: "他到底会不会做点什么实事？"
+
+ je_bpm_light_amidst_darkness: "黑暗中的光明"
+ je_bpm_light_amidst_darkness_reason: "工业革命及其形形色色的后果，给全人类带来了巨大的痛苦，无论是将人的生命贬低为一件物质，还是试图摧毁引导我们所有人的一切自然法则。整个世界都被黑暗与悲伤所吞没，实际被新的统治社会阶层所把持。\n\n这是一个[Concept('concept_bpm_global_je', '全局日志条目')]。它每月根据各种数值获取进度，例如：\n#P +#! [Concept('concept_bpm_ig_is_socialist', '社会主义')][concept_interest_group]的[concept_clout]或[Concept('concept_political_movement', '政治运动')]；\n#P +#! 各种#bold 资本主义#!或/和#bold 反国家福利#![Concept('concept_interest_group', '利益集团')]的[concept_clout]；\n#P +#! 没有[GetLawType('law_census_voting').GetName]#v 或更高#!选举权的世界各国政府的[concept_legitimacy]；\n#P +#! 各国的平均[concept_sol]；\n#P +#! [GetLawGroup('lawgroup_church_and_state').GetName][Concept('concept_law', '法律')]\n\n完成之后，#bold #gold 基督徒，还是民主派？#!#![concept_journal_entry]的#v 第三阶段#!将被解锁。在对#v 新事#!通谕的诠释问题上，@ig_christian_democrats! #blue 天主教徒#!将发生不可调和的分裂，分裂为@ig_christian_democrats! #blue 基督教民主主义者#!和@ig_reactionaries! #purple 民族保守主义者#!（#italic 取代旧的反动主义者#!），两派都将获得更多支持。\n\n#lore 就我们正在讨论的问题而言，一个首要的恶是，想当然地认为社会的某个阶级本身敌视另一个阶级，仿佛自然让富人与穷人相互对立，在不可调和的战争中殊死搏斗。这与理性和真理如此相悖，事实恰恰相反；因为正如在人体中不同的肢体彼此和谐，从而产生了人体构图中那恰如其分被称为对称的布局与比例，自然也在国家中命令上述两个阶级应当和谐相处，恰当地形成彼此均衡的对应。\n\n——教皇利奥十三世，1891年#!"
+
+ je_bpm_light_amidst_darkness_status: "如今，迎来一种造成分裂的哲学。"
+
+ bpm_papal_encyclicals.3.t: "《新事》"
+ bpm_papal_encyclicals.3.d: "#v 天主教会#!和罗马主教#v 教皇利奥十三世#!，公开回应了普通劳动者的苦难，以及应对资本主义所造成种种问题的福利与社会行动手段。他表示支持类似工会的运动，谴责社会主义和资本主义，并公开支持以有机主义的方式来建设国家与经济。"
+ bpm_papal_encyclicals.3.f: "没有什么比看清世界的真实面貌，同时又在别处……为其困境寻求慰藉更有益的了。\n\n——教皇利奥十三世，1891年"
+ bpm_papal_encyclicals.3.a: "他是革命者还是温和派？"
+
+ je_bpm_graves_de_communi_re: "论现代时局"
+ je_bpm_graves_de_communi_re_reason: "上一部重大通谕#v 《新事》#!的发布，在如今政治活跃的天主教运动中激起了巨大的行动力与多样性，这些运动开始以该通谕作为其纲领的思想基础。尽管#v 利奥十三世#!确实希望天主教徒参与公共生活，但他并不想让这些团体混淆他们应当奉行的术语与目标。\n\n这是一个[Concept('concept_bpm_global_je', '全局日志条目')]。它每月根据各种数值获取进度，例如：\n#P +#! [Concept('concept_bpm_ig_is_socialist', '社会主义')][concept_interest_group]的[concept_clout]或[Concept('concept_political_movement', '政治运动')]；\n#P +#! [GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]和[GetInterestGroupVariant('ig_reactionaries',GetPlayer).GetNameWithCountryVariant][Concept('concept_interest_group', '利益集团')]的[concept_clout]\n#P +#! 拥有[GetLawType('law_census_voting').GetName]#v 或更高#!选举权的世界各国政府的[concept_legitimacy]；\n\n完成之后，#bold #gold 基督徒，还是民主派？#!#![concept_journal_entry]的#v 第四阶段#!将被解锁。#v 《论基督宗教的民主》#!将主要削弱@ig_christian_democrats! #blue 基督教民主#!运动，并削弱其激进上扬的势头。\n\n#lore 此外，把基督教民主这一名称歪曲到政治上去，将是一种罪行，因为尽管民主在语文学和哲学含义上都意味着人民治理，然而在目前的应用中，它必须被使用得不带任何政治含义，只意味着为民众谋福祉的基督教行动，仅此而已。因为自然与福音的法则，以其权利而言高于一切人事变迁，必然独立于一切特定的民政政府形式，同时又与一切不悖于道德和正义的事物相和谐。\n\n——教皇利奥十三世，1901年#!"
+ je_bpm_graves_de_communi_re_status: "削弱天主教运动。"
+
+ bpm_papal_encyclicals.4.t: "《论基督宗教的民主》"
+ bpm_papal_encyclicals.4.d: "#v 天主教会#!和罗马主教#v 教皇利奥十三世#!，公开回应了[GetReligion('catholic').GetName]起源的种种新兴思想，主要是基督教民主。他界定了基督教民主的含义，它#bold 必须#!与其他意识形态有何区别，其目标，以及其他澄清与说明。"
+ bpm_papal_encyclicals.4.f: "与之相反，基督教民主，正因其是基督教的，必然建立在神圣信仰的基本原则之上，它必须为大众提供更好的境况，其更深层的目标在于促进为永恒之物而生的灵魂臻于完善。\n\n——教皇利奥十三世，1901年"
+ bpm_papal_encyclicals.4.a: "那他们到底是不是威胁？"
+
+
+ ############### Census suffrage bill
+
+ bpm_new_wine_old_wineskins_flavour.100.t: "选举权改革"
+ bpm_new_wine_old_wineskins_flavour.100.d: "对更广泛选举权的追求，在工人阶级和政治精英中稳步增长。支持的增长促使议会提出了一项扩大选举权的法案——[GetLawType('law_census_voting').GetName]——它仍然偏袒那些较为富裕的人。不久之后，一项《市政选举法》被提出，扩大了选举地方政府的选举权。"
+ bpm_new_wine_old_wineskins_flavour.100.f: "今天，你需要黄金，大量的黄金，才能享有发言权；而我们还不够富有。为穷人沉默吧。\n\n——费利西泰·德·拉梅内，1848年"
+ bpm_new_wine_old_wineskins_flavour.100.a: "审慎的代表制只能以这种方式实现。"
+
+ bpm_new_wine_old_wineskins_flavour.101.t: "工场规章法"
+ bpm_new_wine_old_wineskins_flavour.101.d: "随着劳动者恶劣的生活与工作条件所引发的激进主义高涨，[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]提出了一项法案，对雇佣条件进行监管与控制。该法案引入了各种虽非全面、但涉及安全、卫生以及对工人恶劣条件监管的规则。"
+ bpm_new_wine_old_wineskins_flavour.101.f: "#italic 第一条。——在工业与商业企业以及省级和市政部门中，凡雇用至少十名工人的，都必须依照本法规定的方式制定书面的工场规章。\n\n此项义务可通过敕令扩展至雇用少于十名工人的企业。到1900年之前，将扩展至雇用至少五名工人的企业。#!\n\n——《工场规章法》，1896年6月15日"
+ bpm_new_wine_old_wineskins_flavour.101.a: "希望这能奏效。"
+ 
+ bpm_new_wine_old_wineskins_flavour.102.t: "农业改革"
+ bpm_new_wine_old_wineskins_flavour.102.d: "农业已经有一段时间状况不佳。总体落后，既缺乏现代工具，也与国内其他地区缺乏联系。[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]对农业发展高度关注，推动了一项扶持大小农业经营的法案。"
+ bpm_new_wine_old_wineskins_flavour.102.f: "你要吃亲手劳碌所得的果实；你必蒙福，凡事亨通。\n\n——诗篇 128:2"
+ bpm_new_wine_old_wineskins_flavour.102.a: "希望这能奏效。"
+
+ bpm_new_wine_old_wineskins_flavour.103.t: "宗教学校拨款"
+ bpm_new_wine_old_wineskins_flavour.103.d: "所有[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]都珍视的主要事务之一，就是宗教教育，尤其是由国家斥巨资资助的宗教教育。于是，保守派推动立法通过了一项法案，确保为宗教教育和教会组织提供更多拨款。"
+ bpm_new_wine_old_wineskins_flavour.103.f: "再说，如果义务教育是无害的倒也罢了。但当我们审视其倡导者的思想时，我们确信并非如此：从这项研究中可以汲取许多教训。我坚持认为，义务教育在许多地方会导致强制性的学校化，而这正是教会的敌人和一切天启宗教的敌人普遍倡导它的原因。这正是需要加以确证的事情。\n\n——夏尔·沃斯特，1907年"
+ bpm_new_wine_old_wineskins_flavour.103.a: "我确信这事会有个好收场……"
+
+ bpm_new_wine_old_wineskins_flavour.104.t: "小型监管措施"
+ bpm_new_wine_old_wineskins_flavour.104.d: "不断恶化的生活条件和普遍的不满，促使[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]提出一项针对并监管采矿业的法案。它引入了关于采矿卫生、安全和雇佣的法规，还禁止妇女在矿上工作。"
+ bpm_new_wine_old_wineskins_flavour.104.f: "原则上，我对强制措施始终十分反感。我知道有人会举出例子，比如为了国家和社会的利益而施加于个人的种种约束，我也并不否认其中大多数是必要的。但这不能成为将其扩展到本可避免的领域的理由。\n\n——夏尔·沃斯特，1907年"
+ bpm_new_wine_old_wineskins_flavour.104.a: "虽小，却意义重大。"
+
+ bpm_new_wine_old_wineskins_flavour.105.t: "雇佣工资改革"
+ bpm_new_wine_old_wineskins_flavour.105.d: "[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]提出的一项法案，扩大了国家对勤恳诚实工作的劳动者的支持。这项法案虽然给予甚少，但将扩大以确保工人能够生存。"
+ bpm_new_wine_old_wineskins_flavour.105.f: "一旦必需与正当的需求得到满足，其余所拥有的就属于穷人。\n\n——教皇利奥十三世，1891年"
+ bpm_new_wine_old_wineskins_flavour.105.a: "一项出奇有争议的法案……"
+
+ bpm_new_wine_old_wineskins_flavour.106.t: "周日休息法"
+ bpm_new_wine_old_wineskins_flavour.106.d: "秉持虔诚之心，[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]通过了一项引入周日休息的法案，规范工时，并允许在重要的（主要是宗教的）事件发生时休假。这项法案骨子里深受宗教引导，却遭到议会中所有政党的反对。"
+ bpm_new_wine_old_wineskins_flavour.106.f: "当记念安息日，守为圣日。六日要劳碌做你一切的工，但第七日是向耶和华你神当守的安息日……\n\n——出埃及记 20:8-10"
+ bpm_new_wine_old_wineskins_flavour.106.a: "谦逊一向是所有基督徒的指导原则。"
+ 
+ bpm_law_effect_tt_repeatable_different_wine_content: "@information! #blue 当#bold 旧皮囊里的新酒#![concept_journal_entry]激活时，以下效果会有所不同。#!"
+
+ bpm_entrenching_power: "巩固权力"
+ bpm_dissatisfied_with_paternalism: "对家长主义不满"
+ bpm_paternalistic_policy: "家长式福利政策"
+
+ bpm_curia_system_voting: "多元体制的效果"
+ bpm_municipality_elections_bill: "市政选举权改革"
+ bpm_agricultural_reforms: "农业改革与努力"
+ bpm_religious_schools_funded: "宗教学校的追加拨款"
+ bpm_barebones_wage: "最低限度工资"
+
+ ig_mlodzi_endecy: "青年民族派"
+ ig_mlodzi_endecy_desc: "$ig_national_conservatives_catholic_desc$"
+
+ ig_rexists: "雷克斯党人"
+ ig_rexists_desc: "$ig_national_conservatives_catholic_desc$"
+ bpm_empowered_church_institutions: "赋权教会机构"
+
+ christdems_cons_in_the_same_party: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]和[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetNameWithCountryVariant]同在一个[concept_party]"
+ christdems_dont_have_divine_and_are_rather_progressive_welfare: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]#bold 没有#![GetIdeology('ideology_dop_divine_democrat').GetName]，且拥有[GetIdeology('ideology_wel_social_market_welfare').GetName]或[GetIdeology('ideology_wel_expanded_public_welfare').GetName]"
+
+ FROM_INDEPENDENCE_FROM_THE_CHURCH_JE: "发达的天主教平信徒运动"
+ bpm_from_hostility_towards_democracy: "对民主的敌视"
+ bpm_from_no_common_enemy: "缺乏共同的革命敌人"
+
+ organic_democrat_ig_marginalized: "[Concept('concept_bpm_ig_is_organicist', '有机主义')][concept_interest_group]处于[concept_marginalized]"
+
+ from_professional_interests_no_parties_allowed: "禁止政党法律"
+ from_rural_interests_no_parties_allowed: "禁止政党法律"
+ from_church_interests_no_parties_allowed: "禁止政党法律"
+ from_very_unsatisfied_with_the_existing_system: "非常不满" 
+ from_unsatisfied_with_the_existing_system: "不满"
+ from_independents_against_organic_democracy: "整体上反对有机民主"
+ from_trade_union_interests_no_parties_allowed: "禁止政党法律"
+
+ from_conservatives_no_parties_allowed: "保守-农本的经济方针"
+ from_laissez_faire_no_parties_allowed: "自由放任意识形态"
+ party_church_parish: "教堂教区"
+ from_invterventionist_no_parties_allowed: "对干预主义的强力支持"
+ from_religious_welfare_no_parties_allowed: "宗教驱动的福利" 
+
+ bpm_from_catholic_coalition: "弱势的左翼天主教徒与弱势的右翼天主教徒合作"
+ from_organicism: "身为有机民主主义者"
+ from_discontent_monarchist: "不满的君主主义者"
+ from_monarchist_catholics: "君主主义天主教徒"
+ from_powerful_christian_democrats: "强大的基督教民主主义者"
+ from_devout_atheism: "无神论国家中的虔信者"
+ bpm_from_an_undemocratic_state: "一个自由主义不彰的国家"
+
+ christdems_have_centralized_economy_tooltip: "[GetInterestGroupVariant('ig_christian_democrats',GetPlayer).GetNameWithCountryVariant]拥有[GetIdeology('ideology_eco_centralized_economy').GetName]且[concept_in_government]"
+
+ je_christian_democrats_tooltip: "进度由以下因素决定：\n#variable [GetGlobalVariable('je_christian_democracy_progress_from_base').GetValue|+=]#! 基础值\n#variable [GetGlobalVariable('je_christian_democracy_progress_from_powerful_igs').GetValue|+=]#! 来自每个[Concept('concept_great_power', '列强')]中强大的[Concept('concept_bpm_ig_is_left_wing', '左翼')][Concept('concept_interest_group', '利益集团')]\n#variable [GetGlobalVariable('je_christian_democracy_progress_from_influential_igs').GetValue|+=]#! 来自每个[Concept('concept_great_power', '列强')]中有影响力的[Concept('concept_bpm_ig_is_left_wing', '左翼')][Concept('concept_interest_group', '利益集团')]\n#variable [GetGlobalVariable('je_christian_democracy_progress_from_agitators').GetValue|+=]#! 来自每个[Concept('concept_great_power', '列强')]中活跃的[Concept('concept_bpm_socialist_agitator', '社会主义煽动者')]\n#variable [GetGlobalVariable('je_christian_democracy_progress_from_socialist_movements').GetValue|+=]#! 来自每个[Concept('concept_great_power', '列强')]中活跃的[Concept('concept_political_movement', '社会主义运动')]\n#variable [GetGlobalVariable('je_christian_democracy_progress_from_radical_movements').GetValue|+=]#! 来自每个[Concept('concept_great_power', '列强')]中活跃的[Concept('concept_political_movement', '激进运动')]\n#variable [GetGlobalVariable('je_christian_democracy_progress_from_laissez_faire_movements').GetValue|+=]#! 来自每个[Concept('concept_great_power', '列强')]中活跃的[Concept('concept_political_movement', '自由放任运动')]\n#variable [GetGlobalVariable('je_christian_democracy_progress_from_moralist_powerful_igs').GetValue|+=]#! 来自每个[Concept('concept_great_power', '列强')]中强大的[Concept('concept_bpm_ig_is_religious', '道德主义者')][Concept('concept_interest_group', '利益集团')]" # \n#variable [GetGlobalVariable('je_christian_democracy_progress_from_moralist_influential_igs').GetValue|+=]#! from Influential [Concept('concept_bpm_ig_is_religious', 'Moralist')] [Concept('concept_interest_group', 'Interest Groups')] in every [Concept('concept_great_power', 'Great Power')]
+ party_centre_party: "中央党"
+ je_bpm_christ_dem_pedia_tooltip: "ChristDemPedia是模组内置的小型维基，用于帮助你了解历史上存在过的各种@ig_christian_democrats! #blue 基督教民主#!政党、派系、团体和类型（我们能够充分阅读并了解的那些）（#italic 直至#bold 1939年#!#!），而无需在工具提示之间来回跳转！所有团体/派系都写明了其[Concept('concept_ideology', '意识形态')]、他们是谁、由谁领导以及信仰什么。得益于广泛而详尽的研究，有些还获得了多页历史。\n\n在这些页面中，你可以找到关于它们及其内部派系的信息，以及它们在政治、经济等方面的政策。“在意识形态光谱上的定位”是基于与其他#blue 基督教民主主义者#!的回顾比较，而非与其他意识形态的比较。\n\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_what_is_christian_democracy_tooltip #v 什么是基督教民主？#!#!\n\n拥有@ig_christian_democrats! #blue 基督教民主主义者#!/@ig_reactionaries! #purple 民族保守主义者#!的国家：\n\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_krikscionys_demokratai_tooltip #v 立陶宛#!#!；\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_chadecy_tooltip #v 波兰#!#!；\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_lidovci_tooltip #v 捷克斯洛伐克#!#!；\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_christlichsozialen_tooltip #v 奥地利#!#!；\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_young_right_tooltip #v 比利时#!#!；\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_popular_democrats_tooltip #v 法国#!#!；\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_popolari_tooltip #v 意大利#!#!；\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_zentrumites_tooltip #v 德国#!#!；\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_katholieken_tooltip #v 荷兰#!#!；\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_catholics_tooltip #v 瑞士#!#!；\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_innovateuren_tooltip #v 卢森堡#!#!" # \n\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_what_is_national_conservatism_tooltip #v 什么是民族保守主义？#!#! #  @ig_reactionaries! #purple National Conservative#!
+ je_bpm_what_is_national_conservatism_tooltip: "#v 什么是民族保守主义#!\n\n@ig_reactionaries! #purple 民族保守主义者#!致力于将其国家改革为一个理想化、传统主义却又带有些许现代主义色彩的国家。在天主教世界中，这样的国家将遵循《新事》通谕的右翼诠释——即一个真正的#v 有机#!国家。"
+ je_bpm_what_is_christian_democracy_tooltip: "#v 什么是基督教民主？#!\n\n@ig_christian_democrats! #blue 基督教民主#!的定义在学者中仍争论不休，存在多种不同的进路。我们决定遵循#bold 功能主义#!进路（#italic 由#bold 卡尔·因韦尔尼齐·阿切蒂#!在其著作《#bold 什么是基督教民主？#!》中作了更详尽的阐述与比较#!）。它将#v 基督教民主#!定义为一种面临特定挑战的政治意识形态：#italic 使基督教与现代民主和解#!。\n\n最重要的是，这一定义并未将基督教民主化约为某种特定的、本质主义的信念集合——那可能会将那些使用这一标签、但其信念不符合定义的群体排除在外。这意味着在这一标签下，我们可以纳入彼此截然对立的异质群体与信念，例如立陶宛族裔民族主义的#v Krik??ionys Demokratai#!与意大利国际主义的#v 平民主义者#!，但两者都有他们要回应的挑战。\n\n它也划出了一条清晰的界线，区分于其他形式、在不同程度上以天主教社会训导为基础的#v 政治天主教#!；或那些信奉民主、却谋求引入不同替代形式或形态的群体。例如，这清晰地将其与@ig_reactionaries! #purple 民族保守主义者#!（#italic 及其众多名目#!）——天主教思想的右翼——区分开来，他们对民主采取不同的进路：与其像@ig_christian_democrats! #blue 基督教民主主义者#!那样谋求使基督教与现代民主和解、从而支持自由民主制度，民族保守主义者谋求拆解并取代现存的自由民主制度，代之以有机的制度。\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+ je_bpm_group_innovateuren_tooltip: "#v 敬请期待！#!（#italic :SHRUG:#!）"
+ je_bpm_group_zentrumites_tooltip: "#v 中央党人#!（#italic：德语：#bold Zentristen#!#!），又称#v 中央派#!，是构成整个德国中央党（#italic 德语：#bold Deutsche Zentrumspartei, DZP，#italic 简称#!#v Z#!#!#!）的、以@ig_christian_democrats! #blue 基督教民主#!为主的#gold 天主教徒#!。#v 中央党人#!由代表形形色色意识形态的众多人物领导——早期数十年最有名的例子是#bold 路德维希·温特霍斯特#!和#bold 威廉·埃马努埃尔·冯·克特勒#!；而在最后几十年，像#bold 威廉·马克思#!和#bold 海因里希·布吕宁#!这样的人物在党内极具影响力。他们的根基总体上在于各行各业的#gold 天主教徒#!之中。\n\n由于#v 中央党人#!是一个庞大而多元的群体，在许多方面各不相同，且取决于谁最具影响力，因此很难说他们左倾还是右倾，但他们大多偏向自由民主制度。所以，非常概括地说，#v 中央党人#!政治上中左、经济上中间、社会上中右。\n\n#v 中央党人#!#bold 并非#!一个[Concept('concept_party', '宗派政党')]，自诞生之日起他们就谋求获得#gold 新教徒#!的支持。\n\n在政治方面，#v 中央党人#!总体倾向于[GetLawType('law_universal_suffrage').GetName]和去中心化，在女性投票和代表制上立场更为多元。早年，#v 中央党人#!在“#bold 文化斗争#!”期间反对学校教育和法律的世俗化；而在#gold 魏玛共和国#!时期，他们对世俗化总体上则较为务实。\n\n在经济方面，#v 中央党人#!总体倾向于有限的国家干预；对[GetLawGroup('lawgroup_trade_policy').GetName]和[GetLawGroup('lawgroup_taxation').GetName]的意见更为复杂。他们支持乡村发展和总体广泛的福利，但在#bold 大萧条#!期间，紧缩倾向主导了政策；在#bold 中央党#!青年中，对更为积极的国家干预的支持——包括#bold 社会化#!和#bold 国家计划#!——大为增长。然而，该[concept_party]在#bold 1933年#!的自行解散使任何可能的变革都无从实现。\n\n在社会方面，#v 中央党人#!通常不赞成反犹主义和敌对的民族主义，支持防御性的军队。在“#bold 文化斗争#!”期间，他们试图争取其他#gold 天主教徒#!的支持，主要来自#gold 波兰人#!和#gold 阿尔萨斯人#!，但大多未能成功。#v 中央党人#!在与欧洲其他@ig_christian_democrats! #blue 基督教民主#!政党的紧密联系上也较为务实，总体谋求获得影响力和支持。\n\n以下意识形态尽可能贴切地代表#v 中央党人#!：[GetIdeology('ideology_gov_moderate_monarchist').GetName] / [GetIdeology('ideology_gov_liberal_republican').GetName]；[GetIdeology('ideology_exe_weak_rigid').GetName]；[GetIdeology('ideology_dop_christian_democrat').GetName]；[GetIdeology('ideology_sta_federated_state').GetName]；[GetIdeology('ideology_eco_modern_interventionist').GetName]；[GetIdeology('ideology_wel_expanded_public_welfare').GetName]；[GetIdeology('ideology_cit_liberal_nationalist').GetName]；[GetIdeology('ideology_rel_pragmatic_moralist').GetName]；[GetIdeology('ideology_mil_patriotic_liberal').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+ je_bpm_group_young_right_tooltip: "#v 青年右翼#!（#italic 法语/瓦隆语：#bold Jeune Droite#!，荷兰语/弗拉芒语：#bold Jong Rechts#!#!）是比利时#bold 天主教党#!的一个@ig_christian_democrats! #blue 基督教民主#!政治运动和派系，谋求推行各种#gold 政治#!和#gold 社会改革#!，由#bold 若里斯·赫勒普特#!、#bold 阿瑟·费尔哈根#!和#bold 朱尔·伦金#!等人领导。#v 青年右翼#!强烈反对以夏尔·沃斯特为主要领导、自视为无人挑战的右翼领袖的、保守和家长式精英主义的@ig_conservatives! #v 旧右翼#!（#italic 法语/瓦隆语：#bold Vieille Droite#!，荷兰语/弗拉芒语：#bold Oud Rechts#!#!）。\n\n#v 青年右翼#!政治上中左、经济上中间、社会上中左。\n\n他们支持推行[GetLawType('law_universal_suffrage').GetName]和建立某种类似基督教民主的制度；扩展#gold 比利时#!的去中心化并赋权地方行政，确保宗教在国家中的重要性。与大多数其他基督教民主主义者不同，他们对[GetTechnology('corporatism').GetName]和任何形式的家长主义不那么友好。\n\n他们还支持为所有工人提供广泛而全面的福利，监管经济并加强国家对经济的干预，并谋求通过累进税制再分配财富。\n\n#v 青年右翼#!相对国际主义与和平主义，许多青年成员拒绝使用任何民族象征，视其为本质上反动的。#v 青年右翼#!也非常赞同建立统一的比利时认同、尽可能拉近弗拉芒人与瓦隆人的理念，使两个民族水乳交融、差异微乎其微。\n\n以下意识形态尽可能贴切地代表#v 青年右翼#!：[GetIdeology('ideology_gov_moderate_monarchist').GetName]；[GetIdeology('ideology_exe_weak_rigid').GetName]；[GetIdeology('ideology_dop_christian_democrat').GetName]；[GetIdeology('ideology_sta_regionalized_state').GetName]；[GetIdeology('ideology_eco_modern_interventionist').GetName]；[GetIdeology('ideology_wel_expanded_public_welfare').GetName]；[GetIdeology('ideology_cit_christian_internationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_antimilitarist').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]\n\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_young_right_p1 #bold #grey 历史：第一页#!#!#!\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+ je_bpm_group_oreliten_tooltip: "#v 社会浪漫派#!（#italic 德语/奥地利德语：#bold Soziale Romantiker#!#!）是基督教社会党（#italic 德语：#bold Christlichsoziale Partei, CS/CSP#!#!）内部一个相对较小、充满对抗性的团体。#v 社会浪漫派#!围绕奥地利政治家——#bold 安东·奥雷尔#!、#bold 卡尔·卢格迈尔#!和#bold 维亚德·冯·克洛普#!——展开，其中前者最为重要。他们紧密追随#bold 卡尔·冯·福格尔桑#!的政治经济思想，总体围绕一个高度去中心化的有机国家；以及以中小型所有权（工业和乡村皆然）为中心的法团主义经济。\n\n很难用现有#bold BPM#![Concept('concept_interest_group', '利益集团')]的框架来界定他们，但由于他们对1934-1938年“现代主义”的“等级国家”、反资本主义以及极端反犹主义的强烈鄙夷，我们将其归类为@ig_reactionaries! #purple 民族保守主义者#!。\n\n#v 社会浪漫派#!在#bold CSP#!内部非常弱小、年轻。尽管颇具战斗性，他们却很少得到天主教青年主流#v 人民联盟派#!的支持。#bold 奥雷尔#!的青年协会发展得还算不错，但不幸的是还不足以使他获得赋能。#bold 安东·奥雷尔#!及其团体常常脱离、分裂出或被逐出#bold CSP#!，例如在#italic 1918年#!和#italic 1924年#!。\n\n以下意识形态尽可能贴切地代表#v 社会浪漫派#!：[GetIdeology('ideology_gov_placeholder').GetName]；[GetIdeology('ideology_dop_organic_democrat').GetName]；[GetIdeology('ideology_sta_organic_state').GetName]；[GetIdeology('ideology_eco_distributist_economy').GetName]；[GetIdeology('ideology_wel_distributist_welfare').GetName]；[GetIdeology('ideology_cit_multiethnic_nationalist').GetName]；[GetIdeology('ideology_rel_radical_moralist').GetName]；[GetIdeology('ideology_mil_patriotic_liberal').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+ je_bpm_group_seipelites_tooltip: "#v 赛佩尔派#!（#italic 德语/奥地利德语：#bold Seipeliten#!#!）是基督教社会党（#italic 德语：#bold Christlichsoziale Partei, CS/CSP#!#!）内部的一个派系。顾名思义，#v 赛佩尔派#!围绕两次大战之间#bold CSP#!的领袖——#bold 伊格纳茨·赛佩尔#!及其圈子展开。尽管#bold 赛佩尔#!掌握领导权，许多#v 赛佩尔派#!也是党内精英，但他们并不拥有群众支持，在[concept_party]内部本身也属于少数。最典型的例子是，在#italic 1929年宪法改革#!中，令#bold 赛佩尔#!大为不满的是，他们未能引入第二个法团主义议院。\n\n起初，他们对#gold 奥地利#!的#italic 议会民主#!相对积极，但随着时间推移，他们对其愈发鄙夷和宿命论，更倾向于对它进行试验。同样的过程也发生在#gold 奥地利#!#italic 社会民主#!#bold SDAP?#!以及#bold 基督教社会党#!的其余部分，当然程度各不相同。\n\n#bold 伊格纳茨·赛佩尔#!终其一生发展出一种“真正的民主”理念，即没有政党纷争、通过去中心化组织来行使统治。他的这一理念从未在党内领导层获得支持，而党权正慢慢被@ig_fascists! #v 奥地利法西斯#!接管。他也无法在其他@ig_christian_democrats! #bold 基督教社会党人#!的行列中找到支持。\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+ je_bpm_group_laborists_and_agrarians_tooltip: "#v 劳工派#!（#italic 德语/奥地利德语：#bold Laboristen#!#!）和#v 农本派#!（#italic 德语/奥地利德语：#bold Agrarianer#!#!）是#italic 两次大战之间#!时期基督教社会党（#italic 德语：#bold Christlichsoziale Partei, CS/CSP#!#!）内部的派系。#v 劳工派#!围绕#bold 利奥波德·昆沙克#!展开，而#v 农本派#!则没有一位鲜明的领导人物。\n\n#v 劳工派#!和#v 农本派#!政治上中右、经济上中右、社会上中右。\n\n#v 劳工派#!主要致力于扩大劳工改革与整合；其立场大多反映了#v 人民联盟派#!，但远为保守。由于#gold 奥地利#!内部日益加剧的两极分化和宿命论，#v 劳工派#!对社会主义及其形形色色的思想愈发敌视，甚至支持限制[GetLawGroup('lawgroup_labour_associations').GetName]、财政保守主义和更强大的国家；但仍支持议会政治。\n\n#v 农本派#!主要关注乡村发展，因为#gold 奥地利#!仍然十分落后。他们远为分权、组织松散，有时甚至敌视城市主义（#bold 在1918年的混乱中，#v 农本派#!反对救济饥荒中的城市#!）。\n\n[GetIdeology('ideology_gov_liberal_republican').GetName]；[GetIdeology('ideology_dop_conservative_democrat').GetName]；[GetIdeology('ideology_sta_federated_state').GetName]；[GetIdeology('ideology_eco_distributist_economy').GetName]；[GetIdeology('ideology_wel_distributist_welfare').GetName]；[GetIdeology('ideology_cit_multiethnic_nationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_patriotic_liberal').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+ je_bpm_group_reformists_and_volksbund_tooltip: "#v 改革派#!（#italic 德语/奥地利德语：#bold Reformisten#!#!）和#v 人民联盟成员#!（#italic 德语/奥地利德语：#bold Volksbundler#!#!）是基督教社会党（#italic 德语：#bold Christlichsoziale Partei, CS/CSP#!#!）内部的派系。#v 改革派#!围绕#bold 阿尔贝特·格斯曼#!和#bold 海因里希·马塔亚#!展开，而#v 人民联盟派#!由#bold 里夏德·施密茨#!和#bold 利奥波德·昆沙克#!领导。两派在使#bold CSP#!现代化、扩大选民基础和发展新思想方面密切合作。\n\n#v 改革派#!和#v 人民联盟派#!政治上中左、经济上中左、社会上中右。\n\n#v 改革派#!主要致力于使党内结构、领导、组织与联系现代化；扩大选民基础，与维也纳的#v 市民派#!作斗争，并使纲领现代化。他们推动党走向资本主义，抛弃了旧日的#bold 福格尔桑#!思想（这大大触怒了#v 社会浪漫派#!），并将选民基础扩展向城市工人选民。他们常将#v 人民联盟派#!的思想纳入党纲。\n\n#v 人民联盟派#!专注于意识形态发展，将选民基础扩展向农民、工人和青年。他们推动党走向资本主义，支持“#bold 国家社会主义#!”（施密茨）、比例代表制、[GetLawType('law_womens_suffrage').GetName]、广泛的劳工改革、“#bold 普及化#!”[GetLawType('law_universal_suffrage').GetName]（用于市政选举）。\n\n以下意识形态尽可能贴切地代表#v 改革派与人民联盟派#!：[GetIdeology('ideology_gov_moderate_monarchist').GetName]；[GetIdeology('ideology_dop_christian_democrat').GetName]；[GetIdeology('ideology_sta_federated_state').GetName]；[GetIdeology('ideology_eco_modern_interventionist').GetName]；[GetIdeology('ideology_wel_expanded_public_welfare').GetName]；[GetIdeology('ideology_cit_multiethnic_nationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_patriotic_liberal').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+ je_bpm_group_corporatists_tooltip: "#v 市民派#!（#italic 德语/奥地利德语：#bold Bürgerliche#!#!）是基督教社会党（#italic 德语：#bold Christlichsoziale Partei, CS/CSP#!#!）内部的一个派系。#v 市民派#!主要由#bold 里夏德·魏斯基希纳#!领导，代表该党的#italic 维也纳#!支部，主要得到维也纳工匠、店主和公务员的支持。\n\n他们的主要目标是维持维也纳的“法团主义”体制，其运作方式类似[GetLawType('law_census_voting').GetName]，偏袒较富裕者。他们在#italic 1918年#!#bold 奥匈帝国#!崩溃、以[GetLawType('law_universal_suffrage').GetName]取代库里亚体制、以及维也纳最终落入#v 社会民主党#!（#italic #bold SDAP?#!#!）之手后便消失了。一旦#v 市民派#!失去所有权力、党被其他所有潮流接管，#italic #bold 基督教社会党#!#!内部的#v 城乡#!分野也随之消失。该派系的残余及其位置被#v 教权派#!接管，而后者与前者几乎只在——正如其名所示——教权主义以及策略方法上有所不同。\n\n以下意识形态尽可能贴切地代表#v 市民派#!：[GetIdeology('ideology_gov_moderate_monarchist').GetName]；[GetIdeology('ideology_dop_moderate_democrat').GetName]；[GetIdeology('ideology_sta_federated_state').GetName]；[GetIdeology('ideology_eco_distributist_economy').GetName]；[GetIdeology('ideology_wel_distributist_welfare').GetName]；[GetIdeology('ideology_cit_multiethnic_nationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_patriotic_liberal').GetName]；[GetIdeology('ideology_fem_moderate_patriarchal').GetName]\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+ je_bpm_group_popolari_tooltip: "术语#v 平民党人#!（#italic 意大利语：#bold Popolari#!#!）指的是意大利人民党（#italic 意大利语：#bold Partito Popolare Italiano, PPI#!#!）的成员。尽管PPI的所有成员常被统称为#italic Popolari#!，但其中少数人并不遵循#bold 斯图尔佐#!式平民主义的原则。有时在外国史学中，PPI成员被称为#italic 平民党人#!，而#bold 斯图尔佐#!学说的信奉者则被称为#italic 平民主义者#!。\n\n#green 农本平民主义者#!\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_whites_tooltip @ig_agrarian_populists! #bold 白派#!#!（#italic 意大利语：#bold Bianchi#!#!）；\n\n#blue 基督教民主主义者#!\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_popularists_tooltip @ig_christian_democrats! #bold 平民主义者（左派）#!#!（#italic 意大利语：#bold Popolari#!#!）；\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_popularists_tooltip @ig_conservatives! #bold 平民主义者（右派）#!#!（#italic 意大利语：#bold Popolari#!#!）；\n\n#purple 民族保守主义者#!\n@ig_reactionaries! #bold 保守天主教徒#!（#italic 意大利语：#bold Cattolici Conservatori#!#!）；\n\n#italic PPI#!中可能的[Concept('concept_bpm_institutional_ig', '机构性利益集团')]：\n@trade_unions! 保守工会；"
+ je_bpm_group_christlichsozialen_tooltip: "#v 基督教社会党人#!（#italic 德语/奥地利德语：#bold Christlichsozialen#!#!）是代表#gold 奥地利#!政治右翼的各种、以@ig_christian_democrats! #blue 基督教民主#!为主的高度多元的潮流。\n\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_oreliten_tooltip #bold 社会浪漫派#!#!\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_reformists_and_volksbund_tooltip #bold 改革派与人民联盟派#!#!\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_corporatists_tooltip #bold 市民派#!#!\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_seipelites_tooltip #bold 赛佩尔派#!#!\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_group_laborists_and_agrarians_tooltip #bold 劳工派与农本派#!#!"
+ je_bpm_group_christlichsozialen_2_tooltip: "#v 共和国时期的基督教社会党人：#!\n#v 基督教社会党人#!政治上非自由-法团主义、经济上保守、社会上温和。\n\n随着#bold 第一共和国#!的建立，#v 基督教社会党人#!在[GetLawType('law_universal_suffrage').GetName]和议会制上变得更加非自由、法团主义和矛盾，尽管他们最终接受了[GetLawType('law_womens_suffrage').GetName]。他们对社会主义和自由政治的鄙夷大为增长，其宗教道德主义和反世俗主义亦然。他们仍支持一个联邦制的#gold 奥地利#!国家，并更支持有限的个人自由。\n\n经济上，他们支持有限干预但强保护主义的资本主义经济、更为“审慎”的税收和有限的土地改革。除严厉的紧缩措施和财政保守主义外，对国家任何有意义或更大规模经济控制的拥护都在减弱。对社会立法的态度转向非常宗教化、有时甚至是家长式的立场，甚至支持[GetLawType('law_religious_schools').GetName]。\n\n民族主义、反犹主义以及对军队的态度没有太大变化，前两者依然强劲。\n\n以下意识形态尽可能贴切地代表（#italic 共和国时期#!的）#v 基督教社会党人#!：[GetIdeology('ideology_gov_liberal_republican').GetName]；[GetIdeology('ideology_exe_strong_dynamic').GetName]；[GetIdeology('ideology_dop_conservative_democrat').GetName]；[GetIdeology('ideology_sta_federated_state').GetName]；[GetIdeology('ideology_eco_distributist_economy').GetName]；[GetIdeology('ideology_wel_distributist_welfare').GetName]；[GetIdeology('ideology_cit_multiethnic_nationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_patriotic_liberal').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]"
+ je_bpm_group_katholieken_tooltip: "#v 罗马天主教徒#!（#italic 荷兰语：#bold Rooms-katholieken#!#!）是构成荷兰各种罗马天主教[Concept('concept_party', '政党')]——如罗马天主教国家党（#italic 荷兰语：#bold Roomsch-Katholieke Staatspartij, RKSP#!#!）或反革命党的天主教支柱（#italic 荷兰语：#bold Anti-Revolutionaire Partij, ARP#!#!）——全部成员的@ig_christian_democrats! #blue 基督教民主主义者#!。他们谋求在选举政治中代表天主教的#bold 支柱#!，并推行与“#bold 新事#!”通谕理念相一致的改革。他们的根基在于#gold 荷兰#!的大多数天主教徒之中，并无特定的目标群体。\n\n#v 罗马天主教徒#!政治上中左、经济上中间、社会上中右。更偏向#bold 中产阶级#!的#v 罗马天主教徒#!反对扩大选举权，以免让“#bold 贫民窟居民#!”获得投票权，也不让#bold 人民主权#!凌驾于#bold 神授主权#!之上，但也常在推行福利等措施上趋于保守；而更偏向#bold 工人阶级#!的#v 罗马天主教徒#!则支持扩大选举权、更多的福利和经济干预。最受欢迎的左倾#v 罗马天主教徒#!是#bold 赫尔曼·沙普曼#!和#bold 阿尔方斯·阿里恩斯#!。\n\n#v 罗马天主教#!工人创造并普及了这句口号：“#bold 全世界天主教工人联合起来：#italic 新事#!!#!”\n\n在政治上，#v 罗马天主教徒#!支持现有的选举权体制，其中相对多数支持男女[GetLawType('law_universal_suffrage').GetName]。他们还支持比例代表制、去中心化以及确保新教徒与天主教徒平等的[GetLawType('law_freedom_of_conscience').GetName]。\n\n经济上，他们支持国家对经济更积极的干预。对[GetLawGroup('lawgroup_taxation').GetName]的立场各异，总体上支持有限的[GetLawType('law_protectionism').GetName]、阶级合作和温和的乡村发展。#v 罗马天主教徒#!支持一种遵循[GetTechnology('corporatism').GetName]理念的独特福利形式。他们希望福利由非国家行为体——如公司和合作社——来提供，其中福利、教育、住房等由雇主保障；社会无法覆盖的，则由国家承担。\n\n#v 罗马天主教徒#!是自由民族主义者、反军国主义者，在社会议题上总体更保守。他们支持更严格的道德立法，遏制消费主义和酗酒。\n\n以下意识形态尽可能贴切地代表#v 罗马天主教徒#!：[GetIdeology('ideology_gov_moderate_monarchist').GetName]；[GetIdeology('ideology_exe_weak_rigid').GetName]；[GetIdeology('ideology_dop_christian_democrat').GetName]；[GetIdeology('ideology_sta_federated_state').GetName]；[GetIdeology('ideology_eco_modern_interventionist').GetName]；[GetIdeology('ideology_wel_social_market_welfare').GetName]；[GetIdeology('ideology_cit_liberal_nationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_antimilitarist').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+ je_bpm_group_popular_democrats_tooltip: "#v 平民民主党人#!（#italic 法语：#bold démocrate populaires#!#!）是构成平民民主党（#italic 法语：#bold Parti démocrate populaire, PDP#!#!）多数的@ig_christian_democrats! #blue 基督教民主主义者#!。#v 平民民主党人#!遵循#bold 马克·桑尼耶#!和#bold 马塞尔·普雷洛#!的政治学说，以及#bold 奥古斯特·尚佩蒂耶·德里布#!的政治策略。他们的根基非常多元，最大的是体力劳动者#bold 7%#!、实业家#bold 6%#!、农民和商人各#bold 5%#!。\n\n#v 平民民主党人#!政治上左、经济上中左、社会上中左。在#bold 1926年教皇谴责#!了以@ig_reactionaries! #purple 民族保守主义#!为主的#v 法兰西行动#!之后，许多保守和反动的#gold 天主教徒#!转向了#bold PDP#!，使其右移。#v 平民民主党人#!尽管平均拥有#bold 5-6%#!的普遍支持，却苦于毫无权力，甚至连市政权力都没有；困扰他们的另一个问题是缺乏具体、原创的意识形态和社会层面的思想。\n\n政治上，#v 平民民主党人#!支持男女[GetLawType('law_universal_suffrage').GetName]、引入家庭票和比例代表制；但也支持单一制的#gold 法兰西第三共和国#!的广泛去中心化、温和的#bold 天主教#!政策。他们还支持将社会的职业和工会层面纳入政治。在1930年代，一些#v 平民民主党人#!支持一种“#bold 法团民主#!”，类似[GetLawType('law_organic_democracy').GetName]。\n\n经济上，#v 平民民主党人#!支持广泛的国家干预。与#italic 意大利#!的#v 平民主义者#!相似，他们支持[GetLawType('law_graduated_taxation').GetName]#yellow 税#!、有限的[GetLawType('law_protectionism').GetName]以及工厂工人参与（#italic 工人持股和利润分享#!）。他们还支持对经济关键方面的[Concept('concept_nationalize', '国有化')]，在#bold 大萧条#!期间支持就业计划，有时甚至以将妇女排除出劳动力为代价。在[Concept('concept_welfare_payments', '福利')]方面，他们支持以家庭为重点的广泛福利。\n\n社会上，#v 平民民主党人#!的特点是对军国主义的鄙夷和对第一次世界大战后各国和解的支持。他们相对国际主义，总体追求团结全球各国。在保守#gold 天主教徒#!流出#bold PDP#!期间，内部反犹主义滋长。\n\n以下意识形态尽可能贴切地代表#v 平民民主党人#!：[GetIdeology('ideology_gov_liberal_republican').GetName]；[GetIdeology('ideology_exe_strong_dynamic').GetName]；[GetIdeology('ideology_dop_christian_democrat').GetName]；[GetIdeology('ideology_sta_federated_state').GetName]；[GetIdeology('ideology_eco_modern_interventionist').GetName]；[GetIdeology('ideology_wel_expanded_public_welfare').GetName]；[GetIdeology('ideology_cit_christian_internationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_antimilitarist').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+ je_bpm_group_popularists_tooltip: "#v 平民主义者#!（#italic 意大利语：#bold Popolari#!#!）是构成意大利人民党（#italic 意大利语：#bold Partito Popolare Italiano, PPI#!#!）多数的@ig_christian_democrats! #blue 基督教民主主义者#!。#v 平民主义者#!遵循#bold 路易吉·斯图尔佐#!的政治学说和#bold 罗莫洛·穆里#!的教诲，谋求代表天主教徒并依照#bold 平民主义#!（#italic 意大利语：#bold Popolarismo#!#!）的理念改革国家。他们的根基主要在于农村劳动者和农民、神职人员、北方中产阶级和工人之中。\n\n#v 平民主义者#!政治上左、经济上中左、社会上左。更偏#bold 左#!的#v 平民主义者#!总体对与#pink 社会主义者#!的政治联盟持积极态度，更为激进、经济上更进步（#italic 在工人参与和福利方面#!），最著名的人物有#bold 阿喀琉斯·格兰迪#!、#bold 翁贝托·图皮尼#!和#bold 乔瓦尼·格龙基#!；更偏#bold 右#!的#v 平民主义者#!的特点是其保守-温和的立场，更倾向于与#yellow 自由主义者#!结盟，更强调私人福利，也更为不国际主义、对#gold 妇女权利#!更持怀疑态度，最著名的例子是#bold 阿尔契德·德·加斯佩里#!、#bold 乔瓦尼·巴蒂斯塔·米廖里#!和#bold 斯特凡诺·亚奇尼#!。\n\n政治上，#v 平民主义者#!支持男女[GetLawType('law_universal_suffrage').GetName]、比例代表制、扩大公共机构的去中心化、恢复#gold 天主教#!对国家的重要性（[GetLawType('law_freedom_of_conscience').GetName]）以及欢迎将社会-职业层面引入政治。\n\n经济上，他们支持国家积极干预经济、[GetLawType('law_graduated_taxation').GetName]#yellow 税#!、有限的[GetLawType('law_protectionism').GetName]以及工厂工人参与（#italic 工人持股和利润分享#!）。在农业方面，重点放在[GetLawGroup('lawgroup_land_reform').GetName]、乡村发展以及“#bold 大庄园的内部殖民#!”上。他们还支持广泛的社会和福利立法，无论是国内还是国际。\n\n#v 平民主义者#!是和平主义者和国际主义者，强烈鄙夷种族主义和特殊主义，谋求第一次世界大战后各国的和解以及裁军。#bold 斯图尔佐#!连接#italic 政治天主教#![Concept('concept_party', '政党')]的努力徒劳无功，未能引起其大多数成员真正的兴趣。\n\n以下意识形态尽可能贴切地代表#v 平民主义者#!：[GetIdeology('ideology_gov_moderate_monarchist').GetName]；[GetIdeology('ideology_exe_weak_rigid').GetName]；[GetIdeology('ideology_dop_christian_democrat').GetName]；[GetIdeology('ideology_sta_federated_state').GetName]；[GetIdeology('ideology_eco_modern_interventionist').GetName]；[GetIdeology('ideology_wel_expanded_public_welfare').GetName]；[GetIdeology('ideology_cit_christian_internationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_antimilitarist').GetName]；[GetIdeology('ideology_fem_benevolent_sexism').GetName]\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+ je_bpm_group_whites_tooltip: "#v 白派#!（#italic 意大利语：#bold Bianchi#!#!），有时也被贬称为“#bold 白色布尔什维克#!”，是构成意大利人民党（#italic 意大利语：#bold Partito Popolare Italiano, PPI#!#!）“#bold 极左#!”翼的一种天主教@ig_agrarian_populists! #green 农本平民主义者#!和意识形态上的#pink 工会主义者#!。#v 白派#!也指PPI的@trade_unions! #pink 城市工会#!，但该术语更常用于指农本派，有时仅指他们。\n\n#v 白派#!拥有相对广泛的群众支持（#italic 1919年注册的农村劳动者工会会员93万#!），但政治权力很小，且常与PPI其余部分发生冲突。最著名的人物、事实上的领袖是#bold 圭多·米廖利#!，主要报纸是“#bold 行动报#!”。\n\n#v 白派#!主要关注[GetLawType('law_universal_suffrage').GetName]、[GetLawGroup('lawgroup_land_reform').GetName]、和平主义以及乡村发展和福利等问题；他们提议无补偿的土地改革、广泛的乡村发展、对合作社和福利的支持。#bold 米廖利#!有时还号召对“#bold 农业资产阶级#!”进行社会革命，并领导了多次农民罢工和抗议。\n\n以下意识形态尽可能贴切地代表#v 白派#!：[GetIdeology('ideology_gov_placeholder').GetName]；[GetIdeology('ideology_dop_christian_democrat').GetName]；[GetIdeology('ideology_sta_minimal_state').GetName]；[GetIdeology('ideology_eco_modern_agrarian').GetName]；[GetIdeology('ideology_wel_expanded_public_welfare').GetName]；[GetIdeology('ideology_cit_liberal_nationalist').GetName]；[GetIdeology('ideology_rel_modern_moralist').GetName]；[GetIdeology('ideology_mil_antimilitarist').GetName]；[GetIdeology('ideology_fem_placeholder').GetName]\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_christ_dem_pedia_tooltip #bold #gold ChristDemPedia#!#!#!"
+ tooltip_bpm_country_secularists_are_popular: "[GetIdeology('ideology_rel_secularist').GetName]、[GetIdeology('ideology_rel_radical_secularist').GetName]和[GetIdeology('ideology_rel_atheist').GetName][Concept('concept_interest_group', '利益集团')]占总势力的比例>=20%（当前为[GetPlayer.MakeScope.ScriptValue('bpm_secularist_popularity')|%]）"
+ tooltip_bpm_country_moralists_are_popular: "[GetIdeology('ideology_rel_radical_moralist').GetName]、[GetIdeology('ideology_rel_moralist').GetName]和[GetIdeology('ideology_rel_modern_moralist').GetName][Concept('concept_interest_group', '利益集团')]占总势力的比例>=25%（当前为[GetPlayer.MakeScope.ScriptValue('bpm_moralist_popularity')|%]）#v 且#! [Concept('concept_state_religion', '国家')]#bold 不是#![GetReligion('catholic').GetName]"
+ rerum_novarum_issued_tooltip: "“#bold 新事#!”通谕已颁布"

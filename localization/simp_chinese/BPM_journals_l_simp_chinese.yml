@@ -1,0 +1,711 @@
+﻿l_simp_chinese:
+
+# GENERIC LOC
+ bpm_je_progress_complete: "#bold 进度条#!已达到#variable 100%#!"
+ bpm_je_progress_zero: "#bold 进度条#!已达到#variable 0%#!"
+
+ bpm_journal_final_stage: "#bold 进度条#!已达到#variable 66%#!，进入该日志条目的最终阶段。"
+ bpm_je_button_cooldown_week: "此选项不在每周冷却中"
+ bpm_je_button_cooldown_month: "此选项不在每月冷却中"
+
+ bpm_je_reached_stage_2: "#bold 进度条#!此前曾#v 高于33%#!。"
+ bpm_je_reached_stage_3: "#bold 进度条#!此前曾#v 高于66%#!。"
+
+ bpm_je_trigger_bpm_peoples_springtime_happened: "人民之春必须在国际上结束。"
+ bpm_je_trigger_peoples_springtime_not_recent: "人民之春必须已在国际上结束#v 2年#!。"
+
+ bpm_je_trigger_complete_elsewhere: "另一个国家已完成此日志条目。"
+
+ bpm_labor_igs_not_insurrectionary: "没有任何[concept_bpm_ig_is_labor][concept_interest_group]处于[Concept('concept_revolution', '$concept_revolutionary$')]。"
+
+ je_german_unification_idea_trigger_desc: "已完成$je_german_unification_idea$[concept_journal_entry]，且#bold 人民之春#!已经落幕。"
+ je_italian_unification_idea_trigger_desc: "#bold 人民之春#!已经落幕。"
+# TUTORIAL
+ je_bpm_winds_of_change: "变革之风（教程）"
+ je_bpm_winds_of_change_status: "了解政治僵化。"
+ je_bpm_winds_of_change_reason: "在这个新时代，变革之风正吹拂我国，但要颁布法律，我们需要降低我们的[Concept('concept_bpm_political_stability', '政治僵化')]。该数值位于政府窗口顶部、合法性条之上。\n\n根据政府的僵化程度，你将处于[Concept('concept_bpm_politically_stagnant', '停滞')]、[Concept('concept_bpm_politically_dynamic', '活跃')]或[Concept('concept_bpm_politically_unstable', '动荡')]状态：\n- [Concept('concept_bpm_politically_stagnant', '停滞')]僵化度#v (66-100)#!会使[Concept('concept_enactment_of_laws','法律颁布')]困难得多\n- [Concept('concept_bpm_politically_dynamic', '活跃')]僵化度#v (33-66)#!不提供任何特殊加成\n- [Concept('concept_bpm_politically_unstable', '动荡')]僵化度#v (0-33)#!会降低[concept_throughput]和[concept_construction]效率\n\n僵化度介于#v 0-100#!之间，并缓慢向一个#v 目标值#!靠拢。该目标值会被多种因素@arrow_up!#v 抬高#!，例如：\n- 保守的治理，如[GetLawType('law_monarchy').GetName]和[GetLawType('law_ad_hoc_centralization').GetName]\n- 保守的经济，如[GetLawType('law_serfdom').GetName]或[GetLawType('law_tenant_farmers').GetName]\n- 受压抑的言论，如[GetLawType('law_censorship').GetName]或[GetLawType('law_outlawed_dissent').GetName]\n- 对#yellow $institution_police$#!制度的投资\n- 庞大的[concept_loyalist]人口\n\n另一方面，#v 目标值#!也会被诸如以下因素@arrow_down!#v 降低#!：\n- 对#yellow $institution_suffrage$#!制度的投资\n- 起义性的利益集团与[concept_revolution]\n- [concept_war_exhaustion]\n- 低[concept_legitimacy]\n- 庞大的[concept_radical]人口\n\n#v 若无法立即降低僵化度，也不必担心。#!尝试工业化，并尽可能利用[Concept('concept_political_movement','政治运动')]和[Concept('concept_war', '战争')]。煽动利益集团起义可能会有所帮助，而一场内战则大有裨益！"
+ bpm_tutorial_stability_req: "尚未完成教程，且拥有超过66的#v 政治僵化#!度。"
+ bpm_tutorial_stability: "将你的#v 政治僵化#!度降至66或更低。"
+
+ bpm_tutorial.1.t: "一个活跃的政府"
+ bpm_tutorial.1.d: "我们现在处于[Concept('concept_bpm_politically_dynamic', '活跃')]级别的[Concept('concept_bpm_political_stability', '政治僵化')]！只要维持在这一水平，我们的政治建制将不再阻碍任何改革尝试。\n\n@warning! 若僵化度降得太低，我们的政府将变得[Concept('concept_bpm_politically_unstable', '动荡')]，并伴随严重的减益！"
+ bpm_tutorial.1.f: "一股新的政治活力之风拂过首都，或许一个变革的时代即将来临。"
+ bpm_tutorial.1.a: "前进！"
+
+# PARTY BAN
+ je_bpm_ban_communists: "反社会主义法"
+ je_bpm_ban_communists_status: "从政府中根除社会主义组织。"
+ je_bpm_ban_communists_reason: "社会主义者唱起了革命的塞壬之歌，妄图颠覆脆弱的自然秩序；这场革命已令我国政治建制颇为不安。\n\n只要该日志条目生效，我国[Concept('concept_bpm_ig_is_liberal', '$concept_bpm_ig_is_liberal$')]和[Concept('concept_bpm_ig_is_moderate_conservative', '$concept_bpm_ig_is_moderate_conservative$')][Concept('concept_interest_group', '利益集团')]将倾向于支持禁止共产党派的法律。"
+
+ je_bpm_ban_fascists: "反法西斯主义法"
+ je_bpm_ban_fascists_status: "从政府中根除法西斯组织。"
+ je_bpm_ban_fascists_reason: "法西斯分子——那些狂热的排外者和极端军国主义狂徒——如同褐色瘟疫般涌上街头，以其暴力的疯狂玷污着我国的政治舞台。随着法西斯威胁的显现，我国政治舞台上更大一部分参与者已对其发难，甚至主张完全禁止其活动。\n\n只要该日志条目生效，我国[Concept('concept_bpm_ig_is_liberal', '$concept_bpm_ig_is_liberal$')]、[Concept('concept_bpm_ig_is_moderate_conservative', '$concept_bpm_ig_is_moderate_conservative$')]以及非无政府主义的[Concept('concept_bpm_ig_is_socialist', '$concept_bpm_ig_is_socialist$')][Concept('concept_interest_group', '利益集团')]将倾向于支持禁止法西斯党派的法律。"
+
+ je_bpm_ban_anti_communists: "反资本主义法"
+ je_bpm_ban_anti_communists_status: "从政府中根除资本主义组织。"
+ je_bpm_ban_anti_communists_reason: "我们的革命事业发现自身被内部的敌人所侵蚀，他们企图恢复资产阶级的枷锁。随着反动势力通过参与我们的民主进程而不断积聚力量，我们的革命领袖日益焦虑，要求采取果断措施来对付他们。\n\n只要该日志条目生效，我国非无政府主义的[Concept('concept_bpm_ig_is_socialist', '$concept_bpm_ig_is_socialist$')][Concept('concept_interest_group', '利益集团')]将倾向于支持禁止非社会主义党派的法律。"
+
+# SINGLE PARTY STATE
+ bpm_become_single_party: "当前唯一执政的[Concept('concept_party', '政党')]将颁布[GetLawType('law_party_single').GetName][Concept('concept_law', '法律')]，取缔你国内所有其他[Concept('concept_party', '政党')]。"
+ bpm_je_single_party_in_government_trigger: "你的[Concept('concept_ruler', '统治者')]当前的[Concept('concept_party', '政党')]必须是[Concept('concept_government', '政府')]中唯一的政党，不得有其他[Concept('concept_party', '政党')]或[Concept('concept_interest_group', '利益集团')]。"
+
+ bpm_je_reactionaries_in_government_trigger: "[GetInterestGroupVariant('ig_reactionaries',GetPlayer).GetNameWithCountryVariant]当前的[Concept('concept_party', '政党')]必须是[Concept('concept_government', '政府')]中唯一的政党，须[concept_powerful]，须为[Concept('concept_bpm_ig_is_organicist', '有机主义者')]，且不得有其他[Concept('concept_party', '政党')]或[Concept('concept_interest_group', '利益集团')]。"
+ bpm_je_single_party_has_elections: "你拥有允许[Concept('concept_election', '选举')]的[Concept('concept_law', '法律')]"
+
+ je_bpm_single_party_become: "通往一党制国家之路"
+ je_bpm_single_party_become_status: "巩固权力，牢牢确立现任政党的统治。"
+ je_bpm_single_party_become_reason: "时机已到，是时候让党无可争议地掌控国家的权柄，引领我们的国家走向辉煌的未来！只要棋盘上再多几枚棋子，我们就能巩固政权，确保所有其他政党从我们的道路上消失。\n\n#italic 如果你有[GetInterestGroupVariant('ig_reactionaries',GetPlayer).GetNameWithCountryVariant][concept_in_government]，且他们为[Concept('concept_bpm_ig_is_organicist', '有机主义者')]，你将转而获得[GetLawType('law_no_parties_allowed').GetName]！#!"
+ 
+ bpm_single_party.1.t: "党治国家"
+ bpm_single_party.1.d: "从今日起，[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle][ROOT.GetCountry.GetRuler.GetFullName]宣布除[SCOPE.sParty('single_party_party').GetName]外的所有政党非法。然而，在此裁决之前，反对派早已遭受逮捕、失踪与暗杀，使其政治存在事实上已属非法。"
+ bpm_single_party.1.f: "俄国革命运用政治独裁，除革命成功外别无顾忌……其成功的原因在于党被置于国家之上。我认为我们应该通过把党置于国家之上来进行改组。\n\n——孙中山，1924"
+ bpm_single_party.1.a: "荣耀归于[SCOPE.sParty('single_party_party').GetName]！"
+
+ bpm_single_party.2.t: "无党国家"
+ bpm_single_party.2.d: "从今日起，[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle][ROOT.GetCountry.GetRuler.GetFullName]宣布，所有政党无论其意识形态一律非法。然而，在此裁决之前，反对派早已遭受逮捕、失踪与暗杀，使其政治存在事实上已属非法。"
+ bpm_single_party.2.f: "俄国革命运用政治独裁，除革命成功外别无顾忌……其成功的原因在于党被置于国家之上。我认为我们应该通过把党置于国家之上来进行改组。\n\n——孙中山，1924"
+ bpm_single_party.2.a: "一个真正具有代表性的国家近在咫尺！"
+
+# SOCIALIST ELECTORALISM
+ je_bpm_socialist_electoralism: "论社会主义者与选举"
+ je_bpm_socialist_electoralism_status: "监测社会主义者的选举参与水平。"
+ je_bpm_socialist_electoralism_reason: "我们民主制度与社会主义意识形态发展的结合，将革命行动者置于一个困境——一场关于是否参与他们所谓的#bold “资产阶级民主”#!、以及实际参与我国选举制度之利弊的辩论。我们是希望他们远离我们的选票，还是鼓励他们进入体面的政治？这个选择间接地掌握在我们手中。\n\n在当前条件下，#bold 社会主义#!选举参与度预计将在未来几周内达到#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_socialist_electoralism_special_tooltip [Country.MakeScope.Var('bpm_je_socialist_electoralism_baseline_target').GetValue|-=]#!。只要选举参与度高于#bold 10#!，@ig_reformist_socialists!#bold 改良社会主义者#!将继续留在选举政治中。若选举参与度低于#bold 40#!，@ig_revolutionist_socialists!#bold 革命社会主义者#!将更不愿意加入政党；若低于#bold 25#!，则将彻底回避选举。若选举参与度低于#bold 90#!，@ig_anarchists!#bold 无政府主义者#!将不太愿意加入政党；若低于#bold 75#!，则将完全转为反选举主义者\n\n#lore “由此得出的结论是绝对不容置疑的：已经证明，参加资产阶级民主议会，即使在苏维埃共和国胜利前数周、甚至胜利之后，也远不会损害革命无产阶级，反而有助于无产阶级向后进群众证明这种议会为何应当被废除；它有助于这种议会的顺利解散，也有助于使资产阶级议会制‘在政治上过时’。”\n\n——弗拉基米尔·列宁，1920#!"
+
+ je_bpm_socialist_electoralism_special_tooltip: "这一自然基线由以下因素决定：\n#variable [Country.MakeScope.Var('bpm_je_socialist_electoralism_from_base').GetValue|-=]#! 基础值\n#variable [Country.MakeScope.Var('bpm_je_socialist_electoralism_from_powerful_socialists').GetValue|-=]#! 来自强大的#bold 社会主义#![Concept('concept_interest_group', '利益集团')]\n#variable [Country.MakeScope.Var('bpm_je_socialist_electoralism_from_socialists_in_government').GetValue|-=]#! 来自执政的#bold 社会主义#![Concept('concept_interest_group', '利益集团')]\n#variable [Country.MakeScope.Var('bpm_je_socialist_electoralism_from_bolstered_socialists').GetValue|-=]#! 来自受扶植的#bold 社会主义#![Concept('concept_interest_group', '利益集团')]\n#variable [Country.MakeScope.Var('bpm_je_socialist_electoralism_from_happy_socialists').GetValue|-=]#! 来自满意的#bold 社会主义#![Concept('concept_interest_group', '利益集团')]\n#variable [Country.MakeScope.Var('bpm_je_socialist_electoralism_from_suppressed_socialists').GetValue|-=]#! 来自受打压的#bold 社会主义#![Concept('concept_interest_group', '利益集团')]\n#variable [Country.MakeScope.Var('bpm_je_socialist_electoralism_from_revolution').GetValue|-=]#! 来自#bold 当前的革命#!或低于33%的[Concept('concept_bpm_political_stability', '政治僵化')]\n#variable [Country.MakeScope.Var('bpm_je_socialist_electoralism_from_censorship').GetValue|-=]#! 来自#bold 言论自由#!法律\n#variable [Country.MakeScope.Var('bpm_je_socialist_electoralism_from_party_ban').GetValue|-=]#! 来自#bold 政党法#!法律\n#variable [Country.MakeScope.Var('bpm_je_socialist_electoralism_from_home_affairs').GetValue|-=]#! 来自#bold 内务#![Concept('concept_institution', '$concept_institutions$')]"
+
+# ANARCHIST PROPAGANDA OF THE DEED
+ je_bpm_propaganda_of_the_deed: "行动宣传"
+ je_bpm_propaganda_of_the_deed_status_1: "现在来点爆炸性的哲学。"
+ je_bpm_propaganda_of_the_deed_status_2: "爆炸性的谋划正在进行中。"
+ je_bpm_propaganda_of_the_deed_status_3: "行动已近在咫尺。"
+ je_bpm_propaganda_of_the_deed_reason: "#v 每月筹划进度：#! #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_propaganda_of_the_deed_bomb_tooltip [Country.MakeScope.ScriptValue('bpm_je_propaganda_of_the_deed_бомбометр_rate_true')|-=]#!\n@warning! 达到#v 100%#!时，[GetInterestGroupVariant('ig_anarchists',GetPlayer).GetName]将试图#N 炸弹袭击#!一名[concept_leader]。\n\n#PB 信念强度：#! [Country.MakeScope.ScriptValue('bpm_je_propaganda_of_the_deed_philosophy_value')|-] @arrow_right! #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_propaganda_of_the_deed_baseline_tooltip [Country.MakeScope.ScriptValue('bpm_je_propaganda_of_the_deed_baseline_target')|-]#!（#v 0.5#!/月）\n当此值#v 高于 [Country.MakeScope.ScriptValue('bpm_je_propaganda_of_the_deed_decay_threshold_value')]#!时，日志进度将增长。\n@warning! 达到#v [Country.MakeScope.ScriptValue('bpm_je_propaganda_of_the_deed_complete_threshold_value')]#!时，[GetInterestGroupVariant('ig_anarchists',GetPlayer).GetName]将试图#N 炸弹袭击#!我们的[concept_ruler]。\n\n随着我们的激进派日益对国家幻灭，一部分坚定的无政府主义者正试图以定点暗杀来唤醒大众的意识。\n\n他们的#pink 信念强度#!趋向于一个#v 目标值#!，该值由国家镇压、经济困顿、战争以及无政府主义运动的大胆程度等因素决定。若此值足够高，无政府主义者将开始#v 筹划#!下一次#N 炸弹袭击#!。\n\n随着时间推移，无政府主义者会对这一策略愈发感到沮丧。每次#N 炸弹袭击#!的尝试：\n  @arrow_up!提高筹划下一次袭击所需的#pink 信念#!阈值（#v [Country.MakeScope.ScriptValue('bpm_je_propaganda_of_the_deed_decay_threshold_value')]#!），并\n  @arrow_down!降低#N 炸弹袭击#![concept_ruler]所需的#pink 信念#!阈值（#v [Country.MakeScope.ScriptValue('bpm_je_propaganda_of_the_deed_complete_threshold_value')]#!）。\n\n上一次#N 炸弹袭击企图#!发生在[Country.MakeScope.ScriptValue('bpm_je_propaganda_of_the_deed_months_below_value')]个月前。\n\n#lore “1892年7月6日，对十一名手无寸铁的工人的最后屠杀，激起了全美国的义愤……但只有一个人将劳动者的怒火化为了英勇的行动。此人便是亚历山大·伯克曼。1892年7月22日，他闯入H. C. 弗里克的办公室并企图取其性命。三颗子弹射入弗里克的身体，但他活了下来……这是美国第一起无政府主义经济恐怖行动，而亚历山大·伯克曼为他的革命抗议付出了沉重的代价。”\n\n——爱玛·戈尔德曼，1922#!"
+
+ je_bpm_propaganda_of_the_deed_full: "#Pink 信念强度#!为#v [GetPlayer.MakeScope.ScriptValue('bpm_je_propaganda_of_the_deed_complete_threshold_value')]#!。"
+ je_bpm_propaganda_of_the_deed_empty: "#Pink 信念强度#!为#v 0#!（运动趋于平息）。"
+ je_bpm_propaganda_of_the_deed_timeout: "#v 10年#!内无#N 炸弹袭击#!（运动趋于平息）。"
+
+ je_bpm_propaganda_of_the_deed_baseline_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_propaganda_of_the_deed_baseline_target')]"
+ je_bpm_propaganda_of_the_deed_bomb_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_propaganda_of_the_deed_бомбометр_rate')]"
+
+ bpm_je_potd_will_add_progress: "#bold 行动宣传#![Concept('concept_journal_entry', '日志条目')]将获得#pink 信念#!"
+ bpm_je_potd_will_remove_progress: "#bold 行动宣传#![Concept('concept_journal_entry', '日志条目')]将失去#pink 信念#!"
+ bpm_je_propaganda_of_the_deed_complete: "若运动趋于平息，[GetInterestGroupVariant('ig_anarchists',GetPlayer).GetName]将寻求其他策略。\n\n倘若#pink 信念强度#!达到#v [GetPlayer.MakeScope.ScriptValue('bpm_je_propaganda_of_the_deed_complete_threshold_value')]#!，将有人企图刺杀我们的[Concept('concept_ruler', '统治者')]。暗杀将在以下情况失败：\n- [GetInterestGroupVariant('ig_anarchists',GetPlayer).GetName]为[concept_marginalized]，且\n- 我国没有[GetInterestGroupVariant('ig_anarchists',GetPlayer).GetName]的[Concept('concept_agitator', '煽动者')]。\n否则，[Concept('concept_ruler', '统治者')]将身亡，我们将被迫镇压。"
+
+ bpm_anarchist_potd.1.t: "下一个目标"
+ bpm_anarchist_potd.1.desc: "@ig_anarchists! #bold 无政府主义者#!正在为下一次行动收尾准备。他们此刻正在几个不同方案之间抉择。"
+ bpm_anarchist_potd.1.f: "空气中弥漫着阴沉的期待。那枚用简易材料制成的炸弹几乎压抑不住其杀意。它即将被引爆，其行动的回响将远超这枚炸药轰鸣之声所能及。"
+ bpm_anarchist_potd.1.a: "低级别的官员"
+ bpm_anarchist_potd.1.b: "[SCOPE.sCharacter('bpm_anarchist_potd_target_1').GetFullName]"
+ bpm_anarchist_potd.1.c: "[SCOPE.sCharacter('bpm_anarchist_potd_target_2').GetFullName]"
+ bpm_anarchist_potd.1.d: "[SCOPE.sCharacter('bpm_anarchist_potd_target_3').GetFullName]"
+
+ bpm_anarchist_potd.2.t: "政府办公室遭炸弹袭击！"
+ bpm_anarchist_potd.2.d: "@ig_anarchists! #bold 无政府主义者#!成功暗杀了我们一位显要的国家公职人员——他的办公室在爆炸中严重受损。近期我们需要一段时间才能恢复在该设施中的行政能力。"
+ bpm_anarchist_potd.2.f: "这位官僚的死并非无法弥补。但这一象征性举动远为重要——即便是国家最高级别的公仆也难逃报复。"
+ bpm_anarchist_potd.2.a: "该死！"
+
+ bpm_anarchist_potd.3.t: "重要政治人物遭暗杀！"
+ bpm_anarchist_potd.3.d: "@ig_anarchists! #bold 无政府主义者#!成功暗杀了[SCOPE.sCharacter('bpm_anarchist_potd_target').GetFullName]，以其大胆的举动改变了我们的政治格局。"
+ bpm_anarchist_potd.3.f: "一次迅猛的投掷，一次迅速的脱身，一个有权有势的个体最终与众人归于平等。"
+ bpm_anarchist_potd.3.a: "此仇必报！"
+ bpm_anarchist_potd.3.b: "必须保持克制，以免激起更多此类事件！"
+
+ bpm_anarchist_potd.4.t: "暗杀失败！"
+ bpm_anarchist_potd.4.d: "@ig_anarchists! #bold 无政府主义者#!策划刺杀[SCOPE.sCharacter('bpm_anarchist_potd_target_ruler').GetFullName]已有一段时间。他们最近的一次最接近成功——或许也是最难复制的一次。多名凶手已被逮捕，一场大范围的镇压正在进行。在如此多的行动之后社会变革却迟迟未能实现，他们正转向一种截然不同的政治行动形式，那需要更深入的人民组织。"
+ bpm_anarchist_potd.4.f: "若要使暴乱得以平息和解除武装，别无他途，唯有让所有人享有宣传与组织的自由；让被剥夺者、受压迫者和心怀不满者保有一切文明抗争的途径；让他们怀抱希望，即便是一点一滴，也能以不流血的方式争取自身的解放。意大利政府对此一概拒绝；它将一意孤行地镇压下去……而它也将继续自食其果。\n\n——埃里科·马拉泰斯塔，1900"
+ bpm_anarchist_potd.4.a: "受够了这种自由派的软弱！"
+ bpm_anarchist_potd.4.b: "我们侥幸躲过了一场悲剧——让我们避免另一场。"
+
+ bpm_anarchist_potd.5.t: "我们的统治者遇害！"
+ bpm_anarchist_potd.5.d: "@ig_anarchists! #bold 无政府主义者#!策划刺杀[SCOPE.sCharacter('bpm_anarchist_potd_target_ruler').GetFullName]已有一段时间。他们最近的一次企图取得了#N 血腥的成功#!，[SCOPE.sCharacter('bpm_anarchist_potd_target_ruler').GetFullName]的死讯震惊全国。我们随后的镇压既迅速又残酷。"
+ bpm_anarchist_potd.5.f: "一位国王被杀；而国王说到底仍是一个人，这一事实值得痛惜。一位王后成了寡妇；而王后说到底仍是一个女人，她的丧夫之痛值得我们同情。然而，一个男人的死和一个女人的眼泪，何以引起这般轩然大波？人们日复一日地因战争、工伤事故、被枪弹镇压的起义、以及贫困、复仇之心、狂热与酗酒所滋生的无数罪行而死亡，无数女人因此终日以泪洗面，这一切却被视作理所当然。\n\n——埃里科·马拉泰斯塔，1900"
+ bpm_anarchist_potd.5.a: "[SCOPE.sCharacter('bpm_anarchist_potd_target_ruler').GetFullName]将被复仇！"
+
+ bpm_anarchist_potd.6.t: "行动趋于平息"
+ bpm_anarchist_potd.6.d: "@ig_anarchists! #bold 无政府主义者#!对定点暗杀这一策略日益失望。经过内部辩论与策略的转变，他们现在正将重心转向不同形式的政治行动。"
+ bpm_anarchist_potd.6.f: "出于情感与原则，我们憎恶暴力，并总是尽力避免之；唯有以恰当有效之手段反抗邪恶的必要性，才能促使我们诉诸暴力。我们知道，在人民缺乏充分准备的情况下，这种孤立的暴力行为仍是徒劳的，并且实际上，由于会引发难以承受的反扑，它反而会对它们本欲服务的事业造成不可估量的伤害。我们知道，那种本质的、无可辩驳的有目的的行动，不在于从肉体上杀死一位国王，而在于从法院、议会和工厂之中，在人民的心与脑中杀死所有的国王；也就是说，根除对如此众多人民所崇拜的权威原则的信仰。\n\n——埃里科·马拉泰斯塔，1900"
+ bpm_anarchist_potd.6.a: "是时候改变策略了。"
+
+ bpm_anarchist_potd.7.t: "一种爆炸性的哲学"
+ bpm_anarchist_potd.7.d: "[SCOPE.sCharacter('bpm_anarchist_potd_failed_target').GetFullName]正穿行于城市时，一名披着斗篷的人向[SCOPE.sCharacter('bpm_anarchist_potd_failed_target').GetHerHis]马车掷出一枚炸弹。在一阵惊慌中，[SCOPE.sCharacter('bpm_anarchist_potd_failed_target').GetSheHe]与车夫设法跳出了马车，随后……\n\n什么都没发生。那枚炸弹是哑弹。这个未遂的刺客很快被附近的警察拖走，口中仍高呼着“无政府万岁！”"
+ bpm_anarchist_potd.7.f: "战争，阶级战争，而你是最先在你所谓的秩序之强力机构的庇护下、在你法律的黑暗中发动它的人。必将流血；我们不会回避；必有谋杀：我们将杀人，因为这是必要的；必有毁灭：我们将摧毁，以将世界从你那些暴虐的制度中解放出来。\n\n——无政府主义传单，1919"
+ bpm_anarchist_potd.7.a: "这种肆无忌惮的行径绝不能容忍！"
+ bpm_anarchist_potd.7.b: "没有人受伤，对吧？"
+
+# NATLIB SPLIT
+ je_bpm_split_natlibs: "国族自由主义崛起"
+ je_bpm_split_natlibs_status: "监测国族自由主义者的涌现。"
+ je_bpm_split_natlibs_reason: "自由主义已不再是睁着天真大眼的煽动家的意识形态，它已彻底融入我国社会的政治经济结构。我国近期的危机将一批全新的保守自由主义者推上了舞台，他们倡导一个强大的国家、现代的经济，以及一支为民族利益服务的强大军队。\n\n#lore “我们有广袤的处女地待开垦；有待开通的道路；待挖掘的港口；待通航的河流；待竣工的运河，还有待完成的铁路网。在马赛前方，还有一个广袤的王国有待并入法兰西……这就是我所构想的帝国，如果帝国得以重建的话。这些便是我所筹划的征服，而你们，我身边这些与我一样心系国家福祉的人，你们就是我的士兵。”\n\n——拿破仑三世，1852#!"
+
+ je_bpm_split_natlibs_special_tooltip: "该进度由以下因素决定：\n#variable [Country.MakeScope.Var('bpm_je_split_natlibs_progress_from_base').GetValue|+=]#! 基础值\n#variable [Country.MakeScope.Var('bpm_je_split_natlibs_progress_from_conflicts').GetValue|+=]#! 来自处于战争、外交博弈、革命或担任民族统一领袖\n#variable [Country.MakeScope.Var('bpm_je_split_natlibs_progress_from_liberals_empowered').GetValue|+=]#! 来自执政或受扶植的#bold 自由#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]\n#variable [Country.MakeScope.Var('bpm_je_split_natlibs_progress_from_libcons_suppressed').GetValue|+=]#! 来自受打压的#bold 自由#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]\n#variable [Country.MakeScope.Var('bpm_je_split_natlibs_progress_from_libcons_marginal').GetValue|+=]#! 来自边缘化的#bold 自由#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]\n#variable [Country.MakeScope.Var('bpm_je_split_natlibs_progress_from_radicals').GetValue|+=]#! 来自激进的下层人群；仅当#bold 自由#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]未被边缘化且未受打压时，此项才会累积。"
+
+ je_bpm_split_natlibs_progress_bar: "国族自由主义崛起"
+ je_bpm_split_natlibs_progress_bar_desc: "#v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#!（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100）每周变动#v [SCOPE.GetRootScope.GetCountry.MakeScope.ScriptValue('bpm_je_split_natlibs_progress_rate')|+=]#!。"
+ bpm_je_split_natlibs_progress_from_base_desc: "基础值"
+ bpm_je_split_natlibs_progress_from_conflicts_desc: "处于战争、外交博弈、革命或担任民族统一领袖"
+ bpm_je_split_natlibs_progress_from_liberals_empowered_desc: "@ig_liberals! 自由主义者、@ig_radicals! 激进自由主义者或@ig_market_liberals! 市场自由主义者在执政或受扶植"
+ bpm_je_split_natlibs_progress_from_libcons_suppressed_desc: "受打压的#bold 自由#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]"
+ bpm_je_split_natlibs_progress_from_libcons_marginal_desc: "边缘化的#bold 自由#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]"
+ bpm_je_split_natlibs_progress_from_radicals_desc: "[concept_radical]的下层人群。#blue @information! 仅当@ig_liberals! 自由主义者与@ig_conservatives! 保守主义者未被边缘化且未受打压时，此项才会累积。#!"
+ bpm_je_split_natlibs_progress_from_ruler_desc: "来自[Concept('concept_interest_group', '利益集团')]的[concept_ruler]"
+
+# MARLIB SPLIT
+ je_bpm_split_marlibs: "市场自由主义崛起"
+ je_bpm_split_marlibs_status: "监测市场自由主义者的涌现。"
+ je_bpm_split_marlibs_reason: "我国近期的经济辩论正催生出一个由中上层自由主义者组成的新联盟，他们坚信在最小国家干预下市场最为高效。他们主张，自由市场将降低物价，为社会全体成员提供更好的生活水平，同时还能消弭国际冲突。\n\n#lore “自由贸易！它是什么？就是拆除分隔各国的那道壁垒；在那壁垒之后，盘踞着骄傲、复仇、仇恨与嫉妒的情绪，这些情绪不时冲破束缚，让一个个国家血流成河；这些情绪滋养着战争与征服的毒瘤，它们断言没有征服便没有贸易，助长着征服与统治的贪欲——正是这种贪欲驱遣你们的武将们前往异国散播毁灭，随后又召他们回来，让他们安稳地坐上你们激情的宝座，却只是用来在国内骚扰、压迫你们。”\n\n——理查德·科布登，1843#!"
+
+ je_bpm_split_marlibs_special_tooltip: "该进度由以下因素决定：\n#variable [Country.MakeScope.Var('bpm_je_split_marlibs_progress_from_base').GetValue|+=]#! 基础值\n#variable [Country.MakeScope.Var('bpm_je_split_marlibs_progress_from_top_gp').GetValue|+=]#! 来自身为领先的[Concept('concept_great_power', '$concept_great_powers$')]。\n#variable [Country.MakeScope.Var('bpm_je_split_marlibs_progress_from_law_enactment').GetValue|+=]#! 来自颁布现代贸易、经济或农业法律。\n#variable [Country.MakeScope.Var('bpm_je_split_marlibs_progress_from_movement').GetValue|+=]#! 来自颁布经济、贸易或农业法律的政治运动。\n#variable [Country.MakeScope.Var('bpm_je_split_marlibs_progress_from_bad_laws').GetValue|+=]#! 来自实行倒退的经济法律，如农奴制或传统主义。\n#variable [Country.MakeScope.Var('bpm_je_split_marlibs_progress_from_patcons').GetValue|+=]#! 来自保守派接纳家长主义。\n#variable [Country.MakeScope.Var('bpm_je_split_marlibs_progress_from_radcaps').GetValue|+=]#! 来自至少10%的资本家人群为激进派。"
+
+ je_bpm_split_marlibs_progress_bar: "市场自由主义崛起"
+ je_bpm_split_marlibs_progress_bar_desc: "#v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#!（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100）每周变动#v [SCOPE.GetRootScope.GetCountry.MakeScope.ScriptValue('bpm_je_split_marlibs_progress_rate')|+=]#!。"
+ bpm_je_split_marlibs_progress_from_base_desc: "基础值"
+ bpm_je_split_marlibs_progress_from_top_gp_desc: "身为领先的[Concept('concept_great_power', '$concept_great_powers$')]。"
+ bpm_je_split_marlibs_progress_from_law_enactment_desc: "颁布现代贸易、经济或农业法律。"
+ bpm_je_split_marlibs_progress_from_movement_desc: "颁布经济、贸易或农业法律的政治运动。"
+#  bpm_je_split_marlibs_progress_from_good_laws_desc: ""
+ bpm_je_split_marlibs_progress_from_bad_laws_desc: "倒退的经济法律，如农奴制或传统主义。"
+ bpm_je_split_marlibs_progress_from_patcons_desc: "保守派为家长主义者"
+ bpm_je_split_marlibs_progress_from_radcaps_desc: "至少10%的资本家人群为[concept_radical]"
+
+# PATCON "SPLIT"
+ je_bpm_split_patcons: "家长保守主义崛起"
+ je_bpm_split_patcons_status: "监测保守派对家长主义的接纳。"
+ je_bpm_split_patcons_reason: "现代问题需要现代解决方案。快速的工业化与城市化极大地提升了生产力，而工人阶级却在破败的贫民窟中挣扎。我们的保守派若想抵御左翼激进派的诱惑，此刻也必须去关注穷人的疾苦。\n\n#lore “只要劳动者身体健康，就给予他工作的权利；他生病时，保障他得到照料；他年老时，保障他获得赡养……只要国家能为劳动者多展现几分基督徒般的关怀，那么我相信，社会民主党纲领的先生们将徒劳地吹响他们的鸟哨，而一旦劳动者看到政府和立法机构真心关切他们的福祉，涌向那些人的队伍便会随之消散。”\n\n——奥托·冯·俾斯麦，1884#!"
+
+ je_bpm_split_patcons_special_tooltip: "该进度由以下因素决定：\n#variable [Country.MakeScope.Var('bpm_je_split_patcons_progress_from_base').GetValue|+=]#! 基础值\n#variable [Country.MakeScope.Var('bpm_je_split_patcons_progress_from_poverty').GetValue|+=]#! 来自生活水平低于最低预期的人口\n#variable [Country.MakeScope.Var('bpm_je_split_patcons_progress_from_loyalists').GetValue|+=]#! 来自已整合地区的忠诚派\n#variable [Country.MakeScope.Var('bpm_je_split_patcons_progress_from_radicals').GetValue|+=]#! 来自已整合地区的激进派\n#variable [Country.MakeScope.Var('bpm_je_split_patcons_progress_from_conservative_status').GetValue|+=]#! 来自#bold 保守#![Concept('concept_interest_group', '利益集团')]受打压\n#variable [Country.MakeScope.Var('bpm_je_split_patcons_progress_from_left_wing_power').GetValue|+=]#! 来自强大的左翼[Concept('concept_interest_group', '利益集团')]\n#variable [Country.MakeScope.Var('bpm_je_split_patcons_progress_from_left_wing_government').GetValue|+=]#! 来自执政的激进左翼[Concept('concept_interest_group', '利益集团')]\n#variable [Country.MakeScope.Var('bpm_je_split_patcons_progress_from_communist_victory_coping').GetValue|+=]#! 来自已颁布的委员会共和制法律\n#variable [Country.MakeScope.Var('bpm_je_split_patcons_progress_from_corporatism').GetValue|+=]#! 来自已研究#bold 社团主义#!\n#variable [Country.MakeScope.Var('bpm_je_split_patcons_progress_from_marlibs').GetValue|+=]#! 来自存在的#bold 市场自由#![Concept('concept_interest_group', '利益集团')]"
+
+ je_bpm_split_patcons_progress_bar: "家长保守主义崛起"
+ je_bpm_split_patcons_progress_bar_desc: "#v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#!（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100）每周变动#v [SCOPE.GetRootScope.GetCountry.MakeScope.ScriptValue('bpm_je_split_patcons_progress_rate')|+=]#!。"
+ bpm_je_split_patcons_progress_from_base_desc: "基础值"
+ bpm_je_split_patcons_progress_from_poverty_desc: "生活水平低于最低预期的人口"
+ bpm_je_split_patcons_progress_from_loyalists_desc: "已整合地区的忠诚派"
+ bpm_je_split_patcons_progress_from_radicals_desc: "已整合地区的激进派"
+ bpm_je_split_patcons_progress_from_conservative_status_desc: "@ig_conservatives! #bold 保守派#!受打压"
+ bpm_je_split_patcons_progress_from_left_wing_power_desc: "强大的左翼[Concept('concept_interest_group', '利益集团')]"
+ bpm_je_split_patcons_progress_from_left_wing_government_desc: "执政的激进左翼[Concept('concept_interest_group', '利益集团')]"
+ bpm_je_split_patcons_progress_from_communist_victory_coping_desc: "已颁布委员会共和制法律"
+ bpm_je_split_patcons_progress_from_marlibs_desc: "存在的#bold 市场自由#![Concept('concept_interest_group', '利益集团')]"
+ bpm_je_split_patcons_progress_from_corporatism_desc: "已研究#bold 社团主义#!"
+
+# SPRINGTIME OF THE PEOPLES
+ je_march_to_radicalism: "革命的幽灵"
+ je_march_to_radicalism_status: "一个火药桶正在蓄满。"
+ je_march_to_radicalism_awaiting_spark_status: "等待着革命的火花。"
+ je_march_to_radicalism_reason: "在撼动欧洲古老强权约五十年之后，法国革命的遗产仍在回响。随着自由主义的复兴与新兴的民族意识相遇，资产者与无产者都将寻求拆毁旧世界的腐朽制度。\n\n#v 这是一个[Concept('concept_bpm_global_je', '全球日志条目')]。#!每当欧洲有国家：#P 获得#!进度：\n#P +#! 研究了#YB 平等主义#!、#YB 民族主义#!或#YB 辩证法#!\n#P +#! 经历了一场[concept_civil_war]，按国家[concept_rank]调整\n\n此外，还会因以下因素增加一些#P 每年进度#!：\n#P +#! 欧洲[Concept('concept_great_power', '列强')]中的每一位激进左翼[concept_agitator]或[concept_politician]\n#P +#! 每个欧洲[Concept('concept_great_power', '列强')]中低于[Concept('concept_expected_sol','最低生活水平')]的人口\n\n随着该条目的推进，@ig_radicals! #YB 激进派#!的人气将上升，欧洲各国将出现人口的大规模激进化。完成时，欧洲将面临一波争取民族主义与民主的革命运动浪潮。在尚未研究#YB 平等主义#!的国家，这项科技也将逐步获得研究进度。\n\n#lore “自由的事业与人类的命运紧密相连，无论它在世界何处逐渐取得进展，对于所有渴望它的人都将是一项共同的收获。”\n\n——拉约什·科苏特，1849#!"
+ bpm_peoples_springtime_spark_happened: "一场#v 革命火花#!已在欧洲迸发。"
+ bpm_activate_je_springtimes: "激活#v 人民之春#!。"
+
+ je_springtime_of_the_peoples_status: "经受住风暴。"
+ je_springtime_of_the_peoples_reason: "在整个欧洲，各族人民高举旗帜、为变革而游行。他们耀眼旗帜上镌刻着一代人之前的禁忌之词：#gold 自由、平等、博爱#!。\n\n这一时期的末尾，若你的国家满足以下条件，#gold 革命派#!将取得胜利：\n- 是一个#yellow 共和国#!，并且\n- 拥有#yellow 财产投票#!或#v 更佳#!。\n\n另一方面，若满足以下条件，#purple 反动派#!将取得胜利：\n- [GetInterestGroupVariant('ig_radicals',GetPlayer).GetName]与[GetInterestGroupVariant('ig_socialists',GetPlayer).GetName]为[concept_marginalized]。\n\n否则，你的国家将维持一种改良后的现状。\n\n#lore 第三等级是什么？是一切。\n——阿贝·西耶斯，1788#!#!"
+
+# FRANKFURT PARLIAMENT
+ je_frankfurt_parliament: "法兰克福议会"
+ # idk what frankfurt_debate_stage is supposed to be so i just commented this out to silence the error since its disabled anyway right now sorry --helvetica
+ #je_frankfurt_parliament_status: "[SCOPE.GetRootScope.GetCountry.GetCustom('frankfurt_debate_stage')]" 
+ je_frankfurt_parliament_status: "je_frankfurt_parliament_status"
+ je_frankfurt_parliament_reason: "自拿破仑解散神圣罗马帝国、代之以#yellow 德意志邦联#!以来，德意志民族国家的运动便与德意志各邦对公民权利和宪政治理日益增长的渴望一同壮大。如今，随着革命热情席卷欧洲，许多邦国已屈从于日益增长的压力，开始在#yellow 法兰克福#!组建#yellow 国民议会#!，代表们将在那里就一部集中邦联权力的新德意志宪法展开辩论。\n\n本日志的进度，以及议会中各派系的构成，由参与各邦中激进左翼、自由派和保守派利益集团的总力量决定。更强大的左翼或自由派系将加速进度。\n\n本日志条目每取得10点进度，议会就将就新德意志宪法中的一个议题进行表决。某些决定可能导致一些代表团抵制议会。\n\n议会必须在革命平息之前敲定一部宪法，否则#pink 它将被彻底解散。#!\n\n若激进派成为主导派系，且至少有一个列强或以上等级的德意志政权拥有左翼政府或共和国，则激进派将获胜。若保守派取得主导地位并使奥地利帝国留在谈判桌前，则保守派获胜。否则将达成一个温和的结局，将宪法呈交给一位皇冠候选人。\n\n#lore 从默兹河到梅梅尔河，从阿迪杰河到贝尔特海峡，德意志，德意志高于一切，高于世间一切！\n——德意志之歌，奥古斯特·海因里希·霍夫曼，1841#!"
+ je_frankfurt_button: "议会概览"
+ je_frankfurt_button_desc: "打开各代表团概览。"
+ je_frankfurt_boycott_button: "抵制议会"
+ je_frankfurt_boycott_button_desc: "完全撤回对法兰克福议会的承认。#red 这将激怒自由主义者和左翼人士#!"
+ je_frankfurt_boycott_button_tt: "尚未抵制过法兰克福议会"
+ frankfurt_fail_tt: "议会在人民之春结束前解散，或未能完成宪法。"
+ frankfurt_win_tt: "议会如期完成宪法，并推选出一位皇帝或其他国家元首。"
+ frankfurt_dissolved_tt: "#red 缺乏凝聚力与参与将导致议会解散！"
+ 
+ bpm_je_trigger_natlibs_germany: "拥有#variable 列强#!或以上的[concept_rank]，且@ig_national_liberals! 的势力超过5%。"
+
+# FIRST INTERNATIONALE
+ je_bpm_first_international: "全世界无产者，联合起来！"
+ je_bpm_first_international_status: "静候第一国际。"
+ je_bpm_first_international_reason: "#v 工业革命#!创造了一种新型的人——无产者，他被剥夺了一切，只余自己的劳动力，被从村庄古老的温暖中撕裂，被迫在坚硬的工厂地板上零敲碎打地出卖自己。在那里，他接触到千百万与他一样的人，他们已开始低声诉说着某种伟大的事物。在那里，他或许很快就能找到一个超越过去一切封闭慰藉的光明未来。在那里，他将找到#pink 社会主义#!。\n\n这是一个[Concept('concept_bpm_global_je', '全球日志条目')]。每当一个[Concept('concept_great_power', '列强')]研究#bold 社会主义#!、#bold 无政府主义#!，或在较小程度上研究#bold 劳工运动#!时，它便获得进度。若一个[Concept('concept_great_power', '列强')]遭受民族分裂运动，本日志条目将获得更多进度。此外，每个存在于[Concept('concept_great_power', '列强')]中的[Concept('concept_bpm_socialist_agitator', '社会主义煽动者')]都将使本日志条目每年获得缓慢的进度。\n\n完成时，@ig_socialists! #bold 社会主义者#!与@ig_anarchists! #bold 无政府主义者#!将经历一场不可调和的分裂，同时使这两种意识形态都更加迎合大众。\n\n#lore “直到现在，还从未有过真正的人民政治，而我们所说的‘人民’，指的是卑微的阶级，‘乌合之众’，那些以劳动供养世界的最贫穷的工人。存在的只有特权阶级的政治，他们利用人民的体力，在永无止境的争霸斗争中彼此推翻、取而代之。人民徒劳地在这些政治变革之间辗转支持，希望在至少某一次变革中……他们百年来的贫困与奴役能有所减轻。即便是伟大的法国革命也未能从根本上改变他们的处境。它消灭了贵族，却只是以资产阶级取而代之。人民不再被称为农奴。他们被宣布为自由人，依法享有自由民的一切权利；但事实上，他们依然是贫困的农奴。”\n\n——米哈伊尔·巴枯宁，1869#!"
+
+# SECOND INTERNATIONALE
+ bpm_first_intl_happened: "#pink 第一国际#!已经建立。"
+ je_bpm_second_international: "二次结社"
+ je_bpm_second_international_status: "静候第二国际。"
+ je_bpm_second_international_reason: "第一国际（在其解散后得此名）的失败，使得全球范围内各社会主义运动之间的合作更加困难。然而，自其解散以来，形势已发生很大变化。社会主义运动中涌入了更加多样的思想，而不同的群体也时常提出再度携手合作的建议。\n\n这是一个[Concept('concept_bpm_global_je', '全球日志条目')]。在当前条件下，本日志的进度将每月变动#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_second_international_tooltip [GetGlobalVariable('bpm_je_second_intl_progress_rate').GetValue|+=]#!。完成时，@ig_revolutionist_socialists! #bold 革命社会主义者#!与@ig_reformist_socialists! #bold 改良社会主义者#!将经历一场不可调和的分裂，同时使所有现存的[Concept('concept_bpm_ig_is_socialist', '社会主义')][Concept('concept_interest_group', '利益集团')]获得更多的追随者。\n\n#lore “想一想：我们整个运动的社会主义性质究竟体现在哪里呢？真正实际的斗争分为三类：工会斗争、争取社会改良的斗争，以及使资本主义国家民主化的斗争。我们这三种斗争形式真的是社会主义吗？根本不是。先看工会运动！看看英国：它在那里不仅不是社会主义的，而且在某些方面还是社会主义的障碍。讲坛社会主义者、国家社会主义者以及诸如此类的人同样强调社会改良。而民主化则专门属于资产阶级。资产阶级在我们之前就早已把民主写在了他们的旗帜上。”\n\n——罗莎·卢森堡，1898#!"
+
+ je_bpm_second_international_tooltip: "该进度由以下因素决定：\n#variable [GetGlobalVariable('bpm_je_second_intl_progress_from_base').GetValue|+=]#! 基础值\n#variable [GetGlobalVariable('bpm_je_second_intl_progress_from_powerful_igs').GetValue|+=]#! 来自每个[Concept('concept_great_power', '列强')]中强大的[Concept('concept_bpm_ig_is_socialist', '社会主义')][Concept('concept_interest_group', '利益集团')]\n#variable [GetGlobalVariable('bpm_je_second_intl_progress_from_influential_igs').GetValue|+=]#! 来自每个[Concept('concept_great_power', '列强')]中有影响力的[Concept('concept_bpm_ig_is_socialist', '社会主义')][Concept('concept_interest_group', '利益集团')]\n#variable [GetGlobalVariable('bpm_je_second_intl_progress_from_agitators').GetValue|+=]#! 来自每个[Concept('concept_great_power', '列强')]中活跃的[Concept('concept_bpm_socialist_agitator', '社会主义煽动者')]\n#variable [GetGlobalVariable('bpm_je_second_intl_progress_from_socialist_movements').GetValue|+=]#! 来自每个[Concept('concept_great_power', '列强')]中活跃的[Concept('concept_political_movement', '社会主义运动')]"
+
+# AGRARIAN SOCIALISM
+ je_bpm_agrarian_socialism: "农业社会主义"
+ je_bpm_agrarian_socialism_status: "监测农业社会主义思想的发展"
+ je_bpm_agrarian_socialism_status_1: "社会主义者与农民隔绝。"
+ je_bpm_agrarian_socialism_status_2: "社会主义者开始关注农民阶级。"
+ je_bpm_agrarian_socialism_status_3: "社会主义者已适应了农村劳动者！"
+ je_bpm_agrarian_socialism_reason: "#v 进度速率：#! #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_agrarian_socialism_rate_tooltip [Country.MakeScope.ScriptValue('bpm_je_agrarian_socialism_rate')|+]#!/月。\n\n一些社会主义思想家认为，无产阶级是唯一具有革命潜力的阶级。对于那些更倾向于农村人口的人来说，这种信念显得目光短浅：毕竟，在[Country.GetName]，农民难道不是和城市工人一样深受压迫吗？至少，他们庞大的数量迫使社会主义者将他们纳入革命策略。\n\n本日志条目分为#v 三个部分#!，由日志进度和一项[concept_technology]来解锁。每个部分添加一项新效果：\n (1) #v 0%#!：无要求。\n    @ig_socialists!@ig_anarchists! #yellow 社会主义者#!与[GetInterestGroupVariant('ig_agrarian_populists', GetPlayer).GetName]在@peasants!/@farmers!中赢得支持。\n (2) #v 33%#!：需要#gold 大众政党#!。\n    [GetInterestGroupVariant('ig_agrarian_populists', GetPlayer).GetName]获得一位#green 农业社会主义#!领袖。\n (3) #v 66%#!：需要#gold 政治鼓动#!。\n    [GetInterestGroupVariant('ig_agrarian_populists', GetPlayer).GetName]永久成为#green 农业社会主义者#!。\n\n @information! 如果你达到日志进度阈值却尚未研究所需科技，你将自动获得该科技的研究进度。\n\n若该国的[concept_rank]至少达到[Concept('concept_unrecognized_power','$concept_unrecognized_regional_power$')]，它还将加速所有国家的#yellow 农业社会主义#!日志进度。\n\n#lore “沙皇处于永久的优柔寡断之中，已丧失一切真正思考的能力：他想要解放，却竭尽全力阻挠之。他已认识到，农民的解放无异于土地的解放；而土地的解放又将引发一场社会革命，并使农村公社变得神圣不可侵犯……对俄国而言，这是何等的福分——农村公社从未被拆散，私有制从未取代公社的财产。”\n\n——亚历山大·赫尔岑，1851#!" 
+
+ je_bpm_agrarian_socialism_rate_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_agrarian_socialism_rate')]"
+ bpm_peasant_population_gt_30: "我们人口中至少有#v 30%#!是@peasants! #v 农民#!"
+ bpm_peasant_population_lt_30: "我们人口中不足#v 30%#!是@peasants! #v 农民#!"
+
+# SYNDICALISM
+ je_bpm_syndicalism: "工团主义"
+ je_bpm_syndicalism_status: "监测工团主义思想的发展"
+ je_bpm_syndicalism_status_1: "工团主义思想尚处萌芽。"
+ je_bpm_syndicalism_status_2: "工团主义思想正在积聚声势。"
+ je_bpm_syndicalism_status_3: "工团主义思想在劳工运动中如日中天！"
+ je_bpm_syndicalism_reason: "#v 进度速率：#! #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_syndicalism_rate_tooltip [Country.MakeScope.ScriptValue('bpm_je_syndicalism_rate')|+]#!/月。\n\n工团主义思想源于工人对其当前处境之无能为力的挫败感。他们眼看着选举派社会主义者在议会中争吵不休，无政府主义者徒劳地投掷炸弹，工会头目们在一次次妥协面前低头。够了！产业工人人数众多、力量强大，他们已经发现了#PB 总罢工#!这一策略。工团主义将提供贯彻到底的动力。\n\n本日志条目分为#v 三个部分#!，由日志进度和一项[concept_technology]来解锁。每个部分添加一项新效果：\n (1) #v 0%#!：无要求。\n    [GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]人气上升。\n (2) #v 33%#!：需要#gold 工会联合会#!。\n    [GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]与[GetInterestGroupVariant('ig_anarchists', GetPlayer).GetName]获得#pink 工团主义#!领袖。\n (3) #v 66%#!：需要#gold 政治鼓动#!。\n    [GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]与[GetInterestGroupVariant('ig_anarchists', GetPlayer).GetName]永久成为#pink 工团主义者#!。\n\n @information! 如果你达到日志进度阈值却尚未研究所需科技，你将自动获得该科技的研究进度。\n\n倘若日志条目达到顶峰，#pink 总罢工#!将变得极有可能发生！\n\n#lore “工团主义与旧工会方法之间的根本区别在于：旧工会无一例外地在工资制度和资本主义内部运作，并视后者为不可避免；而工团主义则驳斥并谴责现存的产业安排为不义与罪恶，且不让工人对这一制度抱有任何持久成果的幻想。”\n\n——爱玛·戈尔德曼，1913#!" 
+
+ je_bpm_syndicalism_rate_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_syndicalism_rate')]"
+
+ bpm_syndicalism_legitimized_global: "#bold 工团主义意识形态#!将在全世界获得合法地位！"
+ bpm_syndicalism.1.t: "工团主义革命！"
+ bpm_syndicalism.1.d: "成功了！凭借工会的力量，凭借总罢工的威胁，以及一场席卷全国的革命，工团主义者在[Country.GetName]取得了胜利。旧的统治机构已然瘫痪——这个新国家通过一幅由工人控制的工会组成的联邦图景来进行治理。更重要的是，革命发生在这一特定国家这一事实，已在全世界证明了工团主义是一种能够实现社会革命的强大而切实可行的意识形态。"
+ bpm_syndicalism.1.f: "同业公会（抵抗、团结、联合）值得我们鼓励与同情，因为它们是未来社会建构的自然元素；正是它们能够轻易地转变为生产者协会；正是它们能够运转社会工具、组织生产。其许多成员起初往往并未意识到这些公会在未来所要扮演的角色；起初他们只想着抵抗资本的剥削或争取一些表面的改善；但很快，他们为争取那些微不足道的治标之策、有时甚至是徒劳的负面结果而付出的艰辛努力，很容易引导他们去寻求能够将他们从资本主义压迫中解放出来的彻底改革。于是他们研究社会问题，并在工人代表大会上获得代表席位。新团体有必要与旧团体步调一致，因为唯有通过被广泛理解的团结，通过全世界所有行业、所有国家工人的联合，我们才必能实现特权的废除和所有人的平等。\n\n——欧仁·瓦尔兰，1870"
+ bpm_syndicalism.1.a: "团结永存！"
+
+ bpm_syndicalism.2.t: "工团主义革命！"
+ bpm_syndicalism.2.d: "成功了！凭借工会的力量，凭借总罢工的威胁，以及一场席卷全国的革命，工团主义者在[Country.GetName]取得了胜利。旧的统治机构已然瘫痪——这个新国家通过一幅由工人控制的工会组成的联邦图景来进行治理！"
+ bpm_syndicalism.2.f: "同业公会（抵抗、团结、联合）值得我们鼓励与同情，因为它们是未来社会建构的自然元素；正是它们能够轻易地转变为生产者协会；正是它们能够运转社会工具、组织生产。其许多成员起初往往并未意识到这些公会在未来所要扮演的角色；起初他们只想着抵抗资本的剥削或争取一些表面的改善；但很快，他们为争取那些微不足道的治标之策、有时甚至是徒劳的负面结果而付出的艰辛努力，很容易引导他们去寻求能够将他们从资本主义压迫中解放出来的彻底改革。于是他们研究社会问题，并在工人代表大会上获得代表席位……新团体有必要与旧团体步调一致，因为唯有通过被广泛理解的团结，通过全世界所有行业、所有国家工人的联合，我们才必能实现特权的废除和所有人的平等。\n\n——欧仁·瓦尔兰，1870"
+ bpm_syndicalism.2.a: "团结永存！"
+
+# General Strike
+ je_bpm_general_strike_trigger: "总罢工的威胁"
+ # je_bpm_general_strike_trigger_status: "Watch out for a General Strike."
+ je_bpm_general_strike_trigger_reason: "本日志条目将迅速逼近其#yellow 平衡点#!，即#v #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_general_strike_power_tooltip [Country.MakeScope.ScriptValue('bpm_je_general_strike_power')|.1]#!#!。\n\n正是那些将互不相干的群众逼入整齐划一的工厂劳作的条件，将他们引向了一种革命性的新策略。虽然这里或那里的停工远非闻所未闻，但一场遍及全国的协调罢工——一场#PB 总罢工#!——如今已摆上了台面。毕竟，如果工人是无数流水线上可互换的齿轮，难道他们不也共享着共同的利益吗？如果一个齿轮停转，所有齿轮难道不会齐声停转吗？\n\n各种因素都可能导致本日志条目的#yellow 平衡点#!发生偏移——战争与激进主义会激励潜在的罢工者，而慷慨的工人权利则会让他们三思。\n\n倘若本条目达到其极限，一场#PB 总罢工#!便将开始。\n\n工人们的#blue 疲惫程度#!为#variable [Country.MakeScope.Var('bpm_je_general_strike_exhaustion').GetValue|.1]#!，以#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_general_strike_exhaustion_tooltip [Country.MakeScope.ScriptValue('bpm_je_general_strike_exhaustion_rate')|-.1]#!/月的速率恢复到#variable 0#!。\n\n#lore “让一个劳动者试图以罢工的方式讨回一点点被夺走的东西——这位劳动者便侵犯了神圣的财产权，政府便立即率领军队来对付这位劳动者，去援助地主、工厂主或商人……富人据以拥有土地的权利、征税的权利以及占有他人劳动产品的权利，与正义毫无共同之处，而这一切都建立在由军队所制造出来的暴力之上，别无其他。”\n\n——列夫·托尔斯泰，1900#!"
+
+ je_bpm_general_strike_ongoing: "总罢工！"
+ je_bpm_general_strike_ongoing_status: "解决总罢工！"
+ je_bpm_general_strike_ongoing_reason: "@warning! #PB 总罢工#!以#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_general_strike_power_tooltip [Country.MakeScope.ScriptValue('bpm_je_general_strike_power')|-=]#!/周的速率推进。\n@information! 罢工者的#blue 疲惫程度#!（#variable [Country.MakeScope.Var('bpm_je_general_strike_exhaustion').GetValue|.1]#!）以#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_general_strike_exhaustion_tooltip [Country.MakeScope.ScriptValue('bpm_je_general_strike_exhaustion_rate')|+=]#!/周的速率变化。\n\n[Country.GetName]的工人们已经受够了。眼下，由该国主要劳工组织发起的总罢工正在进行，严重危及国家与社会的所有机能。\n\n只要该条目生效，我们将承受以下随日志进度缩放的惩罚：\n  #N - #!对所有工作场所的[concept_throughput]惩罚，随日志进度缩放，\n  #N - #!对工业建筑的更严苛[concept_throughput]惩罚，以及\n  #N - #!额外的每周[concept_war_exhaustion]\n\n加强我们的[GetInstitutionType('institution_police').GetName]，颁布更具镇压性的[GetLawGroup('lawgroup_policing').GetName]或[GetLawGroup('lawgroup_internal_security').GetName]法律，或作出某些让步，都可能有助于我们解决这一困境。\n\n#lore “我们，在为自由而斗争中，决意于本月四日正午，宣布京汉铁路沿线各工会实行同盟总罢工。出于实际考虑，总工会将在江岸办公。总罢工期间的一切行动，必须严格遵照总工会的命令执行。我们为自由而战，我们为人权而战，我们决不后退！”\n\n——京汉铁路总工会，1923#!"
+ je_bpm_general_strike_ongoing_status_1: "罢工者意志坚定！"
+ je_bpm_general_strike_ongoing_status_2: "罢工者摇摆不定。"
+ je_bpm_general_strike_ongoing_status_3: "罢工者疲惫而饥饿。"
+
+ bpm_je_general_strike_concessions_button: "作出让步"
+ bpm_je_general_strike_concessions_button_desc: "给予罢工工人可观的让步或可缓和局势。\n@information! #v 连续使用将给出愈发慷慨的让步。#!"
+ bpm_je_general_strike_minor_concessions_button: "平衡策略"
+ bpm_je_general_strike_minor_concessions_button_desc: "将一些轻微、易于逆转的让步与有针对性的镇压相结合，有助于我们应对这一局面。"
+ bpm_je_general_strike_crackdown_button: "定点镇压"
+ bpm_je_general_strike_crackdown_button_desc: "除掉捣乱分子是摆脱这一困境的唯一出路。"
+ bpm_je_general_strike_white_terror_button: "大规模白色恐怖"
+ bpm_je_general_strike_white_terror_button_desc: "我们将动员整个国家来应对这一威胁。\n@warning! #v 连续使用将累加愈发镇压性的法律。#!"
+
+
+ bpm_je_general_strike_remove_strike_progress_small: "移除#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_small')]#!#pink 总罢工#!进度（按对[GetInstitutionType('institution_police').GetName]的[Concept('concept_institution', '制度')]投资缩放）。"
+ bpm_je_general_strike_remove_strike_progress_normal: "移除#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_normal')]#!#pink 总罢工#!进度（按[GetInstitutionType('institution_police').GetName]等级缩放）。"
+ bpm_je_general_strike_remove_strike_progress_large: "移除#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_large')]#!#pink 总罢工#!进度（按[GetInstitutionType('institution_police').GetName]等级缩放）。"
+ bpm_je_general_strike_add_strike_progress_small: "增加#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_small')]#!#pink 总罢工#!进度（按[GetInstitutionType('institution_police').GetName]等级缩放）。"
+ bpm_je_general_strike_add_strike_progress_normal: "增加#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_normal')]#!#pink 总罢工#!进度（按[GetInstitutionType('institution_police').GetName]等级缩放）。"
+ bpm_je_general_strike_add_strike_progress_large: "增加#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_large')]#!#pink 总罢工#!进度（按[GetInstitutionType('institution_police').GetName]等级缩放）。"
+ bpm_je_general_strike_add_strike_exhaustion_small: "增加#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_small')]#!#blue 罢工疲惫#!（按[GetInstitutionType('institution_police').GetName]等级缩放）。"
+ bpm_je_general_strike_add_strike_exhaustion_normal: "增加#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_normal')]#!#blue 罢工疲惫#!（按[GetInstitutionType('institution_police').GetName]等级缩放）。"
+ bpm_je_general_strike_add_strike_exhaustion_large: "增加#v [GetPlayer.MakeScope.ScriptValue('bpm_je_general_strike_button_result_large')]#!#blue 罢工疲惫#!（按[GetInstitutionType('institution_police').GetName]等级缩放）。"
+
+ bpm_general_strike.1.t: "胜利与让步"
+ bpm_general_strike.1.d: "罢工现已结束，工会们得意地宣称他们成功争取到了重要的让步，而作为谈判的一部分，他们现在将重返工作岗位。尽管罢工的回报看似尚可，但许多工人却对如此一番气势汹汹的武力展示所换来的区区所得感到不安。"
+ bpm_general_strike.1.f: "TODO"
+ bpm_general_strike.1.a: "一场微不足道的胜利。"
+
+ bpm_general_strike.2.t: "胜利与和平"
+ bpm_general_strike.2.d: "罢工现已结束，劳工运动在为他们代[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle][ROOT.GetCountry.GetRuler.GetFullName]而进行的这场毫无意义的战争中已精疲力竭、元气大伤，如今被强行拉下帷幕。来之不易的和平所带来的庆祝，被这样一种认知蒙上了阴影：对某些人而言，这样的和平并非欢欣的理由，反而是讨伐叛徒的宣战理由。"
+ bpm_general_strike.2.f: "TODO"
+ bpm_general_strike.2.a: "为和平而胜利！"
+
+ bpm_general_strike.3.t: "劳工的胜利"
+ bpm_general_strike.3.d: "这场始于一个国家的罢工，最终在一个截然不同的国家被叫停。随着政府在革命工团主义者周围垮台，好斗的工会——曾是阶级战争的一方——如今正忙于收拾这个支离破碎的国家，以团结和有组织劳工的力量取代反动而过时的制度。唯有时间能证明这样一场实验能否存续，但唯有愚者才会否认，历史在这一天被书写。"
+ bpm_general_strike.3.f: "TODO"
+ bpm_general_strike.3.a: "一场胜利！"
+
+ je_bpm_general_strike_power_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_general_strike_power')]"
+ je_bpm_general_strike_exhaustion_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_general_strike_exhaustion_rate')]"
+
+ bpm_general_strike_exhaustion_above_50: "#bold 总罢工#!的#blue 疲惫#!高于#variable 50#!"
+ bpm_general_strike_syndicalist_failed: "#bold 工团主义#!将在该国遭受永久性的挫折，其进展将被削弱。"
+ 
+ bpm_general_strike_will_start: "#bold 总罢工#!即将开始！"
+ notification_bpm_general_strike_start_name: "#bold 总罢工#!降临了！"
+ notification_bpm_general_strike_start_desc: "工人们在全国各地放下了手中的工具。工会们齐声发出愤怒的呼声，煽动工人停止工作。必须处理此事，否则我们的经济将遭受损失！"
+ notification_bpm_general_strike_start_tooltip:1 "#header $notification_bpm_general_strike_start_name$#!\n$TOOLTIP_DELIMITER$\n$notification_bpm_general_strike_start_desc$"
+
+ bpm_general_strike_will_fail: "#bold 总罢工#!即将被平息！"
+ notification_bpm_general_strike_fail_name: "#bold 总罢工#!结束了！"
+ notification_bpm_general_strike_fail_desc: "罢工者已重返工作岗位；无论是成功镇压、巧妙的谈判还是疲惫所致。"
+ notification_bpm_general_strike_fail_tooltip:1 "#header $notification_bpm_general_strike_fail_name$#!\n$TOOLTIP_DELIMITER$\n$notification_bpm_general_strike_fail_desc$"
+
+ bpm_gave_into_demands: "作出了让步"
+ bpm_accepted_demands: "赢得了让步"
+
+ bpm_right_wing_igs_angered: "[Concept('concept_bpm_ig_is_right_wing','右翼利益集团')]被#N 激怒#!了！"
+ bpm_upper_institutional_igs_angered: "[Concept('concept_bpm_ig_is_upper_institutional','上层建制利益集团')]被#N 激怒#!了！"
+
+# Zapadniki vs Slavyanophiles
+ je_bpm_zapadniks_and_slavophiles: "西方派与斯拉夫派"
+ je_bpm_zapadniks_and_slavophiles_status: "监测这两种哲学的辩论。"
+ je_bpm_zapadniks_and_slavophiles_zapadnik_prominence: "$bpm_je_all_zapadnik$思想在俄国知识分子中占主导"
+ je_bpm_zapadniks_and_slavophiles_no_prominence: "$bpm_je_all_slavophile$与$bpm_je_all_zapadnik$思想在俄国知识分子中同样流行"
+ je_bpm_zapadniks_and_slavophiles_slavophile_prominence: "$bpm_je_all_slavophile$思想在俄国知识分子中占主导"
+ je_bpm_zapadniks_and_slavophiles_reason: "彼得大帝是谁？对一些人而言，他是一位伟人，一位不可思议的改革者，他利用西方之精华将俄国带出往日的黑暗与腐朽，为未来的挑战进行现代化改造。对另一些人而言，他则是民族悲剧的根源，一个竟敢将异质文明中不相容的价值观移植到俄国主权精神之上的愚人。诚然，他个人的形象并非让此后数十年主导俄国知识界的两大哲学流派——西方派与斯拉夫派——产生分歧的唯一因素。\n\n$bpm_je_all_zapadniks$是俄国知识界中的一股思潮，他们渴望效仿西方，从中汲取他们眼中最优秀的创新——自由主义、民主、人权与经济自由——以使俄国摆脱其落后的境地，追随他们伟大民族英雄彼得大帝的脚步。\n\n$bpm_je_all_slavophiles$是与西方派对立的思潮——他们相信，俄国的民族精神已被西方影响践踏得太过，而它过于自我、世俗和革命，无法与集体主义、基督教和忠君的俄国精神相契合。\n\n本日志条目代表这两种立场在俄国学术界心中相对彼此的影响力。若其中任何一方占据上风，你将在多个研究领域获得按比例调整的修正——更强大的$bpm_je_all_slavophiles$将带来更快的#bold 军事#!与#bold 工业#!研究，而$bpm_je_all_zapadniks$则会将注意力转向#bold 科技传播#!与#bold 社会#!研究。$bpm_je_all_slavophiles$与$bpm_je_all_zapadniks$各自的[Concept('concept_leader', '利益集团领袖')]和[Concept('concept_agitator', '煽动者')]的人气将决定各方的受欢迎程度，而其热忱会随着时间不可避免地消退。在当前情况下，本日志条目预计以#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_zapadniks_and_slavophiles_rate_tooltip [Country.MakeScope.ScriptValue('bpm_je_zapadniks_and_slavophiles_rate')|+]#!每周的速率推进。\n\n#lore “过去三百年，俄国一直渴望与西方融合；过去三百年，它一直承认自己劣于西方，从西方汲取了它所有的思想、所有的学说……我们最伟大的君王……背弃了旧俄国。他扫除了我们所有古老的制度，抛弃了我们古老的传统……你必须承认，这是辉煌的，彼得大帝的创造，这个天才人物的理念，他为我们此后所走的道路指明了方向。”\n\n——彼得·恰达耶夫，1837#!"
+
+ bpm_je_all_zapadniks: "@ig_liberals! @ig_radicals! @ig_socialists! #bold 西方派#!"
+ bpm_je_all_zapadnik: "@ig_liberals! @ig_radicals! @ig_socialists! #bold 西方派#!"
+ bpm_je_all_slavophiles: "@ig_conservatives! @ig_reactionaries! #bold 斯拉夫派#!"
+ bpm_je_all_slavophile: "@ig_conservatives! @ig_reactionaries! #bold 斯拉夫派#!"
+
+ bpm_journal_zapadniks_and_slavophiles_stagnant: "本日志条目的进度停滞在#bold 50#!，而其变化速率为#bold 0#!"
+
+ bpm_je_zapadniks_and_slavophiles_start: "$bpm_je_all_zapadniks$与$bpm_je_all_slavophiles$之间的辩论已经开始！"
+ bpm_je_zapadniks_and_slavophiles_end: "$bpm_je_all_zapadniks$与$bpm_je_all_slavophiles$之间的辩论已经结束。"
+
+ bpm_zapadnik_buffs: "西方派影响"
+ bpm_zapadnik_win_buff: "西方派影响"
+ bpm_slavophile_buffs: "斯拉夫派影响"
+
+ je_bpm_zapadniks_and_slavophiles_rate_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_zapadniks_and_slavophiles_rate')]"
+
+ bpm_russia.1.t: "哲学书简"
+ bpm_russia.1.d: "一册由[SCOPE.sCharacter('bpm_russia_chaadayev').GetFullName]从法文译出的书信集出版，令俄国少数识字之人沸腾起来——书中字句令[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle][ROOT.GetCountry.GetRuler.GetFullName]宣布其为疯子，而全国的知识分子或谴责或支持他，通过两极化的辩论阐发书简中表达的思想。不经意间，[SCOPE.sCharacter('bpm_russia_chaadayev').GetFullName]挑起了近半个世纪俄国哲学中最深刻的分裂——西方派与斯拉夫派之间的那场分裂。"
+ bpm_russia.1.f: "曾几何时，彼得大帝想要教化我们，为使我们对启蒙满怀渴望，他向我们抛来文明的外衣：我们接住了外衣，却未触及文明……我们的血液中有某种东西，驱散了一切真正的进步。而今天……我们在思想领域划下了一片虚空。\n\n——彼得·恰达耶夫，1836#!"
+ bpm_russia.1.a: "看在上帝份上，把这个疯子软禁起来！"
+ bpm_russia.1.b: "他尖刻的话语中确有些许道理……"
+
+ bpm_russia.2.t: "折断的矛"
+ bpm_russia.2.d: "俄国知识界中西方派与斯拉夫派两翼之间的辩论，几年前还是那般炽热激昂，如今终于落下帷幕。无论好坏，俄国的政治思想已然前行。"
+ bpm_russia.2.f: "最终，新的哲学与新的议题吸引了知识分子的注意。这场辩论的终结，并非以一场轰动的胜利，而是以震耳欲聋的沉寂。"
+ bpm_russia.2.a: "然而俄国依然坚忍"
+
+ bpm_russia.3.t: "梦想者"
+ bpm_russia.3.d: "西方派的梦想已在俄国实现——一个自由俄国公民的梦想。尽管俄国的未来尚未书写，但看来它将是那个并非由古老衰朽的贵族及其暴虐沙皇、而是由俄国人民自己书写的未来。俄国在至关重要的方面追赶上了西方——现在，让我们看看它能否更进一步，超越它们！"
+ bpm_russia.3.f: "我们未曾想过这是可能的——一个落后于文明国家的国度竟能如此迅速地追赶上来。但那些心怀梦想之人已将梦想化为现实，而俄国的未来似乎也明亮了那么一点点。"
+ bpm_russia.3.a: "前进！"
+ 
+# FASCIST "SPLIT" (its more of a spawn really)
+ je_bpm_split_fascists: "法西斯主义崛起"
+ je_bpm_split_fascists_status: "监测右翼新元素的崛起。"
+ je_bpm_split_fascists_reason: "在群众政治崛起之际，传统反动意识形态的失败正催生出一个革命民族主义者的新联盟。法西斯分子从退伍军人组织和右翼专业人士那里获得支持，他们试图建立一个以阶级合作和武器化的民族神话为基础的强大中央集权国家。\n\n#lore “看来……人已被战争冲击得忘记了自己如何做一个政治动物。法西斯主义的蔓延证实了这一怀疑，那是一种从政治思考的必要性中仓皇逃入幻想的行为。战后局势最明显不过的一点在于，它是全新的，源于尚未得到分析的原因，而在这一分析完成并成为新的社会公式的基础之前，它无法得到缓解。然而支持法西斯主义的人却表现得仿佛人类早已掌握了足以应对我们所有问题的原则，仿佛问题仅仅在于任命一位独裁者来加以应用。”\n\n——丽贝卡·韦斯特，1935#!"
+
+ je_bpm_split_fascists_special_tooltip: "该进度由以下因素决定：\n#variable [Country.MakeScope.Var('bpm_je_split_fascists_progress_from_base').GetValue|+=]#! 基础值\n#variable [Country.MakeScope.Var('bpm_je_split_fascists_progress_from_conflicts').GetValue|+=]#! 来自处于战争、外交博弈、革命或担任民族统一领袖\n#variable [Country.MakeScope.Var('bpm_je_split_fascists_progress_from_rightists_empowered').GetValue|+=]#! 来自执政或受扶植的#bold 反动#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]\n#variable [Country.MakeScope.Var('bpm_je_split_fascists_progress_from_rightists_suppressed').GetValue|+=]#! 来自受打压的#bold 反动#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]\n#variable [Country.MakeScope.Var('bpm_je_split_fascists_progress_from_rightists_marginal').GetValue|+=]#! 来自边缘化的#bold 反动#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]\n#variable [Country.MakeScope.Var('bpm_je_split_fascists_progress_from_radicals').GetValue|+=]#! 来自激进的中层人群；仅当#bold 自由#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]未被边缘化且未受打压时，此项才会累积。"
+
+ je_bpm_fascism: "法西斯渗透"
+ je_bpm_fascism_status: "法西斯分子正在我们的制度中获取影响力。"
+ je_bpm_fascism_reason: "我国的法西斯运动正达到白热化，许多显赫人物参与其中。最令人担忧的是他们在军官团中日益增长的影响力。这一危险的组合威胁着将法西斯分子嵌入我们最根本的制度之中。"
+
+ je_bpm_split_fascists_progress_bar: "法西斯主义崛起"
+ je_bpm_split_fascists_progress_bar_desc: "#v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#!（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100）每周变动#v [SCOPE.GetRootScope.GetCountry.MakeScope.ScriptValue('bpm_je_split_fascists_progress_rate')|+=]#!。"
+ bpm_je_split_fascists_progress_from_base_desc: "基础值"
+ bpm_je_split_fascists_progress_from_socialist_revolutions_desc: "来自受到#bold 社会主义#![Concept('concept_revolution', '革命')]的威胁"
+ bpm_je_split_fascists_progress_from_socialist_countries_desc: "来自存在的、[concept_rank]为#variable 列强#!或以上的#bold 委员会共和国#!。"
+ bpm_je_split_fascists_progress_from_conflicts_desc: "来自处于战争、外交博弈、革命或担任民族统一领袖"
+ bpm_je_split_fascists_progress_from_rightists_empowered_desc: "来自执政或受扶植的#bold 反动#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]"
+ bpm_je_split_fascists_progress_from_rightists_suppressed_desc: "来自受打压的#bold 反动#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]"
+ bpm_je_split_fascists_progress_from_rightists_marginal_desc: "来自边缘化的#bold 反动#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]"
+ bpm_je_split_fascists_progress_from_radicals_desc: "来自激进的中层人群；仅当#bold 自由#!与#bold 保守#![Concept('concept_interest_group', '利益集团')]未被边缘化且未受打压时，此项才会累积。"
+
+# STATUS QUO CHANGES
+ je_bpm_status_quo_armed_neutrality: "未受侵扰的堡垒"
+ je_bpm_status_quo_armed_neutrality_reason: "随着[GetLawType('law_armed_neutrality').GetName][Concept('concept_law', '法律')]的通过，我国的政治开始发生变化。倘若这项法律在案#variable 10#!年，我国部分[Concept('concept_interest_group', '利益集团')]将转变其意识形态立场以支持这一安排。"
+
+ je_bpm_women_rights_upgrade: "真正的性别平等"
+ je_bpm_women_rights_upgrade_reason: "随着[GetLawType('law_womens_suffrage').GetName][Concept('concept_law', '法律')]的通过，妇女的权利在纸面上得到了保障。若我们想获得[GetLawType('law_womens_suffrage_upgraded').GetName]，就必须努力在实践中推动平等。\n\n让[GetLawType('law_womens_suffrage_upgraded').GetName]的支持者保持[Concept('concept_powerful', '强大')]或[Concept('concept_in_government', '执政')]，同时反复通过[GetLawType('law_repeatable_culture_promote_socialist_values').GetName]，将增加本条目的进度。反之，让[Concept('concept_bpm_ig_is_sexist', '反女权主义者')]保持[Concept('concept_powerful', '强大')]或[Concept('concept_in_government', '执政')]将降低本条目的进度。"
+ je_bpm_multicultural_upgrade: "各族人民的友谊"
+ je_bpm_multicultural_upgrade_reason: "随着[GetLawType('law_multicultural').GetName][Concept('concept_law', '法律')]的通过，种族与文化的平等只是在纸面上得到了认定。然而，国际事业最激进的倡导者们正进一步推进，倘若我们任由他们得逞，我们将转而获得[GetLawType('law_multicultural_upgraded').GetName]。\n\n让[GetLawType('law_multicultural').GetName]的支持者保持[Concept('concept_powerful', '强大')]或[Concept('concept_in_government', '执政')]，同时反复通过[GetLawType('law_repeatable_culture_affirmative_action').GetName]，将增加本条目的进度。反之，让[GetLawType('law_multicultural').GetName]的反对者保持[Concept('concept_powerful', '强大')]或[Concept('concept_in_government', '执政')]将降低本条目的进度。"
+ je_bpm_total_separation_upgrade: "真正的世俗化"
+ je_bpm_total_separation_upgrade_reason: "随着[GetLawType('law_total_separation').GetName][Concept('concept_law', '法律')]的通过，我们已成为一个表面上的世俗国家。倘若我们推进采纳[GetLawType('law_total_separation_upgraded').GetName]，或许有一条通往真正世俗化的道路。\n\n让[GetLawType('law_repeatable_religion_promote_secular_values').GetName]的支持者保持[Concept('concept_powerful', '强大')]或[Concept('concept_in_government', '执政')]，同时反复通过[GetLawType('law_repeatable_religion_promote_secular_values').GetName]，将增加本条目的进度。反之，让[GetLawType('law_repeatable_religion_promote_secular_values').GetName]的支持者保持[Concept('concept_powerful', '强大')]或[Concept('concept_in_government', '执政')]将降低本条目的进度。"
+
+ je_bpm_multicultural_upgrade_progress_bar: "进度"
+ je_bpm_multicultural_upgrade_progress_bar_desc: "法律升级进度：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100）"
+ je_bpm_women_rights_upgrade_progress_bar: "进度"
+ je_bpm_women_rights_upgrade_progress_bar_desc: "法律升级进度：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100）"
+ je_bpm_total_separation_upgrade_progress_bar: "进度"
+ je_bpm_total_separation_upgrade_progress_bar_desc: "法律升级进度：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100）"
+
+ bpm_total_separation_upgrade_from_anti_secularists: "来自宗教反对派"
+ bpm_total_separation_upgrade_from_secularists: "来自世俗支持"
+ bpm_multicultural_upgrade_from_anti_multiculturalists: "来自反国际主义反对派"
+ bpm_multicultural_upgrade_from_multiculturalists: "来自国际主义支持"
+ bpm_womens_rights_upgrade_from_sexists: "来自反女权主义者"
+ bpm_womens_rights_upgrade_from_super_feminists: "来自激进女权主义者"
+
+ bpm_je_multicultural_upgrade_advance_25: "#bold $je_bpm_multicultural_upgrade$#!的进度推进#variable [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_affirmative_action_power_upgrade_progress')|G0]#!。"
+ bpm_je_women_rights_upgrade_advance_25: "#bold $je_bpm_women_rights_upgrade$#!的进度推进#variable [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_promote_socialist_values_effect_power_upgrade_progress')|G0]#!。"
+ bpm_je_total_separation_upgrade_advance_25: "#bold $je_bpm_total_separation_upgrade$#!的进度推进#variable [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_promote_secular_values_upgrade_progress')|G0]#!。"
+
+# MISC REPLACEMENT
+ bpm_red_scare_unlock_tt: "在任何[concept_rank]为#variable 列强#!或以上的[concept_country]中发生了一场#N 工人革命#!。"
+
+# AMERICAN CIVIL WAR
+ je_bpm_guilty_land: "这片有罪之地"
+ je_bpm_guilty_land_reason: "奴隶制的罪孽深深烙印在美国事业之魂中，“人人生而平等”这句话成了第九层地狱之罪。我们的人民深知这一点，因而他们与选举和妥协的伪善作斗争。当那些手段失效时，便滋生出阴谋论与分裂主义情绪。\n\n在#GBB 北方#!，奴隶主势力因奴隶制这一持续的罪行而备受指责。尽管多数人对此态度暧昧，但未来数年不断升温的紧张局势能够赢得广泛同情。\n\n在#GB 南方#!，江湖骗子们向自我欺骗的种植园主和绝望的小农们编造着州权的故事。刚刚从联邦法令废止危机中走出来，他们的情绪暂时有所缓和。\n\n#GBB 北方#!与#GB 南方#!的激进化分别由以下因素加剧：\n#N +#! #GBB 支持#!／#GB 反对#!奴隶制团体的选举胜利，\n#N +#! #GBB 反对#!／#GB 支持#!奴隶制总统在任内去世，\n#N +#! #GBB 蓄奴#!／#GB 自由#!州加入联邦。\n偶尔会有人提出妥协，但它们永远不会让双方都满意。\n\n要警惕扩张过快，因为新领土的到来会引发谁应有权耕作那片土地的辩论。随着#BB 全国激进化#!达到沸点，双方都将发动法律战和准军事暴力的运动。\n\n#N 向哈珀斯费里的进军无法被阻止，只能被推迟。#!"
+ bpm_je_john_brown: "约翰·布朗发动了他伟大的突袭，一个时代的最后一次选举开始了"
+ bpm_je_eradicate_slavery: "奴隶制已被取缔5年"
+ bpm_je_guilty_one_civil_war: "“这片有罪之地的罪孽……”"
+ bpm_je_guilty_two_civil_war: "“这片有罪之地的罪孽将永难洗清……”"
+ bpm_je_guilty_three_civil_war: "“这片有罪之地的罪孽将永难洗清，唯有以血……”"
+ bpm_je_guilty_four_civil_war: "“这片有罪之地的罪孽将永难洗清，唯有以血”——约翰·布朗"
+
+ je_bpm_gag_rule: "封口规则"
+ je_bpm_gag_rule_reason: "自1819年那场惨痛的恐慌以来，我们#GB 南方#!的正人君子们便不断遭受中央政府的欺凌。1820年的密苏里妥协案企图束缚我们所珍视的“特殊制度”，随后他们的关税又使我们缺乏进步所必需的机器，令我们饥馑。如今，那个加里森家伙又发起了一场旨在废除奴隶制的请愿运动，胆大包天！\n\n我们必须划清界限：那些爱管闲事的#GBB 北方人#!休想再进一步干涉我们崇高经济的根基。除非有某个政党准备治愈联邦法令废止危机留下的创伤，否则在这些神圣的殿堂之内，将不再有任何关于奴隶制的讨论！\n\n@information! 要为#brightyellow 辉格党#!赢得#GB 南方#!，我们必须在#GB 南方#!兴建#yellow 港口#!和#yellow 建筑部门#!，发起一场大规模的内部改良运动。\n\n@information! 要为#blue 民主党#!赢得#GB 南方#!，我们必须通过[GetLawType('law_free_trade').GetName]并扩建#yellow 棉花种植园#!，将棉花王推向世界市场。\n\n@warning! 这些要求荒唐至极；满足它们自担风险，因为安抚蓄奴者所带来的好处，或许并不值得惹上这些麻烦。\n\n若两大主要政党都无法在3年内弥合联邦法令废止危机造成的裂痕，#GB 南方#!将确立封口规则，在不久的将来终止一切关于奴隶制的讨论。\n\n#lore “我们种植某些主要农产品以供世界大众市场之需；而他们则几乎完全为国内市场而生产。他们在关税上的目标，就是压低外国竞争，以谋取国内市场的垄断。”\n\n——约翰·C·卡尔霍恩，1837#!"
+ bpm_je_american_system: "在路易斯安那、密西西比、亚拉巴马、佐治亚和南卡罗来纳各拥有#yellow 5个建筑部门#!和#yellow 5个港口#!"
+ bpm_je_abomination_slayer: "通过[GetLawType('law_free_trade').GetName]，并在路易斯安那、密西西比、亚拉巴马、佐治亚和南卡罗来纳各拥有#yellow 15个棉花种植园#!"
+ bpm_je_gag_failure: "3年已过，而联邦法令废止的伤口仍在渗血"
+ bpm_je_south_unites: "#GB 南方#!精英团结在#brightyellow 辉格党#!或#blue 民主党#!之一周围！"
+
+ je_bpm_csa_crossroads_of_our_being: "我们存在的十字路口"
+ je_bpm_csa_crossroads_of_our_being_reason: "地区间的战争来临了，随之而来的是自独立战争以来未曾有过的斗争。那些被自身的怠惰迷了心窍的火食者，将内战带到了我们这座山巅之城。作为总司令，总统有责任进行这场斗争，并引领我们的国家走过十字路口。\n\n随着战事拖延，一些人将提出紧急立法，以促使这场冲突迅速了结。这项立法不仅在内战期间有益，也将在我国的重建中发挥作用。然而，此类立法也会激起反战情绪。若这种情绪过高，我们将输掉下一届总统选举，而我们的和平主义继任者必将允许邦联脱离。因此，我们必须平衡军事与政治考量，确保我们的国家能如凤凰般从这场危机中涅槃重生。\n\n#lore “除非你们自己是侵略者，否则就不会有冲突。你们没有在天庭登记过要摧毁政府的誓言，而我则立下过最为庄严的誓言，要‘维护、保护并捍卫它’。我实不忍就此结束。我们不是敌人，而是朋友。”\n\n——亚伯拉罕·林肯，1861#!"
+ je_bpm_fsa_crossroads_of_our_being: "我们存在的十字路口"
+ je_bpm_fsa_crossroads_of_our_being_reason: "地区间的战争来临了，随之而来的是自独立战争以来未曾有过的斗争。那些被自身的骄傲迷了心窍的激进共和党人，将内战带到了我们这座山巅之城。作为总司令，总统有责任进行这场斗争，并引领我们的国家走过十字路口。\n\n随着战事拖延，一些人将提出紧急立法，以促使这场冲突迅速了结。这项立法不仅在内战期间有益，也将在我们重夺阳光下的位置中发挥作用。然而，此类立法也会激起反战情绪。若这种情绪过高，我们将输掉下一届总统选举，而我们的和平主义继任者必将让我们的国家错失走向伟大的良机。因此，我们必须平衡军事与政治考量，确保我们的国家能将其天赐的启蒙传播到全世界。\n\n#lore “我们的新政府恰恰建立在截然相反的理念之上；它的地基、它的基石，都建立在这样一个伟大真理之上：黑人并不等同于白人；奴隶制、从属于优越种族，才是他自然而正常的状态。”\n\n——亚历山大·H·斯蒂芬斯，1861#!"
+ bpm_je_crossroads_zero: "全国团结在胜利的总统及其政党身后"
+ bpm_je_crossroads_one: "主和派呼声很高，但收效甚微"
+ bpm_je_crossroads_two: "主和情绪迅速滋长，对战争行动构成威胁"
+ bpm_je_crossroads_three: "主和派的破坏行动持续威胁着我们的军事与政治目标"
+ bpm_je_crossroads_four: "主和的呼声甚至在总统自己的党内也甚嚣尘上。"
+ bpm_je_civil_war_success: "内战以胜利告终，我们也在立法机构和投票箱前赢得了内部的政治斗争。"
+ bpm_je_civil_war_fail: "内战以失败告终，无论是军事上还是政治上。"
+ bpm_je_civil_divide: "我们输掉了战争，但或许我们能赢得和平？"
+
+ je_bpm_second_revolution: "第二次美国革命"
+ je_bpm_second_revolution_reason: "伟大的解放者已死。我们看到他的遗体被抬着穿过我们的城市。我们目睹了他的愿景，如今它已烙印在我们的灵魂之中。我们不能、也绝不能让邦联得逞，让我们的国家重陷罪孽。为了实现我们第一次革命的梦想，我们必须展开第二次革命，从我们的花园中根除仇恨与压迫。我们必须通过：\n\n国家警察\n国民警卫队\n推广民主价值观\n农业投资\n分权\n任命制官僚\n禁止奴隶制\n文化排斥\n反腐肃清\n\n在我们的人民对革命过于疲惫、抛弃自由人之前。为助益我们的革命，立法机构已开始审议宪法漏洞，以使我们能够以官僚体系与外交能力为巨大代价来加速改革。我们将如何做，才能让自由之旗永远飘扬？"
+ bpm_je_second_revolution_six: "“老约翰·布朗的尸身在坟墓中腐朽……”"
+ bpm_je_second_revolution_five: "“老约翰·布朗的尸身在坟墓中腐朽，而被奴役的子孙们在哭泣……”"
+ bpm_je_second_revolution_four: "“老约翰·布朗的尸身在坟墓中腐朽，而他倾尽一切去拯救的被奴役子孙在哭泣……”"
+ bpm_je_second_revolution_three: "“老约翰·布朗的尸身在坟墓中腐朽，而他倾尽一切去拯救的被奴役子孙在哭泣；但尽管他失去了生命……”"
+ bpm_je_second_revolution_two: "“老约翰·布朗的尸身在坟墓中腐朽，而他倾尽一切去拯救的被奴役子孙在哭泣；但尽管他为奴隶而斗争时失去了生命……”"
+ bpm_je_second_revolution_one: "“老约翰·布朗的尸身在坟墓中腐朽，而他倾尽一切去拯救的被奴役子孙在哭泣；但尽管他为奴隶而斗争时失去了生命，他的灵魂仍在前进”"
+ bpm_je_rec_success: "随着全部9项必要改革的通过，我们成功建立了一个将维持种族平等的国家"
+ bpm_je_rec_failure: "随着疲惫达到沸点，即便是温和共和党人也受够了我们的改革努力"
+
+ je_bpm_to_the_victor: "胜者通吃"
+ je_bpm_to_the_victor_reason: "#v 进度速率：#! #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_victor_rate_tooltip [Country.MakeScope.ScriptValue('bpm_je_victor_rate')|+]#!/月。\n\n" 
+ je_bpm_victor_rate_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_victor_rate')]"
+ bpm_je_victor_one: "激进理想主义者主导共和党"
+ bpm_je_victor_two: "渐进理想主义者主导共和党"
+ bpm_je_victor_three: "渐进主义者主导共和党"
+ bpm_je_victor_four: "渐进务实主义者主导共和党"
+ bpm_je_victor_five: "激进务实主义者主导共和党"
+ bpm_je_victor_idealism: "理想主义超过95"
+ bpm_je_victor_pragmatism: "务实主义超过95"
+ bpm_je_victor_incremental: "两年多过去仍无令人满意的结果，且一场选举正在进行"
+
+ je_bpm_building_solidarity: "建立团结"
+ je_bpm_building_solidarity_reason: "临时描述——\n北方农民联盟会员数 [Country.MakeScope.Var('bpm_north_membership_var').GetValue|D-] @population!\n有色人种农民联盟会员数 [Country.MakeScope.Var('bpm_colored_membership_var').GetValue|D-] @population!\n劳工骑士团会员数 [Country.MakeScope.Var('bpm_knights_membership_var').GetValue|D-] @population!\n北方国会代表 [Country.MakeScope.Var('bpm_solidarity_north_var').GetValue|-=]\n南方国会代表 [Country.MakeScope.Var('bpm_solidarity_south_var').GetValue|-=]\n边疆参议员 [Country.MakeScope.Var('bpm_solidarity_west_var').GetValue|-=]\n反妥协派力量 [Country.MakeScope.Var('bpm_solidarity_unity_var').GetValue|-=]\n" 
+ bpm_je_solidarity_one: "民粹主义运动对现行制度尚不够构成威胁"
+ bpm_je_solidarity_two: "妥协派主导民粹主义运动的各个层面"
+ bpm_je_solidarity_three: "妥协派主导民粹主义运动的领导层"
+ bpm_je_solidarity_four: "尽管妥协派已失势，民粹主义运动仍不够自信去组建第三党"
+ bpm_je_solidarity_five: "民粹主义运动已凝结为人民党，它将成为人民诉求的旗手"
+ bpm_je_solidarity_limits: "人民党内部分裂，正进入新一轮竞选"
+
+ je_bpm_new_imperialism: "新帝国主义"
+ je_bpm_new_imperialism_reason: "随着国家终于从内战余波中恢复过来，永恒的战鼓再次擂响。新一轮的昭昭天命如今披上了市场与产业的话语外衣。伤口已结痂，哥伦比亚如今必须重返扩张边疆的征程。\n\n伴随着新的扩张冲动，也出现了再次召开国际货币会议的呼声。这些会议常在美国内战之后召开，试图遏制国际市场上复本位制稳定性的持续下滑。最终，列强之间在对外贸易上的竞争意味着从未达成任何协议。如今，我国处于独特的安全地位，或许能够组织一场新的国际货币会议，最终解开国际货币政策这一戈尔迪之结。\n\n要成功组织一场国际货币会议，我们需要以下国家的认可：\n\n大不列颠\n法国或德国\n法国或西班牙\n德国或俄国\n奥地利或意大利\n奥地利或土耳其"
+
+ bpm_mexican_destiny: "昭昭天命：西进"
+ bpm_mexican_destiny_desc: "我们伟大的国家注定要横跨整个大陆。让我们向太平洋进军！"
+ bpm_canadian_destiny: "昭昭天命：北上"
+ bpm_canadian_destiny_desc: "我们伟大的国家注定要横跨整个大陆。让我们把这片土地从不列颠的暴政中解放出来！"
+ bpm_caribbean_destiny: "昭昭天命：南下"
+ bpm_caribbean_destiny_desc: "我们伟大的国家注定要横跨整个大陆。让我们终结拉丁帝国主义的最后残余！"
+
+ bpm_rec_institutional_one: "掌控行政权"
+ bpm_rec_institutional_one_desc: "行政部门在捍卫非裔美国人方面行动不够果断。我们必须通过《任期法》，确保行政部门的官员能够在不受总统免职威胁的情况下开展工作"
+ bpm_rec_institutional_two: "限制司法管辖权"
+ bpm_rec_institutional_two_desc: "司法部门正在质疑我们实施重建措施的权威。我们必须中止最高法院在南方占领区审理人身保护令案件的权力，以使法院就范"
+ bpm_rec_institutional_three: "终结行政至上"
+ bpm_rec_institutional_three_desc: "行政部门在捍卫非裔美国人方面行动不够果断。我们必须像挥动马鞭一样运用我们的弹劾权，确保总统服从立法部门的意志"
+ bpm_rec_institutional_four: "焚毁司法防火墙"
+ bpm_rec_institutional_four_desc: "司法部门正在质疑我们实施重建措施的权威。我们必须纠正杰斐逊的失误，将最高法院彻底置于人民意志之下。必要时我们将把他们全部弹劾"
+
+ bpm_western_monroe: "新帝国主义：太平洋霸权"
+ bpm_western_monroe_desc: "为确保进入中国市场的通道和太平洋海岸的安全，我们必须解放墨西哥北部和菲律宾群岛，以建立我们的海军基地！"
+ bpm_northern_monroe: "新帝国主义：西北航道"
+ bpm_northern_monroe_desc: "为确保半球免遭欧洲入侵并宣称对理论中的西北航道的主权，我们必须征服北极以建立海军基地！"
+ bpm_southern_monroe: "新帝国主义：特万特佩克地峡通洋走廊"
+ bpm_southern_monroe_desc: "为确保中美洲免遭欧洲殖民并在大西洋与太平洋之间开辟更快的通道，我们必须征服特万特佩克地峡以建立海军基地！谁知道呢，我们甚至还能开凿一条运河！"
+ bpm_western_remanifest: "新的昭昭天命：西进"
+ bpm_western_remanifest_desc: "我们伟大的国家注定要横跨整个大陆。让我们向太平洋进军！"
+ bpm_northern_remanifest: "新的昭昭天命：北上"
+ bpm_northern_remanifest_desc: "我们伟大的国家注定要横跨整个大陆。让我们把这片土地从不列颠的暴政中解放出来！"
+ bpm_southern_remanifest: "新的昭昭天命：南下"
+ bpm_southern_remanifest_desc: "我们伟大的国家注定要横跨整个大陆。让我们终结拉丁帝国主义的最后残余！"
+
+# "Progress: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/360)"
+
+ bpm_slave_power_progress_bar: "北方激进化"
+ bpm_slave_power_progress_bar_desc: "北方激进化进度：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/40）"
+ bpm_states_rights_progress_bar: "南方激进化"
+ bpm_states_rights_progress_bar_desc: "南方激进化进度：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/40）"
+ bpm_secession_tension_progress_bar: "全国激进化"
+ bpm_secession_tension_progress_bar_desc: "全国激进化进度：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/40）"
+
+ bpm_csa_crossroads_momentum_progress_bar: "全国团结力量"
+ bpm_csa_crossroads_momentum_progress_bar_desc: "全国团结力量等级：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/15）"
+ bpm_fsa_crossroads_momentum_progress_bar: "全国融合力量"
+ bpm_fsa_crossroads_momentum_progress_bar_desc: "全国融合力量等级：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/15）"
+
+ bpm_reconstruction_exhaustion_progress_bar: "对重建的疲惫"
+ bpm_reconstruction_exhaustion_progress_bar_desc: "重建疲惫等级：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/120）"
+ bpm_reconstruction_progress_progress_bar: "重建进度"
+ bpm_reconstruction_progress_progress_bar_desc: "重建进度等级：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/9）"
+ bpm_reconstruction_overreach_progress_bar: "重建过度"
+ bpm_reconstruction_overreach_progress_bar_desc: "重建过度等级：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/4）"
+
+ bpm_victor_progress_bar: "理想主义对务实主义"
+ #bpm_victor_ideal_progress_bar_desc: "Idealism Level: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100)"
+ #bpm_victor_prag_progress_bar_desc: "Pragmatism Level: ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100)"
+ bpm_victor_progress_bar_desc: "理想主义对务实主义等级：（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100）"
+
+# BRAZIL
+ je_bpm_1834_additional_act: "1834年补充法案"
+ je_bpm_1834_additional_act_reason: "1831年皇帝堂·佩德罗一世退位，三年之后，1824年巴西宪法仍未进行任何改革。国家因威胁其统一的斗争而四分五裂：里约热内卢、马拉尼昂和帕拉的革命暴动。最近的一次是1833年欧鲁普雷图的军队哗变。参议院是保守的，尽管远非《四月七日报》所称“堂·佩德罗一世的奴隶制”。1833年的选举让[SCOPE.gsInterestGroup('liberals_ig').GetName]在众议院取得多数，而依据1833年10月12日的法律，议员们被授予了制宪权。补充法案正是这一主张各省更大自治的多数派的直接成果。它于1834年8月12日获批，将联邦主义原则适用于君主制。这引发了中央政府与各省之间对控制权的冲突。[SCOPE.gsInterestGroup('conservatives_ig').GetName]指责该法案把国家变成了一个“无政府状态”，并主张必须予以修订。自由派关于联邦君主制的梦想能否维系？还是说，为了推行秩序，一场“保守的复辟”势在必行？"
+
+ bpm_brz_provinces_turmoil: "各省动乱"
+
+ je_bpm_arg_confed: "徒有其名的邦联"
+ je_bpm_arg_confed_reason: "$je_bpm_arg_confed$"
+ je_bpm_arg_confed_desc: "阿根廷是一个不成形的国家，一个自20年前从西班牙独立以来便深陷动乱的邦联。阿根廷的各组成省份缺乏一部将它们捆绑在一起的正式宪法，取而代之的是政治利益、以及如今在强人#bold 胡安·曼努埃尔·德·罗萨斯#!统治下往往诉诸军事力量来维系彼此。"
+ je_peru_bolivia_goal:1 "维持玻利维亚的[SCOPE.sCulture('south_andean_culture').GetName]与[SCOPE.sCulture('quechua_culture').GetName][Concept('concept_subject', '$concept_subjects$')]，同时将[concept_liberty_desire]保持在#bold 60#!以下，持续10年"
+
+# GREECE
+ je_bpm_greece_early_parties: "早期希腊政党"
+ je_bpm_greece_early_parties_reason: "早期希腊政党围绕各种利益和背景组织起来，但无论这些因素如何多样，这些政治派别都以三大强国（英国、法国和俄国）之一命名。俄国党是一个亲东正教、社会保守的政党。与之对立的是两个自由派政党组成的联盟——英国党和法国党，它们要求一部成文宪法。"
+
+ bpm_gre_early_parties: "早期希腊政党"
+
+# MODERNIZERS (Zapandiki JE facelift)
+
+ je_bpm_modernizers: "现代化派之辩"
+ je_bpm_modernizers_status: "监测$bpm_je_all_modernizers$及其对手的辩论。"
+ je_bpm_modernizers_status_no_dialectic: "#bold 辩证#!目前太过薄弱。"
+ je_bpm_modernizers_status_modernizer_prominence_overwhelming: "$bpm_je_all_modernizer$s在知识分子中#bold 压倒性地占据主导#!。"
+ je_bpm_modernizers_status_modernizer_prominence_strong: "$bpm_je_all_modernizer$s在知识分子中占主导。"
+ je_bpm_modernizers_status_modernizer_prominence_weak: "$bpm_je_all_modernizer$s在知识分子中逐渐得势。"
+ je_bpm_modernizers_status_conservative_prominence_overwhelming: "$bpm_je_all_antimodernizer$s在知识分子中#bold 压倒性地占据主导#!。"
+ je_bpm_modernizers_status_conservative_prominence_strong: "$bpm_je_all_antimodernizer$s在知识分子中占主导。"
+ je_bpm_modernizers_status_conservative_prominence_weak: "$bpm_je_all_antimodernizer$s在知识分子中逐渐得势。"
+ je_bpm_modernizers_status_no_prominence: "$bpm_je_all_antimodernizer$s与$bpm_je_all_modernizer$s在知识分子中相互争斗。"
+ je_bpm_modernizers_reason: "@information! #blue 生效期间解锁[GetLawType('law_repeatable_culture_invite_foreign_experts').GetName][Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')] #!\n\n$bpm_je_all_modernizers$的辩证强度：#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_modernizers_modernizer_strength_tooltip [Country.MakeScope.ScriptValue('bpm_je_modernizers_ideology_rate_modernizers')|2]#!\n$bpm_je_all_antimodernizers$的辩证强度：#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_modernizers_conservative_strength_tooltip [Country.MakeScope.ScriptValue('bpm_je_modernizers_ideology_rate_conservatives')|2]#!\n\n凝望欧美的诸国，已愈发清晰地看到，我们的制度日益陈旧而岌岌可危。最先认识到这一缺陷的是我们的知识分子，在他们中间浮现出两翼，各自提出对未来的对立愿景：$bpm_je_all_modernizers_tt$与$bpm_je_all_anti_modernizers_tt$。\n\n当辩论的#v 社会影响力#! #v > 25#!时，我们将依据二者中更具影响力的一方获得修正。\n\n若$bpm_je_all_modernizers$获胜：\n  @arrow_up!社会[concept_technology]研究速度与传播\n  @arrow_down!军事[concept_technology]研究速度与传播\n  @arrow_down![concept_bpm_political_stability]目标\n  @information! 在高#v 社会影响力#!下，@intelligentsia_bpm! 会采取激进立场！\n\n若$bpm_je_all_antimodernizers$获胜：\n  @arrow_down!社会[concept_technology]研究速度与传播\n  @arrow_up!军事[concept_technology]研究速度与传播\n  @arrow_up![concept_bpm_political_stability]目标\n\n双方都提供：\n  @arrow_up!生产[concept_technology]传播\n  @arrow_up!每周[concept_innovation]\n\n@warning! 我们较传统主义的势力可能不会对感知到的外国影响侵蚀泰然处之，倘若事情走得太远，他们可能会诉诸一场粗野而暴力的#N 政变#!。\n\n#lore “过去三百年，俄国一直渴望与西方融合；过去三百年，它一直承认自己劣于西方，从西方汲取了它所有的思想、所有的学说……我们最伟大的君王……背弃了旧俄国。他扫除了我们所有古老的制度，抛弃了我们古老的传统……你必须承认，这是辉煌的，彼得大帝的创造，这个天才人物的理念，他为我们此后所走的道路指明了方向。”\n\n——彼得·恰达耶夫，1837#!"
+
+ bpm_je_modernizers_researched_all_techs_to_complete: "自日志条目开始以来研究了#variable 15#!项科技"
+
+ je_bpm_modernizers_modernizer_strength_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_modernizers_ideology_rate_modernizers')]"
+ je_bpm_modernizers_conservative_strength_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_modernizers_ideology_rate_conservatives')]"
+
+ bpm_je_modernizers_start: "$bpm_je_all_modernizers$与$bpm_je_all_antimodernizers$之间的辩论已经开始！"
+ bpm_je_modernizers_end: "$bpm_je_all_modernizers$与$bpm_je_all_antimodernizers$之间的辩论已经结束。"
+ bpm_je_modernizers_dialectic_bolstered: "#bold 辩证#!已获#bold 扶植#！！"
+ bpm_je_modernizers_renamed_into_modernizers: "辩论中亲西方的一翼也将认可非西方的被承认国家"
+
+ bpm_je_all_modernizers_tt: "@ig_liberals!@ig_radicals!@ig_socialists! #tooltippable;tooltip:[Country.GetTooltipTag],bpm_je_modernizers_desc_modernizers_tooltip [ROOT.GetCountry.GetCustom('bpm_je_modernizers_name_modernizers')]#!"
+ bpm_je_all_anti_modernizers_tt: "@ig_conservatives!@ig_reactionaries! #tooltippable;tooltip:[Country.GetTooltipTag],bpm_je_modernizers_desc_anti_modernizers_tooltip [ROOT.GetCountry.GetCustom('bpm_je_modernizers_name_anti_modernizers')]#!"
+ bpm_je_modernizers_desc_modernizers_tooltip: "$bpm_je_modernizers_desc_modernizer_effects$\n\n#lore [GetPlayer.GetCustom('bpm_je_modernizers_desc_modernizers')]#!"
+ bpm_je_modernizers_desc_anti_modernizers_tooltip: "$bpm_je_modernizers_desc_anti_modernizer_effects$\n\n#lore [GetPlayer.GetCustom('bpm_je_modernizers_desc_anti_modernizers')]#!"
+
+ bpm_je_all_modernizers: "@ig_liberals!@ig_radicals!@ig_socialists! #bold [GetPlayer.GetCustom('bpm_je_modernizers_name_modernizers')]#!"
+ bpm_je_all_modernizer: "@ig_liberals!@ig_radicals!@ig_socialists! #bold [GetPlayer.GetCustom('bpm_je_modernizers_name_modernizer')]#!"
+ bpm_je_all_antimodernizers: "@ig_conservatives!@ig_reactionaries! #bold [GetPlayer.GetCustom('bpm_je_modernizers_name_anti_modernizers')]#!"
+ bpm_je_all_antimodernizer: "@ig_conservatives!@ig_reactionaries! #bold [GetPlayer.GetCustom('bpm_je_modernizers_name_anti_modernizer')]#!"
+ bpm_je_modernizers_name_conservatives: "保守派"
+ bpm_je_modernizers_name_conservative: "保守派"
+ bpm_je_modernizers_desc_conservative: "保守派是与[GetPlayer.GetCustom('bpm_je_modernizers_name_modernizers')]对立的思潮——他们相信外国影响带来的风险远多于好处。他们赞成适度吸收外国思想，主要是在工业与军事领域，但坚决反对一切超出最必要范围的社会变革。"
+ bpm_je_modernizers_name_slavophiles: "斯拉夫派"
+ bpm_je_modernizers_name_slavophile: "斯拉夫派"
+ bpm_je_modernizers_desc_slavophiles: "斯拉夫派是与西方派对立的思潮——他们相信，俄国的民族精神已被西方影响践踏得太过，而它过于自我、世俗和革命，无法与集体主义、基督教和忠君的俄国精神相契合。他们赞成适度吸收外国思想，主要是在工业与军事领域，但坚决反对一切超出最必要范围的社会变革。"
+ bpm_je_modernizers_name_zapadniks: "西方派"
+ bpm_je_modernizers_name_zapadnik: "西方派"
+ bpm_je_modernizers_desc_zapadniks: "西方派是俄国知识界中的一股思潮，他们渴望效仿西方，从中汲取他们眼中最优秀的创新——自由主义、民主、人权与经济自由——以使俄国摆脱其落后的境地，追随他们伟大民族英雄彼得大帝的脚步。"
+ bpm_je_modernizers_name_westernizers: "西化派"
+ bpm_je_modernizers_name_westernizer: "西化派"
+ bpm_je_modernizers_desc_westernizers: "西化派是我们知识界中的一股思潮，他们渴望效仿西方，从中汲取他们眼中最优秀的创新——自由主义、民主、人权与经济自由——以使我们的国家摆脱其落后的境地。"
+ bpm_je_modernizers_name_modernizers: "现代化派"
+ bpm_je_modernizers_name_modernizer: "现代化派"
+ bpm_je_modernizers_desc_modernizers: "现代化派渴望以文化、产业的最新创新来更新我们的国家，以其他被视为进步前沿的国家为蓝图。随着非西方国家近来以既定秩序中受尊重成员的身份登上政治舞台，西化的理念让位于更广泛的现代化，现代化派愿意踏足更多独特的道路。"
+ 
+ bpm_je_modernizers_desc_modernizer_effects: "若$bpm_je_all_modernizers$获胜，将按#v 社会影响力#!比例提供以下修正：\n  @arrow_up!社会[concept_technology]研究速度与传播\n  @arrow_down!军事[concept_technology]研究速度与传播\n  @arrow_up!生产[concept_technology]传播\n  @arrow_up!每周[concept_innovation]\n  @arrow_down![concept_bpm_political_stability]目标\n  @information! 在高#v 社会影响力#!下，[GetInterestGroupVariant('ig_intelligentsia', GetPlayer).GetName]会采取激进立场！"
+ bpm_je_modernizers_desc_anti_modernizer_effects: "若$bpm_je_all_antimodernizers$获胜，将按#v 社会影响力#!比例提供以下修正：\n  @arrow_down!社会[concept_technology]研究速度与传播\n  @arrow_up!军事[concept_technology]研究速度与传播\n  @arrow_up!生产[concept_technology]传播\n  @arrow_up!每周[concept_innovation]\n  @arrow_up![concept_bpm_political_stability]目标"
+
+ je_bpm_modernizers_ideology_progress_bar: "意识形态倾向"
+ je_bpm_modernizers_ideology_progress_bar_left: "$bpm_je_all_modernizers$"
+ je_bpm_modernizers_ideology_progress_bar_right: "$bpm_je_all_antimodernizers$"
+
+ je_bpm_modernizers_dialectic_progress_bar: "辩证"
+ je_bpm_modernizers_dialectic_progress_bar_desc: "社会影响力：#v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#!"
+
+ je_bpm_modernizers_angry_chuds_progress_bar: "保守派骚动"
+ je_bpm_modernizers_angry_chuds_progress_bar_desc: "$je_bpm_modernizers_angry_chuds_progress_bar$：#v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#!"
+ je_bpm_modernizers_failure: "保守派骚动已达100%"
+
+ bpm_je_modernizers_deafening_silence: "震耳欲聋的沉寂"
+ bpm_je_modernizers_overwhelming_modernizers: "压倒性的现代化派影响"
+ bpm_je_modernizers_strong_modernizers: "强大的现代化派影响"
+ bpm_je_modernizers_weak_modernizers: "微弱的现代化派影响"
+ bpm_je_modernizers_overwhelming_conservatives: "压倒性的保守派影响"
+ bpm_je_modernizers_strong_conservatives: "强大的保守派影响"
+ bpm_je_modernizers_weak_conservatives: "微弱的保守派影响"
+ bpm_je_modernizers_winner: "现代化之辩的胜者"
+ bpm_je_modernizers_winner_coup: "现代化之辩的胜者"
+
+ westernizer_victory_tt: "西化派取得了胜利"
+
+ bpm_je_modernizers_copy_production_button: "考察工业"
+ bpm_je_modernizers_copy_production_button_desc: "工业是现代国家的力量所在。我们应当研究外国的方法，以便赶上并超越它们。"
+ bpm_je_modernizers_copy_military_button: "革新军队"
+ bpm_je_modernizers_copy_military_button_desc: "集中精力研究外国的现代军队，将帮助我们赶上任何对手！"
+ bpm_je_modernizers_copy_society_button: "推行新风俗"
+ bpm_je_modernizers_copy_society_button_desc: "改变我们的风俗以更好地融入更先进的社会，或许会招致我们较传统势力的鄙视，但它无疑将帮助我们在各个方面更快地进步。"
+ bpm_je_modernizers_invite_production_button: "招揽投资"
+ bpm_je_modernizers_invite_production_button_desc: "我们近期对工业进步的考察为我们提供了知识——但缺乏运用这些知识所需的资源。招揽外国投资有助于我们快速启动这些产业。"
+ bpm_je_modernizers_invite_production_button_tt: "一个拥有[GetArticleType('foreign_investment_rights').GetName]的[concept_great_power]将在[SCOPE.sState('selected_state').GetName]建造各一级的[GetBuildingType('building_railway').GetName]、[GetBuildingType('building_motor_industry').GetName]、[GetBuildingType('building_steel_mill').GetName]和[GetBuildingType('building_tooling_workshop').GetName]！"
+
+ bpm_je_modernizers_button_on_cooldown_tt: "此行动不在#variable 一年期#!冷却中！"
+ bpm_je_modernizers_button_stronger_with_dialectic_tt: "@information! #blue #bold 社会影响力#!会增强此行动的效果。#!"
+ bpm_je_modernizers_button_stronger_with_conservative_dialectic_tt: "@information! #blue #bold 社会影响力#!会增强此行动的效果，其中$bpm_je_all_antimodernizers$占主导时增强幅度最大。#!"
+ bpm_je_modernizers_button_stronger_with_modernizer_dialectic_tt: "@information! #blue #bold 社会影响力#!会增强此行动的效果，其中$bpm_je_all_modernizers$占主导时增强幅度最大。#!"
+
+ bpm_modernizers.1.t: "现代化之辩"
+ bpm_modernizers.1.d: "随着西方思潮开始以全部力量涌入[ROOT.GetCountry.GetName]，越来越清楚的是，我们与工业化西方国家之间还有很长的距离要追赶。知识分子之间的辩论因此开始呈现出有趣的角度——为了我们自身的现代化，我们应在多大程度上效仿西方？"
+ bpm_modernizers.1.f: "TODO"
+ bpm_modernizers.1.a: "无论西化与否，[ROOT.GetCountry.GetName]都将实现现代化！"
+
+ bpm_modernizers.2.t: "向着现代，前进！"
+ bpm_modernizers.2.d: "我国关于现代化的辩论终于尘埃落定——结果是$bpm_je_all_modernizers$明确取得了意识形态上的胜利。尽管国内其他人或许未必认同他们的愿景，但知识分子阶层整体上坚定地信奉$bpm_je_all_modernizers$的事业，并且在未来多年内都不会改变主意。"
+ bpm_modernizers.2.f: "TODO"
+ bpm_modernizers.2.a: "我们且看他们的想法能否成为现实"
+
+ bpm_modernizers.3.t: "我们自己的道路"
+ bpm_modernizers.3.d: "随着现代化之辩接近尾声，我们知识界中以[ROOT.GetCountry.GetName]为中心的各派系似乎占了上风。随着他们对手的理念在学术界被彻底驳倒，[ROOT.GetCountry.GetName]的社会结构在不久的将来似乎将基本保持不变。"
+ bpm_modernizers.3.f: "TODO"
+ bpm_modernizers.3.a: "我们确实忠于了自我，对吧？"
+
+ bpm_modernizers.4.t: "空锅"
+ bpm_modernizers.4.d: "随着关于现代化的激烈辩论接近尾声，硝烟散去后，文字的战场依然空空如也。没有任何一方取得意识形态上的胜利，看来在我们国家的知识分子中，没有任何单一愿景能够胜出。"
+ bpm_modernizers.4.f: "TODO"
+ bpm_modernizers.4.a: "至少学术界的噪音少了"
+
+ bpm_modernizers.5.t: "大门砰然关闭"
+ bpm_modernizers.5.d: "一方面是外国影响带来的压力与日俱增，另一方面是保守派的反对，[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle][ROOT.GetCountry.GetRuler.GetFullName]宣布了一项激进的孤立主义政策，以保护国家免受从国外涌入的颠覆性思想的污染。随着贸易联系的严重削减、使馆的关闭以及外国知识分子的驱逐，[ROOT.GetCountry.GetName]的未来似乎将是自我强加的孤立。"
+ bpm_modernizers.5.f: "TODO"
+ bpm_modernizers.5.a: "只剩下震耳欲聋的沉寂"
+
+ bpm_modernizers.6.t: "大缄默"
+ bpm_modernizers.6.d: "对政府的自由主义倾向及其对传统的公然漠视深感不满，我们的保守派联合起来，将[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]赶下台。如今他们转而扼杀一切进入国家的新思想，我们国家的未来似乎将是自我强加的孤立。"
+ bpm_modernizers.6.f: "TODO"
+ bpm_modernizers.6.a: "只剩下震耳欲聋的沉寂"
+
+ bpm_modernizers.7.t: "现代的典范"
+ bpm_modernizers.7.d: "受[SCOPE.sCountry('relevant_country').GetName]所取得的进步鼓舞，[SCOPE.gsInterestGroup('relevant_ig').GetName]寻求改善我们的相互关系，他们在现代化之辩中与$bpm_je_all_modernizers$立场一致。"
+ bpm_modernizers.7.f: "TODO"
+ bpm_modernizers.7.a: "有意思"
+
+ bpm_modernizers.8.t: "衰败的典范"
+ bpm_modernizers.8.d: "对[SCOPE.sCountry('relevant_country').GetName]的道德沦丧感到愤慨，[SCOPE.gsInterestGroup('relevant_ig').GetName]寻求劝阻我们之间建立更密切的关系，他们在现代化之辩中与$bpm_je_all_anti_modernizers_tt$立场一致。"
+ bpm_modernizers.8.f: "TODO"
+ bpm_modernizers.8.a: "有意思"
+
+ bpm_modernizers.9.t: "一个新的典范"
+ bpm_modernizers.9.d: "随着[SCOPE.sCountry('relevant_country').GetName]作为国际政治舞台上的平等一员崛起，现代化之辩中$bpm_je_all_modernizer$一方的一些人寻求拓宽我们效仿的视野，摒弃对西化的专注，将非西方的现代化方法也纳入其中。"
+ bpm_modernizers.9.f: "TODO"
+ bpm_modernizers.9.a: "暴发户罢了，仅此而已"
+ bpm_modernizers.9.b: "[SCOPE.sCountry('relevant_country').GetName]是比西方更好的榜样！"
+
+ is_russia_tt: "是#variable 俄国#!"
+
+ je_bpm_orleg_not_influencial_tooltip: "[GetInterestGroupVariant('ig_conservatives',GetPlayer).GetName]与[GetInterestGroupVariant('ig_reactionaries',GetPlayer).GetName]的势力不足8%（当前为[GetPlayer.MakeScope.ScriptValue('bpm_orleg_clout')|%|]）。"
+
+ acw_african_american_culture_complete_tt: "非裔美国人已被完全接纳"
+ je_uneasy_raj_tracker: "不安的拉吉"
+ je_uneasy_raj_tracker_reason: "$je_uneasy_raj_tracker$"
+ bpm_je_group_concessions: "让步"
+ je_group_bpm_dissent: "异议"
+ je_group_bpm_crises: "危机"
+ je_group_bpm_misc_mechanical: "机制"
+ je_group_bpm_post_revolutionary: "革命之后"

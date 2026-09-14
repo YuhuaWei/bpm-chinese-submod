@@ -1,0 +1,739 @@
+﻿l_simp_chinese:
+ party_independents:0 "无党派"
+ party_sdp:0 "SPD"
+ party_bolsheviks:0 "俄国社会民主工党（布）"
+ party_menshevik_party:0 "俄国社会民主工党"
+ party_reactionaries:0 "反动党"
+ party_reactionary:0 "反动党"
+ party_reactionary_royal:0 "保皇党"
+
+# GBR
+ party_liberal_gbr:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('gbr_liberal_party_name')]"
+ party_gbr_whigs:0 "辉格党"
+ party_gbr_liberals:0 "自由党"
+
+ party_conservative_gbr:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('gbr_conservative_party_name')]"
+ party_gbr_conservatives:0 "保守与统一党"
+ party_gbr_tories:0 "保守党"
+
+ party_gbr_reactionaries:0 "保守党（极端派）"
+
+ party_radical_gbr:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('gbr_radical_party_name')]"
+ party_gbr_chartists:0 "宪章运动"
+ party_gbr_radical_whigs:0 "辉格党（激进派）"
+ party_gbr_radical_liberals:0 "自由党（激进派）"
+
+ party_socdem_gbr:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('gbr_socdem_party_name')]"
+ party_revsoc_gbr:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('gbr_revsoc_party_name')]"
+ party_gbr_just:0 "正义者同盟"
+ party_gbr_communist_league:0 "共产主义者同盟"
+ party_gbr_sdf:0 "社会民主联盟"
+ party_gbr_sdf_left:0 "社会民主联盟（左翼）"
+ party_gbr_labour:0 "工党"
+ party_gbr_bsp:0 "英国社会党"
+
+# GER (and German cultures, except Austria)
+ party_conservative_ger:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ger_conservative_party_name')]"
+ party_ger_conservatives:0 "德国保守党"
+ party_ger_fkp:0 "FKP"
+ party_ger_dvp:0 "DVP"
+
+ party_ger_zentrum:0 "中央党"
+
+ party_liberal_ger:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ger_liberal_party_name')]"
+ party_ger_national_union:0 "德国民族联盟"
+ party_ger_progress:0 "进步党"
+ party_ger_free:0 "FVG"
+ party_ger_natlib:0 "民族自由党"
+ party_ger_ddp:0 "德国民主党"
+
+ party_radical_ger:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ger_radical_party_name')]"
+ party_ger_democratic_people:0 "民主人民党"
+ party_ger_german_people:0 "德意志人民党"
+ party_ger_fvp:0 "进步人民党"
+ party_ger_dv:0 "民主联盟"
+
+ party_revsoc_ger:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ger_revsoc_party_name')]"
+ party_ger_spartacist:0 "SPD（斯巴达克同盟）"
+ party_ger_kpd:0 "德国共产党"
+
+ party_reactionary_ger:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ger_reactionary_party_name')]"
+ party_german_social:0 "德意志社会党"
+ party_ger_dnvp:0 "德意志民族人民党"
+
+ party_nazis:0 "纳粹党"
+
+# AUS
+ party_liberal_aus:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('aus_liberal_party_name')]"
+ party_aus_liberals:0 "宪法党"
+ party_aus_left:0 "联合左翼"
+ party_aus_democratic:0 "ÖDP"
+
+ party_reactionary_aus:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('aus_reactionary_party_name')]"
+ party_german_people:0 "德意志人民党"
+ party_fatherland_front:0 "祖国阵线"
+
+ party_aus_nazis:0 "DNSAP"
+
+ party_spdao:0 "SDAPÖ"
+ 
+ party_revsoc_aus:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('aus_revsoc_party_name')]"
+ party_aus_revsoc:0 "SDAPÖ（左翼）"
+
+# German Regionals
+ party_hanoverian:0 "德意志汉诺威党"
+ party_bb:0 "农民联盟"
+ party_swabian:0 "施瓦本党"
+
+# NET
+ party_radical_net:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('net_radical_party_name')]"
+ party_net_radicals:0 "激进联盟"
+ party_net_vdb:0 "VDB"
+
+ party_socdem_net:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('net_socdem_party_name')]"
+#  party_revsoc_net:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('net_revsoc_party_name')]"
+ party_net_sdb:0 "社会民主联盟"
+ party_net_sdap:0 "SDAP"
+#  party_net_sdb:0 "SDB (Left)"
+ party_net_cpn:0 "CPN"
+
+# BEL
+ party_bel_reactionary:0 "基督教联盟"
+ party_bel_pcb:0 "PCB"
+
+# SWE
+ party_liberal_swe:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('swe_liberal_party_name')]"
+ party_swe_free:0 "自由思想民族协会"
+
+ party_swe_sap:0 "SAP"
+
+# HUN
+ party_hun_reactionary:0 "天主教党"
+
+ party_liberal_hun:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('hun_liberal_party_name')]"
+ party_hun_address:0 "请愿党"
+ party_hun_liberals:0 "自由党"
+ party_hun_national_work:0 "民族工党"
+
+ party_hun_radicals:0 "独立党"
+
+# USA
+ party_reactionary_usa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('usa_reactionary_party_name')]"
+ party_usa_know_nothings:0 "美国党"
+ party_usa_redeemers:0 "民主党（救赎派）"
+
+ party_free_soil_party:0 "自由土地党"
+
+ party_conservative_usa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('usa_conservative_party_name')]"
+ party_usa_democrats:0 "民主党"
+ party_usa_fusion_democrats:0 "民主人民党"
+
+ party_liberal_usa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('usa_liberal_party_name')]"
+ party_usa_whigs:0 "辉格党"
+ party_usa_republicans:0 "共和党"
+
+ party_christian_party:0 "基督教党"
+
+ party_bourbon_party:0 "民主党（波旁派）"
+
+ party_radical_usa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('usa_radical_party_name')]"
+ party_usa_anti_masonic:0 "反共济会党"
+ party_usa_radical_republicans:0 "激进民主党"
+ party_usa_bull_moose:0 "雄麋党"
+ party_usa_progressives:0 "进步党"
+
+ party_socdem_usa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('usa_socdem_party_name')]"
+ party_revsoc_usa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('usa_revsoc_party_name')]"
+ party_usa_workingmens:0 "工人党"
+ party_usa_slp:0 "社会主义工党"
+ party_usa_spa:0 "美国社会党"
+ party_usa_spa_left:0 "美国社会党（左翼）"
+ party_usa_cpa:0 "美国共产党"
+
+ party_agrarian_usa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('usa_agrarian_party_name')]"
+ party_usa_antislavery:0 "自由党"
+ party_usa_free_soil:0 "自由土地党"
+ party_usa_greenback:0 "绿背党"
+ party_usa_peoples:0 "人民党"
+ 
+# FSA
+ party_reactionary_fsa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('fsa_reactionary_party_name')]"
+ party_patrician_fsa:0 "联邦党（贵族派）"
+
+ party_agrarian_fsa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('fsa_agrarian_party_name')]"
+
+ party_liberal_fsa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('fsa_liberal_party_name')]"
+
+ party_federalist_fsa:0 "联邦党"
+
+ party_national_renaissance_fsa:0 "民族复兴党"
+
+ party_unionist_party_fsa:0 "统一党"
+
+ party_radical_fsa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('fsa_radical_party_name')]"
+
+ party_socdem_fsa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('usa_socdem_party_name')]"
+
+# CSA
+ party_reactionary_csa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('csa_reactionary_party_name')]"
+
+ party_agrarian_csa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('csa_agrarian_party_name')]"
+ party_free_farmers_csa:0 "民主党（自由农场主）"
+
+ party_liberal_csa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('csa_liberal_party_name')]"
+
+ party_freedom_party_csa:0 "自由党"
+
+ party_radical_csa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('csa_radical_party_name')]"
+ party_radical_reform_csa:0 "激进改革党"
+
+ party_socdem_csa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('usa_socdem_party_name')]"
+ party_southron_socialist_party_csa:0 "南方工党"
+
+# QUE
+ party_chateau:0 "城堡派"
+
+ party_conservative_que:0 "蓝党"
+
+ party_radical_que:0 "红党"
+
+# ONT
+ party_tory_can:0 "托利党"
+ party_family_compact:0 "家族同盟"
+
+# CAN
+ party_reactionary_can:0 "$party_chateau$"
+
+ party_conservative_can:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('can_conservative_party_name')]"
+
+ party_liberal_can:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('can_liberal_party_name')]"
+ party_reformer_can:0 "改革党"
+
+ party_radical_can:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('can_radical_party_name')]"
+ party_radical_reformer_can:0 "改革党（激进派）"
+ party_anti_confed:0 "反联邦党"
+
+ party_agrarian_can:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('can_agrarian_party_name')]"
+ 
+
+# FRA
+ party_liberal_fra:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('fra_liberal_party_name')]"
+ party_fra_movement:0 "运动党"
+ party_fra_republican:0 "温和共和派"
+ party_fra_democratic_alliance:0 "民主联盟"
+ 
+ party_reactionary_fra:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('fra_reactionary_party_name')]"
+ party_fra_legitamist:0 "正统派党"
+ party_fra_action:0 "法兰西行动"
+
+ party_fra_francist:0 "法兰西斯运动"
+ 
+ party_conservative_fra:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('fra_conservative_party_name')]"
+ party_fra_resistance:0 "抵抗党"
+ party_fra_order:0 "秩序党"
+ party_fra_national_union:0 "民族联盟"
+ party_fra_bonapartist:0 "波拿巴党"
+ party_fra_liberal_republican_union:0 "自由共和联盟"
+ party_fra_republican_federation:0 "共和联盟"
+
+ party_agrarian_fra:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('fra_agrarian_party_name')]"
+ party_peasants:0 "农民联盟"
+ party_independent_rad:0 "独立激进派"
+ party_papf:0 "PAPF"
+
+ party_radical_fra:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('fra_radical_party_name')]"
+ party_fra_radical_republican_party:0 "共和党"
+ party_fra_republican_union:0 "共和联盟"
+ party_fra_radical_party:0 "激进社会党"
+
+ party_socdem_fra:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('FRA_socdem_party_name')]"
+ party_revsoc_fra:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('FRA_revsoc_party_name')]"
+ party_le_mountain:0 "山岳派"
+ party_blanquist:0 "中央革命委员会"
+ party_ftsf:0 "FTSF"
+ party_sfio_right:0 "SFIO（右翼）"
+ party_sfio_left:0 "SFIO（左翼）"
+ party_sfio:0 "SFIO"
+ party_posr:0 "POSR"
+ party_pcf:0 "PCF"
+
+# ITA
+ party_liberal_ita:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ita_liberal_party_name')]"
+ party_ita_liberal_union:0 "自由联盟"
+
+ party_radical_ita:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ita_radical_party_name')]"
+ party_ita_radical:0 "意大利激进党"
+
+ party_reactionary_ita:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ita_reactionary_party_name')]"
+ party_ita_reactionaries:0 "反动右翼"
+ party_ita_ani:0 "意大利民族主义协会"
+
+ party_ita_agrarian:0 "农本联盟"
+
+ party_conservative_ita:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ita_conservative_party_name')]"
+ party_ita_peoples:0 "意大利人民党"
+
+ party_socdem_ita:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ita_socdem_party_name')]"
+ party_revsoc_ita:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ita_revsoc_party_name')]"
+ party_ita_workers:0 "意大利工人党"
+ party_ita_psi_unified:0 "意大利社会党"
+ party_ita_psi_right:0 "意大利社会党（右翼）"
+ party_ita_psi_left:0 "意大利社会党（左翼）"
+ party_ita_cpi:0 "意大利共产党"
+
+# SPA
+ party_liberal_spa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('spa_liberal_party_name')]"
+ party_spa_progressive:0 "进步党"
+ party_spa_constitutional:0 "宪法党"
+ party_spa_liberal_fusion:0 "自由融合党"
+
+ party_conservative_spa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('spa_conservative_party_name')]"
+ party_spa_moderate:0 "温和党"
+ party_spa_libcon:0 "自由保守党"
+
+ party_spa_reactionaries:0 "传统主义共融"
+
+ party_radical_spa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('spa_radical_party_name')]"
+ party_spa_democratic:0 "民主党"
+ party_spa_prog_republican:0 "进步共和党"
+ party_spa_radical:0 "激进共和党"
+
+ party_revsoc_spa:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('spa_revsoc_party_name')]"
+ party_psoe:0 "PSOE"
+ party_psoe_left:0 "PSOE（左翼）"
+ party_pce:0 "PCE"
+
+ party_cnt:0 "CNT/FAI"
+
+# POR
+ party_liberal_por:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('por_liberal_party_name')]"
+ party_por_september:0 "九月党"
+ party_por_historic:0 "历史党"
+ party_por_progressive:0 "进步党"
+ party_por_democratic:0 "民主党"
+
+ party_conservative_por:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('por_conservative_party_name')]"
+ party_por_cartista:0 "宪章派"
+ party_por_regenatrator:0 "再生党"
+ party_por_natrep:0 "重建议会党"
+
+ party_reactionary_por:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('por_reactionary_party_name')]"
+ party_por_miguelista:0 "米格尔派"
+ party_por_cause:0 "君主事业党"
+ party_por_lusitania:0 "卢西塔尼亚整体主义者"
+ 
+ party_radical_por:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('por_radical_party_name')]"
+ party_por_civic:0 "公民协会"
+ party_por_republican:0 "葡萄牙共和党"
+ party_por_evolutionist:0 "进化党"
+
+ party_revsoc_por:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('por_revsoc_party_name')]"
+ party_socdem_por:0 "葡萄牙社会党"
+ party_por_fmp:0 "葡萄牙极端主义联盟"
+ party_pcp:0 "葡萄牙共产党"
+
+ party_anarchist_por:0 "FMP（无政府主义）"
+
+# CRO
+ party_cro_peoples:0 "人民党"
+
+ party_cro_rights:0 "权利党"
+
+ party_cro_peasants:0 "农民党"
+
+# TUR
+ party_liberal_tur:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('tur_liberal_party_name')]"
+ party_tur_freedom_and_accord:0 "自由与协和党"
+ party_tur_progressive_republican:0 "进步共和党"
+ party_radical_tur:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('tur_radical_party_name')]"
+ party_tur_republican_peoples:0 "共和人民党"
+
+# EGY
+ party_liberal_egy:0 "华夫脱党"
+ party_conservative_egy:0 "统一党"
+ party_reactionary_egy:0 "穆斯林兄弟会"
+ party_radical_egy:0 "自由立宪党"
+ party_socdem_egy:0 "民主社会党"
+
+# CHI
+ party_liberal_chi:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('chi_liberal_party_name')]"
+ party_chi_empire_reform_association:0 "帝国改革协会"
+ party_chi_republican:0 "共和党"
+ party_chi_center_kuomintang:0 "国民党（中间派）"
+
+ party_conservative_chi:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('chi_conservative_party_name')]"
+ party_chi_unity:0 "统一党"
+ party_chi_progressive:0 "进步党"
+ party_chi_right_kuomintang:0 "国民党（右派）"
+
+ party_radical_chi:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('chi_radical_party_name')]"
+ party_revive_china_society:0 "兴中会"
+ party_tongmenghui:0 "同盟会"
+ party_kuomintang:0 "国民党"
+ party_chi_left_kuomintang:0 "国民党（左派）"
+
+ party_socialist_chi:0 "中国社会党"
+ party_reactionary_chi:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('chi_reactionary_party_name')]"
+ party_imperial_chi:0 "帝国议会"
+ party_republican_reactionary_chi:0 "国民大会"
+
+ party_agrarian_chi:0 "中国农民协会"
+
+# RUS
+ party_conservative_rus:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('rus_conservative_party_name')]"
+ party_rus_reactionaries:0 "俄罗斯人民联盟"
+
+ party_agrarian_rus:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('rus_agrarian_party_name')]"
+ party_rus_land_liberty:0 "土地与自由"
+ party_rus_sr:0 "社会革命党"
+ party_rus_peasants:0 "劳动农民联盟"
+
+# AST
+ party_conservative_ast:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ast_conservative_party_name')]"
+ party_protectionist:0 "保护主义党"
+ party_national_ast:0 "民族党"
+
+ party_liberal_ast:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ast_liberal_party_name')]"
+ party_bpm_free_trade:0 "自由贸易党"
+
+ party_radical_ast:0 "共和协会"
+ party_federation:0 "联邦党"
+
+ party_country:0 "乡村党"
+
+ party_socdem_ast:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ast_socdem_party_name')]"
+ party_united_labor:0 "联合工党"
+ party_bpm_labor:0 "工党"
+
+ party_revsoc_ast:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ast_revsoc_party_name')]"
+
+# JAP
+ party_conservative_jap:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('jap_conservative_party_name')]"
+ party_jap_friends:0 "宪政之友"
+ party_jap_imperial:0 "帝国宪政党"
+
+ party_reactionary_jap:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('jap_reactionary_party_name')]"
+ party_jap_national:0 "国民协会"
+ party_jap_kohoda:0 "皇道派"
+
+ party_socdem_jap:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('jap_socdem_party_name')]"
+ party_revsoc_jap:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('jap_revsoc_party_name')]"
+ party_jap_socialist:0 "日本社会党"
+ party_jap_labor_farmer:0 "劳动农民党"
+ party_jap_social:0 "社会人民党"
+
+ party_radical_jap:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('jap_radical_party_name')]"
+
+ party_jap_masses:0 "日本大众党"
+ party_jap_com:0 "日本共产党"
+
+ party_agrarian_jap:0 "日本农民党"
+
+# KOR
+ party_fascist_kor:0 "民族青年党"
+
+ party_conservative_kor:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('kor_conservative_party_name')]"
+ party_kor_imperial:0 "帝国协会"
+
+ party_liberal_kor:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('kor_liberal_party_name')]"
+ party_kor_peoples:0 "独立协会"
+
+ party_radical_kor:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('kor_radical_party_name')]"
+ party_kor_republican:0 "独立协会（开化派）"
+
+ party_socdem_kor:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('kor_socdem_party_name')]"
+ party_kor_socialist:0 "人民党"
+ party_kor_labor_farmer:0 "劳动人民党"
+ party_revsoc_kor:0 "工人党"
+
+ party_agrarian_kor:0 "农民协会"
+
+# BHT/BIC
+ party_conservative_bht:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('bht_conservative_party_name')]"
+ party_bht_imperial:0 "统一独立派"
+ party_bht_nationalist:0 "民族主义党"
+
+ party_bht_liberal:0 "印度自由党"
+
+ party_inc:0 "INC"
+
+ party_inc_soc:0 "INC（左翼）"
+
+ party_cpi:0 "CPI"
+
+ party_agrarian_ind:0 "人民党"
+
+# BRZ
+ party_conservative_brz:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('brz_conservative_party_name')]"
+ party_brz_moderate_conservative:0 "温和党（保守派）"
+ party_brz_regressivist_party:0 "倒退党"
+ party_brz_conservatives:0 "保守党"
+
+ party_liberal_brz:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('brz_liberal_party_name')]"
+ party_brz_moderate_liberal:0 "温和党（自由派）"
+ party_brz_progressive_party:0 "进步党"
+ party_brz_liberals:0 "自由党"
+ party_brz_liberal_alliance:0 "自由联盟"
+
+ party_radical_brz:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('brz_radical_party_name')]"
+ party_brz_exalted_liberal:0 "崇高自由党"
+ party_brz_progressive_league:0 "进步联盟"
+ party_brz_radical_republican_party:0 "共和党"
+ party_brz_republic_radical_republican_party:0 "共和党（激进派）"
+ party_brz_libertador_party:0 "解放党"
+
+ party_socdem_brz:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('brz_socdem_party_name')]"
+ party_brz_socialist_workers:0 "社会主义工人党"
+ party_brz_brazilian_socialist:0 "巴西社会党"
+
+ party_revsoc_brz:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('brz_revsoc_party_name')]"
+ party_brz_socialist_league:0 "社会主义联盟"
+
+ party_anarchist_brz:0 "巴西工人联合会"
+
+ party_reactionary_brz:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('brz_reactionary_party_name')]"
+ party_brz_restorer:0 "复辟党"
+ party_brz_catholic:0 "天主教党"
+ party_brz_aipb:0 "巴西祖国主义帝国行动"
+
+# ARG
+ party_conservative_arg:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('arg_conservative_party_name')]"
+ party_arg_federalist:0 "联邦党"
+ party_arg_national_democratic:0 "民族民主党"
+ party_arg_concordancia:0 "协和党"
+
+ party_liberal_arg:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('arg_liberal_party_name')]"
+ party_arg_unitarian:0 "统一党"
+ party_arg_democratic_progressive:0 "民主进步党"
+
+ party_socdem_arg:0 "社会党"
+
+ party_revsoc_arg:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('arg_revsoc_party_name')]"
+ party_arg_socialist_left:0 "社会党（左翼）"
+ party_arg_international_socialist:0 "国际社会党"
+ party_arg_communist:0 "阿根廷共产党"
+
+ party_anarchist_arg:0 "阿根廷地区工人联合会"
+
+ party_fascist_arg:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('arg_fascist_party_name')]"
+ party_arg_civic_legion:0 "阿根廷公民军团"
+
+# PRG
+ party_reactionary_prg:0 "威权主义者"
+
+ party_radical_prg:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('prg_radical_party_name')]"
+ party_prg_francia:0 "弗朗西亚派"
+ party_prg_radical_liberal:0 "激进自由党"
+
+ party_socdem_prg:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('prg_socdem_party_name')]"
+ party_prg_workers:0 "工人党"
+ party_prg_revolutionary_socialist:0 "革命社会党"
+ party_prg_national_revolutionary:0 "二月革命运动（社会主义派）"
+
+ party_revsoc_prg:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('prg_revsoc_party_name')]"
+ party_prg_workers_left:0 "工人党（左翼）"
+ party_prg_revolutionary_socialist_left:0 "革命社会党（左翼）"
+ party_prg_communist:0 "巴拉圭共产党"
+
+ party_anarchist_prg:0 "巴拉圭地区工人联合会"
+
+ party_fascist_prg:0 "二月革命运动（民族主义派）"
+
+# URU
+ party_reactionary_uru:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('uru_reactionary_party_name')]"
+ party_uru_patriotic_organization:0 "乌拉圭爱国组织"
+ party_uru_national_patriotic:0 "国防爱国阵线"
+
+ party_radical_uru:0 "宪法党"
+
+ party_socdem_uru:0 "乌拉圭社会党"
+
+ party_revsoc_uru:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('uru_revsoc_party_name')]"
+ party_uru_socialist_left:0 "乌拉圭社会党（左翼）"
+ party_uru_communist:0 "乌拉圭共产党"
+
+ party_anarchist_uru:0 "乌拉圭地区工人联合会"
+
+ party_fascist_uru:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('uru_fascist_party_name')]"
+ party_uru_revisionist:0 "乌拉圭修正行动"
+ party_uru_marzists:0 "红党（三月派）"
+
+# CHL
+ party_reactionary_chl:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('chl_reactionary_party_name')]"
+ party_chl_estanqueros:0 "烟草专卖党"
+ party_chl_falange:0 "民族长枪党"
+
+ party_socdem_chl:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('chl_socdem_party_name')]"
+ party_chl_democrat:0 "民主党"
+ party_chl_npa:0 "新公共行动"
+ party_chl_socialist:0 "智利社会党"
+
+ party_revsoc_chl:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('chl_revsoc_party_name')]"
+ party_chl_socialist_workers:0 "社会主义工人党"
+ party_chl_communist:0 "智利共产党"
+
+ party_anarchist_chl:0 "智利工人联合会"
+
+# VNZ
+ party_reactionary_vnz:0 "统一党"
+
+ party_radical_vnz:0 "复兴自由党"
+
+ party_socdem_vnz:0 "进步共和党"
+
+ party_revsoc_vnz:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('vnz_revsoc_party_name')]"
+ party_vnz_revolutionary:0 "委内瑞拉革命党"
+ party_vnz_communist:0 "委内瑞拉共产党"
+
+ party_anarchist_vnz:0 "委内瑞拉工人联合会"
+
+# BOL
+ party_reactionary_bol:0 "民族主义党"
+
+ party_radical_bol:0 "共和党"
+
+ party_socdem_bol:0 "社会主义共和党"
+
+ party_revsoc_bol:0 "革命左翼运动"
+
+ party_agrarian_bol:0 "真正共和党"
+
+ party_anarchist_bol:0 "玻利维亚工人联盟"
+
+ party_fascist_bol:0 "玻利维亚社会主义长枪党"
+
+# PEU
+ party_reactionary_peu:0 "民族主义党"
+
+ party_socdem_peu:0 "秘鲁阿普拉党"
+
+ party_revsoc_peu:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('peu_revsoc_party_name')]"
+ party_peu_socialist:0 "秘鲁社会党"
+ party_peu_communist:0 "秘鲁共产党"
+
+ party_agrarian_peu:0 "分权党"
+
+ party_anarchist_peu:0 "秘鲁地区工人联合会"
+
+ party_fascist_peu:0 "革命联盟"
+
+# CLM
+ party_reactionary_clm:0 "民族党"
+
+ party_conservative_clm:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('clm_conservative_party_name')]"
+ party_clm_ministerial:0 "部长党"
+ party_clm_conservatives:0 "保守党"
+
+ party_liberal_clm:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('clm_liberal_party_name')]"
+ party_clm_progressives:0 "进步党"
+ party_clm_democrats:0 "进步党（民主派）"
+ party_clm_liberals:0 "自由党"
+ party_clm_draconians:0 "自由党（严苛派）"
+ 
+ party_radical_clm:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('clm_radical_party_name')]"
+ party_clm_doctrinaires:0 "进步党（教条派）"
+ party_clm_radical:0 "自由党（各各他派）"
+
+ party_socdem_clm:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('clm_socdem_party_name')]"
+ party_clm_liberal_socialist:0 "自由党（社会主义派）"
+ party_clm_natleft:0 "民族左翼革命联盟"
+
+ party_revsoc_clm:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('clm_revsoc_party_name')]"
+ party_clm_socialist:0 "革命社会党"
+ party_clm_communist:0 "哥伦比亚共产党"
+
+ party_agrarian_clm:0 "联邦派"
+
+ party_anarchist_clm:0 "哥伦比亚工人联合会"
+
+ party_fascist_clm:0 "保守党（豹派）"
+
+# ECU
+ party_reactionary_ecu:0 "耶稣会党"
+
+ party_radical_ecu:0 "激进自由党"
+
+ party_socdem_ecu:0 "厄瓜多尔社会党"
+
+ party_revsoc_ecu:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ecu_revsoc_party_name')]"
+ party_ecu_socialist_left:0 "厄瓜多尔社会党（左翼）"
+ party_ecu_communist:0 "厄瓜多尔共产党"
+
+ party_anarchist_ecu:0 "阶级斗争组织中心"
+
+ party_fascist_ecu:0 "厄瓜多尔民族主义革命行动"
+
+# MEX
+ party_reactionary_mex:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('mex_reactionary_party_name')]"
+ party_mex_imperialist:0 "帝国党"
+ party_mex_national_catholic:0 "民族天主教党"
+
+ party_conservative_mex:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('mex_conservative_party_name')]"
+ party_mex_conservative:0 "保守党"
+ party_mex_national_action:0 "民族行动党"
+
+ party_liberal_mex:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('mex_liberal_party_name')]"
+ party_mex_liberal:0 "自由党"
+ party_mex_progressive_constitutionalist:0 "进步立宪党"
+ party_mex_constitutionalist_liberal:0 "自由立宪党"
+
+ party_socdem_mex:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('mex_socdem_party_name')]"
+ party_mex_laborist:0 "墨西哥工党"
+ party_mex_natrev:0 "民族革命党"
+
+ party_revsoc_mex:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('mex_revsoc_party_name')]"
+ party_mex_socialist:0 "社会主义工人党"
+ party_mex_communist:0 "墨西哥共产党"
+
+ party_agrarian_mex:0 "民族农本党"
+
+ party_anarchist_mex:0 "墨西哥无政府主义联盟"
+
+ party_fascist_mex:0 "民族统合党"
+
+# UCA
+ party_reactionary_uca:0 "民族主义党"
+
+# LIB
+ party_conservative_lib:0 "真正辉格党"
+
+ party_liberal_lib:0 "真正利比里亚党"
+
+# CUB
+ party_reactionary_cub:0 "爱国党"
+
+ party_conservative_cub:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('cub_conservative_party_name')]"
+ party_cub_nacional:0 "古巴民族党"
+ party_cub_conservador:0 "民族保守党"
+
+ party_liberal_cub:0 "古巴自由党"
+
+ party_radical_cub:0 "正统党"
+
+ party_socdem_cub:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('cub_socdem_party_name')]"
+ party_cub_people:0 "人民党"
+ party_cub_authentic:0 "真党"
+
+ party_revsoc_cub:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('cub_revsoc_party_name')]"
+ party_cub_people_left:0 "人民党（左翼）"
+ party_cub_authentic_left:0 "真党（左翼）"
+ party_cub_communist:0 "古巴共产党"
+
+ party_anarchist_cub:0 "古巴工人大会"
+
+# GRE
+ party_gre_russian:0 "俄罗斯党" 
+ party_gre_english:0 "英国党"
+ party_gre_french:0 "法国党"
+ party_gre_french_republican:0 "法国党（共和派）"
+ party_gre_democratic_union:0 "民主联盟"
+ party_agrarian_gre:0 "农业与劳工党"
+ party_gre_freethinkers:0 "自由思想者党"
+ 
+# ETH
+#  party_conservative_eth:0 "Imperial League"
+
+#  party_liberal_eth:0 "Citizen's League"
+
+ # Party weight descriptions  
+ from_bad_police: "拥有 [GetLawType('law_dedicated_police').GetName] 或 [GetLawType('law_militarized_police').GetName]"

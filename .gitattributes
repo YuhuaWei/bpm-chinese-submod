@@ -1,0 +1,9 @@
+# 游戏数据文件：字节级保真，不做行尾转换
+# （V3 引擎对 UTF-8 BOM + 行尾不敏感，但保持原始字节可避免 git 往返破坏）
+*.yml -text
+*.gui -text
+*.txt -text
+*.mod -text
+*.json text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf

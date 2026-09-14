@@ -1,0 +1,78 @@
+﻿l_simp_chinese:
+ country_institution_centralization_max_investment_add:0 "最大$institution_centralization$[Concept('concept_institution', '制度')]投入等级"
+ country_institution_centralization_max_investment_add_desc:0 "对$institution_centralization$[Concept('concept_institution', '制度')]最大投入等级的增益或惩罚"
+
+ country_institution_suffrage_max_investment_add:0 "最大$institution_suffrage$[Concept('concept_institution', '制度')]投入等级"
+ country_institution_suffrage_max_investment_add_desc:0 "对$institution_suffrage$[Concept('concept_institution', '制度')]最大投入等级的增益或惩罚"
+
+ country_institution_culture_max_investment_add:0 "最大$institution_culture$[Concept('concept_institution', '制度')]投入等级"
+ country_institution_culture_max_investment_add_desc:0 "对$institution_culture$[Concept('concept_institution', '制度')]最大投入等级的增益或惩罚"
+
+ country_institution_diplomacy_max_investment_add:0 "最大$institution_diplomacy$[Concept('concept_institution', '制度')]投入等级"
+ country_institution_diplomacy_max_investment_add_desc:0 "对$institution_diplomacy$[Concept('concept_institution', '制度')]最大投入等级的增益或惩罚"
+
+ # institution_colonial_affairs:0 "[Institution.GetCountry.GetCustom('bpm_colonial_affairs_institution_name')]"
+ institution_colonial_affairs_base:0 "殖民事务"
+ institution_colonial_affairs_usa_frontier:0 "印第安人事务局"
+ institution_colonial_affairs_usa_colonial:0 "内政部"
+ # institution_schools:0 "[Institution.GetCountry.GetCustom('bpm_schools_institution_name')]"
+ institution_schools_base:0 "教育"
+ institution_schools_usa_federal:0 "州教育委员会"
+ institution_schools_usa_devolved:0 "教育部"
+ # institution_social_security:0 "[Institution.GetCountry.GetCustom('bpm_social_security_institution_name')]"
+ institution_social_security_base:0 "社会保障"
+ institution_social_security_usa_poorhouse:0 "州福利委员会"
+ institution_social_security_usa_richhouse:0 "福利部"
+
+ # institution_workplace_safety:0 "[Institution.GetCountry.GetCustom('bpm_workplace_safety_institution_name')]"
+ institution_workplace_safety:0 "劳工委员会"
+ institution_workplace_safety_base:0 "劳工委员会"
+ institution_workplace_safety_usa:0 "劳工部"
+
+ # institution_health_system:0 "[Institution.GetCountry.GetCustom('bpm_health_system_institution_name')]"
+ institution_health_system_base:0 "卫生系统"
+ institution_health_system_usa_charity:0 "州医院委员会"
+ institution_health_system_usa_professional:0 "卫生部"
+
+ institution_suffrage:0 "选举权"
+ # institution_suffrage:0 "[Institution.GetCountry.GetCustom('bpm_suffrage_institution_name')]"
+ institution_suffrage_base:0 "选举权"
+ institution_suffrage_usa:0 "州选举权委员会"
+ institution_suffrage_desc:0 "我们选举事实上的公正程度。"
+
+ institution_diplomacy:0 "外交事务"
+ institution_diplomacy_desc:0 "处理涉外事务。"
+ institution_diplomacy_brz:0 "外交事务国务秘书"
+
+ # institution_police:0 "[Institution.GetCountry.GetCustom('bpm_police_institution_name')]"
+ institution_police_base:0 "执法"
+ institution_police_usa:0 "司法部"
+ institution_police_brz:0 " 司法事务国务秘书"
+
+ # institution_home_affairs:0 "[Institution.GetCountry.GetCustom('bpm_home_affairs_institution_name')]"
+ institution_home_affairs_base:0 "内务"
+ institution_home_affairs_usa:0 "调查局"
+ institution_home_affairs_russia_empire:0 "第三厅"
+ institution_home_affairs_russia_empire_adv:0 "奥赫拉纳"
+ institution_home_affairs_russia_soviet_civil_war:0 "契卡"
+ institution_home_affairs_russia_soviet:0 "内务人民委员部"
+ 
+
+ institution_centralization:0 "地方行政"
+ institution_centralization_desc:0 "$institution_centralization$"
+ institution_centralization_base:0 "地方行政"
+ institution_centralization_usa:0 "美国邮政总局"
+ #institution_centralization_desc:0 "The effectiveness of governance on the level of administrative regions."
+ institution_centralization_brz:0 "帝国事务国务秘书"
+#
+ institution_culture:0 "媒体监管"
+ institution_culture_desc:0 "处理国家的出版内容与艺术表达。"
+ institution_culture_base:0 "媒体监管"
+ institution_culture_usa_prerecon:0 "自由民事务局"
+ institution_culture_usa_postrecon:0 "文化事务部"
+ #institution_culture_base_censorship:0 "Ministry of Censorship"
+
+ institution_economy:0 "经济事务"
+ institution_economy_desc:0 "$institution_economy$"
+ institution_economy_base:0 "经济事务"
+ institution_economy_brz:0 "财政事务国务秘书"

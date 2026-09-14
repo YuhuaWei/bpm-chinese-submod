@@ -1,0 +1,14 @@
+﻿l_simp_chinese:
+ ideology_exe_strong_dynamic: "独立行政首脑"
+ ideology_exe_strong_dynamic_desc: "#lore 该集团认为需要一个赋权的独立行政首脑。#!"
+ ideology_exe_weak_dynamic: "受限行政首脑"
+ ideology_exe_weak_dynamic_desc: "#lore 该集团认为需要对[GetPlayer.GetRuler.GetPrimaryRoleTitle]的权力施加重大限制。#!"
+ ideology_exe_strong_rigid: "制度型行政首脑"
+ ideology_exe_strong_rigid_desc: "#lore 该集团倾向于由制度力量来引导行政首脑。#!"
+ ideology_exe_weak_rigid: "分权行政首脑"
+ ideology_exe_weak_rigid_desc: "#lore 该集团倾向于由地方机构来引导和限制行政首脑。#!"
+# 仅君主制
+ ideology_exe_traditional: "传统行政首脑"
+ ideology_exe_traditional_desc: "#lore 该集团倾向于由[GetPlayer.GetRuler.GetPrimaryRoleTitle]直接行使权力。#!"
+ ideology_exe_ceremonial: "礼仪行政首脑"
+ ideology_exe_ceremonial_desc: "#lore 该集团倾向于[GetPlayer.GetRuler.GetPrimaryRoleTitle]纯属礼仪性质。#!"

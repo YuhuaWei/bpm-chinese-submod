@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+  rule_bpm_frankfurt_parliament: "法兰克福议会"
+  setting_bpm_frankfurt_parliament_active: "启用"
+  setting_bpm_frankfurt_parliament_active_desc: "启用法兰克福议会——一个在民族之春期间发生于德意志各邦的历史事件。"
+  setting_bpm_frankfurt_parliament_disabled: "禁用"
+  setting_bpm_frankfurt_parliament_disabled_desc: "禁用法兰克福议会事件，使其不会在游戏中发生。"
+#rule_<key> will be used as the key for game rule names  
+#setting_<key> will be used as the key for game rule setting names  
+#setting_<key>_desc will be used as the key for game rule setting descs
+

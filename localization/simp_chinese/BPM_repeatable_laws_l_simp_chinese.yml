@@ -1,0 +1,221 @@
+﻿l_simp_chinese:
+# 杂项
+ bpm_repeatable_law_cooldown:0 "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')]正处于 #v [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_cooldown')]#! 年的冷却期内。"
+
+ law_repeatable_none:0 "未选择可重复法律"
+ law_repeatable_none_desc:0 "目前没有正在考虑的[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')]。"
+
+ bpm_decorative_repeatable_effect_no_permanent:0 "无永久效果"
+ bpm_decorative_repeatable_effect_no_permanent_desc:0 "$concept_bpm_repeatable_law_desc$"
+ bpm_decorative_repeatable_effect_temporary:0 "施加一个临时效果"
+ 
+ bpm_decorative_repeatable_effect_temporary_desc:0 "$concept_bpm_repeatable_law_desc$"
+ bpm_last_enacted_repeatable_label:0 "上次颁布："
+
+ bpm_last_enacted_repeatable_countdown:0 "@clock! #v [Law.MakeScope.ScriptValue('bpm_repeatable_law_countdown_value')]#! 天后结束"
+
+ bpm_law_effect_tt_repeatable_stronger_from_institution:0 "#blue @information! 以下效果随每一[Concept('concept_investment_level','级')]#!提高"
+ bpm_law_effect_tt_repeatable_stronger_from_home_affairs:0 "$bpm_law_effect_tt_repeatable_stronger_from_institution$ [GetInstitutionType('institution_home_affairs').GetName]而增强。"
+ bpm_decorative_repeatable_stronger_from_home_affairs:0 "随 #O [GetInstitutionType('institution_home_affairs').GetName]#! 提升"
+ bpm_decorative_repeatable_stronger_from_home_affairs_desc:0 "$bpm_law_effect_tt_repeatable_stronger_from_home_affairs$"
+ bpm_law_effect_tt_repeatable_stronger_from_centralization:0 "$bpm_law_effect_tt_repeatable_stronger_from_institution$ [GetInstitutionType('institution_centralization').GetName]而增强。"
+ bpm_decorative_repeatable_stronger_from_centralization:0 "随 #O [GetInstitutionType('institution_centralization').GetName]#! 提升"
+ bpm_decorative_repeatable_stronger_from_centralization_desc:0 "$bpm_law_effect_tt_repeatable_stronger_from_centralization$"
+ bpm_law_effect_tt_repeatable_stronger_from_culture:0 "$bpm_law_effect_tt_repeatable_stronger_from_institution$ [GetInstitutionType('institution_culture').GetName]而增强。"
+ bpm_decorative_repeatable_stronger_from_culture:0 "随 #O [GetInstitutionType('institution_culture').GetName]#! 提升"
+ bpm_decorative_repeatable_stronger_from_culture_desc:0 "$bpm_law_effect_tt_repeatable_stronger_from_culture$"
+
+ bpm_law_effect_tt_repeatable_stronger_from_professional_officers:0 "@information! #blue 以下效果在[GetLawType('law_professional_officers').GetName]下增强。#!"
+ bpm_decorative_repeatable_stronger_from_professional_officers:0 "随 #O [GetLawType('law_professional_officers').GetName]#! 提升"
+ bpm_decorative_repeatable_stronger_from_professional_officers_desc:0 "$bpm_law_effect_tt_repeatable_stronger_from_professional_officers$"
+
+ bpm_law_effect_tt_repeatable_stronger_from_non_religious_igs:0 "@information! #blue 以下效果随每一个处于[Concept('concept_in_government', '政府')]或[Concept('concept_powerful', '强大')]的[Concept('concept_bpm_ig_is_non_religious', '$concept_bpm_ig_is_non_religious$')][Concept('concept_interest_group', '利益集团')]而增强。"
+ bpm_law_effect_tt_repeatable_stronger_from_religious_igs:0 "@information! #blue 以下效果随每一个处于[Concept('concept_in_government', '政府')]或[Concept('concept_powerful', '强大')]的[Concept('concept_bpm_ig_is_religious', '$concept_bpm_ig_is_religious$')][Concept('concept_interest_group', '利益集团')]而增强。"
+
+ bpm_law_effect_tt_repeatable_strength_influenced_by_ig_support:0 "@information! #blue 以下效果根据每个[concept_in_government]或[Concept('concept_powerful', '强大')][Concept('concept_interest_group', '利益集团')]对该法律的意见而调整。#!"
+
+ bpm_repeatable_law_ig_happy:0 "因 $concept_bpm_repeatable_law$ 而感到满意"
+ bpm_repeatable_law_ig_unhappy:0 "因 $concept_bpm_repeatable_law$ 而感到不满"
+
+ bpm_law_effect_tt_repeatable_different_in_cooperative_ownership:0 "@information! #blue 以下效果在[GetLawType('law_cooperative_ownership').GetName]下有所不同。#!"
+ bpm_law_effect_tt_repeatable_different_in_collectivized_agriculture:0 "@information! #blue 以下效果在[GetLawType('law_collectivized_agriculture').GetName]下有所不同。"
+ 
+# 可重复·政治
+ lawgroup_repeatable_politics:0 "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')]——政治"
+ lawgroup_repeatable_politics_desc:0 "直接涉及国家政治构成的[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_laws$')]。"
+
+ law_repeatable_politics_none:0 "$law_repeatable_none$"
+ law_repeatable_politics_none_desc:0 "$law_repeatable_none_desc$"
+
+ law_repeatable_politics_modernize_bureaucracy:0 "官僚现代化"
+ law_repeatable_politics_modernize_bureaucracy_desc:0 "制作地籍图、推行统一的度量衡制度、统一国家语言；哪怕只尝试其中一部分措施，也能让我们的官僚机构在现代得以正常运转。"
+ bpm_law_effect_tt_repeatable_politics_modernize_bureaucracy:0 "@information! #blue 将给予你尚未研究的最多两项早期官僚科技。研究中央集权与国际关系后将不再可用。#!"
+
+ law_repeatable_politics_military_purge:0 "军队清洗"
+ law_repeatable_politics_military_purge_desc:0 "在[GetInterestGroupVariant('ig_armed_forces', GetPlayer).GetName]队伍中实施大规模且暴力的清洗，以确保其政治忠诚。"
+ bpm_repeatable_law_military_purge_result:0 "军队清洗的余波"
+ bpm_law_effect_tt_repeatable_politics_military_purge:0 "#N 每位[concept_commander]有 #v 25%#! 的概率被清洗！#!"
+
+ law_repeatable_politics_bureaucratic_purge:0 "官僚清洗"
+ law_repeatable_politics_bureaucratic_purge_desc:0 "在[GetInterestGroupVariant('ig_petty_bourgeoisie', GetPlayer).GetName]中实施广泛清洗，以确保行政机构的忠诚。"
+ bpm_repeatable_law_bureaucratic_purge_result:0 "官僚清洗的余波"
+ bpm_repeatable_law_bureaucratic_purge_result_ig:0 "塞满了唯唯诺诺之徒"
+
+ law_repeatable_politics_popular_concessions:0 "微小让步"
+ law_repeatable_politics_popular_concessions_desc:0 "调查并处理一些困扰民众的琐碎却恼人的问题，无需大规模改革即可办到。"
+ bpm_repeatable_law_popular_concessions_result_permanent:0 "微小让步"
+
+ law_repeatable_politics_anti_corruption_drive:0 "反腐运动"
+ bpm_repeatable_law_anti_corruption_drive_result_ig:0 "反腐成果"
+ bpm_law_effect_tt_politics_anti_corruption_drive:0 "@information! #blue 目标是[Concept('concept_clout', '势力')]最大的[Concept('concept_bpm_ig_is_institutional', '制度型')][Concept('concept_interest_group', '利益集团')]。#!"
+ bpm_law_effect_tt_repeatable_different_in_reconstruction:0 "@information! #blue 以下效果在进行重建期间有所不同。"
+ law_repeatable_politics_anti_corruption_drive_desc:0 "对国内根深蒂固的利益集团进行一场扫荡，以清除国家肌体中的腐败。"
+
+ law_repeatable_politics_great_terror:0 "[GetPlayer.GetCustom('bpm_repeatable_politics_terror_name')]"
+ law_repeatable_politics_great_terror_desc:0 "对[GetPlayer.GetCustom('bpm_repeatable_politics_terror_target')]发动一场大规模暴力与镇压运动。"
+ bpm_law_effect_tt_politics_great_terror:0 "@information! #blue 降低所有处于[Concept('concept_in_opposition', '反对派')]的[Concept('concept_bpm_ig_is_ideological', '意识形态型')][Concept('concept_interest_group', '利益集团')]的[Concept('concept_clout', '势力')]、[Concept('concept_interest_group_attraction', '吸引力')]和[Concept('concept_approval', '认可度')]。"
+ bpm_repeatable_law_great_terror_result:0 "大恐怖"
+ bpm_repeatable_law_great_terror_result_ig:0 "恐怖的受害者"
+ bpm_repeatable_politics_terror_name_liberal:0 "雅各宾式恐怖（$bpm_repeatable_politics_terror_name_great$）"
+ bpm_repeatable_politics_terror_target_liberal:0 "人民的敌人"
+ bpm_repeatable_politics_terror_name_white:0 "白色恐怖（$bpm_repeatable_politics_terror_name_great$）"
+ bpm_repeatable_politics_terror_target_white:0 "[GetPlayer.GetName]的敌人"
+ bpm_repeatable_politics_terror_name_red:0 "红色恐怖（$bpm_repeatable_politics_terror_name_great$）"
+ bpm_repeatable_politics_terror_target_red:0 "革命的敌人"
+ bpm_repeatable_politics_terror_name_great:0 "大恐怖"
+ bpm_repeatable_politics_terror_target_great:0 "[GetPlayer.GetName]的敌人"
+
+# 可重复·宗教
+ lawgroup_repeatable_religion:0 "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')]——宗教"
+ lawgroup_repeatable_religion_desc:0 "涉及各类宗教事务的[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_laws$')]。"
+
+ law_repeatable_religion_none:0 "$law_repeatable_none$"
+ law_repeatable_religion_none_desc:0 "$law_repeatable_none_desc$"
+
+ law_repeatable_religion_anti_secular_reaction:0 "反世俗逆流"
+ law_repeatable_religion_anti_secular_reaction_desc:0 "打击学术界的世俗思想，以防现代观念的传播。"
+ bpm_repeatable_law_anti_secular_reaction_result:0 "反世俗逆流的成果"
+
+ law_repeatable_religion_promote_state_religion:0 "弘扬国教"
+ law_repeatable_religion_promote_state_religion_desc:0 "颁布政策，更积极地在民众中弘扬我们的宗教。"
+ bpm_law_effect_tt_repeatable_promote_state_religion_conversion:0 "将[Concept('concept_incorporated_state', '已合并州份')]中 #v [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_promote_state_religion_conversion_percent')]%#! 的[Concept('concept_pop', '人口')]改信[GetPlayer.GetStateReligion.GetName]"
+ bpm_repeatable_law_promote_state_religion_result:0 "国教得到弘扬"
+
+ law_repeatable_religion_promote_secular_values:0 "弘扬世俗价值观"
+ law_repeatable_religion_promote_secular_values_desc:0 "颁布政策，鼓励民众树立更世俗的世界观。"
+ bpm_law_effect_tt_repeatable_promote_secular_values_conversion:0 "将[Concept('concept_incorporated_state', '已合并州份')]中 #v [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_promote_secular_values_conversion_percent')]%#! 的[Concept('concept_pop', '人口')]改信[GetReligion('atheist').GetName]"
+ bpm_repeatable_law_promote_secular_values_result:0 "世俗价值观得到弘扬"
+
+ law_repeatable_religion_anti_religious_violence:0 "反宗教暴力"
+ law_repeatable_religion_anti_religious_violence_desc:0 "通过对公开的信徒与神职人员进行针对性暴力，以及摧毁宗教符号和财产，加大对宗教残余势力的压力。"
+ bpm_law_effect_tt_repeatable_anti_religious_violence_conversion:0 "将[Concept('concept_incorporated_state', '已合并州份')]中 #v [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_anti_religious_violence_conversion_percent')]%#! 的[Concept('concept_pop', '人口')]改信[GetReligion('atheist').GetName]"
+ bpm_repeatable_law_anti_religious_violence_result:0 "对神职人员的镇压"
+
+# 可重复·民族
+ lawgroup_repeatable_nationality:0 "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')]——民族"
+ lawgroup_repeatable_nationality_desc:0 "涉及我国各民族与文化的[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_laws$')]。"
+
+# 可重复·军事
+ lawgroup_repeatable_military:0 "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')]——军事"
+ lawgroup_repeatable_military_desc:0 "处理军事改革的[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_laws$')]。"
+
+ law_repeatable_military_none:0 "$law_repeatable_none$"
+ law_repeatable_military_none_desc:0 "$law_repeatable_none_desc$"
+
+ law_repeatable_military_military_reform:0 "军事改革"
+ law_repeatable_military_military_reform_desc:0 "组织一场广泛运动，改善[GetInterestGroupVariant('ig_armed_forces', GetPlayer).GetName]的状况，替换无能或守旧的指挥官，将军队引入更现代的视野。"
+ bpm_repeatable_law_military_reform_result:0 "军事改革"
+ bpm_repeatable_law_military_reform_result_better:0 "专业军事改革"
+
+ law_repeatable_military_parades_and_drills:0 "强化军纪"
+ law_repeatable_military_parades_and_drills_desc:0 "收紧军事条例，惩罚懈怠，频繁举行阅兵并强化军纪统一。"
+ bpm_repeatable_law_parades_and_drills_result:0 "阅兵与操练"
+
+ law_repeatable_military_improve_soldier_conditions:0 "改善军队待遇"
+ law_repeatable_military_improve_soldier_conditions_desc:0 "颁布一些旨在改善下级士兵生活条件的法规。"
+ bpm_repeatable_law_improve_soldier_conditions_result:0 "改善的军队待遇"
+ bpm_repeatable_law_improve_soldier_conditions_result_permanent:0 "改善的军队待遇（永久）"
+
+ law_repeatable_military_army_defunding:0 "去军事化"
+ law_repeatable_military_army_defunding_desc:0 "为求和平而削减我们的军力。"
+ bpm_repeatable_law_army_defunding_result:0 "军队被削减"
+ bpm_repeatable_law_army_defunding_result_permanent:0 "鸽派政治"
+ bpm_decorative_will_be_removed_on_aggressive_war:0 "参与侵略战争将移除此修正"
+ bpm_decorative_will_be_removed_on_aggressive_war_desc:0 "以侵略者身份发动或加入战争会移除此修正。这不包括内战、分裂或土著起义。"
+
+ law_repeatable_military_war_propaganda:0 "战争宣传"
+ law_repeatable_military_war_propaganda_desc:0 "散布并宣传爱国宣传品，以改善民众对我国战争的看法。"
+ bpm_law_effect_tt_repeatable_war_propaganda_result:0 "我们在所有[Concept('concept_war', '战争')]中的[Concept('concept_war_exhaustion', '战争疲惫度')]将降低 #v 25#!"
+
+# 可重复·文化
+ lawgroup_repeatable_culture:0 "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')]——文化"
+ lawgroup_repeatable_culture_desc:0 "处理在我国宣扬各类文化观念的[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_laws$')]。"
+ bpm_law_effect_tt_culture_generic_result:0 "该[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')]将针对所有对这一[Concept('concept_law', '法律')]持立场的[Concept('concept_bpm_ig_is_ideological', '意识形态型')][Concept('concept_interest_group', '利益集团')]；将根据这些集团是否赞同该法律，改变它们的[Concept('concept_interest_group_attraction', '吸引力')]和[Concept('concept_approval', '认可度')]。对于强烈支持或强烈反对该法律的[Concept('concept_interest_group', '利益集团')]，此效果更强。"
+ bpm_repeatable_law_culture_generic_result_ig_positive:0 "得到肯定的价值观"
+ bpm_repeatable_law_culture_generic_result_ig_negative:0 "遭到否定的价值观"
+
+ law_repeatable_culture_none:0 "$law_repeatable_none$"
+ law_repeatable_culture_none_desc:0 "$law_repeatable_none_desc$"
+
+ law_repeatable_culture_invite_foreign_experts:0 "延聘外国专家"
+ law_repeatable_culture_invite_foreign_experts_desc:0 "邀请外国的学者、哲学家、工程师等人协助我们的研究与开发。"
+ bpm_repeatable_law_invite_foreign_experts_result:0 "已延聘外国专家"
+
+ law_repeatable_culture_promote_democratic_values:0 "弘扬民主价值观"
+ law_repeatable_culture_promote_democratic_values_desc:0 "颁布政策并资助相关运动，鼓励公民合法地参与民主。"
+ bpm_repeatable_law_promote_democratic_values_result:0 "民主价值观得到弘扬"
+
+ law_repeatable_culture_promote_absolutist_values:0 "弘扬专制价值观"
+ law_repeatable_culture_promote_absolutist_values_desc:0 "为国家的福祉，强化我们对强大、传统的专制统治的坚持。"
+ bpm_repeatable_law_promote_absolutist_values_result:0 "专制价值观得到弘扬"
+
+ law_repeatable_culture_promote_patriotic_values:0 "[GetPlayer.GetCustom('bpm_repeatable_culture_promote_patriotic_values_name')]"
+ law_repeatable_culture_promote_patriotic_values_desc:0 "颁布政策，强化我们的民族认同，在民众中灌输爱国情怀。"
+ bpm_law_effect_tt_repeatable_promote_patriotic_values_assimilation:0 "若[ROOT.GetCountry.GetName]实行[GetLawType('law_cultural_exclusion').GetName]，将[Concept('concept_incorporated_state', '已合并州份')]中 #v [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_promote_patriotic_values_assimilation_percent')]%#! 的$concept_discriminated$[Concept('concept_pop', '人口')]同化为[GetPlayer.GetPrimaryCulturesDesc]"
+ bpm_law_effect_tt_repeatable_promote_patriotic_values:0 "使我国所有受歧视文化的[Concept('concept_fervor', '狂热')]提高 #variable [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_promote_patriotic_values_power_fervor')|R0]#!，[Concept('concept_acceptance', '接纳度')]降低 #variable [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_promote_patriotic_values_power_acceptance')|R0]#!。使我国所有主流文化的[Concept('concept_fervor', '狂热')]提高 #variable [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_promote_patriotic_values_power_fervor')|G0]#!。"
+ bpm_repeatable_law_promote_patriotic_values_result:0 "爱国价值观得到弘扬"
+ bpm_repeatable_culture_promote_patriotic_values_name_default:0 "弘扬爱国价值观"
+ bpm_repeatable_culture_promote_patriotic_values_name_russian:0 "俄罗斯化（$bpm_repeatable_culture_promote_patriotic_values_name_default$）"
+
+
+ law_repeatable_culture_affirmative_action:0 "[GetPlayer.GetCustom('bpm_repeatable_culture_affirmative_action_name')]"
+ law_repeatable_culture_affirmative_action_desc:0 "为我国各少数族群提供配额和文化特权，包括通过教育和媒体投资来推广少数族群语言。"
+ bpm_law_effect_tt_repeatable_culture_affirmative_action:0 "使我国所有受歧视文化的[Concept('concept_fervor', '狂热')]提高 #variable [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_affirmative_action_power_fervor')]#!，[Concept('concept_acceptance', '接纳度')]提高 #variable [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_affirmative_action_power_acceptance')|G0]#!。"
+ bpm_repeatable_culture_affirmative_action_name_default:0 "扶持少数族群文化"
+ bpm_repeatable_culture_affirmative_action_name_soviet:0 "本土化（$bpm_repeatable_culture_affirmative_action_name_default$）"
+
+ law_repeatable_culture_promote_socialist_values:0 "弘扬社会主义价值观"
+ law_repeatable_culture_promote_socialist_values_desc:0 "重申我们对全人类自由与平等的世界的承诺。"
+ bpm_repeatable_law_promote_socialist_values_result:0 "社会主义价值观得到弘扬"
+
+ law_repeatable_culture_promote_ultranationalist_values:0 "弘扬极端民族主义价值观"
+ law_repeatable_culture_promote_ultranationalist_values_desc:0 "宣告我们对自己在世界中地位的沙文主义、极端民族主义且毫不妥协的立场。"
+ bpm_repeatable_law_promote_ultranationalist_values_result:0 "极端民族主义价值观得到弘扬"
+# 可重复·经济
+ lawgroup_repeatable_economy:0 "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')]——经济"
+ lawgroup_repeatable_economy_desc:0 "处理我国经济问题的[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_laws$')]。"
+
+ law_repeatable_economy_none:0 "$law_repeatable_none$"
+ law_repeatable_economy_none_desc:0 "$law_repeatable_none_desc$"
+
+ law_repeatable_economy_liberalization:0 "经济自由化"
+ law_repeatable_economy_liberalization_desc:0 "颁布一系列经济自由主义改革，鼓励私营工业扩张"
+ bpm_repeatable_law_liberalization_result:0 "正在进行经济自由化"
+ bpm_repeatable_law_liberalization_socialist_result:0 "正在进行经济自由化"
+
+ law_repeatable_economy_agricultural_investment:0 "农业投资"
+ law_repeatable_economy_agricultural_investment_desc:0 "通过投资和有利立法刺激农业部门"
+ bpm_repeatable_law_agricultural_investment_result:0 "农业投资"
+ bpm_repeatable_law_agricultural_investment_socialist_result:0 "农业投资"
+
+ law_repeatable_economy_peasant_corvee:0 "农民徭役"
+ law_repeatable_economy_peasant_corvee_desc:0 "征调租借或国有的农民从事建筑劳役，以廉价加速国家工业化。"
+ bpm_repeatable_law_peasant_corvee_result:0 "农民建筑劳役"
+
+ law_repeatable_economy_public_works:0 "公共工程"
+ law_repeatable_economy_public_works_desc:0 "通过广泛的公共建设项目鼓励工业扩张"
+ bpm_repeatable_law_public_works_result:0 "公共工程计划"
+
+ law_repeatable_economy_forced_industrialization:0 "强制工业化"
+ law_repeatable_economy_forced_industrialization_desc:0 "提高配额、使用苦役劳改、放宽工业安全顾虑，以实现极快速的工业发展"
+ bpm_repeatable_law_forced_industrialization_result:0 "强制工业发展"
