@@ -970,7 +970,7 @@ types information_panels_types
 				textbox = {
 					layoutpolicy_horizontal = expanding
 					size = { 0 20 }
-					raw_text = "(#variable [GetPlayer.MakeScope.ScriptValue('bpm_political_stability_rate_signed')|+=d1] #!/month)"
+					text = "bpm_gui_stability_rate_per_month"
 					align = left|nobaseline
 					elide = right
 				}

@@ -11,3 +11,4 @@
  bpm_gui_liberal_consciousness:0 "#bold;bjtwhite Liberal Consciousness#!: [GetPlayer.MakeScope.Var('bpm_consciousness_liberal').GetValue|b1] @arrow_right! [GetPlayer.MakeScope.ScriptValue('bpm_consciousness_liberal_target')|b0] ([GetPlayer.MakeScope.ScriptValue('bpm_consciousness_liberal_change')|=+] #grey /year#!)"
  bpm_gui_other_movements:0 "Other Movements#! ([GetPlayer.MakeScope.ScriptValue('bpm_reactionary_movements_support')|v%0])"
  bpm_gui_socialist_movements:0 "#bold;bjtwhite Socialist Movements#!#! ([GetPlayer.MakeScope.ScriptValue('bpm_socialist_movements_support')|v%0])"
+ bpm_gui_stability_rate_per_month:0 "(#variable [GetPlayer.MakeScope.ScriptValue('bpm_political_stability_rate_signed')|+=d1] #!/month)"
