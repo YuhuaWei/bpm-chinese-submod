@@ -88,7 +88,7 @@
  bpm_disable_single_party_tooltip:0 "这将移除单一政党法律的效果。"
  bpm_enable_single_party_tooltip:0 "这将使除当前执政党之外的所有政党非法。该党之外的每个利益集团都将对[GetLawType('law_party_single').GetName][Concept('concept_law', '法律')]持反对立场。"
 
- bpm_enable_no_parties_tooltip:0 "这将把所有政党转变为“派系”。每个制度性利益集团都将加入各自相应的派系，而意识形态利益集团要么加入某个派系，要么对[GetLawType('law_no_parties_allowed').GetName][Concept('concept_law', '法律')]持反对立场。"
+ bpm_enable_no_parties_tooltip:0 "这将把所有政党转变为“派系”。每个机构性利益集团都将加入各自相应的派系，而意识形态利益集团要么加入某个派系，要么对[GetLawType('law_no_parties_allowed').GetName][Concept('concept_law', '法律')]持反对立场。"
 # Foreign Policy
  lawgroup_foreign_policy:0 "外交政策"
  lawgroup_foreign_policy_desc:0 "这个[Concept('concept_country', '国家')]可能采取的广泛外交政策立场。"
@@ -185,7 +185,7 @@
  law_syndicalism:0 "工团主义"
  law_syndicalism_desc:0 "工会被用作社会组织的基础，成为国家的治理实体。"
 
- bpm_decorative_trade_unions_non_institutional:0 "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]不被视为[Concept('concept_bpm_institutional_ig', '制度性利益集团')]"
+ bpm_decorative_trade_unions_non_institutional:0 "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]不被视为[Concept('concept_bpm_institutional_ig', '机构性利益集团')]"
  bpm_decorative_trade_unions_non_institutional_desc:0 "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]的吸引力将不受该国[Concept('concept_bpm_political_stability', '政治稳定')]的调整。" 
  bpm_decorative_trade_unions_force_leader_moderate:0 "强制[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]领袖为非左翼"
  bpm_decorative_trade_unions_force_leader_moderate_desc:0 "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]领袖将无法获得左翼意识形态，并将更频繁地获得[GetIdeology('ideology_corporatist_leader').GetName]意识形态。"

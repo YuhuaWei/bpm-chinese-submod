@@ -81,7 +81,7 @@
   concept_bpm_synergy_weight: "协同权重"
   concept_bpm_synergy_weight_desc: "被任命到两个不同机构的[concept_bpm_cabinet]成员之间的意识形态相似度，对[concept_bpm_cabinet]整体协同所产生影响的权重。"
   concept_bpm_synergy: "协同"
-  concept_bpm_synergy_desc: "协同是衡量[Concept('concept_bpm_cabinet', '政府')]凝聚力的指标。协同越高，[concept_bpm_cabinet]实施政策就越有效。\n\n协同是根据你的每一位[Concept('concept_bpm_minister','部长')]之间的意识形态接近程度计算的，其中影响力最大的是政府首脑。[Concept('concept_bpm_institutional_ig','制度性利益集团')]彼此之间发生冲突的可能性较小，而[Concept('concept_bpm_ideological_ig','意识形态利益集团')]则必须共享相似的意识形态才能避免互相冲突。某些政治体制可能比其他体制更难实现一个高度高效的[Concept('concept_bpm_cabinet', '政府')]。"
+  concept_bpm_synergy_desc: "协同是衡量[Concept('concept_bpm_cabinet', '政府')]凝聚力的指标。协同越高，[concept_bpm_cabinet]实施政策就越有效。\n\n协同是根据你的每一位[Concept('concept_bpm_minister','部长')]之间的意识形态接近程度计算的，其中影响力最大的是政府首脑。[Concept('concept_bpm_institutional_ig','机构性利益集团')]彼此之间发生冲突的可能性较小，而[Concept('concept_bpm_ideological_ig','意识形态利益集团')]则必须共享相似的意识形态才能避免互相冲突。某些政治体制可能比其他体制更难实现一个高度高效的[Concept('concept_bpm_cabinet', '政府')]。"
 
   bpm_antagonism_tt: "#header [Concept('concept_bpm_antagonism', '对立')]#!： #v [GetPlayer.MakeScope.ScriptValue('bpm_antagonism_cached')|0]%#!\n$TOOLTIP_DELIMITER$\n对立是[concept_bpm_cabinet]成员中反对其所任职[concept_institution]存在的人数比例。[concept_bpm_antagonism]越高，[concept_bpm_cabinet]实施政策就越不有效。\n\n[concept_bpm_cabinet]中当前[Concept('concept_bpm_antagonism', '持对立态度')]的成员数为 [GetPlayer.MakeScope.ScriptValue('bpm_antagonism_raw_cached')|v0]。"
 
@@ -105,8 +105,8 @@
   bpm_cabinet_strategy_greedy_tt: "总是选择[GetPlayer.GetRuler.GetPrimaryRoleTitle]或$bpm_hog_title_default_contextless$的[concept_interest_group]。"
   bpm_cabinet_strategy_promidg_name: "显赫的[Concept('concept_bpm_ideological_ig','意识形态利益集团')]"
   bpm_cabinet_strategy_promidg_tt: "从[concept_prominence]最高的[Concept('concept_bpm_ideological_ig', '意识形态利益集团')]中遴选[Concept('concept_character', '人物')]。"
-  bpm_cabinet_strategy_proming_name: "显赫的[Concept('concept_bpm_institutional_ig','制度性利益集团')]"
-  bpm_cabinet_strategy_proming_tt: "从[concept_prominence]最高的[Concept('concept_bpm_institutional_ig', '制度性利益集团')]中遴选[Concept('concept_character', '人物')]。"
+  bpm_cabinet_strategy_proming_name: "显赫的[Concept('concept_bpm_institutional_ig','机构性利益集团')]"
+  bpm_cabinet_strategy_proming_tt: "从[concept_prominence]最高的[Concept('concept_bpm_institutional_ig', '机构性利益集团')]中遴选[Concept('concept_character', '人物')]。"
   bpm_cabinet_strategy_statusquo_name: "维持现状"
   bpm_cabinet_strategy_statusquo_tt: "如有可能，从其前任所属的[Concept('concept_interest_group', '利益集团')]中遴选[Concept('concept_character', '人物')]。否则遴选[concept_prominence]最高的[Concept('concept_character', '人物')]。"
 

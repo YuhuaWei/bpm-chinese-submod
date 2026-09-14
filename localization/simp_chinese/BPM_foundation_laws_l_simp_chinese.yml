@@ -51,7 +51,7 @@
   country_bpm_cabinet_controlled: "内阁人选仅来自极具影响力的[Concept('concept_interest_group', '利益集团')]"
   country_bpm_cabinet_controlled_desc: "内阁任命大多在烟雾缭绕的密室中敲定，仅由总统形式上加冕。内阁人选仅来自极具影响力的[Concept('concept_interest_group', '利益集团')]。"
 
-  country_bpm_cabinet_institution_bonus: "额外 @votes_icon! 委任予[Concept('concept_bpm_institutional_ig', '制度性利益集团')]"
+  country_bpm_cabinet_institution_bonus: "额外 @votes_icon! 委任予[Concept('concept_bpm_institutional_ig', '机构性利益集团')]"
   country_bpm_cabinet_institution_bonus_desc: "$country_bpm_cabinet_institution_bonus$"
   country_bpm_cabinet_hog_bonus: "额外 @votes_icon! 委任予[concept_bpm_head_of_government]所属的[Concept('concept_interest_group', '利益集团')]"
   country_bpm_cabinet_hog_bonus_desc: "$country_bpm_cabinet_hog_bonus$"
