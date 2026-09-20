@@ -120,7 +120,7 @@
 
 # China
  je_warlord_china:0 "天命"
- je_warlord_china_reason:1 "#bold 进度条#!的状态将根据特定条件#tooltippable;tooltip:[Country.GetTooltipTag],je_warlord_china_special_tooltip_advance 前进#!或#tooltippable;tooltip:[Country.GetTooltipTag],je_warlord_china_special_tooltip_deplete 后退#!。#bold 进度条#!达到#variable 0%#!意味着帝国权威彻底崩溃，大清在枪口下走向终结。\n\n尽管在雍正、乾隆皇帝治下曾有过一段暂时的稳定，中国却在外国压力下，以及无力满足数以百万计人民基本需求的窘境中，稳步滑向崩溃。当黄河决堤时，无人前来修复田亩；当收成欠佳时，粮仓空空如也；地方士绅在外来皇帝的默许下肆意欺凌农民。随着帝国政府的权威与天命不断遭到侵蚀，中土大地上日益壮大的排外运动、主张现代化的革命者，以及怒不可遏的农民，都将威胁着推翻这龙椅。若当今王朝想要重振信心、保住天命，就必须增强中国的实力，并推行审慎的内部改革。\n\n#lore "西方诸国为何小而强？我们为何大而弱？我们必须寻求与他们并驾齐驱之道，而这全赖人力……在言行合一上，我们不如夷狄。补救之法在于反求诸己。只要皇帝为我们指明正确的方向，这一切可以立即改变。"\n——冯桂芬，1861年#!"
+ je_warlord_china_reason:1 "#bold 进度条#!的状态将根据特定条件#tooltippable;tooltip:[Country.GetTooltipTag],je_warlord_china_special_tooltip_advance 前进#!或#tooltippable;tooltip:[Country.GetTooltipTag],je_warlord_china_special_tooltip_deplete 后退#!。#bold 进度条#!达到#variable 0%#!意味着帝国权威彻底崩溃，大清在枪口下走向终结。\n\n尽管在雍正、乾隆皇帝治下曾有过一段暂时的稳定，中国却在外国压力下，以及无力满足数以百万计人民基本需求的窘境中，稳步滑向崩溃。当黄河决堤时，无人前来修复田亩；当收成欠佳时，粮仓空空如也；地方士绅在外来皇帝的默许下肆意欺凌农民。随着帝国政府的权威与天命不断遭到侵蚀，中土大地上日益壮大的排外运动、主张现代化的革命者，以及怒不可遏的农民，都将威胁着推翻这龙椅。若当今王朝想要重振信心、保住天命，就必须增强中国的实力，并推行审慎的内部改革。\n\n#lore "彼何以小而强，我何以大而弱，必求所以如之，仍亦存乎人而已矣。……人无弃材不如夷，地无遗利不如夷，君民不隔不如夷，名实必符不如夷。……惟皇上振刷纪纲，一转移间耳。"\n——冯桂芬，《校邠庐抗议》，1861年#!"
  je_warlord_china_special_tooltip_deplete: "以下条件将使#bold 进度条#!#bold 后退#!：\n• 输掉#BOLD 鸦片战争#!\n• 未能阻止#BOLD 太平天国#!的出现\n• 未能收复#BOLD 太平天国#!\n• #BOLD 义和团运动#!失败\n• 负债并借取任何[concept_loans]\n• 发生[concept_civil_war]\n• 沦为其他国家的[concept_subject]\n• 废除[GetLawType('law_monarchy').GetName]"
  je_warlord_china_special_tooltip_advance: "以下条件将使#bold 进度条#!#bold 前进#!：\n• 打赢#BOLD 鸦片战争#!\n• 不再是[concept_unrecognized_power]\n• 完成#BOLD 根除君主制#!这一[concept_journal_entry]"
  je_china_failure_tt: "#bold 进度条#!已达到#variable 0%#!"
@@ -129,7 +129,7 @@
  je_warlord_china_burning: "禁宫城墙之外，中国在燃烧"
 
  je_bpm_xinjiang:0 "塞外边疆"
- je_bpm_xinjiang_reason:0 "在过去的两个世纪里，大清征服了中国本土之外的广袤土地，从蒙古和满洲的草原，到极西的荒漠。这些土地目前由军事总督乃至忠诚的部落首领等多种形式进行治理，因此北京对这些土地的掌控往往十分脆弱，时刻受到殖民列强和叛乱的当地人的威胁。如果我们希望这些土地能被作为核心省份来治理，那还有很多工作要做。\n\n #lore "有一种关于中国（中华）的观点认为，非汉族人不能成为中国的臣民，他们的土地也不能纳入中国的版图。这并不代表我们王朝对中国的理解，而是先前汉、唐、宋、明各朝的看法……"\n\n——乾隆皇帝，1755年#!"
+ je_bpm_xinjiang_reason:0 "在过去的两个世纪里，大清征服了中国本土之外的广袤土地，从蒙古和满洲的草原，到极西的荒漠。这些土地目前由军事总督乃至忠诚的部落首领等多种形式进行治理，因此北京对这些土地的掌控往往十分脆弱，时刻受到殖民列强和叛乱的当地人的威胁。如果我们希望这些土地能被作为核心省份来治理，那还有很多工作要做。\n\n #lore "于时有守在四夷，羁縻不绝，地不可耕，民不可臣之言兴矣。然此以论汉唐宋明之中夏，而非谓我皇清之中夏也。"\n\n——乾隆皇帝，《平定准噶尔告成太学碑文》，1755年#!"
  xinjiang_integration_tt:0 "$xinjiang_states_tt$诸州已整合，且[concept_turmoil]低于10%"
  xinjiang_states_tt:0 "属于#tooltippable;tooltip:[Country.GetTooltipTag]je_bpm_xinjiang_special_tooltip 大中华#!"
  je_bpm_xinjiang_special_tooltip:0 "• [GetStateRegion('STATE_QINGHAI').GetName]\n• [GetStateRegion('STATE_TIANSHAN').GetName]\n• [GetStateRegion('STATE_DZUNGARIA').GetName]\n• [GetStateRegion('STATE_ALXA').GetName]\n• [GetStateRegion('STATE_HINGGAN').GetName]\n• [GetStateRegion('STATE_NORTHERN_MANCHURIA').GetName]\n• [GetStateRegion('STATE_SOUTHERN_MANCHURIA').GetName]\n• [GetStateRegion('STATE_FORMOSA').GetName]"
@@ -318,7 +318,7 @@
 
 # East Asia flavors
  je_bpm_confucian_state:0 "儒教国家"
- je_bpm_confucian_state_reason:0 "我们的国家深深植根于[SCOPE.sReligion('conf_religion').GetName]哲学之中。科举制度是政府[concept_bureaucracy]的基础，通过一系列严格的考试来选拔文官，以检验他们对儒家经典的领悟。唯有在这些考试中出类拔萃者才能晋升官僚体系的阶层，从而确保国家由最博学、最有德行的士大夫来治理。\n\n#lore "以德为政的人，好比北极星，安守其位，而众星都环绕着它。"\n——孔子，《论语》#!"
+ je_bpm_confucian_state_reason:0 "我们的国家深深植根于[SCOPE.sReligion('conf_religion').GetName]哲学之中。科举制度是政府[concept_bureaucracy]的基础，通过一系列严格的考试来选拔文官，以检验他们对儒家经典的领悟。唯有在这些考试中出类拔萃者才能晋升官僚体系的阶层，从而确保国家由最博学、最有德行的士大夫来治理。\n\n#lore "为政以德，譬如北辰，居其所而众星共之。"\n——孔子，《论语》#!"
  
  bpm_confucian_state.1.t:0 "科举：中平之科"
  bpm_confucian_state.1.d:0 "又到了科举之时。数百年来，历朝历代都将其作为一种理论上唯才是举的方式，用以选拔和提供遍布[ROOT.GetCountry.GetName]各地所需的庞大官僚队伍。然而，考试并非都通向同一种功名，那些能历年间通过多次考试的人，可以取得更高的功名，从而有资格出任更显要的官职。"
