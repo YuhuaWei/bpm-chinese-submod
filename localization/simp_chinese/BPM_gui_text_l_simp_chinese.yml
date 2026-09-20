@@ -12,3 +12,5 @@
  bpm_gui_other_movements:0 "其他运动#! ([GetPlayer.MakeScope.ScriptValue('bpm_reactionary_movements_support')|v%0])"
  bpm_gui_socialist_movements:0 "#bold;bjtwhite 社会主义运动#!#! ([GetPlayer.MakeScope.ScriptValue('bpm_socialist_movements_support')|v%0])"
  bpm_gui_stability_rate_per_month:0 "(#variable [GetPlayer.MakeScope.ScriptValue('bpm_political_stability_rate_signed')|+=d1] #!/月)"
+ Pressured:0 "受到压力"
+ Influenced:0 "受到影响"
